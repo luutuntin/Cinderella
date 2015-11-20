@@ -1,0 +1,541 @@
+# ::id 1
+# ::snt Deep beneath the sea lived a little mermaid named Ariel.
+(x5 / live-01
+	:location (x4 / sea
+		:mod (x1 / deep))
+	:ARG0 (x8 / mermaid
+		:mod (x7 / little)
+		:ARG1-of (x9 / name-01
+			:ARG1 (x10 / ariel))))
+
+# ::id 2
+# ::snt She loved exploring her underwater home with her friend flounder but dreamed of living on land as a human.
+(x11 / contrast-01
+	:ARG1 (x2 / love
+		:ARG1 (x3 / explore-01
+			:ARG1 (x6 / home
+				:mod (x5 / underwater))
+			:ARG2 (x10 / flounder
+				:ARG0 (x9 / friend))))
+	:ARG2 (x12 / dream
+		:ARG1 (x14 / live-01
+			:ARG1 (x16 / land)
+			:ARG2 (x19 / human))))
+
+# ::id 3
+# ::snt Ariel was always searching for human treasures.
+(x4 / search-01
+	:ARG0 (x1 / ariel)
+	:time (x3 / always)
+	:ARG2 (x7 / treasure
+		:mod (x6 / human)))
+
+# ::id 4
+# ::snt When she and Flounder found a strange forked object, they swam to the surface to find Scuttle the seagull.
+(x12 / swim
+	:ARG1-of (x5 / find-01
+		:ARG0 (x3 / and
+			:op1 (x2 / she)
+			:op2 (x4 / flounder))
+		:ARG1 (x9 / object
+			:mod (x7 / strange)
+			:ARG1-of (x8 / fork)))
+	:ARG2 (x15 / surface)
+	:purpose (x17 / find-01
+		:ARG0 x5
+		:ARG1 (x18 / criminal-organization
+			:name (n / name
+				:op1 "Scuttle")
+			:ARG1 (x20 / seagull))))
+
+# ::id 5
+# ::snt “It’s a dinglehopper!” he proclaimed.
+(x9 / proclaim
+	:ARG1 (x5 / dinglehopper))
+
+# ::id 6
+# ::snt Ariel’s father was King Triton, ruler of the sea.
+(x8 / rule-03
+	:ARG1 (x3 / father
+		:poss (x1 / ariel))
+	:ARG1 (x5 / king)
+	:mod (x11 / sea))
+
+# ::id 7
+# ::snt He thought humans were dangerous.
+(x2 / think-01
+	:ARG0 (x1 / he)
+	:ARG1 (x5 / danger
+		:domain (x3 / human)))
+
+# ::id 8
+# ::snt When he learned that Ariel had been to the surface, he forbade her to ever go again!
+(x13 / forbid-01
+	:time (x3 / learn-01
+		:ARG0 (x5 / person
+			:name (n / name
+				:op1 "Ariel")
+			:null_edge (x10 / surface)))
+	:ARG1 (x17 / go-01
+		:time (x16 / ever)
+		:mod (x18 / again)))
+
+# ::id 9
+# ::snt Then he asked Sebastian the crab to keep an eye on her.
+(x3 / ask-02
+	:time (x1 / then)
+	:ARG1 (x4 / person
+		:name (n / name
+			:op1 "Sebastian"))
+	:ARG1 (x8 / keep-05
+		:ARG0 x4
+		:ARG0 (x6 / crab)
+		:ARG1 (x10 / eye)))
+
+# ::id 10
+# ::snt But Ariel continued to go to the surface.
+(x1 / contrast-01
+	:ARG1 (x3 / continue-01
+		:ARG0 (x2 / person
+			:name (n / name
+				:op1 "Ariel"))
+		:ARG1 (x5 / go-01
+			:ARG4 (x8 / surface))))
+
+# ::id 11
+# ::snt One night, a terrible storm swept across the sea.
+(x7 / sweep-01
+	:time (x2 / night
+		:quant 1)
+	:ARG0 (x6 / storm-02
+		:mod (x5 / terrible))
+	:location (x8 / across
+		:op1 (x10 / sea)))
+
+# ::id 12
+# ::snt Ariel and Flounder watched as a prince fell off a huge ship.
+(x4 / watch-01
+	:ARG0 (x2 / and
+		:op1 (x1 / ariel)
+		:op2 (x3 / flounder))
+	:time (x8 / fall-09
+		:ARG1 (x7 / prince)
+		:ARG2 (x12 / ship
+			:mod (x11 / huge))))
+
+# ::id 13
+# ::snt “I must save him!” she cried.
+(x9 / cry
+	:ARG1 (x4 / save-01))
+
+# ::id 14
+# ::snt Ariel pulled Prince Eric to shore and sang to him.
+(x7 / and
+	:op1 (x2 / pull-02
+		:ARG0 (x1 / ariel)
+		:ARG1 (x6 / shore
+			:ARG0 (x4 / person
+				:name (n / name
+					:op1 "Eric")
+				:null_edge (x3 / prince))))
+	:op2 (x8 / sing
+		:ARG0 x1))
+
+# ::id 15
+# ::snt Then she swam away.
+(x3 / swim
+	:time (x1 / then)
+	:manner (x4 / away))
+
+# ::id 16
+# ::snt Prince Eric only caught a glimpse of Ariel's face, but he knew he would remember her beautiful voice forever.
+(x12 / contrast-01
+	:ARG1 (x4 / catch-04
+		:ARG0 (x2 / person
+			:name (n / name
+				:op1 "Eric")
+			:null_edge (x1 / prince))
+		:mod (x3 / only)
+		:ARG1 (x6 / glimpse
+			:ARG1 (x10 / face-01
+				:ARG0 (x8 / person
+					:name (n1 / name
+						:op1 "Ariel")))))
+	:ARG2 (x14 / know-01
+		:ARG0 x2
+		:ARG1 (x17 / remember
+			:ARG1 (x20 / voice
+				:mod (x19 / beautiful))
+			:manner (x21 / forever))))
+
+# ::id 17
+# ::snt Desperate to see Prince Eric again, Ariel agreed to give her voice to the evil sea witch Ursula.
+(x9 / agree-01
+	:ARG1 (x1 / desperate
+		:domain (x3 / see-01
+			:ARG1 (x4 / person
+				:name (n1 / name
+					:op1 "Prince"
+					:op2 "Eric"))
+			:mod (x6 / again)))
+	:ARG0 (x8 / person
+		:name (n / name
+			:op1 "Ariel"))
+	:ARG1 (x11 / give-01
+		:ARG1 (x13 / voice)
+		:ARG2 (x18 / witch
+			:mod (x16 / evil)
+			:mod (x17 / sea))))
+
+# ::id 18
+# ::snt With bigger plans in mind, Ursula cast a spell...
+(x8 / cast
+	:ARG1 (x3 / plan-01
+		:mod (x2 / big)
+		:location (x5 / mind))
+	:ARG0 (x7 / person
+		:name (n / name
+			:op1 "Ursula"))
+	:ARG1 (x10 / spell))
+
+# ::id 19
+# ::snt ...and turned Ariel into a human!
+(x2 / and
+	:op1 (x3 / turn-02
+		:ARG1 (x4 / ariel)
+		:ARG2 (x7 / human)))
+
+# ::id 20
+# ::snt But if Prince Eric didn't kiss Ariel by sunset on the third day, she would become a mermaid again.
+(x18 / become-01
+	:ARG1 (x1 / contrast-01
+		:ARG2 (x7 / kiss
+			:ARG0 (x4 / person
+				:name (n / name
+					:op1 "Eric")
+				:null_edge (x3 / prince))
+			:ARG1 (x8 / ariel)
+			:time (x10 / date-entity)
+			:age (x14 / day)))
+	:ARG2 (x20 / mermaid
+		:mod (x21 / again)))
+
+# ::id 21
+# ::snt Even worse, she would belong to the sea witch forever!
+(x6 / belong-01
+	:manner (x2 / bad
+		:mod (x1 / even))
+	:ARG2 (x10 / witch
+		:mod (x9 / sea))
+	:manner (x11 / forever))
+
+# ::id 22
+# ::snt Charmed by her silent beauty, Prince Eric showed Ariel his kingdom.
+(x9 / show-01
+	:ARG1 (x1 / charm
+		:ARG0 (x5 / beauty
+			:mod (x4 / silent)))
+	:ARG0 (x7 / person
+		:name (n / name
+			:op1 "Prince"
+			:op2 "Eric"))
+	:ARG1 (x10 / ariel)
+	:ARG1 (x12 / kingdom))
+
+# ::id 23
+# ::snt Ariel loved being with the prince in the human world, but the two had not yet kissed.
+(x12 / contrast-01
+	:ARG1 (x2 / love
+		:ARG0 (x1 / ariel)
+		:ARG1 (x6 / prince
+			:location (x10 / world
+				:mod (x9 / human))))
+	:ARG2 (x18 / kiss
+		:ARG0 x1
+		:quant 2
+		:time (x17 / yet)))
+
+# ::id 24
+# ::snt Worried that Prince Eric was falling in love with Ariel, Ursula transformed herself into the beautiful Vanessa.
+(x13 / transform
+	:ARG2 (x1 / worry-02
+		:domain (x6 / fall-07
+			:ARG0 (x3 / person
+				:name (n2 / name
+					:op1 "Prince"
+					:op2 "Eric"))
+			:prep-in (x8 / love)
+			:ARG2 (x10 / person
+				:name (n3 / name
+					:op1 "Ariel"))))
+	:ARG0 (x12 / person
+		:name (n / name
+			:op1 "Ursula"))
+	:ARG1 (x14 / herself)
+	:ARG2 (x18 / person
+		:name (n1 / name
+			:op1 "Vanessa")
+		:mod (x17 / beautiful)))
+
+# ::id 25
+# ::snt She was going to make the prince fall in love with her instead.
+(x3 / go-01
+	:ARG1 (x5 / make-01
+		:time (x8 / fall-05
+			:domain (x7 / prince)
+			:prep-in (x10 / love)
+			:mod (x13 / instead))))
+
+# ::id 26
+# ::snt Disguised as Vanessa and using Ariel's voice, the sea witch cast a spell on Prince Eric.
+(x13 / cast
+	:ARG1-of (x1 / disguise-01
+		:ARG2 (x3 / person
+			:name (n1 / name
+				:op1 "Vanessa"))
+		:ARG1 (x4 / and
+			:op2 (x5 / use-01
+				:ARG1 (x8 / voice
+					:poss (x6 / ariel)))))
+	:ARG0 (x12 / witch
+		:mod (x11 / sea))
+	:ARG1 (x15 / spell)
+	:ARG2 (x18 / person
+		:name (n / name
+			:op1 "Eric")
+		:null_edge (x17 / prince)))
+
+# ::id 27
+# ::snt He thought he was in love.
+(x2 / think-01
+	:ARG0 (x1 / he)
+	:ARG1 (x6 / love))
+
+# ::id 28
+# ::snt He was going to marry Vanessa!
+(x3 / go-01
+	:ARG0 (x1 / he)
+	:ARG1 (x5 / marry
+		:ARG1 (x6 / person
+			:name (n / name
+				:op1 "Vanessa"))))
+
+# ::id 29
+# ::snt Ariel had lost her true love.
+(x3 / lose-02
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Ariel"))
+	:ARG1 (x6 / love
+		:mod (x5 / true)))
+
+# ::id 30
+# ::snt Just before sunset on the third day, Scuttle discovered that Vanessa was Ursula in disguise.
+(x9 / scuttle
+	:time (x2 / before
+		:op1 (x1 / just)
+		:op1 (x3 / date-entity)
+		:op1 (x7 / day
+			:time (x6 / date-entity)))
+	:ARG1 (x10 / discover-01
+		:name (x12 / name
+			:op1 "Vanessa"
+			:op2 "was"
+			:op3 "Ursula"
+			:location (x16 / disguise-01))))
+
+# ::id 31
+# ::snt He hurried to warn Ariel.
+(x2 / hurry
+	:ARG0 (x1 / he)
+	:ARG1 (x4 / warn-01
+		:ARG1 (x5 / ariel)))
+
+# ::id 32
+# ::snt As Sebastian went to find King Triton, Ariel and Flounder raced to catch Prince Eric's ship.
+(x12 / race-02
+	:time (x3 / go-01
+		:ARG0 (x2 / person
+			:name (n / name
+				:op1 "Sebastian"))
+		:ARG1 (x5 / find-01
+			:ARG0 x2
+			:ARG1 (x7 / triton
+				:mod (x6 / king))))
+	:ARG0 (x10 / and
+		:op1 (x9 / person
+			:name (n1 / name
+				:op1 "Ariel"))
+		:op2 (x11 / flounder))
+	:ARG1 (x14 / catch-04
+		:ARG0 x10
+		:ARG1 (x18 / ship
+			:ARG0 (x16 / person
+				:name (n2 / name
+					:op1 "Eric")
+				:null_edge (x15 / prince)))))
+
+# ::id 33
+# ::snt With the help of her friends, Ariel was able to stop the wedding and get her voice back.
+(x10 / possible
+	:ARG2 (x3 / help-01
+		:ARG1 (x6 / friend))
+	:domain (x8 / person
+		:name (n / name
+			:op1 "Ariel"))
+	:domain (x15 / and
+		:op1 (x12 / stop-01
+			:ARG1 (x14 / wedding))
+		:op2 (x16 / get-01
+			:ARG1 (x18 / voice)
+			:mod (x19 / back))))
+
+# ::id 34
+# ::snt Released from Ursula's spell, Prince Eric realized that Ariel was the one he truly loved.
+(x9 / realize-02
+	:ARG1 (x1 / release-01
+		:ARG2 (x5 / spell
+			:ARG0 (x3 / person
+				:name (n2 / name
+					:op1 "Ursula"))))
+	:ARG0 (x7 / person
+		:name (n / name
+			:op1 "Prince"
+			:op2 "Eric"))
+	:ARG1 (x14 / one
+		:ARG0 (x11 / person
+			:name (n1 / name
+				:op1 "Ariel"))
+		:ARG0-of (x17 / love
+			:manner (x16 / truly))))
+
+# ::id 35
+# ::snt But it was too late.
+(x1 / contrast-01
+	:ARG1 (x5 / late
+		:degree (x4 / too)))
+
+# ::id 36
+# ::snt The sun went down before Ariel and the prince could kiss.
+(x7 / and
+	:op1 (x3 / go-01
+		:ARG0 (x2 / sun)
+		:time (x5 / before
+			:op1 (x6 / ariel))
+		:ARG1 (x10 / possible
+			:domain (x9 / prince)
+			:domain (x11 / kiss))))
+
+# ::id 37
+# ::snt She was a mermaid once more, and she belonged to Ursula.
+(x8 / and
+	:op1 (x4 / mermaid
+		:degree (x6 / more
+			:time (x5 / once)))
+	:op2 (x10 / belong-01
+		:ARG2 (x12 / person
+			:name (n / name
+				:op1 "Ursula"))))
+
+# ::id 38
+# ::snt To save his daughter, King Triton gave Ursula his great powers and became her prisoner.
+(x13 / and
+	:op1 (x8 / give-01
+		:ARG1 (x2 / save-01
+			:ARG1 (x4 / daughter))
+		:ARG0 (x6 / government-organization
+			:name (n / name
+				:op1 "King"
+				:op2 "Triton"))
+		:ARG1 (x9 / person
+			:name (n1 / name
+				:op1 "Ursula"))
+		:ARG1 (x12 / power
+			:mod (x11 / great)))
+	:op2 (x14 / become-01
+		:ARG2 (x16 / prisoner)))
+
+# ::id 39
+# ::snt "Now I am the ruler of all the ocean!" shouted Ursula.
+(x13 / shout-01
+	:ARG1 (x6 / rule-03
+		:time (x2 / now)
+		:ARG1 (x10 / ocean
+			:quant (x8 / all)))
+	:ARG0 (x14 / person
+		:name (n / name
+			:op1 "Ursula")))
+
+# ::id 40
+# ::snt As Ursula grew in size and towered above the sea, Prince Eric jumped aboard an old ship.
+(x14 / jump
+	:ARG1 (x6 / and
+		:op1 (x3 / grow-03
+			:ARG0 (x2 / person
+				:name (n / name
+					:op1 "Ursula"))
+			:location (x5 / size-01))
+		:op2 (x7 / tower
+			:ARG2 (x10 / sea)))
+	:ARG0 (x12 / prince)
+	:ARG2 (x18 / ship
+		:mod (x17 / old)))
+
+# ::id 41
+# ::snt He steered its jagged bow through Ursula's heart.
+(x2 / steer
+	:ARG0 (x1 / he)
+	:ARG1 (x5 / bow
+		:mod (x4 / jagged))
+	:ARG2 (x9 / heart
+		:ARG0 (x7 / person
+			:name (n / name
+				:op1 "Ursula"))))
+
+# ::id 42
+# ::snt With a howl, the sea witch disappeared in the waves.
+(x8 / disappear-01
+	:ARG1 (x3 / howl)
+	:ARG0 (x7 / witch
+		:mod (x6 / sea))
+	:location (x11 / wave))
+
+# ::id 43
+# ::snt With Ursula gone, King Triton regained his powers.
+(x7 / regain
+	:ARG1 (x3 / go-01
+		:ARG0 (x2 / person
+			:name (n / name
+				:op1 "Ursula")))
+	:ARG1 (x9 / power))
+
+# ::id 44
+# ::snt Seeing Ariel's love for Prince Eric, the king granted her wish: She became human!
+(x11 / grant-01
+	:purpose (x1 / see-01
+		:ARG1 (x4 / love
+			:poss (x2 / ariel)
+			:beneficiary (x6 / person
+				:name (n / name
+					:op1 "Prince"
+					:op2 "Eric"))))
+	:ARG0 (x10 / king)
+	:ARG1 (x13 / wish-01)
+	:ARG1 (x16 / become-01
+		:ARG2 (x17 / human)))
+
+# ::id 45
+# ::snt Ariel and Prince Eric married and lived happily in a castle by the sea.
+(x6 / and
+	:op1 (x5 / married
+		:ARG1 (x2 / and
+			:op1 (x1 / ariel)
+			:op2 (x3 / person
+				:name (n / name
+					:op1 "Prince"
+					:op2 "Eric"))))
+	:op2 (x7 / live-01
+		:manner (x8 / happily)
+		:location (x11 / castle
+			:ARG0 (x14 / sea))))
+
