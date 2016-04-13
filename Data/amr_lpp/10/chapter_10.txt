@@ -1,0 +1,1499 @@
+# ::id lpp_1943.480 ::date 2012-11-11T18:17:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 10 .
+# ::zh X。
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_480.txt
+(c / chapter :mod 10)
+
+# ::id lpp_1943.481 ::date 2012-11-11T18:18:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt He found himself in the neighborhood of the asteroids 325 , 326 , 327 , 328 , 329 , and 330 .
+# ::zh 在附近的宇宙中，还有 325、326、327、328、329、330 等几颗小行星。
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_481.txt
+(f / find-out-03
+      :ARG0 (h / he)
+      :ARG1 (b / be-located-at-91
+            :ARG1 h
+            :ARG2 (n / neighborhood
+                  :location-of (a3 / and
+                        :op1 (a4 / asteroid :wiki -
+                              :name (n2 / name :op1 325))
+                        :op2 (a5 / asteroid :wiki -
+                              :name (n3 / name :op1 326))
+                        :op3 (a6 / asteroid :wiki -
+                              :name (n4 / name :op1 327))
+                        :op4 (a7 / asteroid :wiki -
+                              :name (n5 / name :op1 328))
+                        :op5 (a8 / asteroid :wiki -
+                              :name (n6 / name :op1 329))
+                        :op6 (a9 / asteroid :wiki -
+                              :name (n7 / name :op1 330))))))
+
+# ::id lpp_1943.482 ::date 2012-11-11T18:30:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt He began , therefore , by visiting them , in order to add to his knowledge .
+# ::zh 他就开始访问这几颗星球，想在那里找点事干，并且学习学习。
+# ::save-date Thu Oct 16, 2014 ::file lpp_1943_482.txt
+(b / begin-01
+      :ARG0 (h / he)
+      :ARG2 (v / visit-01
+            :ARG0 h
+            :ARG1 (t2 / they))
+      :mod (t / therefore)
+      :purpose (a / add-02
+            :ARG0 v
+            :ARG2 (k / knowledge
+                  :poss h)))
+
+# ::id lpp_1943.483 ::date 2012-11-11T18:54:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt The first of them was inhabited by a king .
+# ::zh 第一颗星球上住着一个国王。
+# ::save-date Tue Aug 6, 2013 ::file lpp_1943_483.txt
+(i / inhabit-01
+      :ARG0 (k / king)
+      :ARG1 (t2 / thing
+            :ord (o / ordinal-entity :value 1)
+            :ARG1-of (i2 / include-91
+                  :ARG2 (t / they))))
+
+# ::id lpp_1943.484 ::date 2012-11-11T18:59:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt Clad in royal purple and ermine , he was seated upon a throne which was at the same time both simple and majestic .
+# ::zh 国王穿着用紫红色和白底黑花的毛皮做成的大礼服，坐在一个很简单却又十分威严的宝座上。
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_484.txt
+(s / seat-01
+      :ARG1 (h / he
+            :ARG1-of (c / clad-01
+                  :ARG2 (a / and
+                        :op1 (p / purple-02
+                              :mod (r / royal))
+                        :op2 (e / ermine))))
+      :ARG2 (t / throne
+            :ARG1-of (s2 / simple-02)
+            :mod (m / majesty)))
+
+# ::id lpp_1943.485 ::date 2012-11-11T19:44:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah !
+# ::zh “啊，
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_485.txt
+(a2 / ah :mode expressive)
+
+# ::id lpp_1943.486 ::date 2012-11-11T19:44:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt Here is a subject , " exclaimed the king , when he saw the little prince coming .
+# ::zh 来了一个臣民。” 当他看见小王子时，喊了起来：
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_486.txt
+(e / exclaim-01
+      :ARG0 (k / king)
+      :ARG1 (h2 / here
+            :location-of (s / subject))
+      :time (s2 / see-01
+            :ARG0 k
+            :ARG1 (p / prince
+                  :mod (l / little)
+                  :ARG1-of (c / come-01))))
+
+# ::id lpp_1943.487 ::date 2012-11-12T14:26:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt And the little prince asked himself : " How could he recognize me when he had never seen me before ? "
+# ::zh 小王子思量着：“他从来也没有见过我，怎么会认识我呢？”
+# ::save-date Mon Jun 8, 2015 ::file lpp_1943_487.txt
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / possible-01
+            :ARG1 (r / recognize-02
+                  :ARG0 (h / he)
+                  :ARG1 p
+                  :condition (s / see-01 :polarity -
+                        :ARG0 h
+                        :ARG1 p
+                        :time (b / before)
+                        :time (e / ever)))
+            :manner (a2 / amr-unknown))
+      :ARG2 p)
+
+# ::id lpp_1943.488 ::date 2012-11-12T14:40:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt He did not know how the world is simplified for kings .
+# ::zh 他哪里知道，在那些国王的眼里，世界是非常简单的：
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_488.txt
+(k / know-01
+  :ARG0 (h / he)
+  :ARG1 (s / simplify-01
+          :ARG1 (w / world)
+          :beneficiary (k2 / king))
+  :polarity -)
+
+# ::id lpp_1943.489 ::date 2012-11-12T14:54:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt To them , all men are subjects .
+# ::zh 所有的人都是臣民。
+# ::save-date Tue May 7, 2013 ::file lpp_1943_489.txt
+(o / opine-01
+      :ARG0 (t2 / they)
+      :ARG1 (s2 / subject
+            :domain (m2 / man
+                  :quant (a2 / all))))
+
+# ::id lpp_1943.490 ::date 2012-11-12T14:58:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Approach , so that I may see you better , " said the king , who felt consumingly proud of being at last a king over somebody .
+# ::zh 国王十分骄傲，因为他终于成了某个人的国王，他对小王子说道：“靠近些，好让我好好看看你。”
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_490.txt
+(s / say-01
+      :ARG0 (k / king
+            :ARG0-of (p / pride-01
+                  :ARG2 (r / reign-01
+                        :ARG0 k
+                        :ARG1 (s3 / somebody)
+                        :time (a2 / at-last))))
+      :ARG1 (a / approach-01 :mode imperative
+            :ARG1 y
+            :purpose (s2 / see-01
+                  :ARG0 k
+                  :ARG1 (y / you)
+                  :manner (w / well
+                        :degree (m / more)))))
+
+# ::id lpp_1943.491 ::date 2012-11-13T13:51:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince looked everywhere to find a place to sit down ; but the entire planet was crammed and obstructed by the king 's magnificent ermine robe .
+# ::zh 小王子看看四周，想找个地方坐下来，可是整个星球被国王华丽的白底黑花皮袍占满了。
+# ::save-date Sun Jun 28, 2015 ::file lpp_1943_491.txt
+(a / and
+      :op1 (c / cram-01
+            :ARG1 (r2 / robe
+                  :mod (e2 / ermine)
+                  :mod (m / magnificent)
+                  :poss (k / king))
+            :ARG2 (p3 / planet
+                  :extent (e3 / entire)))
+      :op2 (o / obstruct-01
+            :ARG0 r2
+            :ARG1 p3)
+      :concession (l / look-01
+            :ARG0 (p / prince
+                  :mod (l2 / little))
+            :ARG1 (p2 / place
+                  :purpose (s / sit-down-02
+                        :ARG1 p))
+            :location (e / everywhere)))
+
+# ::id lpp_1943.492 ::date 2012-11-13T14:24:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt So he remained standing upright , and , since he was tired , he yawned .
+# ::zh 他只好站在那里，但是因为疲倦了，他打起哈欠来。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_492.txt
+(a / and
+  :op1 (r / remain-01
+         :ARG1 (h / he)
+         :ARG3 (s / stand-01
+                 :ARG1 h
+                 :manner (u / upright)))
+  :op2 (y / yawn-01
+         :ARG0 h
+         :ARG1-of (c / cause-01
+                    :ARG0 (t / tire-01
+                            :ARG1 h))))
+
+# ::id lpp_1943.493 ::date 2012-11-13T14:36:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is contrary to etiquette to yawn in the presence of a king , " the monarch said to him .
+# ::zh 君王对他说：“在一个国王面前打哈欠是违反礼节的。
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_493.txt
+(s / say-01
+      :ARG0 (m / monarch)
+      :ARG1 (c / contrary-01
+            :ARG1 (y / yawn-01
+                  :location (k / king))
+            :ARG2 (e / etiquette))
+      :ARG2 (h / he))
+
+# ::id lpp_1943.494 ::date 2012-11-13T14:54:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I forbid you to do so . "
+# ::zh 我禁止你打哈欠。”
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_494.txt
+(f / forbid-01
+      :ARG0 (i / i)
+      :ARG1 (d / do-02
+            :ARG0 y
+            :ARG1 (s / so))
+      :ARG2 (y / you))
+
+# ::id lpp_1943.495 ::date 2012-11-13T14:55:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I can n't help it .
+# ::zh 我实在忍不住
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_495.txt
+(p / possible-01 :polarity -
+      :ARG1 (h / help-02
+            :ARG0 (i / i)
+            :ARG1 (i2 / it)))
+
+# ::id lpp_1943.496 ::date 2012-11-13T15:07:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt I can n't stop myself , " replied the little prince , thoroughly embarrassed .
+# ::zh 小王子羞愧地说道：我实在忍不住，
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_496.txt
+(r / reply-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG2 (p2 / possible-01 :polarity -
+            :ARG1 (s / stop-01
+                  :ARG0 p
+                  :ARG1 p))
+      :manner (e / embarrass-01
+            :ARG1 p
+            :degree (t / thorough)))
+
+# ::id lpp_1943.497 ::date 2012-11-13T15:12:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I have come on a long journey , and I have had no sleep ... "
+# ::zh “我长途跋涉来到这里，还没有睡觉呢。”
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_497.txt
+(a / and
+      :op1 (c / come-01
+            :ARG1 (i / i)
+            :ARG2 (j / journey-01
+                  :ARG0 i
+                  :ARG1-of (l / long-03)))
+      :op2 (s / sleep-01 :polarity -
+            :ARG0 i))
+
+# ::id lpp_1943.498 ::date 2012-11-13T15:28:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah , then , " the king said .
+# ::zh 国王说：“那好吧，
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_498.txt
+(s / say-01
+      :ARG0 (k / king)
+      :ARG1 (a / ah :mode expressive
+            :mod (t / then)))
+
+# ::id lpp_1943.499 ::date 2012-11-13T15:32:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I order you to yawn .
+# ::zh 我命令你打哈欠。
+# ::save-date Tue May 7, 2013 ::file lpp_1943_499.txt
+(o / order-01
+      :ARG0 (i / i)
+      :ARG1 (y / you)
+      :ARG2 (y2 / yawn-01
+            :ARG0 y))
+
+# ::id lpp_1943.500 ::date 2012-11-13T15:40:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is years since I have seen anyone yawning .
+# ::zh 好些年来我没有看见过任何人打哈欠。
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_500.txt
+(p / pass-03
+      :ARG1 (y3 / year)
+      :time (s3 / since
+            :op1 (s / see-01
+                  :ARG0 (i / i)
+                  :ARG1 (a / anyone
+                        :ARG0-of (y / yawn-01)))))
+
+# ::id lpp_1943.501 ::date 2012-11-13T15:47:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt Yawns , to me , are objects of curiosity .
+# ::zh 对我来说，打哈欠倒是新奇的事。
+# ::save-date Mon May 4, 2015 ::file lpp_1943_501.txt
+(c2 / curious-01
+      :ARG0 (y2 / yawn-01)
+      :ARG1 (i / i))
+
+# ::id lpp_1943.502 ::date 2012-11-13T15:51:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt Come , now !
+# ::zh 来吧，
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_502.txt
+(c / come-01
+  :ARG1 (y / you)
+  :time (n / now)
+  :mode imperative)
+
+# ::id lpp_1943.503 ::date 2012-11-13T15:52:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt Yawn again !
+# ::zh 再打个哈欠！
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_503.txt
+(y / yawn-01 :mode imperative
+      :ARG0 (y2 / you)
+      :mod (a / again))
+
+# ::id lpp_1943.504 ::date 2012-11-13T15:53:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is an order . "
+# ::zh 这是命令。”
+# ::save-date Tue May 14, 2013 ::file lpp_1943_504.txt
+(o2 / order-01
+      :ARG2 (i2 / it))
+
+# ::id lpp_1943.505 ::date 2012-11-13T15:55:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That frightens me ...
+# ::zh “这倒叫我有点紧张…
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_505.txt
+(f / frighten-01
+  :ARG0 (t / that)
+  :ARG1 (i / i))
+
+# ::id lpp_1943.506 ::date 2012-11-13T15:57:05 ::annotator ISI-AMR-05 ::preferred
+# ::snt I can not , any more ... " murmured the little prince , now completely abashed .
+# ::zh 我打不出哈欠来了…”小王子红着脸说。
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_506.txt
+(m / murmur-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG1-of (a2 / abash-01
+                  :ARG1-of (c / complete-02)
+                  :time (n / now)))
+      :ARG1 (p2 / possible-01 :polarity -
+            :time (a / anymore)))
+
+# ::id lpp_1943.507 ::date 2012-11-13T16:08:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Hum !
+# ::zh “嗯！
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_507.txt
+(h / hum :mode expressive)
+
+# ::id lpp_1943.508 ::date 2012-11-13T16:10:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt Hum ! " replied the king .
+# ::zh 嗯！” 国王回答道：
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_508.txt
+(r / reply-01
+      :ARG0 (k / king)
+      :ARG2 (h / hum :mode expressive))
+
+# ::id lpp_1943.509 ::date 2012-11-13T16:11:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Then I - - I order you sometimes to yawn and sometimes to - - "
+# ::zh “那么我…命令你忽而打哈欠，忽而…”
+# ::save-date Thu Apr 11, 2013 ::file lpp_1943_509.txt
+(o / order-01
+      :ARG0 (i / i)
+      :ARG1 (y / you)
+      :ARG2 (a / and
+            :op1 (y2 / yawn-01
+                  :ARG0 y
+                  :frequency (s / sometimes))
+            :op2 (d / do-02
+                  :frequency (s2 / sometimes)))
+      :mod (t2 / then))
+
+# ::id lpp_1943.510 ::date 2012-11-13T16:17:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt He sputtered a little , and seemed vexed .
+# ::zh 他嘟嘟囔囔，显出有点恼怒。
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_510.txt
+(a / and
+  :op1 (s / sputter-01
+         :ARG0 (h / he)
+         :degree (l / little))
+  :op2 (s2 / seem-01
+         :ARG1 (v / vex-01
+                 :ARG1 h)))
+
+# ::id lpp_1943.511 ::date 2012-11-13T16:23:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt For what the king fundamentally insisted upon was that his authority should be respected .
+# ::zh 因为国王所要求的主要是保持他的威严受到尊敬。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_511.txt
+(i / insist-01
+  :ARG0 (k / king)
+  :ARG1 (r / respect-01
+          :ARG1 (a / authority
+                  :poss k))
+  :mod (f / fundamental))
+
+# ::id lpp_1943.512 ::date 2012-11-13T16:27:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt He tolerated no disobedience .
+# ::zh 他不能容忍不听他的命令。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_512.txt
+(t / tolerate-01
+  :ARG0 (h / he)
+  :ARG1 (d / disobey-01
+          :ARG1 h)
+  :polarity -)
+
+# ::id lpp_1943.513 ::date 2012-11-13T16:29:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt He was an absolute monarch .
+# ::zh 他是一位绝对的君主。
+# ::save-date Thu Apr 11, 2013 ::file lpp_1943_513.txt
+(m / monarch
+      :mod (a / absolute)
+      :domain (h2 / he))
+
+# ::id lpp_1943.514 ::date 2012-11-13T18:12:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt But , because he was a very good man , he made his orders reasonable .
+# ::zh 可是，他却很善良，他下的命令都是有理智的。
+# ::save-date Fri Jul 24, 2015 ::file lpp_1943_514.txt
+(h3 / have-concession-91
+      :ARG1 (m / make-02
+            :ARG0 (h / he)
+            :ARG1 (r / reasonable-02
+                  :ARG1 (t / thing
+                        :ARG2-of (o / order-01)))
+            :ARG1-of (c2 / cause-01
+                  :ARG0 (m2 / man
+                        :mod (g / good
+                              :degree (v / very))
+                        :domain (h2 / he)))))
+
+# ::id lpp_1943.515 ::date 2012-11-13T18:24:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt " If I ordered a general , " he would say , by way of example , " if I ordered a general to change himself into a sea bird , and if the general did not obey me , that would not be the fault of the general .
+# ::zh 他常常说：“如果我叫一位将军变成一只海鸟，而这位将军不服从我的命令，那么这就不是将军的过错，
+# ::save-date Fri Sep 13, 2013 ::file lpp_1943_515.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (o / order-01
+            :ARG0 h
+            :ARG1 (p / person
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG2 (g / general)))
+            :ARG2 (c / change-01
+                  :ARG0 p
+                  :ARG1 p
+                  :ARG2 (b / bird
+                        :mod (s2 / sea)))
+            :ARG1-of (o2 / obey-01 :polarity -
+                  :ARG0 p)
+            :condition-of (f / fault-01 :polarity -
+                  :ARG1 p))
+      :ARG0-of (e / exemplify-01))
+
+# ::id lpp_1943.516 ::date 2012-11-16T13:39:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt It would be my fault . "
+# ::zh 而是我的过错。”
+# ::save-date Sun Apr 14, 2013 ::file lpp_1943_516.txt
+(f / fault-01
+      :ARG1 (i2 / i))
+
+# ::id lpp_1943.517 ::date 2012-11-16T13:42:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt " May I sit down ? " came now a timid inquiry from the little prince .
+# ::zh 小王子腼腆地试探道：“我可以坐下吗？”
+# ::save-date Sun Jun 28, 2015 ::file lpp_1943_517.txt
+(i / inquire-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / permit-01
+            :ARG1 (s / sit-down-02
+                  :ARG1 p))
+      :manner (t / timid)
+      :time (n / now))
+
+# ::id lpp_1943.518 ::date 2012-11-16T13:45:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I order you to do so , " the king answered him , and majestically gathered in a fold of his ermine mantle .
+# ::zh “我命令你坐下。” 国王一边回答，一边庄重地把他那白底黑花皮袍大襟挪动了一下。
+# ::save-date Sun Apr 14, 2013 ::file lpp_1943_518.txt
+(a / and
+      :op1 (a2 / answer-01
+            :ARG0 (k / king)
+            :ARG1 (h / he)
+            :ARG2 (o / order-01
+                  :ARG0 k
+                  :ARG1 h
+                  :ARG2 (d / do-02
+                        :ARG1 (s / so))))
+      :op2 (g / gather-01
+            :ARG0 k
+            :ARG1 (f / fold
+                  :part-of (m3 / mantle
+                        :consist-of (e2 / ermine)))
+            :manner (m / majesty)))
+
+# ::id lpp_1943.519 ::date 2012-11-16T13:50:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt But the little prince was wondering ...
+# ::zh 可是小王子感到很奇怪。
+# ::save-date Fri Nov 16, 2012 ::file lpp_1943_519.txt
+(w / wonder-01
+  :ARG0 (p / prince
+          :mod (l / little)))
+
+# ::id lpp_1943.520 ::date 2012-11-16T13:51:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt The planet was tiny .
+# ::zh 这么小的行星，
+# ::save-date Fri Nov 16, 2012 ::file lpp_1943_520.txt
+(t / tiny
+  :domain (p / planet))
+
+# ::id lpp_1943.521 ::date 2012-11-16T13:52:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt Over what could this king really rule ?
+# ::zh 国王他对什么进行统治呢？
+# ::save-date Mon Sep 22, 2014 ::file lpp_1943_521.txt
+(p / possible-01
+      :ARG1 (r / rule-03
+            :ARG0 (k / king)
+            :ARG1 (a / amr-unknown)
+            :mod (r2 / real)))
+
+# ::id lpp_1943.522 ::date 2012-11-16T13:54:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Sire , " he said to him , " I beg that you will excuse my asking you a question - - "
+# ::zh 他对国王说：“陛下…请原谅，我想问您…”
+# ::save-date Wed Nov 12, 2014 ::file lpp_1943_522.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (b / beg-01
+            :ARG0 h
+            :ARG1 p
+            :ARG2 (e / excuse-01
+                  :ARG0 p
+                  :ARG1 h
+                  :ARG2 (a / ask-01
+                        :ARG0 h
+                        :ARG2 p)))
+      :ARG2 (p / person
+            :ARG1-of (t / title-01
+                  :ARG2 (s2 / sire))))
+
+# ::id lpp_1943.523 ::date 2012-11-19T19:39:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I order you to ask me a question , " the king hastened to assure him .
+# ::zh 国王急忙抢着说道：“我命令你问我。”
+# ::save-date Mon Sep 8, 2014 ::file lpp_1943_523.txt
+(h / hasten-01
+      :ARG0 (k / king)
+      :ARG1 (a / assure-01
+            :ARG0 k
+            :ARG1 (h2 / he)
+            :ARG2 (o / order-01
+                  :ARG0 k
+                  :ARG1 h2
+                  :ARG2 (a2 / ask-01
+                        :ARG0 h2
+                        :ARG2 k))))
+
+# ::id lpp_1943.524 ::date 2012-11-19T19:44:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Sire - - over what do you rule ? "
+# ::zh “陛下…你统治什么呢？”
+# ::save-date Wed Nov 12, 2014 ::file lpp_1943_524.txt
+(s / say-01
+      :ARG1 (r / rule-03
+            :ARG0 p
+            :ARG1 (a / amr-unknown))
+      :ARG2 (p / person
+            :ARG1-of (t / title-01
+                  :ARG2 (s2 / sire))))
+
+# ::id lpp_1943.525 ::date 2012-11-19T19:49:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Over everything , " said the king , with magnificent simplicity .
+# ::zh 国王非常简单明了地说：“我统治一切。”
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_525.txt
+(s / say-01
+      :ARG0 (k / king)
+      :ARG1 (e / everything)
+      :ARG1-of (s2 / simple-02
+            :mod (m / magnificence)))
+
+# ::id lpp_1943.526 ::date 2012-11-19T19:51:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Over everything ? "
+# ::zh “一切？”
+# ::save-date Sun Apr 14, 2013 ::file lpp_1943_526.txt
+(o / over :mode interrogative
+      :op1 (e / everything))
+
+# ::id lpp_1943.527 ::date 2012-11-19T19:58:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt The king made a gesture , which took in his planet , the other planets , and all the stars .
+# ::zh 国王轻轻地用手指着他的行星和其他的行星，以及所有的星星。
+# ::save-date Sun Apr 14, 2013 ::file lpp_1943_527.txt
+(g / gesture-01
+      :ARG0 (k / king)
+      :ARG0-of (t / take-in-23
+            :ARG1 (a / and
+                  :op1 (p / planet
+                        :poss k)
+                  :op2 (p2 / planet
+                        :mod (o / other))
+                  :op3 (s / star
+                        :quant (a2 / all)))))
+
+# ::id lpp_1943.528 ::date 2012-11-19T20:02:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Over all that ? " asked the little prince .
+# ::zh 小王子说：“统治这一切？”
+# ::save-date Sun Apr 14, 2013 ::file lpp_1943_528.txt
+(a / ask-01 :mode interrogative
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (o / over
+            :op1 (t / that
+                  :quant (a3 / all))))
+
+# ::id lpp_1943.529 ::date 2012-11-19T20:04:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Over all that , " the king answered .
+# ::zh “统治这一切。”
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_529.txt
+(a / answer-01
+  :ARG0 (k / king)
+  :ARG2 (o / over
+          :op1 (t / that
+                 :quant (a2 / all))))
+
+# ::id lpp_1943.530 ::date 2012-11-19T20:11:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt For his rule was not only absolute : it was also universal .
+# ::zh 原来他不仅是一个绝对的君主，而且是整个宇宙的君主。
+# ::save-date Sun Apr 14, 2013 ::file lpp_1943_530.txt
+(a3 / and
+      :op1 (a4 / absolute
+            :domain (r / rule-03
+                  :ARG0 (h / he)))
+      :op2 (u2 / universal
+            :domain r))
+
+# ::id lpp_1943.531 ::date 2012-11-19T20:19:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And the stars obey you ? "
+# ::zh “那么，星星都服从您吗？”
+# ::save-date Mon Nov 19, 2012 ::file lpp_1943_531.txt
+(o / obey-01
+  :ARG0 (s / star)
+  :ARG1 (y / you)
+  :mode interrogative)
+
+# ::id lpp_1943.532 ::date 2012-11-19T20:20:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Certainly they do , " the king said .
+# ::zh “那当然！” 国王对他说，
+# ::save-date Mon Nov 19, 2012 ::file lpp_1943_532.txt
+(s / say-01
+  :ARG0 (k / king)
+  :ARG1 (d / do-02
+          :ARG0 (t / they)
+          :mod (c / certain)))
+
+# ::id lpp_1943.533 ::date 2012-11-19T20:25:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They obey instantly .
+# ::zh “它们立即就得服从。
+# ::save-date Mon Nov 19, 2012 ::file lpp_1943_533.txt
+(o / obey-01
+  :ARG0 (t / they)
+  :manner (i / instant))
+
+# ::id lpp_1943.534 ::date 2012-11-19T20:26:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt I do not permit insubordination . "
+# ::zh 我是不允许无纪律的。”
+# ::save-date Tue May 7, 2013 ::file lpp_1943_534.txt
+(p / permit-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (i2 / insubordinate-00))
+
+# ::id lpp_1943.535 ::date 2012-11-19T20:30:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt Such power was a thing for the little prince to marvel at .
+# ::zh 这样的权力使小王子惊叹不已。
+# ::save-date Sun Apr 14, 2013 ::file lpp_1943_535.txt
+(m / marvel-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / power
+            :degree (s / such)))
+
+# ::id lpp_1943.536 ::date 2012-11-19T20:37:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt If he had been master of such complete authority , he would have been able to watch the sunset , not forty - four times in one day , but seventy - two , or even a hundred , or even two hundred times , without ever having to move his chair .
+# ::zh 如果掌握了这样的权力，那么，他一天就不只是看到四十三次日落，而可以看到七十二次，甚至一百次，或是二百次日落，也不必要去挪动椅子了！
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_536.txt
+(p / possible-01
+      :ARG1 (w / watch-01
+            :ARG0 (h / he)
+            :ARG1 (s / sunset
+                  :ARG1-of (h3 / have-frequency-91 :polarity -
+                        :ARG2 44
+                        :range (t5 / temporal-quantity :quant 1
+                              :unit (y / year)))
+                  :ARG1-of (h4 / have-frequency-91
+                        :ARG2 (o / or :op1 72 :op2 100 :op3 200)
+                        :range t5))
+            :manner (m2 / move-01 :polarity -
+                  :ARG0 h
+                  :ARG1 (c2 / chair
+                        :poss h)
+                  :time (e3 / ever)))
+      :condition (m / master
+            :domain (h2 / he)
+            :poss-of (a / authority
+                  :ARG1-of (c / complete-02)
+                  :mod (s2 / such))))
+
+# ::id lpp_1943.537 ::date 2012-11-19T21:03:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt And because he felt a bit sad as he remembered his little planet which he had forsaken , he plucked up his courage to ask the king a favor : " I should like to see a sunset ... do me that kindness ...
+# ::zh 由于他想起了他那被遗弃的小星球，心里有点难过，他大胆地向国王提出了一个请求：“我想看日落，请求您…
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_537.txt
+(p / pluck-01
+      :ARG0 (h / he)
+      :ARG1 (c / courage
+            :poss h)
+      :mod (u / up)
+      :ARG1-of (c2 / cause-01
+            :ARG0 (f / feel-01
+                  :ARG0 h
+                  :ARG1 (s3 / sad-02
+                        :ARG1 h
+                        :degree (b / bit))
+                  :ARG1-of (c3 / cause-01
+                        :ARG0 (r / remember-01
+                              :ARG0 h
+                              :ARG1 (p2 / planet
+                                    :poss h
+                                    :mod (l2 / little)
+                                    :ARG1-of (f2 / forsake-01
+                                          :ARG0 h))))))
+      :ARG0-of (c4 / cause-01
+            :ARG1 (a / ask-02
+                  :ARG0 h
+                  :ARG1 (a2 / and
+                        :op1 (l / like-02
+                              :ARG0 (i / i)
+                              :ARG1 (s / see-01
+                                    :ARG0 i
+                                    :ARG1 (s2 / sunset)))
+                        :op2 (d / do-02 :mode imperative
+                              :ARG0 k
+                              :ARG1 (t / thing
+                                    :ARG1-of (k2 / kind-01
+                                          :ARG0 k
+                                          :ARG2 h))
+                              :ARG2 h))
+                  :ARG2 (k / king))))
+
+# ::id lpp_1943.538 ::date 2012-11-19T21:18:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt Order the sun to set ... "
+# ::zh 命令太阳落山吧…”
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_538.txt
+(o / order-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / sun)
+      :ARG2 (s2 / set-11
+            :ARG1 s))
+
+# ::id lpp_1943.539 ::date 2012-11-20T16:00:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt " If I ordered a general to fly from one flower to another like a butterfly , or to write a tragic drama , or to change himself into a sea bird , and if the general did not carry out the order that he had received , which one of us would be in the wrong ? " the king demanded .
+# ::zh 国王说道：“如果我命令一个将军象一只蝴蝶那样从这朵花飞到那朵花，或者命令他写作一个悲剧剧本或者变一只海鸟，而如果这位将军接到命令不执行的话，那么，我们中的谁是错误的呢
+# ::save-date Fri Sep 13, 2013 ::file lpp_1943_539.txt
+(d / demand-01
+      :ARG0 (k / king)
+      :ARG1 (w / wrong-04
+            :ARG1 (a / amr-unknown
+                  :ARG1-of (i2 / include-91
+                        :ARG2 (w3 / we)))
+            :condition (a2 / and
+                  :op1 (o3 / order-01
+                        :ARG0 k
+                        :ARG1 (p / person
+                              :ARG0-of (h / have-org-role-91
+                                    :ARG2 (g / general)))
+                        :ARG2 (o4 / or
+                              :op1 (f / fly-01
+                                    :ARG1 p
+                                    :destination (a3 / another)
+                                    :source (t / thing
+                                          :ARG1-of (f2 / flower-01 :quant 1))
+                                    :manner (b / butterfly))
+                              :op2 (w2 / write-01
+                                    :ARG0 p
+                                    :ARG1 (d2 / drama
+                                          :mod (t2 / tragedy)))
+                              :op3 (c2 / change-01
+                                    :ARG0 p
+                                    :ARG1 p
+                                    :ARG2 (b2 / bird
+                                          :mod (s / sea)))))
+                  :op2 (c / carry-out-03 :polarity -
+                        :ARG0 p
+                        :ARG1 (t3 / thing
+                              :ARG2-of (o2 / order-01)
+                              :ARG1-of (r / receive-01
+                                    :ARG0 p
+                                    :ARG2 k))))))
+
+# ::id lpp_1943.540 ::date 2012-11-20T16:29:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The general , or myself ? "
+# ::zh 将军还是我自己？”
+# ::save-date Fri Sep 13, 2013 ::file lpp_1943_540.txt
+(o / or
+      :op1 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (g / general)))
+      :op2 (i / i))
+
+# ::id lpp_1943.541 ::date 2012-11-20T16:31:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You , " said the little prince firmly .
+# ::zh “那当然是您的不对。” 小王子肯定地回答。
+# ::save-date Mon Jul 20, 2015 ::file lpp_1943_541.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (y / you)
+      :ARG1-of (f / firm-03))
+
+# ::id lpp_1943.542 ::date 2012-11-20T16:33:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Exactly .
+# ::zh “一点也不错，”
+# ::save-date Tue Nov 20, 2012 ::file lpp_1943_542.txt
+(e / exact)
+
+# ::id lpp_1943.543 ::date 2012-11-20T16:34:05 ::annotator ISI-AMR-05 ::preferred
+# ::snt One much require from each one the duty which each one can perform , " the king went on .
+# ::zh 国王接着说，“向每个人提出的要求应该是他们所能做到的。
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_543.txt
+(g / go-on-25
+      :ARG0 (k / king)
+      :ARG1 (o / obligate-01
+            :ARG1 (o2 / one)
+            :ARG2 (r / require-01
+                  :ARG0 o2
+                  :ARG1 (d / duty
+                        :ARG1-of (p / perform-02
+                              :ARG0 o3
+                              :ARG1-of (p2 / possible-01)))
+                  :ARG2 (o3 / one
+                        :mod (e / each)))))
+
+# ::id lpp_1943.544 ::date 2012-11-20T16:57:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Accepted authority rests first of all on reason .
+# ::zh 权威首先应该建立在理性的基础上。
+# ::save-date Tue Nov 4, 2014 ::file lpp_1943_544.txt
+(r / rest-02
+      :ARG1 (a / authority
+            :ARG1-of (a2 / accept-01))
+      :ARG2 (r2 / reason-01)
+      :mod (f / first-of-all))
+
+# ::id lpp_1943.545 ::date 2012-11-20T17:02:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt If you ordered your people to go and throw themselves into the sea , they would rise up in revolution .
+# ::zh 如果命令你的老百姓去投海，他们非起来革命不可。
+# ::save-date Tue May 14, 2013 ::file lpp_1943_545.txt
+(r / revolt-01
+      :ARG0 (p / person
+            :poss y)
+      :ARG1 y
+      :condition (o / order-01
+            :ARG0 (y / you)
+            :ARG1 p
+            :ARG2 (t / throw-01
+                  :ARG0 p
+                  :ARG1 p
+                  :ARG2 (s / sea))))
+
+# ::id lpp_1943.546 ::date 2012-11-20T17:11:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have the right to require obedience because my orders are reasonable . "
+# ::zh 我的命令是合理的，所以我有权要别人服从。”
+# ::save-date Fri Jul 24, 2015 ::file lpp_1943_546.txt
+(r / right-05
+      :ARG1 i
+      :ARG2 (r2 / require-01
+            :ARG0 (i / i)
+            :ARG1 (o / obey-01
+                  :ARG1 i))
+      :ARG1-of (c / cause-01
+            :ARG0 (r3 / reasonable-02
+                  :ARG1 (t / thing
+                        :ARG2-of (o2 / order-01)))))
+
+# ::id lpp_1943.547 ::date 2012-11-20T17:20:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Then my sunset ? " the little prince reminded him : for he never forgot a question once he had asked it .
+# ::zh “那么我提出的日落呢？” 小王子一旦提出一个问题，他是不会忘记这个问题的。
+# ::save-date Wed Apr 8, 2015 ::file lpp_1943_547.txt
+(r / remind-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s / sunset
+            :poss p)
+      :ARG2 (h / he)
+      :ARG1-of (c / cause-01
+            :ARG0 (f / forget-01 :polarity -
+                  :ARG0 p
+                  :ARG1 (t / thing
+                        :ARG1-of (q / question-01))
+                  :condition (a / ask-01
+                        :ARG0 p
+                        :ARG1 t)
+                  :time (e / ever))))
+
+# ::id lpp_1943.548 ::date 2012-11-20T17:33:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You shall have your sunset .
+# ::zh “日落么，你会看到的。
+# ::save-date Tue Nov 20, 2012 ::file lpp_1943_548.txt
+(h / have-03
+  :ARG0 (y / you)
+  :ARG1 (s / sunset
+          :poss y))
+
+# ::id lpp_1943.549 ::date 2012-11-20T17:36:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt I shall command it .
+# ::zh 我一定要太阳落山，
+# ::save-date Tue Nov 20, 2012 ::file lpp_1943_549.txt
+(c / command-02
+  :ARG0 (i / i)
+  :ARG2 (i2 / it))
+
+# ::id lpp_1943.550 ::date 2012-11-20T17:37:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt But , according to my science of government , I shall wait until conditions are favorable . "
+# ::zh 不过按照我的统治科学，我得等到条件成熟的时候。”
+# ::save-date Tue May 14, 2013 ::file lpp_1943_550.txt
+(c3 / contrast-01
+      :ARG2 (w / wait-01
+            :ARG1 (i / i)
+            :ARG2 (c / condition
+                  :mod (f2 / favorable))
+            :ARG1-of (c2 / cause-01
+                  :ARG0 (s2 / science
+                        :domain (g / government-organization
+                              :ARG0-of (g2 / govern-01))
+                        :poss i))))
+
+# ::id lpp_1943.551 ::date 2012-11-20T17:41:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " When will that be ? " inquired the little prince .
+# ::zh 小王子问道：“这要等到什么时候呢？”
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_551.txt
+(i / inquire-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (b2 / be-temporally-at-91
+            :ARG1 (t / that)
+            :ARG2 (a / amr-unknown)))
+
+# ::id lpp_1943.552 ::date 2012-11-20T17:43:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Hum !
+# ::zh 嗯！
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_552.txt
+(h / hum :mode expressive)
+
+# ::id lpp_1943.553 ::date 2012-11-20T17:44:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt Hum ! " replied the king ; and before saying anything else he consulted a bulky almanac .
+# ::zh 国王在回答之前，首先翻阅了一本厚厚的日历，嘴里慢慢说道：
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_553.txt
+(a / and
+      :op1 (r / reply-01
+            :ARG0 (k / king)
+            :ARG2 (h / hum :mode expressive))
+      :op2 (c / consult-01
+            :ARG0 k
+            :ARG1 (a2 / almanac
+                  :ARG1-of (b / bulky-02))
+            :time (b2 / before
+                  :op1 (s / say-01
+                        :ARG0 k
+                        :ARG1 (a3 / anything
+                              :mod (e / else))))))
+
+# ::id lpp_1943.554 ::date 2012-11-20T17:49:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Hum !
+# ::zh “嗯！
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_554.txt
+(h / hum :mode expressive)
+
+# ::id lpp_1943.555 ::date 2012-11-20T17:49:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Hum !
+# ::zh 嗯！
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_555.txt
+(h / hum :mode expressive)
+
+# ::id lpp_1943.556 ::date 2012-11-20T17:50:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt That will be about - - about - - that will be this evening about twenty minutes to eight .
+# ::zh 日落大约…大约…在今晚七时四十分的时候！
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_556.txt
+(b / be-temporally-at-91
+      :ARG1 (t3 / that)
+      :ARG2 (a / about
+            :op1 (d / date-entity :time "19:40"
+                  :dayperiod (e / evening)
+                  :mod (t / this))))
+
+# ::id lpp_1943.557 ::date 2012-11-25T17:27:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt And you will see how well I am obeyed . "
+# ::zh 你将看到我的命令一定会被服从的。”
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_557.txt
+(s / see-01
+      :ARG0 (y / you)
+      :ARG1 (o / obey-01
+            :ARG1 (i / i)
+            :manner (w / well
+                  :degree (a / amr-unknown))))
+
+# ::id lpp_1943.558 ::date 2012-11-25T17:36:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince yawned .
+# ::zh 小王子又打起哈欠来了。
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_558.txt
+(y / yawn-01
+  :ARG0 (p / prince
+          :mod (l / little)))
+
+# ::id lpp_1943.559 ::date 2012-11-25T17:38:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt He was regretting his lost sunset .
+# ::zh 他遗憾没有看到日落。
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_559.txt
+(r / regret-01
+      :ARG0 (h / he)
+      :ARG1 (l / lose-02
+            :ARG0 h
+            :ARG1 (s / sunset)))
+
+# ::id lpp_1943.560 ::date 2012-11-25T17:40:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt And then , too , he was already beginning to be a little bored .
+# ::zh 他有点厌烦了，
+# ::save-date Thu Aug 7, 2014 ::file lpp_1943_560.txt
+(a2 / and
+      :op2 (b / begin-01
+            :ARG1 (b4 / bore-02
+                  :ARG1 (h2 / he)
+                  :degree (l / little))
+            :time (a / already)))
+
+# ::id lpp_1943.561 ::date 2012-11-25T17:45:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I have nothing more to do here , " he said to the king .
+# ::zh 他对国王说：“我没有必要再呆在这儿了。
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_561.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (r / remain-01 :polarity -
+            :ARG1 (t / thing
+                  :ARG1-of (d2 / do-02))
+            :location (h2 / here))
+      :ARG2 (k / king))
+
+# ::id lpp_1943.562 ::date 2012-11-25T17:50:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt " So I shall set out on my way again . "
+# ::zh 我要走了。”
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_562.txt
+(c / cause-01
+      :ARG1 (s / set-out-07
+            :ARG0 (i / i)
+            :ARG1 (w / way
+                  :poss i)
+            :mod (a / again)))
+
+# ::id lpp_1943.563 ::date 2012-11-25T17:57:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Do not go , " said the king , who was very proud of having a subject .
+# ::zh 这位因为刚刚有了一个臣民而十分骄傲自得的国王说道：“别走，
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_563.txt
+(s / say-01
+      :ARG0 (k / king
+            :ARG0-of (p / pride-01
+                  :ARG2 (h / have-03
+                        :ARG0 k
+                        :ARG1 (s2 / subject))
+                  :degree (v / very)))
+      :ARG1 (g / go-02 :polarity - :mode imperative
+            :ARG0 (y / you)))
+
+# ::id lpp_1943.564 ::date 2012-11-25T18:02:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Do not go .
+# ::zh 别走。
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_564.txt
+(g / go-02 :polarity - :mode imperative
+      :ARG0 (y / you))
+
+# ::id lpp_1943.565 ::date 2012-11-25T18:08:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt I will make you a Minister ! "
+# ::zh 我任命你当大臣。”
+# ::save-date Fri Sep 13, 2013 ::file lpp_1943_565.txt
+(m / make-02
+      :ARG0 (i / i)
+      :ARG1 (h / have-org-role-91
+            :ARG0 (y / you)
+            :ARG2 (m2 / minister)))
+
+# ::id lpp_1943.566 ::date 2012-11-25T18:11:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Minister of what ? "
+# ::zh “什么大臣”
+# ::save-date Fri Sep 13, 2013 ::file lpp_1943_566.txt
+(m / minister
+      :topic (a / amr-unknown))
+
+# ::id lpp_1943.567 ::date 2012-11-25T18:14:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Minster of - - of Justice ! "
+# ::zh “嗯……司法大臣！”
+# ::save-date Fri Sep 13, 2013 ::file lpp_1943_567.txt
+(m / minister
+      :topic (j / justice))
+
+# ::id lpp_1943.568 ::date 2012-11-25T18:17:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But there is nobody here to judge ! "
+# ::zh “可是，这儿没有一个要审判的人。”
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_568.txt
+(n / nobody
+      :location (h / here)
+      :ARG1-of (j / judge-01))
+
+# ::id lpp_1943.569 ::date 2012-11-25T18:22:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt " We do not know that , " the king said to him .
+# ::zh “很难说呀，”国王说道。
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_569.txt
+(s / say-01
+  :ARG0 (k / king)
+  :ARG1 (k2 / know-01
+          :ARG0 (w / we)
+          :ARG1 (t / that)
+          :polarity -)
+  :ARG2 (h / he))
+
+# ::id lpp_1943.570 ::date 2012-11-25T18:25:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I have not yet made a complete tour of my kingdom .
+# ::zh 因此我还没有巡视过我的王国呢！”
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_570.txt
+(t / tour-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (k / kingdom
+            :poss i)
+      :ARG1-of (c / complete-02))
+
+# ::id lpp_1943.571 ::date 2012-11-25T18:32:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt I am very old .
+# ::zh “我很老了，
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_571.txt
+(o2 / old
+      :domain (i / i)
+      :degree (v / very))
+
+# ::id lpp_1943.572 ::date 2012-11-25T18:34:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt There is no room here for a carriage .
+# ::zh 我这地方又小，没有放銮驾的地方，
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_572.txt
+(r / room
+  :polarity -
+  :purpose (c / carriage)
+  :location (h / here))
+
+# ::id lpp_1943.573 ::date 2012-11-25T18:37:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt And it tires me to walk . "
+# ::zh 另外，一走路我就累。
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_573.txt
+(t / tire-01
+  :ARG0 (w / walk-01
+          :ARG0 (i / i))
+  :ARG1 i)
+
+# ::id lpp_1943.574 ::date 2012-11-25T18:40:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Oh , but I have looked already ! " said the little prince , turning around to give one more glance to the other side of the planet .
+# ::zh “噢！ 可是我已经看过了。” 小王子说道，并探身朝星球的那一侧看了看。
+# ::save-date Tue May 20, 2014 ::file lpp_1943_574.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (t / turn-01
+                  :ARG1 p
+                  :purpose (g / glance-01 :quant 1
+                        :ARG0 p
+                        :ARG1 (s2 / side
+                              :mod (o / other)
+                              :part-of (p2 / planet))
+                        :mod (m / more))))
+      :ARG1 (c / contrast-01
+            :ARG2 (l2 / look-01
+                  :ARG0 p
+                  :time (a2 / already))))
+
+# ::id lpp_1943.575 ::date 2012-11-25T18:48:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt On that side , as on this , there was nobody at all ...
+# ::zh 那边也没有一个人…
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_575.txt
+(n2 / nobody
+  :location (s / side
+              :mod (t / that)
+              :ARG1-of (s2 / same-01
+                         :ARG2 (t2 / this)))
+  :mod (a / at-all))
+
+# ::id lpp_1943.576 ::date 2012-11-25T19:03:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Then you shall judge yourself , " the king answered .
+# ::zh “那么你就审判你自己呀！” 国王回答他说。
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_576.txt
+(a / answer-01
+      :ARG0 (k / king)
+      :ARG2 (h / have-condition-91
+            :ARG1 (j / judge-01
+                  :ARG0 (y / you)
+                  :ARG1 y)))
+
+# ::id lpp_1943.577 ::date 2012-11-25T19:09:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " that is the most difficult thing of all .
+# ::zh “这可是最难的了。
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_577.txt
+(t / thing
+      :domain (t2 / that)
+      :mod (d / difficult
+            :degree (m / most)
+            :compared-to (a / all)))
+
+# ::id lpp_1943.578 ::date 2012-11-25T19:15:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is much more difficult to judge oneself than to judge others .
+# ::zh 审判自己比审判别人要难得多啊！
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_578.txt
+(d / difficult
+      :degree (m / more
+            :degree (m2 / much))
+      :domain (j / judge-01
+            :ARG0 (o2 / one)
+            :ARG1 o2)
+      :compared-to (j2 / judge-01
+            :ARG1 (o / other)))
+
+# ::id lpp_1943.579 ::date 2012-11-25T19:23:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt If you succeed in judging yourself rightly , then you are indeed a man of true wisdom . "
+# ::zh 你要是能审判好自己，你就是一个真正有才智的人。”
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_579.txt
+(w2 / wise
+      :domain (y / you)
+      :condition (s / succeed-01
+            :ARG0 y
+            :ARG1 (j / judge-01
+                  :ARG0 y
+                  :ARG1 y
+                  :manner (r / right)))
+      :mod (t2 / true))
+
+# ::id lpp_1943.580 ::date 2012-11-25T19:30:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , " said the little prince , " but I can judge myself anywhere .
+# ::zh “我吗，随便在什么地方我都可以审度自己。
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_580.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (y / yes
+          :concession (p2 / possible-01
+                        :ARG1 (j / judge-01
+                                  :ARG0 p
+                                  :ARG1 p
+                                  :location (a / anywhere)))))
+
+# ::id lpp_1943.581 ::date 2012-11-25T19:34:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt I do not need to live on this planet .
+# ::zh 我没有必要留在这里。”
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_581.txt
+(n / need-01
+  :ARG0 (i / i)
+  :ARG1 (l / live-01
+          :ARG0 i
+          :location (p / planet
+                      :mod (t / this)))
+  :polarity -)
+
+# ::id lpp_1943.582 ::date 2012-11-25T19:37:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Hum !
+# ::zh “嗯
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_582.txt
+(h / hum :mode expressive)
+
+# ::id lpp_1943.583 ::date 2012-11-25T19:37:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt Hum ! " said the king .
+# ::zh 国王又说：“嗯…
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_583.txt
+(s / say-01
+      :ARG0 (k / king)
+      :ARG1 (h / hum :mode expressive))
+
+# ::id lpp_1943.584 ::date 2012-11-25T19:38:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I have good reason to believe that somewhere on my planet there is an old rat .
+# ::zh 我想，在我的星球上有一只老耗子。
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_584.txt
+(h2 / have-03
+  :ARG0 (i / i)
+  :ARG1 (r3 / reason
+          :mod (g2 / good)
+          :ARG0-of (c / cause-01
+                     :ARG1 (b3 / believe-01
+                             :ARG0 i
+                             :ARG1 (r2 / rat
+                                     :location (s / somewhere
+                                                 :location (p / planet
+                                                             :poss i))
+                                     :mod (o / old))))))
+
+# ::id lpp_1943.585 ::date 2012-11-25T19:55:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt I hear him at night .
+# ::zh 夜里，我听见它的声音。
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_585.txt
+(h / hear-01
+  :ARG0 (i / i)
+  :ARG1 (h2 / he)
+  :time (n / night))
+
+# ::id lpp_1943.586 ::date 2012-11-25T20:03:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt You can judge this old rat .
+# ::zh 你可以审判它，
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_586.txt
+(p / possible-01
+      :ARG1 (j / judge-01
+            :ARG0 (y / you)
+            :ARG1 (r / rat
+                  :mod (o / old)
+                  :mod (t / this))))
+
+# ::id lpp_1943.587 ::date 2012-11-25T20:04:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt From time to time you will condemn him to death .
+# ::zh 不时地判处它死刑。
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_587.txt
+(c / condemn-01
+  :ARG0 (y / you)
+  :ARG1 (h / he)
+  :ARG3 (d / die-01
+          :ARG1 h)
+  :frequency (t / time-to-time))
+
+# ::id lpp_1943.588 ::date 2012-11-25T20:08:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt Thus his life will depend on your justice .
+# ::zh 因此它的生命取决于你的判决。
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_588.txt
+(d / depend-01
+      :ARG0 (l / live-01
+            :ARG0 (h / he))
+      :ARG1 (j / justice
+            :poss (y / you)))
+
+# ::id lpp_1943.589 ::date 2012-11-25T20:13:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt But you will pardon him on each occasion ; for he must be treated thriftily .
+# ::zh 可是，你要有节制地使用这只耗子，每次判刑后都要赦免它，
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_589.txt
+(p / pardon-01
+      :ARG0 (y / you)
+      :ARG1 (h / he)
+      :frequency (o2 / occasion-02
+            :quant (e / each))
+      :ARG1-of (c / cause-01
+            :ARG0 (o / obligate-01
+                  :ARG2 (t / treat-04
+                        :ARG1 h
+                        :manner (t2 / thrift)))))
+
+# ::id lpp_1943.590 ::date 2012-11-25T20:17:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt He is the only one we have . "
+# ::zh 因为只有这一只耗子。”
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_590.txt
+(o / one
+      :mod (o2 / only)
+      :domain (h2 / he)
+      :ARG1-of (h / have-03
+            :ARG0 (w / we)))
+
+# ::id lpp_1943.591 ::date 2012-11-25T20:19:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I , " replied the little prince , " do not like to condemn anyone to death .
+# ::zh “可是我不愿判死刑，”小王子回答道。
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_591.txt
+(r / reply-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (l2 / like-01 :polarity -
+            :ARG0 p
+            :ARG1 (c / condemn-01
+                  :ARG0 p
+                  :ARG1 (a / anyone)
+                  :ARG3 (d / die-01
+                        :ARG1 a))))
+
+# ::id lpp_1943.592 ::date 2012-11-25T20:22:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt And now I think I will go on my way . "
+# ::zh 我想我还是应该走。”
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_592.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (g / go-02
+            :ARG0 i
+            :ARG1 (w / way
+                  :poss i))
+      :time (n / now))
+
+# ::id lpp_1943.593 ::date 2012-11-25T20:33:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " No , " said the king .
+# ::zh “不行。” 国王说。
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_593.txt
+(s / say-01
+      :ARG0 (k / king)
+      :ARG1 (n / no))
+
+# ::id lpp_1943.594 ::date 2012-11-25T20:35:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt But the little prince , having now completed his preparations for departure , had no wish to grieve the old monarch .
+# ::zh 但是小王子，准备完毕之后，不想使老君主难过，
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_594.txt
+(w / wish-01 :polarity -
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (c / complete-01
+                  :ARG1 (p2 / prepare-02
+                        :ARG0 p
+                        :ARG2 (d / depart-01
+                              :ARG0 p))
+                  :time (n / now)))
+      :ARG1 (g / grieve-01
+            :ARG0 p
+            :ARG1 (m / monarch
+                  :mod (o / old))))
+
+# ::id lpp_1943.595 ::date 2012-11-25T21:00:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " If Your Majesty wishes to be promptly obeyed , " he said , " he should be able to give me a reasonable order .
+# ::zh 说道：“如果国王陛下想要不折不扣地得到服从，你可以给我下一个合理的命令。
+# ::save-date Fri Jul 24, 2015 ::file lpp_1943_595.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (p / possible-01
+            :ARG1 (o / order-01
+                  :ARG0 (p2 / person
+                        :ARG1-of (t2 / title-01
+                              :ARG2 (m / majesty
+                                    :poss p2)))
+                  :ARG1 h
+                  :ARG2 (t / thing
+                        :ARG1-of (r / reasonable-02)))
+            :condition (w / wish-01
+                  :ARG0 p2
+                  :ARG1 (o2 / obey-01
+                        :ARG1 p2
+                        :manner (p3 / prompt)))))
+
+# ::id lpp_1943.596 ::date 2012-11-26T15:50:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt He should be able , for example , to order me to be gone by the end of one minute .
+# ::zh 比如说，你可以命令我，一分钟之内必须离开。
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_596.txt
+(e2 / exemplify-01
+      :ARG0 (p / possible-01
+            :ARG1 (o / order-01
+                  :ARG0 (h / he)
+                  :ARG1 (i / i)
+                  :ARG2 (g / go-02
+                        :ARG0 i
+                        :time (b / by
+                              :op1 (e / end-01
+                                    :ARG1 (t / temporal-quantity :quant 1
+                                          :unit (m / minute))))))))
+
+# ::id lpp_1943.597 ::date 2012-11-26T15:57:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt It seems to me that conditions are favorable ... "
+# ::zh 我认为这个条件是成熟的…”
+# ::save-date Tue May 14, 2013 ::file lpp_1943_597.txt
+(s / seem-01
+      :ARG1 (f / favorable
+            :domain (c / condition))
+      :ARG2 (i2 / i))
+
+# ::id lpp_1943.598 ::date 2012-11-26T16:00:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt As the king made no answer , the little prince hesitated a moment .
+# ::zh 国王什么也没有回答。 起初，小王子有些犹疑不决，
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_598.txt
+(h / hesitate-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :duration (m / moment)
+      :ARG1-of (c / cause-01
+            :ARG0 (a / answer-01 :polarity -
+                  :ARG0 (k / king))))
+
+# ::id lpp_1943.599 ::date 2012-11-26T16:01:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then , with a sigh , he took his leave .
+# ::zh 随后叹了口气，就离开了…
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_599.txt
+(t / take-01
+      :ARG0 (h / he
+            :ARG0-of (s / sigh-02))
+      :ARG1 (l / leave-11
+            :ARG0 h)
+      :time (t2 / then))
+
+# ::id lpp_1943.600 ::date 2012-11-26T16:06:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I made you my Ambassador , " the king called out , hastily .
+# ::zh “我派你当我的大使。” 国王匆忙地喊道。
+# ::save-date Fri Sep 13, 2013 ::file lpp_1943_600.txt
+(c / call-07
+      :ARG0 (k / king)
+      :ARG1 (m / make-02
+            :ARG0 k
+            :ARG1 (h2 / have-org-role-91
+                  :ARG0 (y / you)
+                  :ARG1 k
+                  :ARG2 (a / ambassador)))
+      :manner (h / haste))
+
+# ::id lpp_1943.601 ::date 2012-11-26T16:13:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt He had a magnificent air of authority .
+# ::zh 国王显出非常有权威的样子。
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_601.txt
+(h / have-03
+      :ARG0 (h2 / he)
+      :ARG1 (a / air
+            :mod (m / magnificence)
+            :domain (a2 / authority)))
+
+# ::id lpp_1943.602 ::date 2012-11-26T16:20:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The grown - ups are very strange , " the little prince said to himself , as he continued on his journey .
+# ::zh 小王子在旅途中自言自语地说：“这些大人真奇怪。”
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_602.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s2 / strange
+            :degree (v / very)
+            :domain (g / grown-up))
+      :ARG2 p
+      :time (c / continue-01
+            :ARG0 p
+            :ARG1 (j / journey-01
+                  :ARG0 p)))

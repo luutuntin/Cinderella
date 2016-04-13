@@ -1,0 +1,815 @@
+# ::id lpp_1943.1218 ::date 2012-11-15T17:15:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 24 .
+# ::zh XXIV。
+# ::save-date Fri Apr 12, 2013 ::file lpp_1943_1218.txt
+(c / chapter
+  :mod 24)
+
+# ::id lpp_1943.1219 ::date 2012-11-15T17:22:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt It was now the eighth day since I had had my accident in the desert , and I had listened to the story of the merchant as I was drinking the last drop of my water supply .
+# ::zh 这是我在沙漠上出了事故的第八天。 我听着有关这个商人的故事，喝完了我所备用的最后一滴水。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_1219.txt
+(a / and
+      :op1 (p / pass-03
+            :ARG1 (t2 / temporal-quantity :quant 8
+                  :unit (d / day))
+            :time (s / since
+                  :op1 (a2 / accident
+                        :poss (i / i)
+                        :location (d2 / desert))))
+      :op2 (l / listen-01
+            :ARG0 i
+            :ARG1 (s2 / story
+                  :poss (p2 / person
+                        :ARG0-of (m2 / merchandise-01)))
+            :time (d3 / drink-01
+                  :ARG0 i
+                  :ARG1 (d4 / drop
+                        :part-of (w / water
+                              :ARG1-of (s3 / supply-01
+                                    :ARG2 i))
+                        :mod (l2 / last)))))
+
+# ::id lpp_1943.1220 ::date 2012-11-15T18:05:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah , "
+# ::zh “啊！”
+# ::save-date Wed May 15, 2013 ::file lpp_1943_1220.txt
+(a / ah :mode expressive)
+
+# ::id lpp_1943.1221 ::date 2012-11-15T18:08:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt I said to the little prince , " these memories of yours are very charming ; but I have not yet succeeded in repairing my plane ; I have nothing more to drink ; and I , too , should be very happy if I could walk at my leisure toward a spring of fresh water ! "
+# ::zh 我对小王子说，“你回忆的这些故事真美。 可是，我还没有修好我的飞机。 我没有喝的了，假如我能悠哉游哉地走到水泉边去，我一定也会很高兴的！”
+# ::save-date Mon Jul 6, 2015 ::file lpp_1943_1221.txt
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (c2 / charm-01
+                  :ARG0 (m / memory
+                        :poss (y / you)
+                        :mod (t / this))
+                  :concession-of (a2 / and
+                        :op1 (s2 / succeed-01 :polarity -
+                              :ARG0 i
+                              :ARG1 (r / repair-01
+                                    :ARG0 i
+                                    :ARG1 (p2 / plane
+                                          :poss i))
+                              :time (y2 / yet))
+                        :op2 (h / have-03
+                              :ARG0 i
+                              :ARG1 (n / nothing
+                                    :purpose (d / drink-01
+                                          :ARG0 i)))
+                        :op3 (h2 / happy
+                              :domain i
+                              :degree (v2 / very)
+                              :condition (p3 / possible-01
+                                    :ARG1 (w / walk-01
+                                          :ARG0 i
+                                          :direction (s3 / spring
+                                                :source-of (w2 / water
+                                                      :ARG1-of (f / fresh-04)))
+                                          :manner (a3 / at
+                                                :op1 (l2 / leisure
+                                                      :poss i))))))
+                  :degree (v / very)))
+      :ARG2 (p / prince
+            :mod (l / little)))
+
+# ::id lpp_1943.1222 ::date 2012-11-15T19:24:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " My friend the fox - - " the little prince said to me .
+# ::zh 小王子对我说：“我的朋友狐狸…”
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_1222.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (f / fox
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 i
+                  :ARG2 (f2 / friend)))
+      :ARG2 (i / i))
+
+# ::id lpp_1943.1223 ::date 2012-11-15T19:27:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt " My dear little man , this is no longer a matter that has anything to do with the fox ! "
+# ::zh “我的小家伙，现在还说什么狐狸！”
+# ::save-date Wed May 15, 2013 ::file lpp_1943_1223.txt
+(s / say-01
+  :ARG0 (i / i)
+  :ARG1 (c / concern-02
+          :ARG0 (m2 / matter
+                  :domain (t / this))
+          :ARG1 (f / fox)
+          :time (n / no-longer))
+  :ARG2 (m / man
+          :mod (l / little)
+          :poss i
+          :mod (d / dear)))
+
+# ::id lpp_1943.1224 ::date 2012-11-15T19:33:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Why not ? "
+# ::zh “为什么？”
+# ::save-date Thu May 9, 2013 ::file lpp_1943_1224.txt
+(c2 / concern-02
+  :polarity -
+  :ARG1-of (c3 / cause-01
+             :ARG0 (a / amr-unknown)))
+
+# ::id lpp_1943.1225 ::date 2012-11-15T19:33:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Because I am about to die of thirst ... "
+# ::zh “因为我就要渴死了。”
+# ::save-date Fri Feb 14, 2014 ::file lpp_1943_1225.txt
+(c / cause-01
+      :ARG0 (d / die-01
+            :ARG1 (i / i)
+            :ARG1-of (c2 / cause-01
+                  :ARG0 (t / thirst-01
+                        :ARG0 i))
+            :time (a / about-to)))
+
+# ::id lpp_1943.1226 ::date 2012-11-15T19:42:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt He did not follow my reasoning , and he answered me : " It is a good thing to have had a friend , even if one is about to die .
+# ::zh 他不理解我的思路，他回答我道：“即使快要死了，有过一个朋友也好么！
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_1226.txt
+(a / and
+      :op1 (f / follow-02 :polarity -
+            :ARG0 (h / he)
+            :ARG1 (r / reason-01
+                  :ARG0 (i / i)))
+      :op2 (a2 / answer-01
+            :ARG0 h
+            :ARG1 i
+            :ARG2 (g / good
+                  :domain (h2 / have-rel-role-91
+                        :ARG1 o
+                        :ARG2 (f2 / friend))
+                  :concession (e / even-if
+                        :op1 (d / die-01
+                              :ARG1 (o / one)
+                              :time (a3 / about-to))))))
+
+# ::id lpp_1943.1227 ::date 2012-11-15T19:51:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt I , for instance , am very glad to have had a fox as a friend ... "
+# ::zh 我就为我有过一个狐狸朋友而感到很高兴…”
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_1227.txt
+(g / glad-02
+      :ARG0 (h / have-rel-role-91
+            :ARG0 (f2 / fox)
+            :ARG1 i
+            :ARG2 (f / friend))
+      :ARG1 (i / i
+            :ARG0-of (e / exemplify-01))
+      :degree (v / very))
+
+# ::id lpp_1943.1228 ::date 2012-11-15T19:54:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " He has no way of guessing the danger , "
+# ::zh “他不顾危险。”
+# ::save-date Thu Nov 15, 2012 ::file lpp_1943_1228.txt
+(p / possible-01
+  :ARG1 (g / guess-01
+            :ARG0 (h / he)
+            :ARG1 (d / danger))
+  :polarity -)
+
+# ::id lpp_1943.1229 ::date 2012-11-15T19:56:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt I said to myself .
+# ::zh 我自己思量着，
+# ::save-date Thu Nov 15, 2012 ::file lpp_1943_1229.txt
+(s / say-01
+  :ARG0 (i / i)
+  :ARG2 i)
+
+# ::id lpp_1943.1230 ::date 2012-11-15T19:56:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt " He has never been either hungry or thirsty .
+# ::zh “他从来不知道饥渴。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_1230.txt
+(a / and
+  :op1 (h / hunger-01
+         :ARG0 (h2 / he)
+         :polarity -)
+  :op2 (t / thirst-01
+         :ARG0 h2
+         :polarity -)
+  :time (e / ever))
+
+# ::id lpp_1943.1231 ::date 2012-11-15T20:01:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt A little sunshine is all he needs ... "
+# ::zh 只要有点阳光，他就满足了…”
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1231.txt
+(n / need-01
+  :ARG0 (h / he)
+  :ARG1 (s / sunshine
+          :quant (l / little))
+  :mod (a / all))
+
+# ::id lpp_1943.1232 ::date 2012-11-15T20:09:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt But he looked at me steadily , and replied to my thought : " I am thirsty , too .
+# ::zh 他看着我，答复着我的思想：“我也渴了…
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_1232.txt
+(c / contrast-01
+  :ARG2 (a2 / and
+          :op1 (l / look-01
+                 :ARG0 (h / he)
+                 :ARG1 (i / i)
+                 :manner (s / steady))
+          :op2 (r / reply-01
+                 :ARG0 h
+                 :ARG1 (t / thing
+                         :ARG1-of (t2 / think-01
+                                    :ARG0 i))
+                 :ARG2 (t3 / thirst-01
+                         :ARG0 h
+                         :mod (t4 / too)))))
+
+# ::id lpp_1943.1233 ::date 2012-11-15T20:20:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt Let us look for a well ... "
+# ::zh 我们去找一口井吧…”
+# ::save-date Sun Dec 2, 2012 ::file lpp_1943_1233.txt
+(l / look-01
+  :ARG0 (w / we)
+  :ARG1 (w2 / well)
+  :mode imperative)
+
+# ::id lpp_1943.1234 ::date 2012-11-15T20:20:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt I made a gesture of weariness .
+# ::zh 我显出厌烦的样子：
+# ::save-date Wed Jun 3, 2015 ::file lpp_1943_1234.txt
+(g2 / gesture-01
+      :ARG0 (i / i)
+      :ARG1 (w / weary-01
+            :ARG1 i))
+
+# ::id lpp_1943.1235 ::date 2012-11-15T20:22:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is absurd to look for a well , at random , in the immensity of the desert .
+# ::zh 在茫茫的大沙漠上盲目地去找水井，真荒唐。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1235.txt
+(a / absurd
+  :domain (l / look-01
+            :ARG1 (w / well)
+            :location (d / desert
+                        :mod (i / immense))
+            :manner (r / random)))
+
+# ::id lpp_1943.1236 ::date 2012-11-16T08:34:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt But nevertheless we started walking .
+# ::zh 然而我们还是开始去寻找了。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_1236.txt
+(h / have-concession-91
+  :ARG1 (s / start-01
+          :ARG0 (w / we)
+          :ARG1 (w2 / walk-01)))
+
+# ::id lpp_1943.1237 ::date 2012-11-16T08:35:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt When we had trudged along for several hours , in silence , the darkness fell , and the stars began to come out .
+# ::zh 当我们默默地走了好几个小时以后，天黑了下来，星星开始发出光亮。
+# ::save-date Thu Oct 16, 2014 ::file lpp_1943_1237.txt
+(a / and
+      :op1 (f / fall-04
+            :ARG1 (d / darkness))
+      :op2 (b / begin-01
+            :ARG0 (s / star)
+            :ARG1 (c / come-out-09
+                  :ARG1 s))
+      :time (t / trudge-01
+            :ARG0 (w / we)
+            :duration (s2 / several
+                  :op1 (t2 / temporal-quantity :quant 1
+                        :unit (h / hour)))
+            :manner (s3 / silent)))
+
+# ::id lpp_1943.1238 ::date 2012-11-18T12:34:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt Thirst had made me a little feverish , and I looked at them as if I were in a dream .
+# ::zh 由于渴我有点发烧，我看着这些星星，象是在做梦一样。
+# ::save-date Wed Dec 5, 2012 ::file lpp_1943_1238.txt
+(a / and
+      :op1 (m / make-02
+            :ARG0 (t / thirst-01
+                  :ARG0 (i / i))
+            :ARG1 (f / feverish
+                  :domain i
+                  :degree (l / little)))
+      :op2 (l2 / look-01
+            :ARG0 i
+            :ARG1 (t2 / they)
+            :ARG1-of (r / resemble-01
+                  :ARG2 (d / dream-01
+                        :ARG0 i))))
+
+# ::id lpp_1943.1239 ::date 2012-11-19T13:29:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince 's last words came reeling back into my memory : " Then you are thirsty , too ? "
+# ::zh 小王子的话在我的脑海中跳来跳去。 “你也渴吗？”
+# ::save-date Tue Jul 7, 2015 ::file lpp_1943_1239.txt
+(c / come-01
+      :ARG1 (w / word-01
+            :ARG0 (p / prince
+                  :mod (l2 / little))
+            :ARG1 (t / thirst-01 :mode interrogative
+                  :ARG0 (y / you
+                        :mod (t2 / too)))
+            :mod (l / last))
+      :ARG4 (m / memory
+            :poss (i / i))
+      :manner (r / reel-03
+            :ARG1 w
+            :ARG2 m))
+
+# ::id lpp_1943.1240 ::date 2012-11-26T12:40:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt I demanded .
+# ::zh 我问他。
+# ::save-date Wed Nov 28, 2012 ::file lpp_1943_1240.txt
+(d / demand-01
+      :ARG0 (i / i))
+
+# ::id lpp_1943.1241 ::date 2012-11-28T15:37:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt But he did not reply to my question .
+# ::zh 他却不回答我的问题，
+# ::save-date Thu May 9, 2013 ::file lpp_1943_1241.txt
+(c / contrast-01
+  :ARG2 (r / reply-01
+          :ARG0 (h / he)
+          :ARG1 (q / question-01
+                  :ARG0 (i / i))
+          :polarity -))
+
+# ::id lpp_1943.1242 ::annotator ISI-AMR-05 ::preferred
+# ::snt He merely said to me : " Water may also be good for the heart ... "
+# ::zh 只是对我说：“水对心也是有益处的…”
+# ::save-date Thu Apr 16, 2015 ::file lpp_1943_1242.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (p / possible-01
+            :ARG1 (g / good-04
+                  :ARG1 (w / water)
+                  :ARG2 (h2 / heart)
+                  :mod (a / also)))
+      :ARG2 (i / i)
+      :mod (m / mere))
+
+# ::id lpp_1943.1243 ::annotator ISI-AMR-05 ::preferred
+# ::snt I did not understand this answer , but I said nothing .
+# ::zh 我不懂他的话是什么意思，可我也不做声…
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1243.txt
+(u2 / understand-01
+  :ARG0 (i / i)
+  :ARG1 (a / answer
+          :mod (t / this))
+  :polarity -
+  :concession-of (s / say-01
+                   :ARG0 i
+                   :ARG1 (n / nothing)))
+
+# ::id lpp_1943.1244 ::annotator ISI-AMR-05 ::preferred
+# ::snt I knew very well that it was impossible to cross - examine him .
+# ::zh 我知道不应该去问他。
+# ::save-date Wed Dec 5, 2012 ::file lpp_1943_1244.txt
+(k / know-01
+      :ARG0 (i / i)
+      :ARG1 (p / possible-01 :polarity -
+            :ARG1 (c / crossexamine-01
+                  :ARG0 i
+                  :ARG1 (h / he)))
+      :degree (w / well
+            :degree (v / very)))
+
+# ::id lpp_1943.1245 ::date 2012-11-28T15:38:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt He was tired .
+# ::zh 他累了，
+# ::save-date Wed Nov 28, 2012 ::file lpp_1943_1245.txt
+(t / tire-01
+      :ARG1 (h / he))
+
+# ::id lpp_1943.1246 ::date 2012-11-28T15:39:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt He sat down .
+# ::zh 他坐下来。
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_1246.txt
+(s / sit-down-02
+  :ARG1 (h / he))
+
+# ::id lpp_1943.1247 ::date 2012-11-28T15:40:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt I sat down beside him .
+# ::zh 我在他身旁坐下。
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_1247.txt
+(s / sit-down-02
+  :ARG1 (i / i)
+  :location (b / beside
+              :op1 (h / he)))
+
+# ::id lpp_1943.1248 ::date 2012-11-28T15:42:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , after a little silence , he spoke again : " The stars are beautiful , because of a flower that can not be seen . "
+# ::zh 沉默了一会，他又说道：“星星是很美的，因为有一朵人们看不到的花…”
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_1248.txt
+(a / and
+      :op2 (s / speak-01
+            :ARG0 (h / he)
+            :ARG1 (b / beautiful-02
+                  :ARG1 (s5 / star)
+                  :ARG1-of (c / cause-01
+                        :ARG0 (f / flower
+                              :ARG1-of (s6 / see-01
+                                    :ARG1-of (p / possible-01 :polarity -)))))
+            :time (a2 / after
+                  :op1 (s2 / silence
+                        :duration (l / little)))
+            :mod (a3 / again)))
+
+# ::id lpp_1943.1249 ::annotator ISI-AMR-05 ::preferred
+# ::snt I replied , " Yes , that is so . "
+# ::zh 我回答道：“当然。”
+# ::save-date Wed May 15, 2013 ::file lpp_1943_1249.txt
+(r / reply-01
+  :ARG0 (i / i)
+  :ARG2 (s / so
+          :domain (t / that)))
+
+# ::id lpp_1943.1250 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , without saying anything more , I looked across the ridges of sand that were stretched out before us in the moonlight .
+# ::zh 而我默默地看着月光下沙漠的褶皱。
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_1250.txt
+(a / and
+      :op2 (l / look-01
+            :ARG0 (i / i)
+            :ARG1 (a3 / across
+                  :op1 (r / ridge
+                        :consist-of (s / sand)
+                        :ARG1-of (s2 / stretch-out-02
+                              :location (b / before
+                                    :op1 (w / we)))
+                        :ARG1-of (l2 / light-04
+                              :ARG0 (m / moon))))
+            :manner (s3 / say-01 :polarity -
+                  :ARG0 i
+                  :ARG1 (a2 / anything
+                        :mod (m2 / more)))))
+
+# ::id lpp_1943.1251 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The desert is beautiful , " the little prince added .
+# ::zh “沙漠是美的。” 他又说道。
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_1251.txt
+(a / add-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (b / beautiful-02
+            :ARG1 (d / desert)))
+
+# ::id lpp_1943.1252 ::annotator ISI-AMR-05 ::preferred
+# ::snt And that was true .
+# ::zh 确实如此。
+# ::save-date Thu Nov 29, 2012 ::file lpp_1943_1252.txt
+(a / and
+      :op2 (t / true
+            :domain (t2 / that)))
+
+# ::id lpp_1943.1253 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have always loved the desert .
+# ::zh 我一直很喜欢沙漠。
+# ::save-date Thu Nov 29, 2012 ::file lpp_1943_1253.txt
+(l / love-01
+      :ARG0 (i / i)
+      :ARG1 (d / desert)
+      :time (a / always))
+
+# ::id lpp_1943.1254 ::annotator ISI-AMR-05 ::preferred
+# ::snt One sits down on a desert sand dune , sees nothing , hears nothing .
+# ::zh 坐在一个沙丘上，什么也看不见、听不见。
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_1254.txt
+(a / and
+      :op1 (s / sit-down-02
+            :ARG1 (o / one)
+            :location (d / dune
+                  :consist-of (s2 / sand)
+                  :location (d2 / desert)))
+      :op2 (s3 / see-01
+            :ARG0 o
+            :ARG1 (n / nothing))
+      :op3 (h / hear-01
+            :ARG0 o
+            :ARG1 (n2 / nothing)))
+
+# ::id lpp_1943.1255 ::annotator ISI-AMR-05 ::preferred
+# ::snt Yet through the silence something throbs , and gleams ...
+# ::zh 但是，却有一种说不出的东西在默默地放着光芒…
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_1255.txt
+(a2 / and
+  :op1 (t / throb-01
+         :ARG1 (s / something))
+  :op2 (g / gleam-01
+         :ARG0 s)
+  :concession (s3 / silence))
+
+# ::id lpp_1943.1256 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What makes the desert beautiful , " said the little prince , " is that somewhere it hides a well ... "
+# ::zh “使沙漠更加美丽的，就是在某个角落里，藏着一口井…”
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_1256.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m / make-02
+            :ARG0 (h / hide-01
+                  :ARG0 d
+                  :ARG1 (w / well)
+                  :location (s2 / somewhere))
+            :ARG1 (b / beautiful-02
+                  :ARG1 (d / desert))))
+
+# ::id lpp_1943.1257 ::annotator ISI-AMR-05 ::preferred
+# ::snt I was astonished by a sudden understanding of that mysterious radiation of the sands .
+# ::zh 我很惊讶，突然明白了为什么沙漠放着光芒。
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_1257.txt
+(a / astonish-01
+  :ARG0 (u / understand-01
+          :ARG0 i
+          :ARG1 (r / radiate-01
+                  :ARG0 (s2 / sand)
+                  :mod (m / mystery)
+                  :mod (t / that))
+          :manner (s / sudden))
+  :ARG1 (i / i))
+
+# ::id lpp_1943.1258 ::script amr-snt-id-rep ::date 2013-04-20T20:54:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt When I was a little boy I lived in an old house , and legend told us that a treasure was buried there .
+# ::zh 当我还是一个小孩子的时候，我住在一座古老的房子里，而且传说，这个房子里埋藏着一个宝贝。
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_1258.txt
+(a / and
+  :op1 (l / live-01
+         :ARG0 (i / i)
+         :location (h / house
+                     :mod (o / old))
+         :time (b / boy
+                 :mod (l2 / little)
+                 :domain i))
+  :op2 (t / tell-01
+         :ARG0 (l3 / legend)
+         :ARG1 (b2 / bury-01
+                 :ARG1 (t2 / treasure)
+                 :location h)
+         :ARG2 (w / we)))
+
+# ::id lpp_1943.1259 ::annotator ISI-AMR-05 ::preferred
+# ::snt To be sure , no one had ever known how to find it ; perhaps no one had ever even looked for it .
+# ::zh 当然，从来没有任何人能发现这个宝贝，可能，甚至也没有人去寻找过。
+# ::save-date Thu Jul 9, 2015 ::file lpp_1943_1259.txt
+(a / and
+      :op1 (s / sure-02
+            :ARG0 (n / no-one)
+            :ARG1 (t / thing
+                  :manner-of (f / find-01
+                        :ARG0 n
+                        :ARG1 (i / it)))
+            :time (e2 / ever)
+            :mod (t2 / to-be-sure))
+      :op2 (p2 / possible-01
+            :ARG1 (l / look-01
+                  :ARG0 n
+                  :ARG1 i
+                  :time e2)))
+
+# ::id lpp_1943.1260 ::annotator ISI-AMR-05 ::preferred
+# ::snt But it cast an enchantment over that house .
+# ::zh 但是，这个宝贝使整个房子着了魔似的。
+# ::save-date Mon May 13, 2013 ::file lpp_1943_1260.txt
+(c / contrast-01
+  :ARG2 (c2 / cast-01
+          :ARG0 (i / it)
+          :ARG1 (e / enchant-01)
+          :ARG2 (h / house
+                  :mod (t / that))))
+
+# ::id lpp_1943.1261 ::annotator ISI-AMR-05 ::preferred
+# ::snt My home was hiding a secret in the depths of its heart ...
+# ::zh 我家的房子在它的心灵深处隐藏着一个秘密…
+# ::save-date Thu May 9, 2013 ::file lpp_1943_1261.txt
+(h / hide-01
+      :ARG0 (h2 / home
+            :poss (i / i))
+      :ARG1 (s / secret)
+      :location (d / depth
+            :poss (h3 / heart
+                  :part-of h2)))
+
+# ::id lpp_1943.1262 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , "
+# ::zh 是的，
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_1262.txt
+(y / yes)
+
+# ::id lpp_1943.1263 ::annotator ISI-AMR-05 ::preferred
+# ::snt I said to the little prince .
+# ::zh 我对小王子说道：“
+# ::save-date Fri Nov 30, 2012 ::file lpp_1943_1263.txt
+(s / say-01
+  :ARG0 (i / i)
+  :ARG2 (p / prince
+          :mod (l / little)))
+
+# ::id lpp_1943.1264 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The house , the stars , the desert - - what gives them their beauty is something that is invisible ! "
+# ::zh 无论是房子，星星，或是沙漠，使它们美丽的东西是看不见的！”
+# ::save-date Mon May 13, 2013 ::file lpp_1943_1264.txt
+(g2 / give-01
+  :ARG0 (s3 / something
+          :ARG1-of (s4 / see-01
+                     :ARG1-of (p / possible-01
+                            :polarity -)))
+  :ARG1 (b / beauty
+          :poss a)
+  :ARG2 (a / and
+          :op1 (h / house)
+          :op2 (s2 / star)
+          :op3 (d / desert)))
+
+# ::id lpp_1943.1265 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am glad , " he said , " that you agree with my fox . "
+# ::zh “我真高兴，你和我的狐狸的看法一样。” 小王子说。
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_1265.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (g / glad-02
+            :ARG0 (a / agree-01
+                  :ARG0 (y / you)
+                  :ARG2 (f / fox
+                        :poss h))
+            :ARG1 h))
+
+# ::id lpp_1943.1266 ::annotator ISI-AMR-05 ::preferred
+# ::snt As the little prince dropped off to sleep , I took him in my arms and set out walking once more .
+# ::zh 小王子睡觉了，我就把他抱在怀里，又重新上路了。
+# ::save-date Wed Jun 10, 2015 ::file lpp_1943_1266.txt
+(a2 / and
+      :op1 (t / take-01
+            :ARG0 (i / i)
+            :ARG1 (p / prince
+                  :mod (l / little))
+            :ARG3 (a / arm
+                  :part-of i))
+      :op2 (s / set-out-07
+            :ARG0 i
+            :manner (w / walk-01)
+            :mod (o / once-more))
+      :time (d / drop-off-03
+            :ARG0 p
+            :ARG2 (s2 / sleep-01
+                  :ARG0 p)))
+
+# ::id lpp_1943.1267 ::date 2013-04-20T20:54:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt I felt deeply moved , and stirred .
+# ::zh 我很激动。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1267.txt
+(f / feel-01
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (m / move-05
+                  :ARG1 i
+                  :ARG1-of (d / deep-02))
+            :op2 (s / stir-02
+                  :ARG1 i)))
+
+# ::id lpp_1943.1268 ::annotator ISI-AMR-05 ::preferred
+# ::snt It seemed to me that I was carrying a very fragile treasure .
+# ::zh 就好象抱着一个脆弱的宝贝。
+# ::save-date Mon Dec 3, 2012 ::file lpp_1943_1268.txt
+(s / seem-01
+      :ARG1 (c / carry-01
+            :ARG0 i
+            :ARG1 (t / treasure
+                  :mod (f / fragile
+                        :degree (v / very))))
+      :ARG2 (i / i))
+
+# ::id lpp_1943.1269 ::annotator ISI-AMR-05 ::preferred
+# ::snt It seemed to me , even , that there was nothing more fragile on all Earth .
+# ::zh 就好象在地球上没有比这更脆弱的了。
+# ::save-date Wed May 15, 2013 ::file lpp_1943_1269.txt
+(s / seem-01
+      :ARG1 (f / fragile
+            :degree (m / more)
+            :domain (n2 / nothing
+                  :location (p / planet :wiki "Earth"
+                        :name (n / name :op1 "Earth")
+                        :mod (a / all))))
+      :ARG2 (i / i)
+      :mod (e / even))
+
+# ::id lpp_1943.1270 ::annotator ISI-AMR-05 ::preferred
+# ::snt In the moonlight I looked at his pale forehead , his closed eyes , his locks of hair that trembled in the wind , and I said to myself : " What I see here is nothing but a shell .
+# ::zh 我借着月光看着这惨白的面额，这双紧闭的眼睛，这随风飘动的绺绺头发，这时我对自己说道：“我所看到的仅仅是外表。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1270.txt
+(a / and
+      :op1 (l / look-01
+            :ARG0 (i / i)
+            :ARG1 (a2 / and
+                  :op1 (f / forehead
+                        :part-of (h / he)
+                        :ARG1-of (p / pale-03))
+                  :op2 (e / eye
+                        :ARG1-of (c / close-01)
+                        :part-of h)
+                  :op3 (l2 / lock
+                        :consist-of (h2 / hair)
+                        :ARG1-of (t / tremble-01
+                              :ARG1-of (c2 / cause-01
+                                    :ARG0 (w / wind)))
+                        :part-of h)
+                  :ARG1-of (l3 / light-04
+                        :ARG0 (m2 / moon))))
+      :op2 (s / say-01
+            :ARG0 i
+            :ARG1 (s2 / see-01
+                  :ARG0 i
+                  :ARG1 (s3 / shell)
+                  :mod (n / nothing-but)
+                  :location (h3 / here))
+            :ARG2 i))
+
+# ::id lpp_1943.1271 ::annotator ISI-AMR-05 ::preferred
+# ::snt What is most important is invisible ... "
+# ::zh 最重要的是看不见的…”
+# ::save-date Mon May 13, 2013 ::file lpp_1943_1271.txt
+(s / see-01
+  :ARG1 (t / thing
+          :mod (i2 / important
+                 :degree (m / most)))
+  :ARG1-of (p / possible-01
+         :polarity -))
+
+# ::id lpp_1943.1272 ::annotator ISI-AMR-05 ::preferred
+# ::snt As his lips opened slightly with the suspicious of a half - smile , I said to myself , again : " What moves me so deeply , about this little prince who is sleeping here , is his loyalty to a flower - - the image of a rose that shines through his whole being like the flame of a lamp , even when he is asleep ... "
+# ::zh 由于看到他稍稍张开的嘴唇露出一丝微笑，我又自言自语地说：“在这个熟睡了的小王子身上，使我非常感动的，是他对他那朵花的忠诚，是在他心中闪烁的那朵玫瑰花的形象。 这朵玫瑰花，即使在小王子睡着了的时候，也象一盏灯的火焰一样在他身上闪耀着光辉…”
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1272.txt
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (m / move-05
+            :ARG0 (p / prince
+                  :mod (l / little)
+                  :ARG0-of (s2 / sleep-01
+                        :location (h / here)))
+            :ARG1 i
+            :ARG2 (l2 / loyal-01
+                  :ARG1 p
+                  :ARG2 (f / flower
+                        :op1 (i2 / image
+                              :poss (r / rose
+                                    :ARG1-of (s3 / shine-01
+                                          :ARG2 (t / through
+                                                :op1 (b / being
+                                                      :poss p
+                                                      :mod (w / whole)))
+                                          :ARG1-of (r2 / resemble-01
+                                                :ARG2 (f2 / flame-01
+                                                      :ARG1 (l3 / lamp)))
+                                          :concession (e / even-when
+                                                :op1 (s6 / sleep-01
+                                                      :ARG0 p)))))))
+            :ARG1-of (d / deep-02))
+      :ARG2 i
+      :time (o / open-01
+            :ARG1 (l4 / lip
+                  :part-of p)
+            :degree (s4 / slight)
+            :manner (s8 / smile-01
+                  :mod (h3 / half)
+                  :mod (s5 / suspicious)))
+      :mod (a2 / again))
+
+# ::id lpp_1943.1273 ::annotator ISI-AMR-05 ::preferred
+# ::snt And I felt him to be more fragile still .
+# ::zh 这时，我就感觉到他更加脆弱。
+# ::save-date Thu Apr 18, 2013 ::file lpp_1943_1273.txt
+(a / and
+  :op2 (f / feel-02
+         :ARG0 (i / i)
+         :ARG1 (f3 / fragile
+                 :domain (h / he)
+                 :degree (m / more)
+                 :mod (s / still))))
+
+# ::id lpp_1943.1274 ::annotator ISI-AMR-05 ::preferred
+# ::snt I felt the need of protecting him , as if he himself were a flame that might be extinguished by a little puff of wind ...
+# ::zh 应该保护灯焰：一阵风就可能把它吹灭…
+# ::save-date Thu May 9, 2013 ::file lpp_1943_1274.txt
+(f / feel-01
+      :ARG0 (i / i)
+      :ARG1 (n / need-01
+            :ARG0 i
+            :ARG1 (p / protect-01
+                  :ARG0 i
+                  :ARG1 (h / he)
+                  :conj-as-if (f2 / flame-01
+                        :ARG1 h
+                        :ARG1-of (e / extinguish-01
+                              :ARG0 (p3 / puff-up-04
+                                    :ARG1 (w / wind)
+                                    :mod (l / little))
+                              :ARG1-of (p2 / possible-01))))))
+
+# ::id lpp_1943.1275 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , as I walked on so , I found the well , at daybreak .
+# ::zh 于是，就这样走着，我在黎明时发现了水井。
+# ::save-date Mon Feb 2, 2015 ::file lpp_1943_1275.txt
+(a / and
+      :op2 (f / find-01
+            :ARG0 (i / i)
+            :ARG1 (w / well)
+            :time (d / daybreak)
+            :time (w2 / walk-01
+                  :ARG0 i
+                  :mod (o / on)
+                  :manner (s / so))))

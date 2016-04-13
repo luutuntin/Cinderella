@@ -1,0 +1,653 @@
+# ::id Aurora.1
+# ::snt Long ago in a faraway land, a king and his fair queen were blessed with a beautiful baby girl.
+(x15 / bless
+	:manner (x2 / ago
+		:degree (x1 / long))
+	:location (x6 / land
+		:mod (x5 / faraway))
+	:ARG1 (x10 / and
+		:op1 (x9 / king)
+		:op2 (x13 / queen
+			:mod (x12 / fair)))
+	:ARG2 (x20 / girl
+		:mod (x18 / beautiful)
+		:mod (x19 / baby)))
+
+# ::id Aurora.2
+# ::snt They named their daughter Aurora, for she filled their lives with light like the dawn.
+(x2 / name
+	:ARG0 (x1 / they)
+	:ARG1 (x4 / daughter)
+	:time (x9 / fill-01
+		:ARG1 (x11 / life)
+		:ARG2 (x13 / light
+			:time (x16 / date-entity))))
+
+# ::id Aurora.3
+# ::snt Visitors from throughout the kingdom came to celebrate the birth of the princess, including the three good fairies, who arrived with gifts.
+(x6 / come-01
+	:ARG0 (x1 / person
+		:ARG0-of (v / visitor))
+	:ARG1 (x5 / kingdom)
+	:ARG1 (x8 / celebrate-02
+		:ARG1 (x10 / birth
+			:ARG1 (x13 / princess)
+			:ARG1 (x19 / fairy
+				:quant 3
+				:mod (x18 / good-41)
+				:ARG0-of (x22 / arrive-01
+					:ARG4 (x24 / thing
+						:ARG1-of (g / gift)))))))
+
+# ::id Aurora.4
+# ::snt Waving their wands, Flora gave the princess the gift of beauty, while Fauna gave her the gift of song.
+(x6 / give-01
+	:ARG2 (x1 / wave
+		:ARG1 (x3 / wand))
+	:ARG0 (x5 / person
+		:name (n / name
+			:op1 "Flora"))
+	:ARG1 (x8 / princess)
+	:ARG1 (x10 / thing
+		:ARG1-of (g / gift)
+		:ARG1 (x12 / beauty))
+	:time (x16 / give-09
+		:ARG0 (x15 / fauna)
+		:ARG1 (x19 / thing
+			:ARG1-of (g1 / gift)
+			:ARG1 (x21 / person
+				:name (n1 / name
+					:op1 "song")))))
+
+# ::id Aurora.5
+# ::snt Merryweather was about to bestow her gift when the evil fairy Maleficent appeared in a flash of green fire.
+(x5 / bestow
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Merryweather"))
+	:ARG1 (x7 / thing
+		:ARG1-of (g / gift))
+	:time (x13 / appear-02
+		:ARG1 (x12 / maleficent
+			:mod (x10 / evil)
+			:mod (x11 / fairy))
+		:location (x16 / flash
+			:ARG1 (x19 / fire-01))))
+
+# ::id Aurora.6
+# ::snt She wanted to give the princess something, too - a terrible curse!
+(x2 / want-01
+	:ARG0 (x1 / she)
+	:ARG1 (x4 / give-01
+		:ARG1 (x6 / princess)
+		:ARG1 (x7 / something)
+		:manner (x9 / too)
+		:ARG1 (x13 / curse
+			:mod (x12 / terrible))))
+
+# ::id Aurora.7
+# ::snt Before the sun set on her sixteenth birthday, Aurora would prick her finger on the spindle of a spinning wheel and die!
+(x22 / and
+	:op1 (x12 / prick
+		:time (x1 / before
+			:op1 (x4 / set-05
+				:ARG0 (x3 / sun)
+				:ARG2 (x8 / birthday)))
+		:ARG0 (x10 / country
+			:name (n / name
+				:op1 "Aurora"))
+		:ARG1 (x14 / finger)
+		:ARG1 (x17 / spindle
+			:ARG1 (x21 / wheel
+				:ARG0-of (x20 / spin-off))))
+	:op2 (x23 / die-01))
+
+# ::id Aurora.8
+# ::snt Luckily, Merryweather still had a gift to give.
+(x5 / have-03
+	:time (x1 / luckily)
+	:ARG0 (x3 / person
+		:name (n / name
+			:op1 "Merryweather"))
+	:mod (x4 / still)
+	:ARG1 (x7 / thing
+		:ARG1-of (g / gift)
+		:ARG2 (x9 / give-01)))
+
+# ::id Aurora.9
+# ::snt She cast her spell to soften Maleficent's curse.
+(x2 / cast
+	:ARG1 (x4 / spell)
+	:purpose (x6 / soften
+		:ARG1 (x9 / curse
+			:ARG0 (x7 / person
+				:name (n / name
+					:op1 "Maleficent")))))
+
+# ::id Aurora.10
+# ::snt Now Aurora would not die when she pricked her finger.
+(x5 / die-01
+	:time (x1 / now)
+	:ARG0 (x2 / country
+		:name (n / name
+			:op1 "Aurora"))
+	:time (x8 / prick
+		:ARG1 (x10 / finger)))
+
+# ::id Aurora.11
+# ::snt She would simply fall into a deep slumber, only to be awakened with True Love's Kiss.
+(x4 / fall-05
+	:manner (x3 / simple)
+	:ARG2 (x8 / slumber
+		:mod (x7 / deep))
+	:ARG1 (x13 / awaken
+		:mod (x10 / only)
+		:ARG1 (x18 / kiss
+			:ARG1 (x15 / true))))
+
+# ::id Aurora.12
+# ::snt However, the king and his queen were still very concerned about the safety of their daughter.
+(x5 / and
+	:op1 (x4 / king)
+	:op2 (x7 / queen)
+	:op1 (x11 / concern-01
+		:mod (x1 / however)
+		:mod (x9 / still)
+		:degree (x10 / very)
+		:ARG2 (x14 / safe-41
+			:ARG1 (x17 / daughter))))
+
+# ::id Aurora.13
+# ::snt And so with heavy hearts, they agreed that the three good fairies, disguised as peasant women, would raise the child in secret far away from the castle.
+(x1 / and
+	:op1 (x8 / agree-01
+		:manner (x2 / so)
+		:ARG1 (x5 / heart
+			:mod (x4 / heavy))
+		:ARG1 (x21 / raise-01
+			:ARG0 (x13 / fairy
+				:quant 3
+				:mod (x12 / good-41)
+				:ARG1-of (x15 / disguise-01
+					:ARG2 (x18 / women
+						:mod (x17 / peasant))))
+			:ARG1 (x23 / child)
+			:manner (x25 / secret)
+			:time (x27 / away
+				:op1 (x30 / castle)))))
+
+# ::id Aurora.14
+# ::snt Over the years, the child grew into a beautiful young woman who made friends with all of the forest animals.
+(x7 / grow-03
+	:time (x1 / over
+		:op1 (x3 / temporal-quantity
+			:unit (y / years)))
+	:ARG0 (x6 / child)
+	:ARG2 (x12 / women
+		:mod (x10 / beautiful)
+		:mod (x11 / young)
+		:ARG1 (x15 / friend
+			:quant (x17 / all
+				:ARG1 (x21 / animal
+					:mod (x20 / forest))))))
+
+# ::id Aurora.15
+# ::snt Her three aunties called her Briar Rose and surrounded her with love.
+(x8 / and
+	:op1 (x4 / call-03
+		:ARG0 (x3 / auntie
+			:quant 3)
+		:ARG1 (x6 / person
+			:name (n / name
+				:op1 "Briar"
+				:op2 "Rose")))
+	:op2 (x9 / surround-01
+		:ARG0 x3
+		:ARG2 (x12 / love)))
+
+# ::id Aurora.16
+# ::snt But they never told her the secret of her past.
+(x1 / contrast-01
+	:ARG1 (x4 / tell-01
+		:ARG1 (x7 / secret
+			:time (x10 / past))))
+
+# ::id Aurora.17
+# ::snt On the day of her sixteenth birthday, Briar Rose still did not know that she was a princess.
+(x14 / know-01
+	:time (x3 / day
+		:part-of (x7 / birthday))
+	:ARG0 (x9 / person
+		:name (n / name
+			:op1 "Briar"
+			:op2 "Rose"))
+	:mod (x11 / still)
+	:ARG1 (x19 / princess))
+
+# ::id Aurora.18
+# ::snt She spent the morning singing to her friends about how she'd had a glorious dream.
+(x2 / spend-00
+	:time (x4 / morning)
+	:ARG1 (x5 / singing
+		:ARG2 (x8 / friend
+			:ARG0-of (x13 / have-03
+				:ARG1 (x16 / dream
+					:mod (x15 / glorious))))))
+
+# ::id Aurora.19
+# ::snt In it, she'd met the most wonderful prince.
+(x6 / meet-03
+	:ARG1 (x10 / prince
+		:mod (x9 / wonderful
+			:degree (x8 / most))))
+
+# ::id Aurora.20
+# ::snt Briar Rose was convinced he was her true love.
+(x4 / convince-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Briar"
+			:op2 "Rose"))
+	:ARG1 (x9 / love
+		:mod (x8 / true)))
+
+# ::id Aurora.21
+# ::snt Little did Briar Rose know, a prince was passing nearby at that moment.
+(x10 / pass-01
+	:ARG1 (x5 / know-01
+		:degree (x1 / little)
+		:ARG0 (x3 / person
+			:name (n / name
+				:op1 "Briar"
+				:op2 "Rose")))
+	:ARG0 (x8 / prince)
+	:manner (x11 / nearby)
+	:location (x14 / moment))
+
+# ::id Aurora.22
+# ::snt He was Prince Phillip, the very prince that the king and queen had planned for her to marry.
+(x3 / person
+	:name (n / name
+		:op1 "Prince"
+		:op2 "Phillip")
+	:ARG0-of (x8 / prince
+		:ARG1 (x1 / he)
+		:degree (x7 / very)
+		:ARG1-of (x15 / plan-01
+			:ARG1 (x12 / and
+				:op1 (x11 / king)
+				:op2 (x13 / queen))
+			:ARG1 (x19 / marry))))
+
+# ::id Aurora.23
+# ::snt Phillip didn't know that Briar Rose was a princess either.
+(x4 / know-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Phillip"))
+	:ARG1 (x10 / princess
+		:ARG0 (x6 / person
+			:name (n1 / name
+				:op1 "Briar"
+				:op2 "Rose"))))
+
+# ::id Aurora.24
+# ::snt But he was so taken with her beautiful song, he hopped off his horse.
+(x12 / hop
+	:ARG1 (x1 / contrast-01
+		:ARG2 (x4 / so)
+		:ARG2 (x9 / person
+			:name (n / name
+				:op1 "song")
+			:mod (x8 / beautiful)))
+	:ARG1 (x15 / horse))
+
+# ::id Aurora.25
+# ::snt Phillip emerged from the trees, and as he and Briar Rose sang and danced together, she realized that this man reminded her of the prince in her dreams.
+(x7 / and
+	:op1 (x2 / emerge-02
+		:ARG0 (x1 / person
+			:name (n / name
+				:op1 "Phillip"))
+		:ARG2 (x5 / tree))
+	:op2 (x19 / realize-02
+		:ARG1 (x14 / and
+			:op1 (x13 / sing
+				:ARG1 (x10 / and
+					:op1 (x9 / he)
+					:op2 (x11 / person
+						:name (n1 / name
+							:op1 "Briar"
+							:op2 "Rose"))))
+			:op2 (x15 / dance-01
+				:mod (x16 / together)))
+		:ARG1 (x23 / remind
+			:ARG0 (x22 / man
+				:mod (x21 / this))
+			:ARG1 (x27 / prince
+				:location (x30 / dream)))))
+
+# ::id Aurora.26
+# ::snt She felt as if she'd always known him.
+(x2 / feel-01
+	:time (x8 / know-01
+		:time (x7 / always)))
+
+# ::id Aurora.27
+# ::snt Briar Rose was excited for him to meet her aunties, so she invited him to come to the cottage that evening.
+(x4 / excite
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Briar"
+			:op2 "Rose"))
+	:time (x8 / meet-03
+		:ARG1 (x10 / auntie))
+	:ARG1 (x14 / person
+		:ARG1-of (i / invite)
+		:ARG1 (x17 / come-01
+			:ARG2 (x20 / cottage)
+			:time (x22 / evening))))
+
+# ::id Aurora.28
+# ::snt She knew that she was falling in love.
+(x2 / know-01
+	:ARG1 (x6 / fall-07
+		:prep-in (x8 / love)))
+
+# ::id Aurora.29
+# ::snt But when Briar Rose returned to the cottage, her aunties told her that they were good fairies and she was a princess.
+(x1 / contrast-01
+	:ARG1 (x12 / tell-01
+		:time (x5 / return-01
+			:ARG1 (x3 / person
+				:name (n / name
+					:op1 "Briar"
+					:op2 "Rose"))
+			:ARG4 (x8 / cottage))
+		:ARG0 (x11 / auntie)
+		:ARG1 (x19 / and
+			:op1 (x18 / fairy
+				:mod (x17 / good-41))
+			:op2 (x23 / princess))))
+
+# ::id Aurora.30
+# ::snt She was supposed to return to her parents' castle that night.
+(x3 / suppose-02
+	:ARG2 (x5 / return-01
+		:ARG4 (x10 / castle
+			:ARG0 (x8 / parent))
+		:time (x12 / night)))
+
+# ::id Aurora.31
+# ::snt There she would meet the prince she was already engaged to marry.
+(x4 / meet-03
+	:ARG1 (x6 / prince
+		:ARG1-of (x10 / engage-01
+			:time (x9 / already)
+			:ARG2 (x12 / marry))))
+
+# ::id Aurora.32
+# ::snt Briar Rose was overcome with sadness.
+(x4 / overcome-01
+	:ARG1 (x1 / person
+		:name (n / name
+			:op1 "Briar"
+			:op2 "Rose"))
+	:ARG2 (x6 / sadness))
+
+# ::id Aurora.33
+# ::snt She only wanted to marry the man she had just met, her dream prince.
+(x3 / want-01
+	:ARG0 (x1 / she)
+	:mod (x2 / only)
+	:ARG1 (x5 / marry
+		:ARG1 (x7 / man
+			:ARG1-of (x11 / meet-01
+				:manner (x10 / just))
+			:name-of (x15 / prince
+				:mod (x14 / dream)))))
+
+# ::id Aurora.34
+# ::snt When Aurora arrived at the castle, the three fairies left her alone to mourn.
+(x11 / leave-01
+	:time (x3 / arrive-01
+		:ARG1 (x2 / country
+			:name (n / name
+				:op1 "Aurora"))
+		:ARG4 (x6 / castle))
+	:ARG0 (x10 / fairy
+		:quant 3)
+	:ARG1 (x13 / alone)
+	:purpose (x15 / mourn))
+
+# ::id Aurora.35
+# ::snt But Maleficent soon appeared to make sure her curse came true.
+(x1 / contrast-01
+	:ARG1 (x4 / appear-02
+		:ARG0 (x2 / maleficent)
+		:time (x3 / soon)
+		:ARG1 (x7 / sure
+			:null_edge (x11 / true
+				:domain (x9 / curse)))))
+
+# ::id Aurora.36
+# ::snt She put Aurora in a trance and led the princess to a spindle hidden high in the castle.
+(x7 / and
+	:op1 (x2 / put-03
+		:ARG1 (x3 / country
+			:name (n / name
+				:op1 "Aurora"))
+		:ARG2 (x6 / trance))
+	:op2 (x8 / lead-02
+		:ARG1 (x10 / princess)
+		:ARG2 (x13 / spindle
+			:ARG1-of (x14 / hide-01)
+			:mod (x15 / high
+				:location (x18 / castle)))))
+
+# ::id Aurora.37
+# ::snt There, Aurora pricked her finger and fell into a deep sleep.
+(x7 / and
+	:op1 (x4 / prick
+		:location (x1 / there)
+		:ARG0 (x3 / country
+			:name (n / name
+				:op1 "Aurora"))
+		:ARG1 (x6 / finger))
+	:op2 (x8 / fall-01
+		:ARG0 x3
+		:ARG1 (x12 / sleep
+			:mod (x11 / deep))))
+
+# ::id Aurora.38
+# ::snt When the three fairies found Aurora, they realized that Maleficent's evil curse had come true.
+(x9 / realize-02
+	:time (x5 / find-01
+		:ARG0 (x4 / fairy
+			:quant 3)
+		:ARG1 (x6 / country
+			:name (n / name
+				:op1 "Aurora")))
+	:ARG1 (x17 / true
+		:domain (x14 / curse
+			:ARG0 (x11 / person
+				:name (n1 / name
+					:op1 "Maleficent"))
+			:mod (x13 / evil))))
+
+# ::id Aurora.39
+# ::snt They took the sleeping princess to the tower room and then cast a deep sleep over the whole kingdom.
+(x10 / and
+	:op1 (x2 / take-01
+		:ARG0 (x1 / they)
+		:ARG1 (x5 / princess
+			:ARG0-of (x4 / sleep))
+		:ARG2 (x9 / room
+			:mod (x8 / tower)))
+	:op2 (x12 / cast
+		:ARG0 x1
+		:time (x11 / then)
+		:ARG1 (x15 / sleep
+			:mod (x14 / deep)
+			:ARG1 (x19 / kingdom
+				:mod (x18 / whole)))))
+
+# ::id Aurora.40
+# ::snt Now they had to find Aurora's true love from the forest so he could give her True Love's Kiss.
+(x3 / have-03
+	:time (x1 / now)
+	:ARG1 (x5 / find-01
+		:ARG1 (x9 / love
+			:poss (x6 / country
+				:name (n / name
+					:op1 "Aurora"))
+			:mod (x8 / true))
+		:ARG2 (x12 / forest)
+		:ARG1 (x15 / possible
+			:domain (x16 / give-01
+				:ARG1 (x19 / love
+					:mod (x18 / true))))))
+
+# ::id Aurora.41
+# ::snt It didn't take the three fairies long to recognize that Prince Phillip was the man Aurora had met in the forest - her betrothed was her true love!
+(x4 / take-01
+	:ARG0 (x1 / it)
+	:ARG1 (x7 / fairy
+		:quant 3)
+	:duration (x8 / long)
+	:purpose (x10 / recognize-02
+		:ARG1 (x16 / man
+			:null_edge (x12 / prince)
+			:ARG1-of (x19 / meet-01
+				:ARG0 (x17 / country
+					:name (n / name
+						:op1 "Aurora"))
+				:location (x22 / forest))
+			:mod (x29 / love
+				:ARG0 (x25 / betrothed)
+				:mod (x28 / true)))))
+
+# ::id Aurora.42
+# ::snt But he was in Maleficent's dungeon.
+(x1 / contrast-01
+	:ARG2 (x7 / dungeon
+		:poss (x5 / maleficent)))
+
+# ::id Aurora.43
+# ::snt The fairies freed him and then armed him with the Sword of Truth and the Shield of Virtue.
+(x5 / and
+	:op1 (x3 / free-01
+		:ARG0 (x2 / fairy))
+	:op2 (x7 / arm-01
+		:ARG0 x2
+		:time (x6 / then)
+		:ARG1 (x14 / and
+			:op1 (x11 / sword
+				:ARG1 (x13 / truth)
+				:mod (x18 / virtue)))))
+
+# ::id Aurora.44
+# ::snt Now he was prepared to fight the evil fairy and save Aurora!
+(x4 / prepare-01
+	:time (x1 / now)
+	:ARG1 (x10 / and
+		:op1 (x6 / fight-01
+			:ARG1 (x9 / fairy
+				:mod (x8 / evil)))
+		:op2 (x11 / save-01
+			:ARG1 (x12 / country
+				:name (n / name
+					:op1 "Aurora")))))
+
+# ::id Aurora.45
+# ::snt But the evil fairy was not easy to defeat.
+(x1 / contrast-01
+	:ARG1 (x7 / easy
+		:domain (x4 / fairy
+			:mod (x3 / evil))
+		:ARG1 (x9 / defeat)))
+
+# ::id Aurora.46
+# ::snt Back at the castle, Phillip came face-to-face with Maleficent, who had transformed herself into a giant, fire-breathing dragon.
+(x7 / come-01
+	:time (x1 / back
+		:op1 (x4 / castle))
+	:ARG0 (x6 / person
+		:name (n / name
+			:op1 "Phillip"))
+	:manner (x8 / face-to-face)
+	:ARG2 (x10 / person
+		:name (n1 / name
+			:op1 "Maleficent")
+		:ARG0-of (x14 / transform
+			:ARG2 (x21 / dragon
+				:mod (x18 / giant)
+				:mod (x20 / fire-breathing)))))
+
+# ::id Aurora.47
+# ::snt However, with the help of the three good fairies, Phillip was able to send his sword flying swift and sure.
+(x14 / possible
+	:domain (x1 / however)
+	:ARG2 (x5 / help-01
+		:ARG1 (x10 / fairy
+			:quant 3
+			:mod (x9 / good-41)))
+	:domain (x12 / person
+		:name (n / name
+			:op1 "Phillip"))
+	:domain (x16 / send-03
+		:ARG1 (x19 / fly-01
+			:ARG0 (x18 / sword)
+			:ARG1 (x21 / and
+				:op1 (x20 / swift)
+				:op2 (x22 / sure)))))
+
+# ::id Aurora.48
+# ::snt With Maleficent gone, Phillip rushed to Aurora's side and bestowed a gentle kiss upon her lips.
+(x11 / and
+	:op1 (x6 / rush
+		:ARG1 (x3 / go-01
+			:ARG0 (x2 / maleficent))
+		:ARG0 (x5 / person
+			:name (n / name
+				:op1 "Phillip"))
+		:ARG2 (x10 / side
+			:ARG0 (x8 / country
+				:name (n1 / name
+					:op1 "Aurora"))))
+	:op2 (x12 / bestow
+		:ARG1 (x14 / gentle
+			:mod (x15 / kiss))
+		:ARG1 (x18 / lip)))
+
+# ::id Aurora.49
+# ::snt Aurora's eyes fluttered open - the curse had been broken!
+(x4 / flutter
+	:ARG0 (x3 / eye
+		:poss (x1 / country
+			:name (n / name
+				:op1 "Aurora")))
+	:ARG2 (x5 / open-01)
+	:ARG1 (x11 / break-01
+		:ARG1 (x8 / curse)))
+
+# ::id Aurora.50
+# ::snt When she saw her beloved, the man from the forest, she smiled.
+(x14 / smile
+	:time (x3 / see-01
+		:ARG1 (x5 / beloved
+			:domain (x8 / man
+				:source (x11 / forest)))))
+
+# ::id Aurora.51
+# ::snt Now the prince and princess could live happily ever after.
+(x6 / possible
+	:domain (x7 / live-01
+		:time (x1 / now)
+		:ARG1 (x4 / and
+			:op1 (x3 / prince)
+			:op2 (x5 / princess))
+		:manner (x8 / happily)
+		:time (x10 / after
+			:mod (x9 / ever))))
+

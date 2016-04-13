@@ -1,0 +1,255 @@
+# ::id lpp_1943.1024 ::date 2012-11-09T07:07:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 20 .
+# ::zh XX。
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_1024.txt
+(c / chapter :mod 20)
+
+# ::id lpp_1943.1025 ::date 2012-11-09T07:12:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt But it happened that after walking for a long time through sand , and rocks , and snow , the little prince at last came upon a road .
+# ::zh 在沙漠、岩石、雪地上行走了很长的时间以后，小王子终于发现了一条大路。
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_1025.txt
+(c / contrast-01
+      :ARG2 (c2 / come-upon-26
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (r / road)
+            :time (a / after
+                  :op1 (w / walk-01
+                        :ARG0 p
+                        :path (a2 / and
+                              :op1 (s / sand)
+                              :op2 (r2 / rock)
+                              :op3 (t / thing
+                                    :ARG1-of (s2 / snow-01)))
+                        :ARG1-of (l3 / long-03)))
+            :time (l2 / last)))
+
+# ::id lpp_1943.1026 ::date 2012-11-09T07:34:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt And all roads lead to the abodes of men .
+# ::zh 所有的大路都是通往人住的地方的。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1026.txt
+(a / and
+      :op2 (l / lead-01
+            :ARG0 (r / road
+                  :quant (a2 / all))
+            :ARG4 (a3 / abode
+                  :poss (m / man))))
+
+# ::id lpp_1943.1027 ::date 2012-11-09T07:39:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " he said .
+# ::zh “你们好。” 小王子说。
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_1027.txt
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (m / morning
+          :mod (g / good)))
+
+# ::id lpp_1943.1028 ::date 2012-11-09T07:41:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt He was standing before a garden , all a - bloom with roses .
+# ::zh 这是一个玫瑰盛开的花园。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1028.txt
+(s / stand-01
+      :ARG1 (h / he)
+      :ARG2 (b / before
+            :op1 (g / garden
+                  :location-of (b2 / bloom-01
+                        :ARG0 (r / rose)))))
+
+# ::id lpp_1943.1029 ::date 2012-11-09T07:49:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the roses .
+# ::zh “你好。” 玫瑰花说道。
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_1029.txt
+(s / say-01
+  :ARG0 (r / rose)
+  :ARG1 (m / morning
+          :mod (g / good)))
+
+# ::id lpp_1943.1030 ::date 2012-11-09T07:54:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince gazed at them .
+# ::zh 小王子瞅着这些花，
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1030.txt
+(g / gaze-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (t / they))
+
+# ::id lpp_1943.1031 ::date 2012-11-09T07:56:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt They all looked like his flower .
+# ::zh 它们全都和他的那朵花一样。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1031.txt
+(l / look-02
+      :ARG0 (t / they
+            :quant (a / all))
+      :ARG1 (f / flower
+            :poss (h / he)))
+
+# ::id lpp_1943.1032 ::date 2012-11-09T08:01:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Who are you ? " he demanded , thunderstruck .
+# ::zh “你们是什么花？” 小王子惊奇地问。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1032.txt
+(d / demand-01
+      :ARG0 (h / he
+            :mod (t / thunderstruck))
+      :ARG1 (a / amr-unknown
+            :domain (y2 / you)))
+
+# ::id lpp_1943.1033 ::date 2012-11-09T08:11:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt " We are roses , " the roses said .
+# ::zh “我们是玫瑰花。” 花儿们说道。
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1033.txt
+(s / say-01
+  :ARG0 (r / rose)
+  :ARG1 (r2 / rose
+          :domain r))
+
+# ::id lpp_1943.1034 ::date 2012-11-09T08:12:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he was overcome with sadness .
+# ::zh 他感到自己非常不幸。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1034.txt
+(a / and
+      :op2 (o / overcome-01
+            :ARG0 (s / sad-02)
+            :ARG1 (h / he)))
+
+# ::id lpp_1943.1035 ::date 2012-11-09T08:16:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt His flower had told him that she was the only one of her kind in all the universe .
+# ::zh 他的那朵花曾对他说她是整个宇宙中独一无二的一种花。
+# ::save-date Tue May 20, 2014 ::file lpp_1943_1035.txt
+(t / tell-01
+      :ARG0 (f / flower
+            :poss (h / he))
+      :ARG1 (u2 / unique
+            :domain (s / she)
+            :location (u / universe
+                  :mod (a / all)))
+      :ARG2 h)
+
+# ::id lpp_1943.1036 ::date 2012-11-09T08:36:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt And here were five thousand of them , all alike , in one single garden !
+# ::zh 可是，仅在这一座花园里就有五千朵完全一样的这种花朵！
+# ::save-date Thu Jun 25, 2015 ::file lpp_1943_1036.txt
+(a / and
+      :op1 (t / they :quant 5000
+            :ARG1-of (a2 / alike-05
+                  :mod (a3 / all))
+            :location (h / here)
+            :location (g / garden :quant 1)))
+
+# ::id lpp_1943.1037 ::date 2012-11-09T13:00:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " She would be very much annoyed , " he said to himself , " if she should see that ... she would cough most dreadfully , and she would pretend that she was dying , to avoid being laughed at .
+# ::zh 小王子自言自语地说：“如果她看到这些，她是一定会很恼火…她会咳嗽得更厉害，并且为避免让人耻笑，她会佯装死去。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1037.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (a / and
+            :op1 (a2 / annoy-01
+                  :ARG1 (s2 / she)
+                  :degree (m2 / much
+                        :degree (v / very)))
+            :op2 (c / cough-01
+                  :ARG0 s2
+                  :manner (d2 / dreadful-02
+                        :degree (m / most)))
+            :op3 (p / pretend-01
+                  :ARG0 s2
+                  :ARG1 (d / die-01
+                        :ARG1 s2)
+                  :purpose (a3 / avoid-01
+                        :ARG0 s2
+                        :ARG1 (l / laugh-01
+                              :ARG2 s2)))
+            :condition (s3 / see-01
+                  :ARG0 s2
+                  :ARG1 (t / that)))
+      :ARG2 h)
+
+# ::id lpp_1943.1038 ::date 2012-11-09T13:13:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt And I should be obliged to pretend that I was nursing her back to life - - for if I did not do that , to humble myself also , she would really allow herself to die ... "
+# ::zh 那么，我还得装着去护理她，因为如果不这样的话，她为了使我难堪，她可能会真的死去…”
+# ::save-date Mon Sep 22, 2014 ::file lpp_1943_1038.txt
+(a / and
+      :op2 (o / oblige-02
+            :ARG1 i
+            :ARG2 (p / pretend-01
+                  :ARG0 i
+                  :ARG1 (n / nurse-01
+                        :ARG0 i
+                        :ARG1 s
+                        :purpose (l / live-01
+                              :ARG0 s))))
+      :ARG1-of (c / cause-01
+            :ARG0 (a2 / allow-01
+                  :ARG0 (s / she)
+                  :ARG1 (d / die-01
+                        :ARG1 s)
+                  :mod (r / real)
+                  :condition (p2 / pretend-01 :polarity -
+                        :ARG0 i
+                        :ARG1 n
+                        :purpose (h / humble-01
+                              :ARG0 i
+                              :ARG1 (i / i)
+                              :mod (a3 / also))))))
+
+# ::id lpp_1943.1039 ::date 2012-11-11T10:10:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then he went on with his reflections : " I thought that I was rich , with a flower that was unique in all the world ; and all I had was a common rose .
+# ::zh 接着他又说道：“我还以为我有一朵独一无二的花呢，我有的仅是一朵普通的花。
+# ::save-date Mon May 25, 2015 ::file lpp_1943_1039.txt
+(g / go-on-25
+      :ARG0 h
+      :ARG1 (r / reflect-02
+            :ARG0 (h / he)
+            :ARG1 (c2 / contrast-01
+                  :ARG1 (t / think-01
+                        :ARG0 h
+                        :ARG1 (r3 / rich
+                              :ARG1-of (c3 / cause-01
+                                    :ARG0 (h3 / have-03
+                                          :ARG0 h
+                                          :ARG1 (f / flower
+                                                :mod (u / unique
+                                                      :compared-to (w / world
+                                                            :mod (a2 / all))))))
+                              :domain h))
+                  :ARG2 (h2 / have-03
+                        :ARG0 h
+                        :ARG1 (r2 / rose
+                              :mod (c / common))
+                        :mod (a / all))))
+      :time (t2 / then))
+
+# ::id lpp_1943.1040 ::date 2012-11-11T10:23:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt A common rose , and three volcanoes that come up to my knees - - and one of them perhaps extinct forever ... that does n't make me a very great prince ... "
+# ::zh 这朵花，再加上三座只有我膝盖那么高的火山，而且其中一座还可能是永远熄灭了的，这一切不会使我成为一个了不起的王子…”
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1040.txt
+(m / make-02 :polarity -
+      :ARG0 (a / and
+            :op1 (r / rose
+                  :mod (c / common))
+            :op2 (v2 / volcano :quant 3
+                  :ARG1-of (c2 / come-01
+                        :ARG4 (k / knee
+                              :part-of i)
+                        :direction (u / up))
+                  :ARG2-of (i2 / include-91
+                        :ARG1 (v3 / volcano :quant 1
+                              :mod (e / extinct
+                                    :mod (p2 / perhaps)
+                                    :duration (f / forever))))))
+      :ARG1 (p / prince
+            :mod (g / great
+                  :degree (v / very))
+            :domain (i / i)))
+
+# ::id lpp_1943.1041 ::date 2012-11-11T10:31:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he lay down in the grass and cried .
+# ::zh 于是，他躺在草丛中哭泣起来。
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1041.txt
+(a2 / and
+      :op2 (a / and
+            :op1 (l / lie-07
+                  :ARG1 (h / he)
+                  :ARG2 (g / grass)
+                  :direction (d / down))
+            :op2 (c / cry-02
+                  :ARG0 h)))

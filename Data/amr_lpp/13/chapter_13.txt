@@ -1,0 +1,1173 @@
+# ::id lpp_1943.648 ::date 2012-11-08T09:44:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 13 .
+# ::zh XIII。
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_648.txt
+(c / chapter
+  :mod 13)
+
+# ::id lpp_1943.649 ::date 2012-11-08T09:44:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt The fourth planet belonged to a businessman .
+# ::zh 第四个行星是一个实业家的星球。
+# ::save-date Sat May 18, 2013 ::file lpp_1943_649.txt
+(b / belong-01
+      :ARG0 (p / planet
+            :ord (o / ordinal-entity :value 4))
+      :ARG1 (b3 / businessman))
+
+# ::id lpp_1943.650 ::date 2012-11-08T09:46:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt This man was so much occupied that he did not even raise his head at the little prince 's arrival .
+# ::zh 这个人忙得不可开交，小王子到来的时候，他甚至连头都没有抬一下。
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_650.txt
+(o / occupy-01
+  :ARG1 (m / man
+          :mod (t / this))
+  :degree (m2 / much
+            :degree (s / so))
+  :ARG0-of (c / cause-01
+             :ARG1 (r / raise-01
+                     :ARG0 m
+                     :ARG1 (h / head
+                             :part-of m)
+                     :polarity -
+                     :time (a / arrive-01
+                             :ARG1 (p / prince
+                                     :mod (l / little))))))
+
+# ::id lpp_1943.651 ::date 2012-11-08T09:52:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " the little prince said to him .
+# ::zh 小王子对他说：“您好。
+# ::save-date Thu Nov 8, 2012 ::file lpp_1943_651.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (m / morning
+          :mod (g / good))
+  :ARG2 (h / he))
+
+# ::id lpp_1943.652 ::date 2012-11-08T09:55:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Your cigarette has gone out . "
+# ::zh 您的烟卷灭了。”
+# ::save-date Thu Nov 8, 2012 ::file lpp_1943_652.txt
+(g / go-out-18
+  :ARG1 (c / cigarette
+          :poss (y / you)))
+
+# ::id lpp_1943.653 ::date 2012-11-08T09:56:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Three and two make five .
+# ::zh “三加二等于五。
+# ::save-date Tue May 14, 2013 ::file lpp_1943_653.txt
+(e / equal-01
+  :ARG1 5
+  :ARG2 (s / sum-of
+          :op1 3
+          :op2 2))
+
+# ::id lpp_1943.654 ::date 2012-11-08T09:59:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt Five and seven make twelve .
+# ::zh 五加七等于十二。
+# ::save-date Tue May 14, 2013 ::file lpp_1943_654.txt
+(e / equal-01
+  :ARG1 12
+  :ARG2 (s / sum-of
+          :op1 5
+          :op2 7))
+
+# ::id lpp_1943.655 ::date 2012-11-08T10:00:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt Twelve and three make fifteen .
+# ::zh 十二加三等于十五。
+# ::save-date Tue May 14, 2013 ::file lpp_1943_655.txt
+(e / equal-01
+  :ARG1 15
+  :ARG2 (s / sum-of
+          :op1 12
+          :op2 3))
+
+# ::id lpp_1943.656 ::date 2012-11-08T10:01:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt Good morning .
+# ::zh 你好。
+# ::save-date Thu Nov 8, 2012 ::file lpp_1943_656.txt
+(m / morning
+  :mod (g / good))
+
+# ::id lpp_1943.657 ::date 2012-11-08T10:01:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt FIfteen and seven make twenty - two .
+# ::zh 十五加七，二十二。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_657.txt
+(e / equal-01
+  :ARG1 (s / sum-of
+          :op1 15
+          :op2 7)
+  :ARG2 22)
+
+# ::id lpp_1943.658 ::date 2012-11-08T10:02:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt Twenty - two and six make twenty - eight .
+# ::zh 二十二加六，二十八。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_658.txt
+(e / equal-01
+  :ARG1 (s / sum-of
+          :op1 22
+          :op2 6)
+  :ARG2 28)
+
+# ::id lpp_1943.659 ::date 2012-11-08T10:05:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have n't time to light it again .
+# ::zh 没有时间去再点着它。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_659.txt
+(h / have-03
+  :ARG0 (i / i)
+  :ARG1 (t / time
+          :purpose (l / light-04
+                     :ARG0 i
+                     :ARG1 (i2 / it)
+                     :mod (a / again)))
+  :polarity -)
+
+# ::id lpp_1943.660 ::date 2012-11-08T10:12:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt Twenty - six and five make thirty - one .
+# ::zh 二十六加五，三十一。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_660.txt
+(e / equal-01
+  :ARG1 (s / sum-of
+          :op1 26
+          :op2 5)
+  :ARG2 31)
+
+# ::id lpp_1943.661 ::date 2012-11-08T10:14:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt Phew !
+# ::zh 哎哟！
+# ::save-date Tue May 14, 2013 ::file lpp_1943_661.txt
+(p / phew :mode expressive)
+
+# ::id lpp_1943.662 ::date 2012-11-08T10:14:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then that makes five - hundred - and - one - million , six - hundred - twenty - two - thousand , seven - hundred - thirty - one . "
+# ::zh 一共是五亿一百六十二万二千七百三十一。”
+# ::save-date Tue May 14, 2013 ::file lpp_1943_662.txt
+(e / equal-01
+      :ARG1 501622731
+      :ARG2 (t / that))
+
+# ::id lpp_1943.663 ::date 2012-11-08T10:16:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Five hundred million what ? " asked the little prince .
+# ::zh “五亿什么呀？”
+# ::save-date Thu Nov 8, 2012 ::file lpp_1943_663.txt
+(a / ask-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (a2 / amr-unknown
+          :quant 500000000))
+
+# ::id lpp_1943.664 ::date 2012-11-08T10:20:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Eh ?
+# ::zh “嗯？
+# ::save-date Fri Apr 26, 2013 ::file lpp_1943_664.txt
+(e / eh
+  :mode expressive)
+
+# ::id lpp_1943.665 ::date 2012-11-08T10:20:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt Are you still there ?
+# ::zh 你还待在这儿那？
+# ::save-date Fri Apr 26, 2013 ::file lpp_1943_665.txt
+(b / be-located-at-91
+  :ARG1 (y / you)
+  :ARG2 (t / there)
+  :mode interrogative
+  :mod (s / still))
+
+# ::id lpp_1943.666 ::date 2012-11-08T10:22:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt Five - hundred - and - one million - - I can n't stop ...
+# ::zh 五亿一百万…我也不知道是什么了。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_666.txt
+(a / and
+  :op1 501000000
+  :op2 (p / possible-01
+         :ARG1 (s / stop-01
+                   :ARG0 (i / i))
+         :polarity -))
+
+# ::id lpp_1943.667 ::date 2012-11-08T14:00:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have so much to do !
+# ::zh 我的工作很多…
+# ::save-date Fri Apr 26, 2013 ::file lpp_1943_667.txt
+(o / obligate-01
+  :ARG1 (i / i)
+  :ARG2 (d / do-02
+          :ARG1 (m / much
+                  :degree (s / so))))
+
+# ::id lpp_1943.668 ::date 2012-11-08T14:08:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt I am concerned with matters of consequence .
+# ::zh 我是很严肃的，
+# ::save-date Thu Nov 8, 2012 ::file lpp_1943_668.txt
+(c / concern-01
+  :ARG0 (m / matter
+          :mod (c2 / consequence))
+  :ARG1 (i / i))
+
+# ::id lpp_1943.669 ::date 2012-11-08T14:11:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt I do n't amuse myself with balderdash .
+# ::zh 我可是从来也没有功夫去闲聊！
+# ::save-date Thu Nov 8, 2012 ::file lpp_1943_669.txt
+(a / amuse-01
+  :ARG0 (i / i)
+  :ARG1 i
+  :ARG2 (b / balderdash)
+  :polarity -)
+
+# ::id lpp_1943.670 ::date 2012-11-08T14:13:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt Two and five make seven ... "
+# ::zh 二加五得七…”
+# ::save-date Fri Apr 26, 2013 ::file lpp_1943_670.txt
+(e / equal-01
+  :ARG1 7
+  :ARG2 (s / sum-of
+          :op1 2
+          :op2 5))
+
+# ::id lpp_1943.671 ::date 2012-11-08T14:15:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Five - hundred - and - one million what ? " repeated the little prince , who never in his life had let go of a question once he had asked it .
+# ::zh “五亿一百万什么呀？” 小王子重复问道。 一旦他提出了一个问题，是从来也不会放弃的。
+# ::save-date Mon May 25, 2015 ::file lpp_1943_671.txt
+(r / repeat-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (l2 / let-01 :polarity -
+                  :ARG1 (g / go-02
+                        :ARG0 (t / thing
+                              :ARG1-of (q / question-01
+                                    :ARG0 p)))
+                  :time (l3 / live-01
+                        :ARG0 p)
+                  :time (a2 / ask-01
+                        :ARG0 p
+                        :ARG1 t)
+                  :time (e / ever)))
+      :ARG1 (a / amr-unknown :quant 501000000))
+
+# ::id lpp_1943.672 ::date 2012-11-08T14:30:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt The businessman raised his head .
+# ::zh 这位实业家抬起头，说：
+# ::save-date Mon Aug 5, 2013 ::file lpp_1943_672.txt
+(r / raise-01
+      :ARG0 (b / businessman)
+      :ARG1 (h / head
+            :part-of b))
+
+# ::id lpp_1943.673 ::date 2012-11-08T14:31:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt " During the fifty - four years that I have inhabited this planet , I have been disturbed only three times .
+# ::zh “我住在这个星球上五十四年以来，只被打搅过三次。
+# ::save-date Wed Sep 18, 2013 ::file lpp_1943_673.txt
+(d / disturb-01
+      :ARG1 (i / i)
+      :ARG1-of (h / have-frequency-91
+            :ARG2 3
+            :mod (o / only))
+      :time (i2 / inhabit-01
+            :ARG0 i
+            :ARG1 (p / planet
+                  :mod (t / this))
+            :duration (t2 / temporal-quantity :quant 54
+                  :unit (y / year))))
+
+# ::id lpp_1943.674 ::date 2012-11-08T14:35:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt The first time was twenty - two years ago , when some giddy goose fell from goodness knows where .
+# ::zh 第一次是二十二年前，不知从哪里跑来了一只金龟子来打搅我。
+# ::save-date Mon Oct 7, 2013 ::file lpp_1943_674.txt
+(b / be-temporally-at-91
+      :ARG1 (d / disturb-01
+            :ord (o / ordinal-entity :value 1))
+      :ARG2 (b2 / before
+            :op1 (n / now)
+            :quant (t4 / temporal-quantity :quant 22
+                  :unit (y2 / year))
+            :time-of (f3 / fall-01
+                  :ARG1 (g4 / goose
+                        :mod (g5 / giddy)
+                        :mod (s2 / some))
+                  :ARG3 (l / location
+                        :ARG1-of (k2 / know-01
+                              :ARG0 (g6 / goodness))))))
+
+# ::id lpp_1943.675 ::date 2012-11-09T12:49:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt He made the most frightful noise that resounded all over the place , and I made four mistakes in my addition .
+# ::zh 它发出一种可怕的噪音，使我在一笔帐目中出了四个差错。
+# ::save-date Fri Jul 24, 2015 ::file lpp_1943_675.txt
+(a / and
+      :op1 (m / make-01
+            :ARG0 (h / he)
+            :ARG1 (n / noise
+                  :ARG1-of (r / resound-01
+                        :ARG2 (a4 / all-over
+                              :op1 (p / place)))
+                  :ARG0-of (f2 / frighten-01
+                        :degree (m2 / most))))
+      :op1 (m4 / mistake-02 :quant 4
+            :ARG0 i
+            :ARG1 (a3 / add-02
+                  :ARG0 (i / i))))
+
+# ::id lpp_1943.676 ::date 2012-11-09T14:32:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt The second time , eleven years ago , I was disturbed by an attack of rheumatism .
+# ::zh 第二次，在十一年前，是风湿病发作，因为我缺乏锻炼所致。
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_676.txt
+(d / disturb-01
+      :ARG0 (a / attack-01
+            :ARG0 (r / rheumatism)
+            :ARG1 i)
+      :ARG1 (i / i)
+      :time (b / before
+            :op1 (n / now)
+            :quant (t2 / temporal-quantity :quant 11
+                  :unit (y / year)))
+      :domain (d2 / disturb-01
+            :ord (o / ordinal-entity :value 2)))
+
+# ::id lpp_1943.677 ::date 2012-11-09T14:39:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt I do n't get enough exercise .
+# ::zh 我没有功夫闲逛。
+# ::save-date Fri Apr 26, 2013 ::file lpp_1943_677.txt
+(e / exercise-02
+  :ARG0 (i / i)
+  :degree (e2 / enough
+            :polarity -))
+
+# ::id lpp_1943.678 ::date 2012-11-09T14:47:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have no time for loafing .
+# ::zh 我可是个严肃的人。
+# ::save-date Fri Apr 26, 2013 ::file lpp_1943_678.txt
+(h / have-03
+  :ARG0 (i / i)
+  :ARG1 (t / time
+          :purpose (l / loaf-01
+                     :ARG0 i))
+  :polarity -)
+
+# ::id lpp_1943.679 ::date 2012-11-09T14:53:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt The third time - - well , this is it !
+# ::zh 现在…这是第三次！
+# ::save-date Mon Sep 16, 2013 ::file lpp_1943_679.txt
+(d / disturb-01
+      :ord (o / ordinal-entity :value 3)
+      :domain (t / this))
+
+# ::id lpp_1943.680 ::date 2012-11-09T14:56:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt I was saying , then , five - hundred - and - one millions - - "
+# ::zh 我计算的结果是五亿一百万…”
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_680.txt
+(s / say-01
+  :ARG0 (i / i)
+  :ARG1 501000000)
+
+# ::id lpp_1943.681 ::date 2012-11-09T15:15:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Millions of what ? "
+# ::zh “几百万什么？”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_681.txt
+(a / amr-unknown
+  :quant (m / multiple
+           :op1 1000000))
+
+# ::id lpp_1943.682 ::date 2012-11-09T15:19:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt The businessman suddenly realized that there was no hope of being left in peace until he answered this question .
+# ::zh 这位实业家知道要想安宁是无望的了，
+# ::save-date Fri Jul 17, 2015 ::file lpp_1943_682.txt
+(r / realize-01
+      :ARG0 (b / businessman)
+      :ARG1 (h / hopeful-03 :polarity -
+            :ARG1 (l / leave-14
+                  :ARG1 (p / peace
+                        :domain b))
+            :time (u / until
+                  :op1 (a / answer-01
+                        :ARG0 b
+                        :ARG1 (q / question-01
+                              :ARG1 (t / this)))))
+      :manner (s / sudden))
+
+# ::id lpp_1943.683 ::date 2012-11-09T15:25:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Millions of those little objects , " he said , " which one sometimes sees in the sky . "
+# ::zh 就说道：“几百万个小东西，这些小东西有时出现在天空中。”
+# ::save-date Wed May 8, 2013 ::file lpp_1943_683.txt
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (o / object
+          :ARG1-of (i / include-91
+                     :ARG2 (o3 / object
+                             :mod (l / little)
+                             :mod (t2 / that)
+                             :location (s4 / sky)
+                             :ARG1-of (s2 / see-01
+                                        :ARG0 (o2 / one)
+                                        :frequency (s3 / sometimes))))
+          :quant (m / multiple
+                   :op1 1000000)))
+
+# ::id lpp_1943.684 ::date 2012-11-09T15:31:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Flies ? "
+# ::zh “苍蝇吗？”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_684.txt
+(f / fly
+  :mode interrogative)
+
+# ::id lpp_1943.685 ::date 2012-11-09T15:48:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Oh , no .
+# ::zh “不是，
+# ::save-date Wed May 8, 2013 ::file lpp_1943_685.txt
+(n / no
+  :mod (o / oh
+         :mode expressive))
+
+# ::id lpp_1943.686 ::date 2012-11-09T15:50:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt Little glittering objects . "
+# ::zh 是些闪闪发亮的小东西。”
+# ::save-date Wed May 8, 2013 ::file lpp_1943_686.txt
+(o / object
+  :mod (l / little)
+  :ARG0-of (g / glitter-01))
+
+# ::id lpp_1943.687 ::date 2012-11-09T15:51:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Bees ? "
+# ::zh “是蜜蜂吗？”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_687.txt
+(b / bee
+  :mode interrogative)
+
+# ::id lpp_1943.688 ::date 2012-11-09T15:51:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Oh , no .
+# ::zh “不是，
+# ::save-date Wed May 8, 2013 ::file lpp_1943_688.txt
+(n / no
+  :mod (o / oh
+         :mode expressive))
+
+# ::id lpp_1943.689 ::date 2012-11-09T15:51:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt Little golden objects that set lazy men to idle dreaming .
+# ::zh 是金黄色的小东西，这些小东西叫那些懒汉们胡思乱想。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_689.txt
+(c / cause-01
+  :ARG0 (o / object
+          :consist-of (g / gold)
+          :mod (l / little))
+  :ARG1 (d / dream-01
+          :ARG0 (m / man
+                  :mod (l2 / lazy))
+          :manner (i / idle-01)))
+
+# ::id lpp_1943.690 ::date 2012-11-09T15:54:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt As for me , I am concerned with matters of consequence .
+# ::zh 我是个严肃的人。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_690.txt
+(c / concern-01
+  :ARG0 (m / matter
+          :mod (c2 / consequence))
+  :ARG1 (i / i))
+
+# ::id lpp_1943.691 ::date 2012-11-09T16:02:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt There is no time for idle dreaming in my life . "
+# ::zh 我没有时间胡思乱想。”
+# ::save-date Fri May 10, 2013 ::file lpp_1943_691.txt
+(t2 / time :polarity -
+      :purpose (d2 / dream-01
+            :manner (i2 / idle))
+      :duration (l / live-01
+            :ARG0 (i / i)))
+
+# ::id lpp_1943.692 ::date 2012-11-09T16:17:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah !
+# ::zh “啊，
+# ::save-date Wed May 15, 2013 ::file lpp_1943_692.txt
+(a / ah :mode expressive)
+
+# ::id lpp_1943.693 ::date 2012-11-09T16:17:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt You mean the stars ? "
+# ::zh 是星星吗？”
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_693.txt
+(m / mean-01 :mode interrogative
+      :ARG0 (y / you)
+      :ARG2 (s / star))
+
+# ::id lpp_1943.694 ::date 2012-11-09T16:21:05 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , that 's it .
+# ::zh “对了，
+# ::save-date Thu May 16, 2013 ::file lpp_1943_694.txt
+(i / it
+      :domain (t / that))
+
+# ::id lpp_1943.695 ::date 2012-11-09T16:24:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt The stars . "
+# ::zh 就是星星。”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_695.txt
+(s / star)
+
+# ::id lpp_1943.696 ::date 2012-11-09T16:25:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And what do you do with five - hundred millions of stars ? "
+# ::zh “你要拿这五亿星星做什么？”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_696.txt
+(a / and
+  :op2 (d / do-02
+         :ARG0 (y / you)
+         :ARG1 (a2 / amr-unknown)
+         :ARG3 (s / star
+                 :quant 500000000)))
+
+# ::id lpp_1943.697 ::date 2012-11-09T16:29:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Five - hundred - and - one million , six - hundred - twenty - two thousand , seven - hundred - thirty - one .
+# ::zh “五亿一百六十二万七百三十一颗星星。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_697.txt
+(n / numerical-quantity :quant 501622731)
+
+# ::id lpp_1943.698 ::date 2012-11-09T16:30:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt I am concerned with matters of consequence : I am accurate . "
+# ::zh 我是严肃的人，我是非常精确的。”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_698.txt
+(a / and
+  :op1 (c / concern-01
+         :ARG0 (m / matter
+                 :mod (c2 / consequence))
+         :ARG1 (i / i))
+  :op2 (a2 / accuracy
+         :domain i))
+
+# ::id lpp_1943.699 ::date 2012-11-09T16:40:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And what do you do with these stars ? "
+# ::zh “你拿这些星星做什么？”
+# ::save-date Wed May 8, 2013 ::file lpp_1943_699.txt
+(a / and
+      :op2 (d / do-02
+            :ARG0 (y / you)
+            :ARG1 (a2 / amr-unknown)
+            :ARG3 (s / star
+                  :mod (t / this))))
+
+# ::id lpp_1943.700 ::date 2012-11-09T16:44:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What do I do with them ? "
+# ::zh “我要它做什么？”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_700.txt
+(d / do-02
+  :ARG0 (i / i)
+  :ARG1 (a / amr-unknown)
+  :ARG3 (t / they))
+
+# ::id lpp_1943.701 ::date 2012-11-09T16:45:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes . "
+# ::zh “是呀。”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_701.txt
+(y / yes)
+
+# ::id lpp_1943.702 ::date 2012-11-09T16:45:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Nothing .
+# ::zh “什么也不做。
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_702.txt
+(n / nothing)
+
+# ::id lpp_1943.703 ::date 2012-11-09T16:45:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt I own them . "
+# ::zh 它们都是属于我的。”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_703.txt
+(o / own-01
+  :ARG0 (i / i)
+  :ARG1 (t / they))
+
+# ::id lpp_1943.704 ::date 2012-11-09T16:46:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You own the stars ? "
+# ::zh “星星是属于你的？”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_704.txt
+(o / own-01
+  :ARG0 (y / you)
+  :ARG1 (s / star)
+  :mode interrogative)
+
+# ::id lpp_1943.705 ::date 2012-11-09T16:55:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes . "
+# ::zh “是的。”
+# ::save-date Fri Nov 9, 2012 ::file lpp_1943_705.txt
+(y / yes)
+
+# ::id lpp_1943.706 ::date 2012-11-09T16:55:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But I have already seen a king who - - "
+# ::zh “可是我已经见到过一个国王，他…”
+# ::save-date Thu May 9, 2013 ::file lpp_1943_706.txt
+(c / contrast-01
+      :ARG2 (s / see-01
+            :ARG0 (i / i)
+            :ARG1 (k / king)
+            :time (a / already)))
+
+# ::id lpp_1943.707 ::date 2012-11-09T16:59:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Kings do not own , they reign over .
+# ::zh “国王并不占有，他们只是进行‘统治’。
+# ::save-date Sun Dec 9, 2012 ::file lpp_1943_707.txt
+(c / contrast-01
+      :ARG1 (o / own-01 :polarity -
+            :ARG0 (k / king))
+      :ARG2 (r / reign-01
+            :ARG0 k))
+
+# ::id lpp_1943.708 ::date 2012-11-09T17:10:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is a very different matter . "
+# ::zh 这不是一码事。”
+# ::save-date Mon Aug 5, 2013 ::file lpp_1943_708.txt
+(m / matter
+      :ARG1-of (d / differ-02
+            :degree (v / very))
+      :domain (i / it))
+
+# ::id lpp_1943.709 ::date 2012-11-09T17:14:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And what good does it do you to own the stars ? "
+# ::zh “你拥有这许多星星有什么用？”
+# ::save-date Fri May 10, 2013 ::file lpp_1943_709.txt
+(a / and
+      :op2 (c / cause-01
+            :ARG0 (o / own-01
+                  :ARG1 (s / star))
+            :ARG1 (g / good
+                  :beneficiary (y / you)
+                  :domain (a2 / amr-unknown))))
+
+# ::id lpp_1943.710 ::date 2012-11-12T14:05:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It does me the good of making me rich . "
+# ::zh 它能让我变得富有。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_710.txt
+(c / cause-01
+      :ARG0 (i2 / it)
+      :ARG1 (g / good
+            :beneficiary (i / i)
+            :domain (m2 / make-02
+                  :ARG1 (r / rich
+                        :domain i))))
+
+# ::id lpp_1943.711 ::date 2012-11-12T14:47:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And what good does it do you to be rich ? "
+# ::zh 富了有什么好处呢？
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_711.txt
+(a / and
+  :op2 (c / cause-01
+         :ARG0 (r / rich
+                 :domain (y / you))
+         :ARG1 (g / good
+                 :beneficiary y
+                 :domain (a2 / amr-unknown))))
+
+# ::id lpp_1943.712 ::date 2012-11-12T14:50:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It makes it possible for me to buy more stars , if any are ever discovered . "
+# ::zh “富了就可以去买别的星星，如果有人发现了别的星星的话。”
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_712.txt
+(p / possible-01
+  :ARG1 (b / buy-01
+            :ARG0 (i / i)
+            :ARG1 (s / star
+                    :degree (m / more)))
+  :condition (d / discover-01
+               :ARG1 s
+               :time (e / ever)))
+
+# ::id lpp_1943.713 ::date 2012-11-12T14:54:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt " This man , " the little prince said to himself , " reasons a little like my poor tippler ... "
+# ::zh 小王子自言自语地说：“这个人想问题有点象那个酒鬼一样。”
+# ::save-date Thu Aug 7, 2014 ::file lpp_1943_713.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (r / reason-01
+            :ARG0 (m / man
+                  :mod (t2 / this))
+            :ARG1-of (r2 / resemble-01
+                  :ARG2 (r3 / reason-01
+                        :ARG0 (p2 / person
+                              :ARG0-of (t / tipple-01)
+                              :mod (p3 / poor)
+                              :poss p))
+                  :degree (l2 / little)))
+      :ARG2 p)
+
+# ::id lpp_1943.714 ::date 2012-11-12T15:02:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt Nevertheless , he still had some more questions .
+# ::zh 可是他又提了一些问题：
+# ::save-date Wed Apr 8, 2015 ::file lpp_1943_714.txt
+(h3 / have-concession-91
+      :ARG1 (h / have-03
+            :ARG0 (h2 / he)
+            :ARG1 (t / thing
+                  :degree (m / more)
+                  :mod (s / some)
+                  :ARG1-of (q / question-01))
+            :mod (s2 / still)))
+
+# ::id lpp_1943.715 ::date 2012-11-12T15:05:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt " How is it possible for one to own the stars ? "
+# ::zh “你怎么能占有星星呢？”
+# ::save-date Wed May 15, 2013 ::file lpp_1943_715.txt
+(p / possible-01
+      :ARG1 (o / own-01
+            :ARG0 (o2 / one)
+            :ARG1 (s / star))
+      :manner (a / amr-unknown))
+
+# ::id lpp_1943.716 ::date 2012-11-12T15:08:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " To whom do they belong ? " the businessman retorted , peevishly .
+# ::zh “那么你说星星是谁的呀？” 实业家不高兴地顶了小王子一句。
+# ::save-date Sat May 18, 2013 ::file lpp_1943_716.txt
+(r / retort-01
+      :ARG0 (b3 / businessman)
+      :ARG2 (b2 / belong-01
+            :ARG0 (t / they)
+            :ARG1 (a / amr-unknown))
+      :manner (p / peevish))
+
+# ::id lpp_1943.717 ::date 2012-11-12T15:10:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I do n't know .
+# ::zh “我不知道，
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_717.txt
+(k / know-01
+  :ARG0 (i / i)
+  :polarity -)
+
+# ::id lpp_1943.718 ::date 2012-11-12T15:11:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt To nobody . "
+# ::zh 不属于任何人。”
+# ::save-date Wed May 15, 2013 ::file lpp_1943_718.txt
+(b / belong-01
+      :ARG1 (n / nobody))
+
+# ::id lpp_1943.719 ::date 2012-11-12T15:11:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Then they belong to me , because I was the first person to think of it . "
+# ::zh “那么，它们就是我的，因为是我第一个想到了这件事情的。”
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_719.txt
+(b / belong-01
+  :ARG0 (t / they)
+  :ARG1 (i / i)
+  :ARG1-of (c / cause-01
+             :ARG0 (p / person
+                     :ord (o / ordinal-entity :value 1)
+                     :domain i
+                     :ARG0-of (t2 / think-01
+                                :ARG2 (i2 / it)))))
+
+# ::id lpp_1943.720 ::date 2012-11-12T15:18:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Is that all that is necessary ? "
+# ::zh “这就行了吗？”
+# ::save-date Thu May 9, 2013 ::file lpp_1943_720.txt
+(a / all :mode interrogative
+      :domain (t2 / that)
+      :ARG1-of (n / need-01))
+
+# ::id lpp_1943.721 ::date 2012-11-12T15:22:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Certainly .
+# ::zh “那当然。
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_721.txt
+(c / certain)
+
+# ::id lpp_1943.722 ::date 2012-11-12T15:23:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt When you find a diamond that belongs to nobody , it is yours .
+# ::zh 如果你发现了一颗没有主人的钻石，那么这颗钻石就是属于你的。
+# ::save-date Wed May 15, 2013 ::file lpp_1943_722.txt
+(b / belong-01
+      :ARG0 d
+      :ARG1 (y / you)
+      :condition (f / find-01
+            :ARG0 y
+            :ARG1 (d / diamond
+                  :ARG0-of (b2 / belong-01
+                        :ARG1 (n / nobody)))))
+
+# ::id lpp_1943.723 ::date 2012-11-12T15:27:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt When you discover an island that belongs to nobody , it is yours .
+# ::zh 当你发现一个岛是没有主的，那么这个岛就是你的。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_723.txt
+(b / belong-01
+  :ARG0 i
+  :ARG1 (y / you)
+  :condition (d / discover-01
+               :ARG0 y
+               :ARG1 (i / island
+                       :ARG0-of (b2 / belong-01
+                                  :ARG1 (n / nobody)))))
+
+# ::id lpp_1943.724 ::date 2012-11-12T15:31:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt When you get an idea before any one else , you take out a patent on it : it is yours .
+# ::zh 当你首先想出了一个办法，你就去领一个专利证，这个办法就是属于你的。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_724.txt
+(a / and
+  :op1 (p / patent-01
+         :ARG0 y
+         :ARG1 i)
+  :op2 (b2 / belong-01
+         :ARG0 i
+         :ARG1 (y / you))
+  :condition (g / get-01
+               :ARG0 y
+               :ARG1 (i / idea)
+               :time (b / before
+                       :op1 (a3 / anyone
+                              :mod (e / else)))))
+
+# ::id lpp_1943.725 ::date 2012-11-12T15:45:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt So with me : I own the stars , because nobody else before me ever thought of owning them . "
+# ::zh 既然在我之前不曾有任何人想到要占有这些星星，那我就占有这些星星。”
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_725.txt
+(c / cause-01
+      :ARG0 (t / think-01
+            :ARG0 (n / nobody
+                  :mod (e2 / else))
+            :ARG1 (o / own-01
+                  :ARG0 n
+                  :ARG1 (s / star))
+            :time (e / ever)
+            :time (b / before
+                  :op1 (i / i)))
+      :ARG1 (o2 / own-01
+            :ARG0 i
+            :ARG1 s)
+      :ARG1-of (r / resemble-01
+            :beneficiary i))
+
+# ::id lpp_1943.726 ::date 2012-11-12T15:58:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , that is true , " said the little prince .
+# ::zh “这倒也是。” 小王子说。
+# ::save-date Thu May 16, 2013 ::file lpp_1943_726.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (t / true
+            :domain (t2 / that)))
+
+# ::id lpp_1943.727 ::date 2012-11-12T16:01:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And what do you do with them ? "
+# ::zh “可是你用它们来干什么？”
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_727.txt
+(a / and
+  :op2 (d / do-02
+         :ARG0 (y / you)
+         :ARG1 (a2 / amr-unknown)
+         :ARG2 (t / they)))
+
+# ::id lpp_1943.728 ::date 2012-11-12T16:11:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I administer them , " replied the businessman .
+# ::zh “我经营管理这些星星。”
+# ::save-date Mon Aug 5, 2013 ::file lpp_1943_728.txt
+(r / reply-01
+      :ARG0 (b / businessman)
+      :ARG2 (a / administer-01
+            :ARG0 b
+            :ARG1 (t / they)))
+
+# ::id lpp_1943.729 ::date 2012-11-12T16:13:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I count them and recount them .
+# ::zh 我一遍又一遍地计算它们的数目。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_729.txt
+(a / and
+  :op1 (c / count-01
+         :ARG0 (i / i)
+         :ARG1 (t / they))
+  :op2 (r2 / recount-01
+         :ARG0 i
+         :ARG1 t))
+
+# ::id lpp_1943.730 ::date 2012-11-12T16:16:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is difficult .
+# ::zh 这是一件困难的事。
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_730.txt
+(d / difficult
+  :domain (i / it))
+
+# ::id lpp_1943.731 ::date 2012-11-12T16:17:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt But I am a man who is naturally interested in matters of consequence . "
+# ::zh 但我是一个严肃认真的人！”
+# ::save-date Fri Jul 31, 2015 ::file lpp_1943_731.txt
+(c / contrast-01
+      :ARG2 (m / man
+            :domain (i / i)
+            :ARG1-of (i2 / interest-01
+                  :ARG2 (m2 / matter
+                        :mod (c2 / consequence))
+                  :ARG1-of (n / natural-02
+                        :ARG2 i))))
+
+# ::id lpp_1943.732 ::date 2012-11-12T16:20:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince was still not satisfied .
+# ::zh 小王子仍然还不满足，
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_732.txt
+(s / satisfy-01
+  :ARG1 (p / prince
+          :mod (l / little))
+  :mod (s2 / still)
+  :polarity -)
+
+# ::id lpp_1943.733 ::date 2012-11-12T16:21:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt " If I owned a silk scarf , " he said , " I could put it around my neck and take it away with me .
+# ::zh 他说：“对我来说，如果我有一条围巾，我可以用它来围着我的脖子，并且能带走它。
+# ::save-date Tue May 14, 2013 ::file lpp_1943_733.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (p / possible-01
+            :ARG1 (a2 / and
+                  :op1 (p2 / put-01
+                        :ARG0 h
+                        :ARG1 (s2 / scarf
+                              :consist-of (s3 / silk))
+                        :ARG2 (a / around
+                              :op1 (n / neck
+                                    :part-of h)))
+                  :op2 (t / take-away-05
+                        :ARG0 h
+                        :ARG1 s2
+                        :accompanier h))
+            :condition (o / own-01
+                  :ARG0 h
+                  :ARG1 s2)))
+
+# ::id lpp_1943.734 ::date 2012-11-12T16:31:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt If I owned a flower , I could pluck that flower and take it away with me .
+# ::zh 我有一朵花的话，我就可以摘下我的花，并且把它带走。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_734.txt
+(p / possible-01
+      :ARG1 (a / and
+            :op1 (p2 / pluck-01
+                  :ARG0 (i / i)
+                  :ARG1 (f2 / flower
+                        :mod (t / that)))
+            :op2 (t2 / take-away-05
+                  :ARG0 i
+                  :ARG1 f2
+                  :accompanier i))
+      :condition (o / own-01
+            :ARG0 i
+            :ARG1 f2))
+
+# ::id lpp_1943.735 ::date 2012-11-12T16:36:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt But you can not pluck the stars from heaven ... "
+# ::zh 可你却不能摘下这些星星呀！”
+# ::save-date Thu May 9, 2013 ::file lpp_1943_735.txt
+(c / contrast-01
+  :ARG2 (p2 / possible-01
+          :polarity -
+          :ARG1 (p / pluck-01
+                    :ARG0 (y / you)
+                    :ARG1 (s / star)
+                    :ARG2 (h / heaven))))
+
+# ::id lpp_1943.736 ::date 2012-11-12T16:38:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " No .
+# ::zh “我不能摘，
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_736.txt
+(n / no)
+
+# ::id lpp_1943.737 ::date 2012-11-12T16:38:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt But I can put them in the bank . "
+# ::zh 但我可以把它们存在银行里。”
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_737.txt
+(c / contrast-01
+      :ARG2 (p2 / possible-01
+            :ARG1 (p / put-01
+                  :ARG0 (i / i)
+                  :ARG1 (t / they)
+                  :ARG2 (b / bank))))
+
+# ::id lpp_1943.738 ::date 2012-11-12T16:40:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Whatever does that mean ? "
+# ::zh “这是什么意思呢？”
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_738.txt
+(m / mean-01
+      :ARG1 (t / that)
+      :ARG2 (a / amr-unknown))
+
+# ::id lpp_1943.739 ::date 2012-11-12T16:46:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That means that I write the number of my stars on a little paper .
+# ::zh “这就是说，我把星星的数目写在一片小纸头上，
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_739.txt
+(m / mean-01
+      :ARG1 (t / that)
+      :ARG2 (w / write-01
+            :ARG0 (i / i)
+            :ARG1 (n / number
+                  :quant-of (s / star
+                        :poss i))
+            :location (p / paper
+                  :mod (l / little))))
+
+# ::id lpp_1943.740 ::date 2012-11-12T16:48:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt And then I put this paper in a drawer and lock it with a key . "
+# ::zh 然后把这片纸头锁在一个抽屉里。”
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_740.txt
+(a / and
+      :op2 (a2 / and
+            :op1 (p / put-01
+                  :ARG0 (i / i)
+                  :ARG1 (p2 / paper
+                        :mod (t2 / this))
+                  :ARG2 (d / drawer))
+            :op2 (l / lock-01
+                  :ARG0 i
+                  :ARG1 d
+                  :ARG3 (k / key)))
+      :time (t / then))
+
+# ::id lpp_1943.741 ::date 2012-11-12T16:51:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And that is all ? "
+# ::zh “这就算完事了吗？”
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_741.txt
+(a / and
+  :op2 (a2 / all
+         :domain (t / that))
+  :mode interrogative)
+
+# ::id lpp_1943.742 ::date 2012-11-12T16:52:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That is enough , " said the businessman .
+# ::zh “这样就行了。”
+# ::save-date Sat May 18, 2013 ::file lpp_1943_742.txt
+(s / say-01
+      :ARG0 (b2 / businessman)
+      :ARG1 (e / enough
+            :domain (t / that)))
+
+# ::id lpp_1943.743 ::date 2012-11-12T16:53:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is entertaining , " thought the little prince .
+# ::zh 小王子想道：“真好玩。
+# ::save-date Mon Nov 12, 2012 ::file lpp_1943_743.txt
+(t / think-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (e / entertain-01
+          :ARG0 (i / it)))
+
+# ::id lpp_1943.744 ::date 2012-11-12T16:55:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is rather poetic .
+# ::zh 这倒蛮有诗意，
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_744.txt
+(p / poetry
+  :domain (i / it)
+  :degree (r / rather))
+
+# ::id lpp_1943.745 ::date 2012-11-13T12:24:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt But it is of no great consequence . "
+# ::zh 可是，并不算是了不起的正经事。”
+# ::save-date Thu May 9, 2013 ::file lpp_1943_745.txt
+(c / contrast-01
+  :ARG2 (c2 / consequence
+          :domain (i / it)
+          :mod (g / great
+                 :polarity -)))
+
+# ::id lpp_1943.746 ::date 2012-11-13T12:26:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt On matters of consequence , the little prince had ideas which were very different from those of the grown - ups .
+# ::zh 关于什么是正经事，小王子的看法与大人们的看法非常不同。
+# ::save-date Wed May 13, 2015 ::file lpp_1943_746.txt
+(h / have-03
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (i / idea
+            :topic (m / matter
+                  :mod (c / consequence))
+            :ARG1-of (d / differ-02
+                  :ARG2 (i2 / idea
+                        :poss (g / grown-up))
+                  :degree (v / very))))
+
+# ::id lpp_1943.747 ::date 2012-11-13T13:14:05 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I myself own a flower , " he continued his conversation with the businessman , " which I water every day .
+# ::zh 他接着又说：“我有一朵花，我每天都给她浇水。
+# ::save-date Mon Sep 9, 2013 ::file lpp_1943_747.txt
+(c / continue-02
+      :ARG0 (h / he)
+      :ARG1 (o / own-01
+            :ARG0 h
+            :ARG1 (f2 / flower
+                  :ARG1-of (w / water-01
+                        :ARG0 h
+                        :frequency (r / rate-entity-91
+                              :ARG3 (t / temporal-quantity :quant 1
+                                    :unit (d / day))))))
+      :ARG2 (b / businessman)
+      :ARG3 (c2 / converse-01
+            :ARG0 h
+            :ARG2 b))
+
+# ::id lpp_1943.748 ::date 2012-11-13T13:21:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt I own three volcanoes , which I clean out every week ( for I also clean out the one that is extinct ; one never knows ) .
+# ::zh 我还有三座火山，我每星期把它们全都打扫一遍。 连死火山也打扫。 谁知道它会不会再复活。
+# ::save-date Mon Sep 9, 2013 ::file lpp_1943_748.txt
+(o / own-01
+      :ARG0 (i / i)
+      :ARG1 (v / volcano :quant 3
+            :ARG1-of (c / clean-out-03
+                  :ARG0 i
+                  :frequency (r / rate-entity-91
+                        :ARG3 (t / temporal-quantity :quant 1
+                              :unit (w / week)))
+                  :ARG1-of (c2 / cause-01
+                        :ARG0 (c3 / clean-out-03
+                              :ARG0 i
+                              :ARG1 (v2 / volcano
+                                    :mod (e / extinct)
+                                    :ARG1-of (i2 / include-91
+                                          :ARG2 v))
+                              :mod (a / also)
+                              :ARG1-of (c4 / cause-01
+                                    :ARG0 (k / know-01 :polarity -
+                                          :ARG0 (o2 / one))))))))
+
+# ::id lpp_1943.749 ::date 2012-11-13T13:33:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is of some use to my volcanoes , and it is of some use to my flower , that I own them .
+# ::zh 我拥有火山和花，这对我的火山有益处，对我的花也有益处。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_749.txt
+(c / cause-01
+      :ARG0 (o / own-01
+            :ARG0 (i / i)
+            :ARG1 (a / and
+                  :op1 v
+                  :op2 f2))
+      :ARG1 (u / use-01
+            :beneficiary (a2 / and
+                  :op1 (v / volcano
+                        :poss i)
+                  :op2 (f2 / flower
+                        :poss i))
+            :degree (s / some)))
+
+# ::id lpp_1943.750 ::date 2012-11-13T14:59:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt But you are of no use to the stars ... "
+# ::zh 但是你对星星并没有用处…”
+# ::save-date Fri May 10, 2013 ::file lpp_1943_750.txt
+(c / contrast-01
+      :ARG2 (u / use-01 :polarity -
+            :ARG0 (s / star)
+            :ARG1 (y / you)))
+
+# ::id lpp_1943.751 ::date 2012-11-13T15:07:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt The businessman opened his mouth , but he found nothing to say in answer .
+# ::zh 实业家张口结舌无言以对。
+# ::save-date Sat May 18, 2013 ::file lpp_1943_751.txt
+(c / contrast-01
+      :ARG1 (o / open-01
+            :ARG0 (b / businessman)
+            :ARG1 (m / mouth
+                  :part-of b))
+      :ARG2 (f / find-01
+            :ARG0 b
+            :ARG1 (a / answer-01 :polarity -)))
+
+# ::id lpp_1943.752 ::date 2012-11-13T15:20:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt And the little prince went away .
+# ::zh 于是小王子就走了。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_752.txt
+(a / and
+      :op2 (g / go-02
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :direction (a2 / away)))
+
+# ::id lpp_1943.753 ::date 2012-11-13T15:24:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The grown - ups are certainly altogether extraordinary , " he said simply , talking to himself as he continued on his journey .
+# ::zh 在旅途中，小王子只是自言自语地说了一句：“这些大人们真是奇怪极了。”
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_753.txt
+(s / say-01
+      :ARG0 (h / he
+            :ARG0-of (t / talk-01
+                  :ARG2 h
+                  :time (c2 / continue-01
+                        :ARG0 h
+                        :ARG1 (j / journey-01
+                              :ARG0 h))))
+      :ARG1 (e / extraordinary
+            :domain (g2 / grown-up)
+            :mod (c / certain)
+            :degree (a / altogether))
+      :ARG1-of (s2 / simple-02))

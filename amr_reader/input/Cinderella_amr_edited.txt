@@ -1,0 +1,603 @@
+# ::id Cinderella.1
+# ::snt Once upon a time, there was a kind girl named Cinderella.
+(x10 / girl
+	:time (x1 / once
+		:op1 (x4 / time))
+	:mod (x9 / kind)
+	:ARG1-of (x11 / name-01
+		:ARG1 (x12 / person
+			:name (n / name
+				:op1 "Cinderella"))))
+
+# ::id Cinderella.2
+# ::snt All of the animals loved her, especially two mice named Gus and Jaq.
+(x11 / name-01
+	:ARG1 (x5 / love
+		:ARG0 (x1 / all
+			:ARG1 (x4 / animal)))
+	:ARG0 (x10 / mouse
+		:mod (x8 / especially)
+		:quant 2)
+	:ARG1 (x13 / and
+		:op1 (x12 / person
+			:name (n / name
+				:op1 "Gus"))
+		:op2 (x14 / person
+			:name (n1 / name
+				:op1 "Jaq"))))
+
+# ::id Cinderella.3
+# ::snt They'd do anything for the girl they called Cinderelly.
+(x3 / do-02
+	:ARG0 (x1 / they)
+	:ARG1 (x4 / anything)
+	:ARG2 (x7 / girl
+		:ARG0-of (x9 / call-01
+			:ARG1 (x10 / cinderelly))))
+
+# ::id Cinderella.4
+# ::snt Cinderella lived with her stepmother and her two stepsisters, Anastasia and Drizella.
+(x2 / live-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Cinderella"))
+	:ARG1 (x6 / and
+		:op1 (x5 / stepmother)
+		:op2 (x9 / stepsister
+			:quant 2
+			:ARG1 (x12 / and
+				:op2 (x11 / person
+					:name (n1 / name
+						:op1 "Anastasia"))
+				:op2 (x13 / person
+					:name (n2 / name
+						:op1 "Drizella"))))))
+
+# ::id Cinderella.5
+# ::snt They were very mean to Cinderella, making her work all day cleaning, sewing, and cooking.
+(x4 / mean-01
+	:ARG0 (x1 / they)
+	:degree (x3 / very)
+	:ARG2 (x6 / person
+		:name (n / name
+			:op1 "Cinderella"))
+	:ARG1 (x8 / make-01
+		:ARG1 (x10 / work-01
+			:ARG1 (x12 / temporal-quantity
+				:unit (d / day)
+				:quant (x11 / all))
+			:ARG1 (x17 / and
+				:op1 (x13 / cleaning)
+				:op2 (x15 / sewing)
+				:op2 (x18 / cooking)))))
+
+# ::id Cinderella.6
+# ::snt She tried her best to make them happy.
+(x2 / try-01
+	:ARG1 (x4 / best)
+	:ARG1 (x8 / happy))
+
+# ::id Cinderella.7
+# ::snt Cinderella's stepmother, Lady Tremaine, was cold, cruel, and jealous of Cinderella’s charm and beauty.
+(x13 / and
+	:op1 (x11 / cruel
+		:domain (x3 / stepmother
+			:poss (x1 / person
+				:name (n / name
+					:op1 "Cinderella"))
+			:name (x5 / name
+				:op1 "Lady"
+				:op2 "Tremaine"))
+		:mod (x9 / cold))
+	:op2 (x14 / jealous
+		:ARG1 (x19 / and
+			:op1 (x18 / charm
+				:ARG0 (x16 / person
+					:name (n1 / name
+						:op1 "Cinderella")))
+			:op2 (x20 / beauty))))
+
+# ::id Cinderella.8
+# ::snt She enjoyed giving Cinderella extra chores to do, such as bathing her cat, Lucifer.
+(x2 / enjoy-01
+	:ARG1 (x3 / give-01
+		:ARG0 (x4 / person
+			:name (n / name
+				:op1 "Cinderella"))
+		:ARG1 (x6 / chore
+			:mod (x5 / extra)
+			:purpose (x8 / do-02)
+			:null_edge (x14 / null_tag
+				:mod (x12 / bathing)))))
+
+# ::id Cinderella.9
+# ::snt One day, a messenger arrived with a special invitation.
+(x / xconcept
+	:x (x5 / messenger)
+	:x (x6 / arrive-01
+		:duration (x2 / temporal-quantity
+			:unit (d / day)
+			:quant 1)
+		:ARG1 (x10 / invite-01
+			:mod (x9 / special))))
+
+# ::id Cinderella.10
+# ::snt There was going to be a royal ball at the palace!
+(x3 / go-01
+	:ARG1 (x8 / ball
+		:mod (x7 / royal)
+		:location (x11 / palace)))
+
+# ::id Cinderella.11
+# ::snt The King wanted his son to find a bride.
+(x3 / want-01
+	:ARG0 (x2 / king)
+	:ARG1 (x7 / find-01
+		:ARG0 (x5 / son)
+		:ARG1 (x9 / bride)))
+
+# ::id Cinderella.12
+# ::snt Every young woman in the kingdom was invited—including Cinderella!
+(x8 / person
+	:ARG1-of (i / invite)
+	:ARG1 (x3 / woman
+		:mod (x2 / young)
+		:location (x6 / kingdom))
+	:ARG1 (x11 / cinderella))
+
+# ::id Cinderella.13
+# ::snt Cinderella was very excited about the ball.
+(x4 / excite
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Cinderella"))
+	:degree (x3 / very)
+	:ARG1 (x7 / ball))
+
+# ::id Cinderella.14
+# ::snt In the attic, she found a dress that had belonged to her mother.
+(x6 / find-02
+	:ARG1 (x3 / attic)
+	:ARG0 (x5 / she)
+	:ARG1 (x8 / dress
+		:ARG0-of (x11 / belong-01
+			:ARG2 (x14 / mother))))
+
+# ::id Cinderella.15
+# ::snt It was a bit old-fashioned, but Cinderella could make it beautiful!
+(x4 / bit
+	:ARG1 (x7 / contrast-01
+		:ARG1 (x5 / old-fashioned
+			:ARG1 (x9 / possible
+				:domain (x10 / make-01
+					:ARG0 (x8 / person
+						:name (n / name
+							:op1 "Cinderella"))
+					:ARG1 (x12 / beautiful))))))
+
+# ::id Cinderella.16
+# ::snt Lady Tremaine didn't want Cinderella to go to the ball.
+(x5 / want-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Lady"
+			:op2 "Tremaine"))
+	:ARG1 (x8 / go-01
+		:ARG0 (x6 / person
+			:name (n1 / name
+				:op1 "Cinderella"))
+		:ARG4 (x11 / ball)))
+
+# ::id Cinderella.17
+# ::snt She wanted the Prince to meet Anastasia and Drizella.
+(x2 / want-01
+	:ARG0 (x1 / she)
+	:ARG1 (x6 / meet-03
+		:ARG0 (x4 / prince)
+		:ARG1 (x8 / and
+			:op1 (x7 / person
+				:name (n / name
+					:op1 "Anastasia"))
+			:op2 (x9 / person
+				:name (n1 / name
+					:op1 "Drizella")))))
+
+# ::id Cinderella.18
+# ::snt Maybe he would marry one of them!
+(x4 / marry
+	:time (x1 / maybe)
+	:ARG1 (x6 / include-91))
+
+# ::id Cinderella.19
+# ::snt Lady Tremaine kept Cinderella busy with chores that would take her all night to finish.
+(x3 / keep-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Lady"
+			:op2 "Tremaine"))
+	:ARG0 (x4 / cinderella
+		:mod (x7 / chore
+			:ARG0-of (x10 / take-01
+				:time (x13 / night
+					:mod (x12 / all))
+				:purpose (x15 / finish-01)))))
+
+# ::id Cinderella.20
+# ::snt While Cinderella was working, the mice and birds fixed her dress.
+(x10 / fix-02
+	:time (x4 / work-01
+		:ARG0 (x2 / person
+			:name (n / name
+				:op1 "Cinderella")))
+	:ARG0 (x8 / and
+		:op1 (x7 / mouse)
+		:op2 (x9 / bird))
+	:ARG1 (x12 / dress))
+
+# ::id Cinderella.21
+# ::snt They added ribbons and beads that the two stepsisters had thrown away.
+(x2 / add-01
+	:ARG0 (x1 / they)
+	:ARG1 (x4 / and
+		:op1 (x3 / ribbon)
+		:op2 (x5 / bead))
+	:ARG1 (x11 / throw-01
+		:ARG0 (x9 / stepsister
+			:quant 2)
+		:manner (x12 / away)))
+
+# ::id Cinderella.22
+# ::snt Working together, the animals turned a simple dress into a fabulous gown!
+(x6 / turn-02
+	:purpose (x1 / work-01
+		:mod (x2 / together)
+		:ARG0 (x5 / animal))
+	:ARG0 x5
+	:ARG1 (x9 / dress
+		:mod (x8 / simple))
+	:ARG2 (x13 / gown
+		:mod (x12 / fabulous)))
+
+# ::id Cinderella.23
+# ::snt Cinderella was overjoyed when she saw the dress.
+(x3 / overjoy
+	:ARG1 (x1 / person
+		:name (n / name
+			:op1 "Cinderella"))
+	:time (x6 / see-01
+		:ARG1 (x8 / dress)))
+
+# ::id Cinderella.24
+# ::snt Now she could go to the ball!
+(x3 / possible
+	:domain (x4 / go-01
+		:time (x1 / now)
+		:ARG2 (x7 / ball)))
+
+# ::id Cinderella.25
+# ::snt "Oh, thank you so much!"
+(x4 / thank
+	:ARG1 (x2 / oh)
+	:ARG1 (x5 / you)
+	:degree (x7 / much
+		:degree (x6 / so)))
+
+# ::id Cinderella.26
+# ::snt Cinderella said to Gus, Jaq, and the birds.
+(x2 / say-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Cinderella"))
+	:ARG1 (x8 / and
+		:op1 (x4 / person
+			:name (n1 / name
+				:op1 "Gus"))
+		:op2 (x6 / person
+			:name (n2 / name
+				:op1 "Jaq"))
+		:op2 (x10 / bird)))
+
+# ::id Cinderella.27
+# ::snt When the stepsisters saw their old ribbons and beads on Cinderella's dress, they flew into a rage.
+(x16 / fly-01
+	:time (x4 / see-01
+		:ARG0 (x3 / stepsister)
+		:ARG1 (x8 / and
+			:op1 (x7 / ribbon
+				:mod (x6 / old))
+			:op2 (x9 / bead))
+		:ARG1 (x13 / dress
+			:ARG0 (x11 / person
+				:name (n / name
+					:op1 "Cinderella"))))
+	:ARG2 (x19 / rage))
+
+# ::id Cinderella.28
+# ::snt They ripped the dress and pulled off the beads.
+(x5 / and
+	:op1 (x2 / rip
+		:ARG0 (x1 / they)
+		:ARG1 (x4 / dress))
+	:op2 (x6 / pull-02
+		:ARG0 x1
+		:ARG1 (x9 / bead)))
+
+# ::id Cinderella.29
+# ::snt Lady Tremaine didn't stop them.
+(x5 / stop-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Lady"
+			:op2 "Tremaine")))
+
+# ::id Cinderella.30
+# ::snt Cinderella's dream of going to the ball was through.
+(x10 / through
+	:ARG0 (x3 / dream
+		:poss (x1 / person
+			:name (n / name
+				:op1 "Cinderella"))
+		:ARG1 (x5 / go-02
+			:ARG4 (x8 / ball))))
+
+# ::id Cinderella.31
+# ::snt Cinderella ran away to the garden to cry.
+(x2 / run-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Cinderella"))
+	:manner (x3 / away
+		:op1 (x6 / garden))
+	:ARG1 (x8 / cry))
+
+# ::id Cinderella.32
+# ::snt Suddenly, her fairy godmother appeared.
+(x6 / appear-02
+	:time (x1 / sudden)
+	:ARG0 (x5 / godmother
+		:mod (x4 / fairy)))
+
+# ::id Cinderella.33
+# ::snt With a wave of her wand, she turned a pumpkin into an elegant coach.
+(x9 / turn-02
+	:ARG2 (x3 / wave
+		:ARG1 (x6 / wand))
+	:ARG1 (x11 / pumpkin)
+	:ARG2 (x15 / coach
+		:mod (x14 / elegant)))
+
+# ::id Cinderella.34
+# ::snt Cinderella could now go to the ball, but her dress was still ruined.
+(x2 / possible
+	:time (x3 / now)
+	:domain (x9 / contrast-01
+		:ARG1 (x4 / go-01
+			:ARG0 (x1 / person
+				:name (n / name
+					:op1 "Cinderella"))
+			:ARG4 (x7 / ball))
+		:ARG2 (x14 / ruin
+			:ARG1 (x11 / dress)
+			:mod (x13 / still))))
+
+# ::id Cinderella.35
+# ::snt "Bibbidi-bobbidi-boo!" said the Fairy Godmother, waving her wand again.
+(x5 / say-01
+	:ARG1 (x2 / bibbidi-bobbidi-boo)
+	:ARG0 (x8 / godmother
+		:mod (x7 / fairy)
+		:ARG1-of (x10 / wave
+			:ARG1 (x12 / wand)
+			:mod (x13 / again))))
+
+# ::id Cinderella.36
+# ::snt Cinderella was now wearing a beautiful gown and sparkling glass slippers.
+(x4 / wear
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Cinderella"))
+	:time (x3 / now)
+	:ARG1 (x8 / and
+		:op1 (x7 / gown
+			:mod (x6 / beautiful))
+		:op2 (x11 / slipper
+			:mod (x9 / sparkling)
+			:mod (x10 / glass))))
+
+# ::id Cinderella.37
+# ::snt But all of this came with a warning: When the clock struck midnight, the magic spell would wear off!
+(x1 / contrast-01
+	:ARG1 (x5 / come-01
+		:quant (x2 / all
+			:mod (x4 / this))
+		:ARG1 (x8 / warn-01
+			:ARG1 (x20 / wear
+				:ARG0 (x13 / person
+					:name (n / name
+						:op1 "struck")
+					:ARG1 (x12 / clock)
+					:ARG1 (x14 / midnight))
+				:ARG0 (x18 / spell
+					:mod (x17 / magic))))))
+
+# ::id Cinderella.38
+# ::snt At the ball, Prince Charming couldn't take his eyes off Cinderella.
+(x7 / possible
+	:domain (x9 / take-01
+		:ARG2 (x3 / ball)
+		:ARG0 (x5 / prince
+			:mod (x6 / charming))
+		:ARG1 (x11 / eye)
+		:ARG2 (x13 / cinderella)))
+
+# ::id Cinderella.39
+# ::snt The orchestra played, and the Prince began to dance with the wonderful girl whose name he still didn't know.
+(x5 / and
+	:op1 (x3 / play-02
+		:ARG0 (x2 / orchestra))
+	:op2 (x8 / begin-01
+		:ARG0 x2
+		:ARG0 (x7 / prince)
+		:ARG1 (x10 / dance-01
+			:ARG0 x7
+			:ARG2 (x14 / girl
+				:mod (x13 / wonderful)
+				:ARG0-of (x21 / know-01
+					:ARG1 (x16 / name)
+					:mod (x18 / still))))))
+
+# ::id Cinderella.40
+# ::snt For Cinderella, the night was a dream come true.
+(x8 / dream
+	:prep-on (x2 / cinderella)
+	:domain (x5 / night)
+	:ARG2 (x10 / true))
+
+# ::id Cinderella.41
+# ::snt Before too long, the clock began to strike midnight.
+(x7 / begin-01
+	:duration (x3 / long
+		:mod (x2 / too))
+	:ARG0 (x6 / clock)
+	:ARG1 (x9 / person
+		:name (n / name
+			:op1 "strike")
+		:ARG0 x6
+		:ARG1 (x10 / midnight)))
+
+# ::id Cinderella.42
+# ::snt "Good-bye!" Cinderella said, hurrying away.
+(x6 / say-01
+	:ARG1 (x2 / good-bye)
+	:ARG0 (x5 / person
+		:name (n / name
+			:op1 "Cinderella"))
+	:ARG1 (x8 / hurry
+		:mod (x9 / away)))
+
+# ::id Cinderella.43
+# ::snt "Come back!" called the Prince.
+(x6 / call-03
+	:ARG1 (x2 / come-01
+		:mod (x3 / back))
+	:ARG1 (x8 / prince))
+
+# ::id Cinderella.44
+# ::snt "I don't even know your name!"
+(x6 / know-01
+	:mod (x5 / even)
+	:ARG1 (x8 / name))
+
+# ::id Cinderella.45
+# ::snt As Cinderella fled, one of her glass slippers came off.
+(x10 / come-01
+	:time (x3 / flee-01
+		:ARG0 (x2 / person
+			:name (n / name
+				:op1 "Cinderella")))
+	:ARG1 (x9 / slipper
+		:quant 1
+		:ARG1-of (x6 / include-91)
+		:mod (x8 / glass)))
+
+# ::id Cinderella.46
+# ::snt The Prince sent the Grand Duke to find the girl who fit the glass slipper.
+(x3 / send-03
+	:ARG0 (x2 / prince)
+	:ARG1 (x5 / government-organization
+		:name (n / name
+			:op1 "Grand"
+			:op2 "Duke"))
+	:purpose (x8 / find-01
+		:ARG0 x2
+		:ARG1 (x10 / girl
+			:ARG0-of (x12 / fit-41
+				:ARG1 (x15 / slipper
+					:mod (x14 / glass))))))
+
+# ::id Cinderella.47
+# ::snt Lady Tremaine locked Cinderella in the attic, but Cinderella's mouse friends freed her.
+(x9 / contrast-01
+	:ARG1 (x3 / lock
+		:ARG0 (x1 / person
+			:name (n / name
+				:op1 "Lady"
+				:op2 "Tremaine"))
+		:ARG1 (x4 / person
+			:name (n1 / name
+				:op1 "Cinderella"))
+		:location (x7 / attic))
+	:ARG2 (x14 / free-01
+		:ARG0 (x13 / friend
+			:ARG0 (x10 / person
+				:name (n2 / name
+					:op1 "Cinderella"))
+			:mod (x12 / mouse))))
+
+# ::id Cinderella.48
+# ::snt Then Lady Tremaine tripped the Grand Duke, and the glass slipper shattered . . . but Cinderella had the other in her pocket.
+(x9 / and
+	:op2 (x13 / shatter
+		:ARG0 (x12 / slipper
+			:mod (x11 / glass)))
+	:op2 (x15 / contrast-01
+		:ARG1 (x4 / trip-01
+			:ARG0 (x2 / lady
+				:mod (x1 / then))
+			:ARG1 (x6 / government-organization
+				:name (n / name
+					:op1 "Grand"
+					:op2 "Duke")))
+		:ARG2 (x17 / have-03
+			:ARG0 (x16 / person
+				:name (n1 / name
+					:op1 "Cinderella"))
+			:ARG1 (x19 / other)
+			:ARG2 (x22 / pocket))))
+
+# ::id Cinderella.49
+# ::snt And it fit!
+(x1 / and
+	:op1 (x3 / fit-41))
+
+# ::id Cinderella.50
+# ::snt Cinderella and the Prince were soon married.
+(x7 / marry
+	:ARG1 (x2 / and
+		:op1 (x1 / person
+			:name (n / name
+				:op1 "Cinderella"))
+		:op2 (x4 / prince))
+	:time (x6 / soon))
+
+# ::id Cinderella.51
+# ::snt Everyone rejoiced, including Cinderella's mouse friends, who wore special outfits to the wedding.
+(x2 / rejoice
+	:ARG0 (x1 / everyone)
+	:ARG1 (x8 / friend
+		:poss (x5 / person
+			:name (n / name
+				:op1 "Cinderella"))
+		:mod (x7 / mouse)
+		:ARG0-of (x11 / wear
+			:ARG1 (x13 / outfit
+				:mod (x12 / special))
+			:ARG2 (x16 / wedding))))
+
+# ::id Cinderella.52
+# ::snt Filled with joy, Prince Charming and Cinderella lived happily ever after.
+(x9 / live-01
+	:ARG1 (x1 / fill-01
+		:ARG2 (x3 / joy))
+	:ARG0 (x7 / and
+		:op1 (x5 / person
+			:name (n / name
+				:op1 "Prince"
+				:op2 "Charming"))
+		:op2 (x8 / person
+			:name (n1 / name
+				:op1 "Cinderella")))
+	:time (x12 / after
+		:mod (x10 / happily)
+		:mod (x11 / ever)))
+

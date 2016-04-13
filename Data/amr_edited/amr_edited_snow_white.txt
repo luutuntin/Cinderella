@@ -1,0 +1,391 @@
+# ::id Snow_White.1
+# ::snt Once upon a time, there was a beautiful princess named Snow White.
+(x10 / princess
+	:time (x1 / once
+		:op1 (x4 / time))
+	:mod (x9 / beautiful)
+	:ARG1-of (x11 / name-01))
+
+# ::id Snow_White.2
+# ::snt She was kind and gentle and a friend to all animals.
+(x4 / and
+	:op2 (x5 / gentle)
+	:op2 (x6 / and
+		:op1 (x3 / kind)
+		:op2 (x8 / friend
+			:ARG2 (x11 / animal
+				:quant (x10 / all)))))
+
+# ::id Snow_White.3
+# ::snt One day, Snow White met a charming prince.
+(x6 / meet-03
+	:duration (x2 / temporal-quantity
+		:unit (d / day)
+		:quant 1)
+	:ARG0 (x4 / person
+		:name (n / name
+			:op1 "Snow"
+			:op2 "White"))
+	:ARG1 (x9 / prince
+		:mod (x8 / charming)))
+
+# ::id Snow_White.4
+# ::snt As they sang a song of love together, Snow White's evil stepmother, the Queen, watched them.
+(x19 / watch-01
+	:time (x3 / sing
+		:ARG1 (x5 / person
+			:name (n / name
+				:op1 "song")
+			:ARG1 (x7 / love)
+			:time (x8 / together)))
+	:ARG0 (x14 / stepmother
+		:mod (x13 / evil)))
+
+# ::id Snow_White.5
+# ::snt The Queen was so jealous of Snow White's beauty that she ordered her Huntsman to kill the young princess.
+(x10 / beauty
+	:mod (x5 / jealous
+		:domain (x2 / queen)
+		:degree (x4 / so))
+	:ARG1 (x13 / order-01
+		:ARG0 (x12 / she)
+		:ARG1 (x15 / person
+			:name (n / name
+				:op1 "Huntsman"))
+		:ARG2 (x17 / kill-01
+			:ARG1 (x20 / princess
+				:mod (x19 / young)))))
+
+# ::id Snow_White.6
+# ::snt But the Huntsman couldn't bring himself to hurt Snow White.
+(x1 / contrast-01
+	:ARG2 (x4 / possible
+		:domain (x6 / bring-01
+			:ARG0 (x3 / person
+				:name (n / name
+					:op1 "Huntsman"))
+			:purpose (x9 / hurt-01))))
+
+# ::id Snow_White.7
+# ::snt He told her to run far away so the Queen would never find her.
+(x2 / tell-01
+	:ARG0 (x1 / he)
+	:ARG1 (x5 / run-01
+		:manner (x7 / away)
+		:purpose (x13 / find-01
+			:ARG0 (x10 / queen))))
+
+# ::id Snow_White.8
+# ::snt Snow White ran deep into the woods.
+(x3 / run-01
+	:ARG0 (x2 / white
+		:mod (x1 / snow))
+	:manner (x4 / deep)
+	:ARG1 (x7 / wood))
+
+# ::id Snow_White.9
+# ::snt She was lost and scared but soon found herself in front of a cottage.
+(x4 / and
+	:op2 (x5 / scare-01)
+	:op2 (x6 / contrast-01
+		:ARG1 (x3 / lose-02))
+	:op2 (x8 / find-01
+		:time (x7 / soon)
+		:ARG1 (x9 / herself)
+		:location (x11 / front
+			:ARG1 (x14 / cottage))))
+
+# ::id Snow_White.10
+# ::snt The princess knocked, but no one was home.
+(x5 / contrast-01
+	:ARG1 (x3 / knock
+		:ARG0 (x2 / princess)
+		:ARG1 (x7 / one
+			:polarity -
+			:mod (x9 / home))))
+
+# ::id Snow_White.11
+# ::snt She slowly stepped inside.
+(x3 / step-01
+	:ARG0 (x1 / she)
+	:manner (x2 / slow-41)
+	:manner (x4 / inside))
+
+# ::id Snow_White.12
+# ::snt The cottage was a mess!
+(x5 / mess
+	:domain (x2 / cottage))
+
+# ::id Snow_White.13
+# ::snt With the help of her forest friends, Snow White cleaned every nook and cranny.
+(x11 / clean-02
+	:ARG2 (x3 / help-01
+		:ARG1 (x7 / friend
+			:mod (x6 / forest)))
+	:ARG1 (x14 / and
+		:op1 (x13 / nook
+			:mod (x12 / every))
+		:op2 (x15 / cranny)))
+
+# ::id Snow_White.14
+# ::snt "Maybe whoever lives here will let me stay," said Snow White.
+(x12 / say-01
+	:ARG1 (x7 / let-01
+		:ARG1 (x4 / live-01
+			:mod (x2 / maybe)
+			:location (x5 / here))
+		:ARG1 (x9 / stay-01))
+	:ARG0 (x14 / white
+		:mod (x13 / snow)))
+
+# ::id Snow_White.15
+# ::snt Upstairs, Snow White found seven little beds.
+(x5 / find-02
+	:time (x1 / upstairs)
+	:ARG1 (x8 / bed
+		:quant 7
+		:mod (x7 / little)))
+
+# ::id Snow_White.16
+# ::snt She thought they belonged to children.
+(x2 / think-01
+	:ARG1 (x4 / belong-01
+		:ARG1 (x6 / child)))
+
+# ::id Snow_White.17
+# ::snt Tired from cleaning, Snow White yawned as she curled up on the beds and fell asleep.
+(x7 / yawn
+	:ARG1 (x1 / tired
+		:ARG2 (x3 / cleaning))
+	:ARG0 (x5 / person
+		:name (n / name
+			:op1 "Snow"
+			:op2 "White"))
+	:ARG1 (x15 / and
+		:op1 (x10 / curl-02
+			:ARG1 (x14 / bed))
+		:op2 (x16 / fall-01
+			:mod (x17 / asleep))))
+
+# ::id Snow_White.18
+# ::snt Meanwhile, the Seven Dwarfs were heading home from a long day of working in a jewel mine.
+(x7 / head-01
+	:manner (x1 / meanwhile)
+	:null_edge 7
+	:ARG1 (x5 / country
+		:name (n / name
+			:op1 "Dwarfs"))
+	:ARG1 (x8 / home)
+	:ARG1 (x14 / work-01
+		:mod (x11 / long)
+		:ARG1 (x18 / mine
+			:mod (x17 / jewel))))
+
+# ::id Snow_White.19
+# ::snt They were anxious to get home to their cottage in the woods.
+(x3 / anxious
+	:ARG0 (x1 / they)
+	:ARG1 (x5 / get-01
+		:ARG0 x1
+		:manner (x6 / home)
+		:ARG1 (x9 / cottage)
+		:ARG4 (x12 / wood)))
+
+# ::id Snow_White.20
+# ::snt The Seven Dwarfs were surprised when they found a princess inside their home!
+(x5 / surprise-01
+	:ARG1 7
+	:ARG1 (x3 / country
+		:name (n / name
+			:op1 "Dwarfs"))
+	:time (x8 / find-01
+		:ARG1 (x10 / princess)
+		:ARG1 (x13 / home)))
+
+# ::id Snow_White.21
+# ::snt When Snow White awoke, she was charmed by the Seven Dwarfs: Dopey, Sneezy, Happy, Grumpy, Doc, Bashful, and Sleepy.
+(x8 / charm
+	:time (x4 / awake
+		:ARG0 (x3 / white
+			:mod (x2 / snow)))
+	:ARG1 (x26 / and
+		:op1 (x14 / dopey)
+		:null_edge (x18 / null_tag)
+		:op2 (x20 / grumpy)
+		:op2 (x24 / bashful)
+		:op2 (x27 / sleepy)))
+
+# ::id Snow_White.22
+# ::snt The Dwarfs wanted to protect the beautiful princess from the evil queen, so they invited Snow White to live with them.
+(x3 / want-01
+	:ARG1 (x5 / protect-01
+		:ARG1 (x8 / princess
+			:mod (x7 / beautiful))
+		:ARG2 (x12 / queen
+			:mod (x11 / evil)))
+	:ARG1 (x16 / person
+		:ARG1-of (i / invite)
+		:ARG1 (x17 / person
+			:name (n / name
+				:op1 "Snow"
+				:op2 "White"))
+		:purpose (x20 / live-01)))
+
+# ::id Snow_White.23
+# ::snt To celebrate, the new friends sang and danced the night away.
+(x8 / and
+	:op1 (x7 / sing
+		:ARG1 (x2 / celebrate-02)
+		:ARG0 (x6 / friend
+			:mod (x5 / new)))
+	:op2 (x9 / dance-01
+		:ARG0 x6
+		:time (x11 / night)
+		:null_edge (x12 / away)))
+
+# ::id Snow_White.24
+# ::snt Back at the castle, the Queen learned that Snow White was still alive.
+(x8 / learn-01
+	:manner (x1 / back
+		:location (x4 / castle))
+	:ARG0 (x7 / queen)
+	:ARG1 (x14 / alive
+		:domain (x11 / white
+			:mod (x10 / snow))
+		:mod (x13 / still)))
+
+# ::id Snow_White.25
+# ::snt Enraged, she made a magic potion to change her appearance.
+(x1 / enraged
+	:ARG1 (x7 / potion
+		:mod (x6 / magic)
+		:ARG1 (x9 / change-01
+			:ARG1 (x11 / appearance))))
+
+# ::id Snow_White.26
+# ::snt Her plan was to trick the princess.
+(x2 / plan-01
+	:ARG1 (x5 / trick
+		:ARG1 (x7 / princess)))
+
+# ::id Snow_White.27
+# ::snt After the Dwarfs had set off for work the next day, the Queen, disguised as an old peddler woman, offered Snow White a beautiful red apple.
+(x23 / offer-01
+	:time (x1 / after
+		:op1 (x5 / set-05
+			:ARG2 (x8 / work-01)
+			:time (x11 / day
+				:mod (x10 / next))))
+	:ARG0 (x14 / queen
+		:ARG1-of (x16 / disguise-01
+			:ARG2 (x21 / women
+				:mod (x19 / old)
+				:mod (x20 / peddler))))
+	:ARG1 (x29 / apple
+		:mod (x27 / beautiful)
+		:mod (x28 / red)))
+
+# ::id Snow_White.28
+# ::snt Snow White took one bite of the apple and fell into a deep sleep.
+(x9 / and
+	:op1 (x3 / take-01
+		:ARG1 (x5 / bite
+			:quant 1
+			:ARG1 (x8 / apple)))
+	:op2 (x10 / fall-01
+		:ARG1 (x14 / sleep
+			:mod (x13 / deep))))
+
+# ::id Snow_White.29
+# ::snt The Queen had poisoned her!
+(x4 / poison
+	:ARG0 (x2 / queen))
+
+# ::id Snow_White.30
+# ::snt When the Dwarfs came home, they chased the Queen to the top of a stormy mountain.
+(x8 / chase
+	:time (x4 / come-01
+		:ARG1 (x5 / home))
+	:ARG1 (x10 / queen)
+	:ARG2 (x13 / top
+		:ARG1 (x17 / mountain
+			:mod (x16 / stormy))))
+
+# ::id Snow_White.31
+# ::snt Suddenly, lightning hit the mountain, and the Queen fell, never to be seen again.
+(x8 / and
+	:op1 (x4 / hit-01
+		:manner (x1 / sudden)
+		:ARG0 (x3 / lightning)
+		:ARG1 (x6 / mountain))
+	:op2 (x11 / fall-01
+		:ARG0 x3
+		:ARG0 (x10 / queen)
+		:ARG1 (x16 / see-01
+			:mod (x17 / again))))
+
+# ::id Snow_White.32
+# ::snt But Snow White was still in a deep sleep.
+(x1 / contrast-01
+	:ARG2 (x3 / white
+		:mod (x2 / snow))
+	:time (x5 / still)
+	:ARG2 (x9 / sleep
+		:mod (x8 / deep)))
+
+# ::id Snow_White.33
+# ::snt The Seven Dwarfs kept watch over her day and night.
+(x4 / keep-01
+	:ARG1 (x3 / criminal-organization
+		:name (n / name
+			:op1 "Dwarfs")
+		:null_edge 7)
+	:ARG1 (x5 / watch-01)
+	:ARG1 (x9 / and
+		:op1 (x8 / day)
+		:op2 (x10 / night)))
+
+# ::id Snow_White.34
+# ::snt Finally, Snow White's Prince Charming arrived.
+(x8 / arrive-01
+	:time (x1 / finally)
+	:ARG1 (x3 / snow
+		:mod (x6 / prince)))
+
+# ::id Snow_White.35
+# ::snt He had been searching everywhere for the beautiful princess he had sung with so long ago.
+(x4 / search-01
+	:ARG0 (x1 / he)
+	:manner (x5 / everywhere)
+	:ARG2 (x9 / princess
+		:mod (x8 / beautiful)
+		:ARG1-of (x12 / sing
+			:duration (x15 / long
+				:degree (x14 / so)))))
+
+# ::id Snow_White.36
+# ::snt The Prince awakened Snow White with Love's First Kiss.
+(x3 / awaken
+	:ARG0 (x2 / prince))
+
+# ::id Snow_White.37
+# ::snt The spell was broken!
+(x4 / break-08
+	:ARG1 (x2 / spell))
+
+# ::id Snow_White.38
+# ::snt Snow White and the Prince returned to the kingdom and lived happily ever after.
+(x10 / and
+	:op1 (x6 / return-01
+		:ARG0 (x3 / and
+			:op1 (x2 / white
+				:mod (x1 / snow))
+			:op2 (x5 / person
+				:name (n / name
+					:op1 "Prince")))
+		:ARG2 (x9 / kingdom))
+	:op2 (x11 / live-01
+		:time (x14 / after
+			:mod (x12 / happily)
+			:mod (x13 / ever))))
+

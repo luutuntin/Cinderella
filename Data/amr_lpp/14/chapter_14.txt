@@ -1,0 +1,896 @@
+# ::id lpp_1943.754 ::date 2012-11-13T15:41:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 14 .
+# ::zh XIV。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_754.txt
+(c / chapter
+  :mod 14)
+
+# ::id lpp_1943.755 ::date 2012-11-13T16:22:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt The fifth planet was very strange .
+# ::zh 第五颗行星非常奇怪，
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_755.txt
+(s / strange
+  :degree (v / very)
+  :domain (p / planet
+            :ord (o / ordinal-entity :value 5)))
+
+# ::id lpp_1943.756 ::date 2012-11-13T16:23:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt It was the smallest of all .
+# ::zh 是这些星星中最小的一颗。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_756.txt
+(s / small
+  :compared-to (a / all)
+  :degree (m / most)
+  :domain (i / it))
+
+# ::id lpp_1943.757 ::date 2012-11-13T16:26:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt There was just enough room on it for a street lamp and a lamplighter .
+# ::zh 行星上刚好能容得下一盏路灯和一个点路灯的人。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_757.txt
+(a2 / accommodate-01
+  :ARG0 (i / it)
+  :ARG1 (a / and
+          :op1 (l / lamp
+                 :mod (s / street))
+          :op2 (p / person
+                 :ARG0-of (l2 / light-04
+                            :ARG1 (l3 / lamp))))
+  :extent (e / enough
+            :mod (j / just)))
+
+# ::id lpp_1943.758 ::date 2012-11-13T16:44:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince was not able to reach any explanation of the use of a street lamp and a lamplighter , somewhere in the heavens , on a planet which had no people , and not one house .
+# ::zh 小王子怎么也解释不通：这个坐落在天空某一角落，既没有房屋又没有居民的行星上，要一盏路灯和一个点灯的人做什么用。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_758.txt
+(p / possible-01 :polarity -
+      :ARG1 (e / explain-01
+            :ARG0 (p2 / prince
+                  :mod (l / little))
+            :ARG1 (u / use-01
+                  :ARG1 (a / and
+                        :op1 (l2 / lamp
+                              :mod (s / street))
+                        :op2 (p3 / person
+                              :ARG0-of (l3 / light-04
+                                    :ARG1 (l4 / lamp)))
+                        :location (r / relative-position
+                              :op1 (h / heaven)
+                              :location (p4 / planet
+                                    :ARG0-of (h2 / have-03 :polarity -
+                                          :ARG1 (a2 / and
+                                                :op1 (p5 / person)
+                                                :op2 (h3 / house)))))))))
+
+# ::id lpp_1943.759 ::date 2012-11-13T16:59:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt But he said to himself , nevertheless : " It may well be that this man is absurd .
+# ::zh 但他自己猜想：“可能这个人思想不正常。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_759.txt
+(h2 / have-concession-91
+  :ARG1 (s / say-01
+          :ARG0 (h / he)
+          :ARG1 (p / possible-01
+                  :ARG1 (a / absurd
+                            :domain (m / man
+                                      :mod (t / this))))
+          :ARG2 h))
+
+# ::id lpp_1943.760 ::date 2012-11-13T17:04:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt But he is not so absurd as the king , the conceited man , the businessman , and the tippler .
+# ::zh 但他比起国王，比起那个爱虚荣的人，那个实业家和酒鬼，却要好些。
+# ::save-date Mon Nov 10, 2014 ::file lpp_1943_760.txt
+(c / contrast-01
+      :ARG2 (a / absurd :polarity -
+            :domain (h / he)
+            :compared-to (a2 / and
+                  :op1 (k / king)
+                  :op2 (m / man
+                        :mod (c2 / conceit))
+                  :op3 (b2 / businessman)
+                  :op4 (p / person
+                        :ARG0-of (t / tipple-01)))
+            :degree (e / equal)))
+
+# ::id lpp_1943.761 ::date 2012-11-13T17:16:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt For at least his work has some meaning .
+# ::zh 至少他的工作还有点意义。
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_761.txt
+(c / cause-01
+      :ARG0 (m / mean-01
+            :ARG1 (w / work-01
+                  :ARG0 (h / he))
+            :degree (s / some)
+            :mod (a / at-least)))
+
+# ::id lpp_1943.762 ::date 2012-11-13T17:23:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt When he lights his street lamp , it is as if he brought one more star to life , or one flower .
+# ::zh 当他点着了他的路灯时，就象他增添了一颗星星，或是一朵花。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_762.txt
+(l2 / light-04
+      :ARG0 h
+      :ARG1 (l3 / lamp
+            :mod (s2 / street)
+            :poss h)
+      :ARG1-of (r / resemble-01
+            :ARG2 (b / bring-01
+                  :ARG0 (h / he)
+                  :ARG1 (o / or
+                        :op1 (s / star :quant 1
+                              :mod (m / more))
+                        :op2 (f2 / flower))
+                  :ARG3 (l / live-01))))
+
+# ::id lpp_1943.763 ::date 2012-11-13T17:42:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt When he puts out his lamp , he sends the flower , or the star , to sleep .
+# ::zh 当他熄灭了路灯时，就象让星星或花朵睡着了似的。
+# ::save-date Thu Oct 16, 2014 ::file lpp_1943_763.txt
+(s / send-02
+      :ARG0 (h / he)
+      :ARG1 (o / or
+            :op1 (f2 / flower)
+            :op2 (s3 / star))
+      :ARG2 (s2 / sleep-01
+            :ARG0 o)
+      :time (p / put-out-09
+            :ARG0 h
+            :ARG1 (l / lamp
+                  :poss h)))
+
+# ::id lpp_1943.764 ::date 2012-11-13T17:46:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt That is a beautiful occupation .
+# ::zh 这差事真美妙，
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_764.txt
+(o / occupation
+      :ARG1-of (b / beautiful-02)
+      :domain (t / that))
+
+# ::id lpp_1943.765 ::date 2012-11-13T17:47:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt And since it is beautiful , it is truly useful . "
+# ::zh 就是真正有用的了。”
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_765.txt
+(a / and
+      :op2 (c / cause-01
+            :ARG0 (b / beautiful-02
+                  :ARG1 (i / it))
+            :ARG1 (u / useful-05
+                  :ARG1 i
+                  :mod (t / true))))
+
+# ::id lpp_1943.766 ::date 2012-11-13T17:52:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt When he arrived on the planet he respectfully saluted the lamplighter .
+# ::zh 小王子一到了这个行星上，就很尊敬地向点路灯的人打招呼：
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_766.txt
+(s / salute-01
+  :ARG0 (h / he)
+  :ARG1 (p / person
+          :ARG0-of (l / light-04
+                     :ARG1 (l2 / lamp)))
+  :manner (r / respect-01)
+  :time (a / arrive-01
+          :ARG1 h
+          :ARG4 (p2 / planet)))
+
+# ::id lpp_1943.767 ::date 2012-11-13T17:58:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning .
+# ::zh “早上好。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_767.txt
+(m / morning
+  :mod (g / good))
+
+# ::id lpp_1943.768 ::date 2012-11-13T17:59:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt Why have you just put out your lamp ? "
+# ::zh ——你刚才为什么把路灯灭了呢？
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_768.txt
+(c / cause-01
+  :ARG0 (a / amr-unknown)
+  :ARG1 (p / put-out-09
+          :ARG0 (y / you)
+          :ARG1 (l / lamp
+                  :poss y)
+          :mod (j / just)))
+
+# ::id lpp_1943.769 ::date 2012-11-13T18:20:05 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Those are the orders , " replied the lamplighter .
+# ::zh ——这是命令。” 点灯的回答道。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_769.txt
+(r / reply-01
+  :ARG0 (p / person
+          :ARG0-of (l / light-04
+                     :ARG1 (l2 / lamp)))
+  :ARG2 (o / order-01
+          :ARG2 (t / that)))
+
+# ::id lpp_1943.770 ::date 2012-11-13T18:22:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning . "
+# ::zh “早上好。”
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_770.txt
+(m / morning
+  :mod (g / good))
+
+# ::id lpp_1943.771 ::date 2012-11-13T18:22:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What are the orders ? "
+# ::zh “命令是什么？”
+# ::save-date Thu May 9, 2013 ::file lpp_1943_771.txt
+(o / order-01
+  :ARG2 (a / amr-unknown))
+
+# ::id lpp_1943.772 ::date 2012-11-13T18:25:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The orders are that I put out my lamp .
+# ::zh “就是熄掉我的路灯。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_772.txt
+(o / order-01
+  :ARG2 (p / put-out-09
+          :ARG0 (i / i)
+          :ARG1 (l / lamp
+                  :poss i)))
+
+# ::id lpp_1943.773 ::date 2012-11-13T18:26:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Good evening . "
+# ::zh ——晚上好。”
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_773.txt
+(e / evening
+  :mod (g / good))
+
+# ::id lpp_1943.774 ::date 2012-11-13T18:27:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he lighted his lamp again .
+# ::zh 于是他又点燃了路灯。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_774.txt
+(a / and
+  :op2 (l / light-04
+         :ARG0 (h / he)
+         :ARG1 (l2 / lamp
+                 :poss h)
+         :mod (a2 / again)))
+
+# ::id lpp_1943.775 ::date 2012-11-13T18:29:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But why have you just lighted it again ? "
+# ::zh “那么为什么你又把它点着了呢？”
+# ::save-date Thu May 9, 2013 ::file lpp_1943_775.txt
+(c / contrast-01
+  :ARG2 (c2 / cause-01
+          :ARG0 (a / amr-unknown)
+          :ARG1 (l / light-04
+                  :ARG0 (y / you)
+                  :ARG1 (i / it)
+                  :mod (a2 / again)
+                  :mod (j / just))))
+
+# ::id lpp_1943.776 ::date 2012-11-13T18:37:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Those are the orders , " replied the lamplighter .
+# ::zh “这是命令。” 点灯的人回答道。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_776.txt
+(r / reply-01
+  :ARG0 (p / person
+          :ARG0-of (l / light-04
+                     :ARG1 (l2 / lamp)))
+  :ARG2 (o / order-01
+          :ARG2 (t / that)))
+
+# ::id lpp_1943.777 ::date 2012-11-13T18:40:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I do not understand , " said the little prince .
+# ::zh “我不明白。” 小王子说。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_777.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (u / understand-01
+          :ARG0 p
+          :polarity -))
+
+# ::id lpp_1943.778 ::date 2012-11-13T18:44:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt " There is nothing to understand , " said the lamplighter .
+# ::zh “没什么要明白的。 点灯的回答说。
+# ::save-date Wed May 15, 2013 ::file lpp_1943_778.txt
+(s / say-01
+      :ARG0 (p / person
+            :ARG0-of (l / light-04
+                  :ARG1 (l2 / lamp)))
+      :ARG1 (n / nothing
+            :ARG1-of (u / understand-01)))
+
+# ::id lpp_1943.779 ::date 2012-11-13T18:48:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Orders are orders .
+# ::zh 命令就是命令。”
+# ::save-date Thu May 9, 2013 ::file lpp_1943_779.txt
+(o / order
+  :domain (o2 / order))
+
+# ::id lpp_1943.780 ::date 2012-11-13T18:48:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt Good morning . "
+# ::zh “早上好。”
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_780.txt
+(m / morning
+  :mod (g / good))
+
+# ::id lpp_1943.781 ::date 2012-11-13T18:49:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he put out his lamp .
+# ::zh 于是他又熄灭了路灯。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_781.txt
+(a / and
+  :op2 (p / put-out-09
+         :ARG0 (h / he)
+         :ARG1 (l / lamp
+                 :poss h)))
+
+# ::id lpp_1943.782 ::date 2012-11-13T18:50:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then he mopped his forehead with a handkerchief decorated with red squares .
+# ::zh 然后他拿一块有红方格子的手绢擦着额头。
+# ::save-date Thu Jun 18, 2015 ::file lpp_1943_782.txt
+(m / mop-01
+      :ARG0 (h / he)
+      :ARG1 (f / forehead
+            :part-of h)
+      :ARG2 (h2 / handkerchief
+            :ARG1-of (d / decorate-01
+                  :ARG2 (s / square
+                        :ARG1-of (r / red-02))))
+      :time (t / then))
+
+# ::id lpp_1943.783 ::date 2012-11-13T18:53:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I follow a terrible profession .
+# ::zh “我干的是一种可怕的职业。
+# ::save-date Tue Apr 7, 2015 ::file lpp_1943_783.txt
+(f / follow-02
+      :ARG0 (i / i)
+      :ARG1 (p / profession
+            :ARG1-of (t / terrible-01)))
+
+# ::id lpp_1943.784 ::date 2012-11-13T19:01:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt In the old days it was reasonable .
+# ::zh 以前还说得过去，
+# ::save-date Mon Jul 13, 2015 ::file lpp_1943_784.txt
+(r / reasonable-02
+      :ARG1 (i / it)
+      :time (d / day
+            :mod (o / old)))
+
+# ::id lpp_1943.785 ::date 2012-11-14T11:28:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt I put the lamp out in the morning , and in the evening I lighted it again .
+# ::zh 早上熄灯，晚上点灯，
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_785.txt
+(a / and
+  :op1 (p / put-out-09
+         :ARG0 (i / i)
+         :ARG1 (l / lamp)
+         :time (m / morning))
+  :op2 (l2 / light-04
+         :ARG0 i
+         :ARG1 l
+         :time (e / evening)
+         :mod (a2 / again)))
+
+# ::id lpp_1943.786 ::date 2012-11-14T11:45:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt I had the rest of the day for relaxation and the rest of the night for sleep . "
+# ::zh 剩下时间，白天我就休息，夜晚我就睡觉…”
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_786.txt
+(h / have-03
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (r / rest
+                  :purpose (r2 / relax-01)
+                  :part-of (d / day))
+            :op2 (r3 / rest
+                  :purpose (s / sleep-01)
+                  :part-of (n / night))))
+
+# ::id lpp_1943.787 ::date 2012-11-14T11:55:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And the orders have been changed since that time ? "
+# ::zh “那么，后来命令改变了，是吗？”
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_787.txt
+(a / and
+      :op2 (c / change-01 :mode interrogative
+            :ARG1 (o / order-01)
+            :time (s / since
+                  :op1 (t / time
+                        :mod (t2 / that)))))
+
+# ::id lpp_1943.788 ::date 2012-11-14T11:58:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The orders have not been changed , " said the lamplighter .
+# ::zh 点灯的人说：“命令没有改，
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_788.txt
+(s / say-01
+  :ARG0 (p / person
+          :ARG0-of (l / light-04
+                     :ARG1 (l2 / lamp)))
+  :ARG1 (c / change-01
+          :ARG1 (o / order-01)
+          :polarity -))
+
+# ::id lpp_1943.789 ::date 2012-11-14T11:59:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That is the tragedy !
+# ::zh 惨就惨在这里了！
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_789.txt
+(t / tragedy :mode expressive
+      :domain (t2 / that))
+
+# ::id lpp_1943.790 ::date 2012-11-14T12:00:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt From year to year the planet has turned more rapidly and the orders have not been changed ! "
+# ::zh 这颗行星一年比一年转得更快，而命令却没有改。”
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_790.txt
+(a / and
+  :op1 (t / turn-01
+         :ARG1 (p / planet)
+         :manner (r / rapid
+                   :degree (m / more))
+         :frequency (y / year))
+  :op2 (c / change-01
+         :ARG1 (o / order-01)
+         :polarity -))
+
+# ::id lpp_1943.791 ::date 2012-11-14T13:16:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Then what ? " asked the little prince .
+# ::zh “结果呢？” 小王子问。
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_791.txt
+(a / ask-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (a2 / amr-unknown
+          :time (t / then)))
+
+# ::id lpp_1943.792 ::date 2012-11-14T13:17:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Then - - the planet now makes a complete turn every minute , and I no longer have a single second for repose .
+# ::zh “结果现在每分钟转一圈，我连一秒钟的休息时间都没有了。
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_792.txt
+(a / and
+      :op1 (t / turn-01
+            :ARG1 (p / planet)
+            :ARG1-of (c / complete-02)
+            :time (n / now)
+            :frequency (r2 / rate-entity-91
+                  :ARG3 (t3 / temporal-quantity :quant 1
+                        :unit (m / minute))))
+      :op2 (h / have-03 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (t2 / temporal-quantity :quant 1
+                  :unit (s / second)
+                  :purpose (r / repose-01))
+            :time (n2 / no-longer))
+      :time (t4 / then))
+
+# ::id lpp_1943.793 ::date 2012-11-14T13:24:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt Once every minute I have to light my lamp and put it out ! "
+# ::zh 每分钟我就要点一次灯，熄一次灯！”
+# ::save-date Mon Sep 9, 2013 ::file lpp_1943_793.txt
+(o / obligate-01
+      :ARG1 (i / i)
+      :ARG2 (a / and
+            :op1 (l / light-04
+                  :ARG0 i
+                  :ARG1 (l2 / lamp
+                        :poss i))
+            :op2 (p / put-out-09
+                  :ARG0 i
+                  :ARG1 l2))
+      :frequency (r / rate-entity-91
+            :ARG2 (t / temporal-quantity :quant 1
+                  :unit (m / minute))))
+
+# ::id lpp_1943.794 ::date 2012-11-14T13:32:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That is very funny !
+# ::zh “真有趣，
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_794.txt
+(f / funny
+  :degree (v / very)
+  :domain (t / that))
+
+# ::id lpp_1943.795 ::date 2012-11-14T13:33:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt A day lasts only one minute , here where you live ! "
+# ::zh 你这里每天只有一分钟长？”
+# ::save-date Wed Sep 18, 2013 ::file lpp_1943_795.txt
+(l / last-01
+      :ARG1 (t / temporal-quantity :quant 1
+            :unit (d / day))
+      :ARG2 (t2 / temporal-quantity :quant 1
+            :unit (m / minute))
+      :mod (o / only)
+      :location (l2 / live-01
+            :ARG0 (y / you)))
+
+# ::id lpp_1943.796 ::date 2012-11-14T13:38:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is not funny at all ! " said the lamplighter .
+# ::zh “一点趣味也没有，”点灯的说，
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_796.txt
+(s / say-01
+      :ARG0 (p / person
+            :ARG0-of (l / light-04
+                  :ARG1 (l2 / lamp)))
+      :ARG1 (f / funny :polarity - :mode expressive
+            :domain (i / it)
+            :degree (a / at-all)))
+
+# ::id lpp_1943.797 ::date 2012-11-14T13:43:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt " While we have been talking together a month has gone by . "
+# ::zh “我们俩在一块说话就已经有一个月的时间了。”
+# ::save-date Wed Sep 18, 2013 ::file lpp_1943_797.txt
+(p / pass-03
+      :ARG1 (t / temporal-quantity :quant 1
+            :unit (m / month))
+      :duration-of (t2 / talk-01
+            :ARG0 (w / we)
+            :mod (t3 / together)))
+
+# ::id lpp_1943.798 ::date 2012-11-14T13:50:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt " A month ? "
+# ::zh “一个月？”
+# ::save-date Thu Apr 18, 2013 ::file lpp_1943_798.txt
+(t / temporal-quantity :mode interrogative :quant 1
+      :unit (m / month))
+
+# ::id lpp_1943.799 ::date 2012-11-14T13:57:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , a month .
+# ::zh “对。
+# ::save-date Tue Nov 20, 2012 ::file lpp_1943_799.txt
+(t / temporal-quantity
+  :unit (m / month)
+  :quant 1)
+
+# ::id lpp_1943.800 ::date 2012-11-14T14:11:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt Thirty minutes .
+# ::zh 三十分钟。
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_800.txt
+(t / temporal-quantity
+  :unit (m / minute)
+  :quant 30)
+
+# ::id lpp_1943.801 ::date 2012-11-14T14:27:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt Thirty days .
+# ::zh 三十天！
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_801.txt
+(t / temporal-quantity
+  :unit (d / day)
+  :quant 30)
+
+# ::id lpp_1943.802 ::date 2012-11-14T14:27:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt Good evening . "
+# ::zh ——晚上好。”
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_802.txt
+(e / evening
+  :mod (g / good))
+
+# ::id lpp_1943.803 ::date 2012-11-14T14:27:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he lighted his lamp again .
+# ::zh 于是他又点着了了他的路灯。
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_803.txt
+(a / and
+  :op2 (l / light-04
+         :ARG0 (h / he)
+         :ARG1 (l2 / lamp
+                 :poss h)
+         :mod (a2 / again)))
+
+# ::id lpp_1943.804 ::date 2012-11-14T14:36:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt As the little prince watched him , he felt that he loved this lamplighter who was so faithful to his orders .
+# ::zh 小王子瞅着他，他喜欢这个点灯人如此忠守命令。
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_804.txt
+(f / feel-01
+      :ARG0 (p / prince
+            :mod (l2 / little))
+      :ARG1 (l / love-01
+            :ARG0 p
+            :ARG1 (p2 / person
+                  :ARG0-of (l3 / light-04
+                        :ARG1 (l4 / lamp))
+                  :mod (t / this)
+                  :ARG1-of (f2 / faithful-00
+                        :ARG2 (t2 / thing
+                              :ARG2-of (o / order-01
+                                    :ARG1 p2)))))
+      :time (w / watch-01
+            :ARG0 p
+            :ARG1 p2))
+
+# ::id lpp_1943.805 ::date 2012-11-14T15:26:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt He remembered the sunsets which he himself had gone to seek , in other days , merely by pulling up his chair ; and he wanted to help his friend .
+# ::zh 这时，他想起了他自己从前挪动椅子寻找日落的事。 他很想帮助他的这位朋友。
+# ::save-date Mon Oct 6, 2014 ::file lpp_1943_805.txt
+(a / and
+      :op1 (r / remember-01
+            :ARG0 (h / he)
+            :ARG1 (s3 / sunset
+                  :ARG1-of (s / seek-01
+                        :purpose-of (g / go-02
+                              :ARG0 h
+                              :manner (p / pull-01
+                                    :ARG0 h
+                                    :ARG1 (c / chair)
+                                    :mod (m / mere)
+                                    :direction (u / up))
+                              :time (d / day
+                                    :mod (o / other))))))
+      :op2 (w / want-01
+            :ARG0 h
+            :ARG1 (h2 / help-01
+                  :ARG0 h
+                  :ARG1 (p2 / person
+                        :ARG0-of (h3 / have-rel-role-91
+                              :ARG1 h
+                              :ARG2 (f / friend))))))
+
+# ::id lpp_1943.806 ::date 2012-11-14T15:52:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You know , " he said , " I can tell you a way you can rest whenever you want to ... "
+# ::zh “告诉你，我知道一种能使你休息的办法，你要什么时候休息都可以。”
+# ::save-date Mon Mar 23, 2015 ::file lpp_1943_806.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (p / possible-01
+            :ARG1 (t / tell-01
+                  :ARG0 h
+                  :ARG1 (w / way
+                        :purpose (p2 / possible-01
+                              :ARG1 (r / rest-01
+                                    :ARG1 (y / you)
+                                    :time (w2 / want-01
+                                          :ARG0 y))))
+                  :ARG2 y)))
+
+# ::id lpp_1943.807 ::date 2012-11-14T16:19:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I always want to rest , " said the lamplighter .
+# ::zh “我老是想休息。” 点灯人说。
+# ::save-date Mon Oct 6, 2014 ::file lpp_1943_807.txt
+(s / say-01
+      :ARG0 (p / person
+            :ARG0-of (l / light-04
+                  :ARG1 (l2 / lamp)))
+      :ARG1 (w / want-01
+            :ARG0 p
+            :ARG1 (r / rest-01
+                  :ARG1 p)
+            :time (a / always)))
+
+# ::id lpp_1943.808 ::date 2012-11-14T16:23:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt For it is possible for a man to be faithful and lazy at the same time .
+# ::zh 因为，一个人可以同时是忠实的，又是懒惰的。
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_808.txt
+(c / cause-01
+  :ARG0 (p / possible-01
+          :ARG1 (a / and
+                    :op1 (f / faithful)
+                    :op2 (l / lazy)
+                    :domain (m / man)
+                    :time (s / same-01
+                            :ARG1 (t / time)))))
+
+# ::id lpp_1943.809 ::date 2012-11-14T16:40:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince went on with his explanation : " Your planet is so small that three strides will take you all the way around it .
+# ::zh 小王子接着说：“你的这颗行星这样小，你三步就可以绕它一圈。
+# ::save-date Tue May 14, 2013 ::file lpp_1943_809.txt
+(g / go-on-25
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (e / explain-01
+            :ARG0 p
+            :ARG1 (c / cause-01
+                  :ARG0 (s / small
+                        :domain (p2 / planet
+                              :poss (y / you))
+                        :degree (s2 / so))
+                  :ARG1 (t / take-03
+                        :ARG0 (s3 / stride-01 :quant 3)
+                        :ARG1 y
+                        :ARG2 (a / around
+                              :op1 p2
+                              :degree (a2 / all-the-way))))))
+
+# ::id lpp_1943.810 ::date 2012-11-14T17:24:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt To be always in the sunshine , you need only walk along rather slowly .
+# ::zh 你只要慢慢地走，就可以一直在太阳的照耀下，
+# ::save-date Tue Oct 21, 2014 ::file lpp_1943_810.txt
+(n / need-01
+      :ARG0 (y / you)
+      :ARG1 (w / walk-01
+            :manner (s / slow
+                  :degree (r / rather))
+            :mod (o / only))
+      :purpose (b / be-located-at-91
+            :ARG1 y
+            :ARG2 (s2 / sunshine)
+            :time (a / always)))
+
+# ::id lpp_1943.811 ::date 2012-11-14T17:29:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt When you want to rest , you will walk - - and the day will last as long as you like . "
+# ::zh 你想休息的时候，你就这样走…那么，你要白天又多长它就有多长。”
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_811.txt
+(w / walk-01
+      :ARG0 (y / you)
+      :time (w2 / want-01
+            :ARG0 y
+            :ARG1 (r / rest-01
+                  :ARG1 y))
+      :ARG0-of (c / cause-01
+            :ARG1 (l / last-01
+                  :ARG1 (d / day)
+                  :ARG2 (t / temporal-quantity
+                        :degree (e / equal)
+                        :compared-to (l2 / like-02
+                              :ARG0 y)))))
+
+# ::id lpp_1943.812 ::date 2012-11-14T17:57:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That does n't do me much good , " said the lamplighter .
+# ::zh “这办法帮不了我多打忙，点灯人说。
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_812.txt
+(s / say-01
+  :ARG0 (p / person
+          :ARG0-of (l / light-04
+                     :ARG1 (l2 / lamp)))
+  :ARG1 (d / do-02
+          :ARG0 (t / that)
+          :ARG1 (g / good
+                  :degree (m / much))
+          :ARG2 p
+          :polarity -))
+
+# ::id lpp_1943.813 ::date 2012-11-14T18:00:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The one thing I love in life is to sleep . "
+# ::zh 生活中我喜欢的就是睡觉。”
+# ::save-date Tue May 14, 2013 ::file lpp_1943_813.txt
+(l / love-01
+      :ARG0 (i / i)
+      :ARG1 (s / sleep-01
+            :ARG0 i
+            :mod (t / thing :quant 1))
+      :time (l2 / live-01))
+
+# ::id lpp_1943.814 ::date 2012-11-14T18:05:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Then you 're unlucky , " said the little prince .
+# ::zh “真不走运。” 小王子说。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_814.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (l2 / lucky :polarity -
+            :domain (y / you)
+            :time (t / then)))
+
+# ::id lpp_1943.815 ::date 2012-11-14T18:06:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am unlucky , " said the lamplighter .
+# ::zh “真不走运。” 点灯人说。
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_815.txt
+(s / say-01
+  :ARG0 (p / person
+          :ARG0-of (l / light-04
+                     :ARG1 (l2 / lamp)))
+  :ARG1 (l3 / lucky
+          :domain p
+          :polarity -))
+
+# ::id lpp_1943.816 ::date 2012-11-14T18:09:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning . "
+# ::zh “早上好。”
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_816.txt
+(m / morning
+  :mod (g / good))
+
+# ::id lpp_1943.817 ::date 2012-11-14T18:09:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he put out his lamp .
+# ::zh 于是他又熄灭了路灯。
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_817.txt
+(a / and
+  :op2 (p / put-out-09
+         :ARG0 (h / he)
+         :ARG1 (l / lamp
+                 :poss h)))
+
+# ::id lpp_1943.818 ::date 2012-11-14T18:10:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That man , " said the little prince to himself , as he continued farther on his journey , " that man would be scorned by all the others : by the king , by the conceited man , by the tippler , by the businessman .
+# ::zh 小王子在他继续往前旅行的途中，自言自语地说道：“这个人一定会被其他那些人，国王呀，爱虚荣的呀，酒鬼呀，实业家呀，所瞧不起。
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_818.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s2 / scorn-01
+            :ARG0 (o / other
+                  :quant (a / all)
+                  :domain (a2 / and
+                        :op1 (k / king)
+                        :op2 (m / man
+                              :mod (c / conceit))
+                        :op3 (p2 / person
+                              :ARG0-of (t / tipple-01))
+                        :op4 (b / businessman)))
+            :ARG1 (m2 / man
+                  :mod (t2 / that)))
+      :ARG2 p
+      :time (c2 / continue-01
+            :ARG0 p
+            :ARG1 (j / journey-01
+                  :ARG0 p)
+            :extent (f / far
+                  :degree (m3 / more))))
+
+# ::id lpp_1943.819 ::date 2012-11-14T18:10:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt Nevertheless he is the only one of them all who does not seem to me ridiculous .
+# ::zh 可是唯有他不使我感到荒唐可笑。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_819.txt
+(h2 / have-concession-91
+      :ARG1 (s / seem-01 :polarity -
+            :ARG1 (r / ridiculous-02
+                  :ARG1 (p / person
+                        :mod (o2 / only)
+                        :ARG1-of (i2 / include-91
+                              :ARG2 (t / they
+                                    :mod (a / all)))
+                        :domain (h / he)))
+            :ARG2 (i / i)))
+
+# ::id lpp_1943.820 ::date 2012-11-14T18:11:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt Perhaps that is because he is thinking of something else besides himself . "
+# ::zh 这可能是因为他所关心的是别的事，而不是他自己。”
+# ::save-date Mon Sep 22, 2014 ::file lpp_1943_820.txt
+(p / possible-01
+      :ARG1 (c / cause-01
+            :ARG0 (t / think-01
+                  :ARG0 (h / he)
+                  :ARG2 (s / something
+                        :mod (e / else)
+                        :ARG1-of (d / differ-02
+                              :ARG2 h)))))
+
+# ::id lpp_1943.821 ::date 2012-11-14T18:11:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt He breathed a sigh of regret , and said to himself , again : " That man is the only one of them all whom I could have made my friend .
+# ::zh 他惋惜地叹了口气，并且又对自己说道：“本来这是我唯一可以和他交成朋友的人。
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_821.txt
+(a / and
+      :op1 (b / breathe-02
+            :ARG0 (h / he)
+            :ARG1 (s / sigh-02
+                  :manner (r / regret-01)))
+      :op2 (s2 / say-01
+            :ARG0 h
+            :ARG1 (p / person
+                  :mod (o2 / only)
+                  :ARG1-of (i / include-91
+                        :ARG2 (t / they
+                              :quant (a2 / all)))
+                  :domain (m2 / man
+                        :mod (t2 / that))
+                  :ARG2-of (m / make-01
+                        :ARG0 h
+                        :ARG1 (h2 / have-rel-role-91
+                              :ARG0 p
+                              :ARG1 h
+                              :ARG2 (f / friend))
+                        :ARG1-of (p2 / possible-01)))
+            :ARG2 h
+            :mod (a3 / again)))
+
+# ::id lpp_1943.822 ::date 2012-11-14T18:11:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt But his planet is indeed too small .
+# ::zh 可是他的星球确实太小了，
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_822.txt
+(c / contrast-01
+      :ARG2 (s / small
+            :degree (t / too)
+            :domain (p / planet
+                  :poss (h / he))
+            :mod (i / indeed)))
+
+# ::id lpp_1943.823 ::date 2012-11-14T18:12:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt There is no room on it for two people ... "
+# ::zh 住不下两个人…”
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_823.txt
+(r / room
+  :poss (i / it)
+  :beneficiary (p / person
+                 :quant 2)
+  :polarity -)
+
+# ::id lpp_1943.824 ::date 2012-11-14T18:14:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt What the little prince did not dare confess was that he was sorry most of all to leave this planet , because it was blest every day with 1440 sunsets !
+# ::zh 小王子没有勇气承认的是：他留恋这颗令人赞美的星星，特别是因为在那里每二十四小时就有一千四百四十次日落！
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_824.txt
+(d / dare-01 :polarity -
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG2 (c / confess-01
+            :ARG1 (c2 / cause-01
+                  :ARG0 (b / bless-01
+                        :ARG1 (p2 / planet
+                              :mod (t / this))
+                        :ARG2 (s / sunset :quant 1440)
+                        :frequency (r / rate-entity-91
+                              :ARG3 (t2 / temporal-quantity :quant 1
+                                    :unit (d2 / day))))
+                  :ARG1 (s2 / sorry-01
+                        :ARG1 p
+                        :ARG2 (l2 / leave-11
+                              :ARG1 p2))
+                  :degree (m / most))))

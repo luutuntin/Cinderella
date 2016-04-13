@@ -1,0 +1,157 @@
+# ::id lpp_1943.991 ::date 2012-11-18T18:20:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 18 .
+# ::zh XVIII。
+# ::save-date Fri May 3, 2013 ::file lpp_1943_991.txt
+(c / chapter :mod 18)
+
+# ::id lpp_1943.992 ::date 2012-11-18T18:21:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince crossed the desert and met with only one flower .
+# ::zh 小王子穿过沙漠。 他只见过一朵花，
+# ::save-date Fri May 3, 2013 ::file lpp_1943_992.txt
+(a / and
+  :op1 (c / cross-02
+         :ARG0 (p / prince
+                 :mod (l / little))
+         :ARG1 (d / desert))
+  :op2 (m / meet-03
+         :ARG0 p
+         :ARG1 (f / flower :quant 1)
+         :mod (o2 / only)))
+
+# ::id lpp_1943.993 ::date 2012-11-18T18:23:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt It was a flower with three petals , a flower of no account at all .
+# ::zh 一个有着三枚花瓣的花朵，一朵很不起眼的小花…
+# ::save-date Thu Jun 11, 2015 ::file lpp_1943_993.txt
+(f2 / flower
+      :ARG0-of (h / have-03
+            :ARG1 (p / petal :quant 3))
+      :mod (a2 / account :polarity -)
+      :domain (i / it))
+
+# ::id lpp_1943.994 ::date 2012-11-18T18:26:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the little prince .
+# ::zh “你好。” 小王子说。
+# ::save-date Sat Dec 15, 2012 ::file lpp_1943_994.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m2 / morning
+            :mod (g2 / good)))
+
+# ::id lpp_1943.995 ::date 2012-11-18T19:45:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the flower .
+# ::zh “你好。” 花说。
+# ::save-date Fri May 3, 2013 ::file lpp_1943_995.txt
+(s / say-01
+  :ARG0 (f / flower-01)
+  :ARG1 (m2 / morning
+          :mod (g2 / good)))
+
+# ::id lpp_1943.996 ::date 2012-11-18T19:47:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Where are the men ? " the little prince asked , politely .
+# ::zh “人在什么地方？” 小王子有礼貌地问道。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_996.txt
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (b / be-located-at-91
+            :ARG1 (m / man)
+            :ARG2 (a2 / amr-unknown))
+      :manner (p3 / polite-01))
+
+# ::id lpp_1943.997 ::date 2012-11-18T19:55:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt The flower had once seen a caravan passing .
+# ::zh 有一天，花曾看见一支骆驼商队走过：
+# ::save-date Mon Sep 16, 2013 ::file lpp_1943_997.txt
+(s / see-01 :frequency 1
+      :ARG0 (f / flower)
+      :ARG1 (p / pass-02
+            :ARG0 (c / caravan-01)))
+
+# ::id lpp_1943.998 ::date 2012-11-18T19:57:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Men ? " she echoed .
+# ::zh “人吗？
+# ::save-date Fri May 10, 2013 ::file lpp_1943_998.txt
+(e / echo-01
+      :ARG0 (s / she)
+      :ARG1 (m / man :mode interrogative))
+
+# ::id lpp_1943.999 ::date 2012-11-18T19:58:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I think there are six or seven of them in existence .
+# ::zh 我想大约有六七个人，
+# ::save-date Fri May 3, 2013 ::file lpp_1943_999.txt
+(t / think-01
+  :ARG0 (i / i)
+  :ARG1 (e / exist-01
+          :ARG1 (t2 / they
+                  :quant (o / or :op1 6 :op2 7))))
+
+# ::id lpp_1943.1000 ::date 2012-11-18T20:00:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt I saw them , several years ago .
+# ::zh 几年前，我瞅见过他们。
+# ::save-date Wed Sep 18, 2013 ::file lpp_1943_1000.txt
+(s / see-01
+      :ARG0 (i / i)
+      :ARG1 (t / they)
+      :time (b / before
+            :op1 (n / now)
+            :quant (s2 / several
+                  :op1 (t2 / temporal-quantity :quant 1
+                        :unit (y / year)))))
+
+# ::id lpp_1943.1001 ::date 2012-11-18T20:01:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt But one never knows where to find them .
+# ::zh 可是，从来不知道到什么地方去找他们。
+# ::save-date Thu Oct 16, 2014 ::file lpp_1943_1001.txt
+(c / contrast
+      :op2 (k / know-01
+            :ARG0 (p / person
+                  :ARG1-of (i / include-91
+                        :ARG2 (t2 / they)))
+            :ARG1 (f / find-01
+                  :ARG0 p
+                  :ARG1 (t / they)
+                  :location (a / amr-unknown))
+            :time (e / ever :polarity -)))
+
+# ::id lpp_1943.1002 ::date 2012-11-18T20:03:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt The wind blows them away .
+# ::zh 风吹着他们到处跑。
+# ::save-date Fri May 3, 2013 ::file lpp_1943_1002.txt
+(b / blow-01
+  :ARG0 (w / wind)
+  :ARG1 (t / they)
+  :direction (a / away))
+
+# ::id lpp_1943.1003 ::date 2012-11-18T20:04:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt They have no roots , and that makes their life very difficult . "
+# ::zh 他们没有根，这对他们来说是很不方便的。”
+# ::save-date Fri May 10, 2013 ::file lpp_1943_1003.txt
+(a / and
+      :op1 (h / have-03 :polarity -
+            :ARG0 (t / they)
+            :ARG1 (r / root))
+      :op2 (m / make-02
+            :ARG0 h
+            :ARG1 (d / difficult
+                  :domain (t2 / thing
+                        :ARG1-of (l / live-01)
+                        :poss t)
+                  :degree (v / very))))
+
+# ::id lpp_1943.1004 ::date 2012-11-18T20:07:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Goodbye , " said the little prince .
+# ::zh “再见了。” 小王子说。
+# ::save-date Sun Nov 18, 2012 ::file lpp_1943_1004.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (g / goodbye))
+
+# ::id lpp_1943.1005 ::date 2012-11-18T20:08:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Goodbye , " said the flower .
+# ::zh “再见。” 花说。
+# ::save-date Fri May 3, 2013 ::file lpp_1943_1005.txt
+(s / say-01
+  :ARG0 (f / flower)
+  :ARG1 (g / goodbye))

@@ -1,0 +1,401 @@
+# ::id lpp_1943.603 ::date 2012-11-26T16:21:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 11 .
+# ::zh XI。
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_603.txt
+(c / chapter :mod 11)
+
+# ::id lpp_1943.604 ::date 2012-11-26T16:24:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt The second planet was inhabited by a conceited man .
+# ::zh 第二个行星上住着一个爱虚荣的人。
+# ::save-date Mon Nov 26, 2012 ::file lpp_1943_604.txt
+(i / inhabit-01
+  :ARG0 (m / man
+          :mod (c / conceit))
+  :ARG1 (p / planet
+          :ord (o / ordinal-entity :value 2)))
+
+# ::id lpp_1943.605 ::date 2012-11-26T16:25:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah !
+# ::zh “喔唷！
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_605.txt
+(a / ah :mode expressive)
+
+# ::id lpp_1943.606 ::date 2012-11-26T16:29:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt Ah !
+# ::zh “喔唷！
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_606.txt
+(a / ah :mode expressive)
+
+# ::id lpp_1943.607 ::date 2012-11-26T16:29:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt I am about to receive a visit from an admirer ! " he exclaimed from afar , when he first saw the little prince coming .
+# ::zh 一个崇拜我的人来拜访了！” 这个爱虚荣的人一见到小王子，老远就叫喊起来。
+# ::save-date Fri Feb 14, 2014 ::file lpp_1943_607.txt
+(e / exclaim-01
+      :ARG0 (h / he)
+      :ARG1 (v / visit-01
+            :ARG0 h
+            :ARG1 (p / person
+                  :ARG0-of (a / admire-01
+                        :ARG1 h))
+            :time (a3 / about-to))
+      :time (s / see-01
+            :ARG0 h
+            :ARG1 (c / come-01
+                  :ARG1 (p2 / prince
+                        :mod (l / little)))
+            :ord (o / ordinal-entity :value 1))
+      :direction (f2 / from
+            :op1 (a2 / afar)))
+
+# ::id lpp_1943.608 ::date 2012-11-26T18:28:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt For , to conceited men , all other men are admirers .
+# ::zh 在那些爱虚荣的人眼里，别人都成了他们的崇拜者。
+# ::save-date Tue May 7, 2013 ::file lpp_1943_608.txt
+(o2 / opine-01
+      :ARG0 (m2 / man
+            :mod (c / conceit))
+      :ARG1 (p2 / person
+            :ARG0-of (a3 / admire-01)
+            :domain (m / man
+                  :mod (o / other)
+                  :quant (a / all))))
+
+# ::id lpp_1943.609 ::date 2012-11-26T18:34:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the little prince .
+# ::zh “你好！” 小王子说道。
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_609.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m / morning
+            :mod (g2 / good)))
+
+# ::id lpp_1943.610 ::date 2012-11-26T18:35:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That is a queer hat you are wearing . "
+# ::zh “你的帽子很奇怪。”
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_610.txt
+(h2 / hat
+      :mod (q2 / queer)
+      :domain (t2 / that)
+      :ARG1-of (w2 / wear-01))
+
+# ::id lpp_1943.611 ::date 2012-11-26T18:38:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is a hat for salutes , " the conceited man replied .
+# ::zh “这是为了向人致意用的。” 爱虚荣的人回答道，
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_611.txt
+(r / reply-01
+      :ARG0 (m / man
+            :mod (c / conceit))
+      :ARG1 (h2 / hat
+            :purpose (s / salute-01
+                  :instrument h2)
+            :domain (i / it)))
+
+# ::id lpp_1943.612 ::date 2012-11-26T18:41:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is to raise in salute when people acclaim me .
+# ::zh “当人们向我欢呼的时候，我就用帽子向他们致意。
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_612.txt
+(h / have-purpose-91
+      :ARG1 (i / it)
+      :ARG2 (r / raise-01
+            :ARG1 i
+            :subevent-of (s / salute-01
+                  :time (a / acclaim-01
+                        :ARG0 (p / person)
+                        :ARG1 (i2 / i))
+                  :instrument i)))
+
+# ::id lpp_1943.613 ::date 2012-11-26T18:44:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt Unfortunately , nobody at all ever passes this way . "
+# ::zh 可惜，没有一个人经过这里。”
+# ::save-date Mon May 18, 2015 ::file lpp_1943_613.txt
+(p / pass-03
+      :ARG1 (n / nobody
+            :degree (a / at-all))
+      :path (w / way
+            :mod (t / this))
+      :ARG2-of (f / fortunate-01 :polarity -)
+      :time (e / ever))
+
+# ::id lpp_1943.614 ::date 2012-11-26T18:47:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes ? " said the little prince , who did not understand what the conceited man was talking about .
+# ::zh 小王子不解其意。 说道：“啊？ 是吗？”
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_614.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little)
+          :ARG0-of (u / understand-01
+                     :ARG1 (a / amr-unknown
+                             :ARG1-of (t / talk-01
+                                        :ARG0 (m / man
+                                                :mod (c / conceit))))
+                     :polarity -))
+  :ARG1 (y / yes
+          :mode interrogative))
+
+# ::id lpp_1943.615 ::date 2012-11-26T18:52:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Clap your hands , one against the other , " the conceited man now directed him .
+# ::zh 爱虚荣的人向小王子建议道：“你用一只手去拍另一只手。”
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_615.txt
+(d / direct-01
+      :ARG0 (m / man
+            :mod (c / conceit))
+      :ARG1 (h / he)
+      :ARG2 (c2 / clap-01 :mode imperative
+            :ARG0 h
+            :ARG1 (h2 / hand
+                  :part-of h)
+            :manner (c3 / clap-01
+                  :ARG0 h
+                  :ARG1 (h3 / hand :quant 1
+                        :part-of h)
+                  :ARG2 (h4 / hand
+                        :part-of h
+                        :ARG1-of (d2 / differ-02
+                              :ARG2 h3))))
+      :time (n / now))
+
+# ::id lpp_1943.616 ::date 2012-11-26T19:15:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince clapped his hands .
+# ::zh 小王子就拍起巴掌来。
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_616.txt
+(c / clap-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (h / hand
+          :part-of p))
+
+# ::id lpp_1943.617 ::date 2012-11-26T19:16:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt The conceited man raised his hat in a modest salute .
+# ::zh 这位爱虚荣者就谦逊地举起帽子向小王子致意。
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_617.txt
+(r / raise-01
+      :ARG0 (m / man
+            :mod (c / conceit))
+      :ARG1 (h / hat
+            :poss m)
+      :subevent-of (s / salute-01
+            :ARG0 m
+            :manner (m2 / modest)
+            :instrument h))
+
+# ::id lpp_1943.618 ::date 2012-11-26T19:19:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt " This is more entertaining than the visit to the king , " the little prince said to himself .
+# ::zh 小王子心想：“这比访问那位国王有趣。”
+# ::save-date Tue May 7, 2013 ::file lpp_1943_618.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (e / entertain-01
+            :ARG0 (t / this)
+            :degree (m / more
+                  :compared-to (v / visit-01
+                        :ARG1 (k / king))))
+      :ARG2 p)
+
+# ::id lpp_1943.619 ::date 2012-11-26T19:25:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he began again to clap his hands , one against the other .
+# ::zh 于是他又拍起巴掌来。
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_619.txt
+(b / begin-01
+      :ARG0 (h / he)
+      :ARG1 (c / clap-01
+            :ARG0 h
+            :ARG1 (h2 / hand
+                  :part-of h)
+            :manner (c2 / clap-01
+                  :ARG0 h
+                  :ARG1 (h3 / hand :quant 1
+                        :part-of h)
+                  :ARG2 (h4 / hand
+                        :part-of h
+                        :ARG1-of (d / differ-02
+                              :ARG2 h3))))
+      :mod (a / again))
+
+# ::id lpp_1943.620 ::date 2012-11-26T19:28:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt The conceited man against raised his hat in salute .
+# ::zh 爱虚荣者又举起帽子来向他致意。
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_620.txt
+(r / raise-01
+      :ARG0 (m / man
+            :mod (c / conceit))
+      :ARG1 (h2 / hat)
+      :mod (a / again)
+      :subevent-of (s / salute-01
+            :ARG0 m
+            :instrument h2))
+
+# ::id lpp_1943.621 ::date 2012-11-26T19:32:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt After five minutes of this exercise the little prince grew tired of the game 's monotony .
+# ::zh 小王子这样做了五分钟，之后对这种单调的把戏有点厌倦了，
+# ::save-date Tue May 14, 2013 ::file lpp_1943_621.txt
+(t / tire-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m / monotony
+            :poss (g2 / game))
+      :time (a / after
+            :op1 (e / exercise
+                  :duration (t2 / temporal-quantity :quant 5
+                        :unit (m2 / minute)))))
+
+# ::id lpp_1943.622 ::date 2012-11-26T19:39:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And what should one do to make the hat come down ? " he asked .
+# ::zh 说道：“要想叫你的帽子掉下来，该怎么做呢？”
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_622.txt
+(a / ask-01
+      :ARG0 (h / he)
+      :ARG1 (d / do-02
+            :ARG0 (o / one)
+            :ARG1 (a2 / amr-unknown)
+            :ARG2 (m / make-02
+                  :ARG0 o
+                  :ARG1 (c / come-01
+                        :ARG1 (h3 / hat)
+                        :direction (d3 / down)))))
+
+# ::id lpp_1943.623 ::date 2012-11-26T19:55:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt But the conceited man did not hear him .
+# ::zh 可这回爱虚荣者听不进他的话，
+# ::save-date Mon Nov 26, 2012 ::file lpp_1943_623.txt
+(h / hear-01
+  :ARG0 (m / man
+          :mod (c / conceit))
+  :ARG2 (h2 / he)
+  :polarity -)
+
+# ::id lpp_1943.624 ::date 2012-11-26T19:56:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Conceited people never hear anything but praise .
+# ::zh 因为凡是爱虚荣的人只听得进赞美的话。
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_624.txt
+(h / hear-01 :polarity -
+      :ARG0 (p / person
+            :mod (c / conceit))
+      :ARG1 (a / anything
+            :concession (p2 / praise-01))
+      :time (e / ever))
+
+# ::id lpp_1943.625 ::date 2012-11-26T19:59:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Do you really admire me very much ? " he demanded of the little prince .
+# ::zh 他问小王子道：“你真的钦佩我吗？”
+# ::save-date Mon Sep 22, 2014 ::file lpp_1943_625.txt
+(d / demand-01
+      :ARG0 (h / he)
+      :ARG1 (a / admire-01 :mode interrogative
+            :ARG0 p
+            :ARG1 h
+            :degree (m / much
+                  :degree (v / very))
+            :mod (r / real))
+      :ARG2 (p / prince
+            :mod (l / little)))
+
+# ::id lpp_1943.626 ::date 2012-11-26T20:05:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What does that mean - - ' admire ' ? "
+# ::zh “钦佩是什么意思？”
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_626.txt
+(m / mean-01
+      :ARG1 (a / admire-01)
+      :ARG2 (a2 / amr-unknown))
+
+# ::id lpp_1943.627 ::date 2012-11-26T20:08:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " To admire mean that you regard me as the handsomest , the best - dressed , the richest , and the most intelligent man on this planet . "
+# ::zh “钦佩么，就是承认我是星球上最美的人，服饰最好的人，最富有的人，最聪明的人。”
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_627.txt
+(m / mean-01
+      :ARG1 (a / admire-01)
+      :ARG2 (r / regard-01
+            :ARG0 (y / you)
+            :ARG1 (i / i)
+            :ARG2 (m6 / man
+                  :mod (h / handsome
+                        :degree (m2 / most))
+                  :ARG1-of (d / dress-01
+                        :manner (w / well
+                              :degree (m3 / most)))
+                  :mod (r2 / rich
+                        :degree (m4 / most))
+                  :mod (i2 / intelligent-01
+                        :degree (m5 / most))
+                  :location (p2 / planet
+                        :mod (t / this)))))
+
+# ::id lpp_1943.628 ::date 2012-11-26T20:23:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But you are the only man on your planet ! "
+# ::zh “可您是您的星球上唯一的人呀！”
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_628.txt
+(c / contrast-01
+      :ARG2 (m / man
+            :quant (o / only
+                  :location (p / planet
+                        :poss y))
+            :domain (y / you)))
+
+# ::id lpp_1943.629 ::date 2012-11-26T20:26:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Do me this kindness .
+# ::zh “让我高兴吧，
+# ::save-date Mon May 4, 2015 ::file lpp_1943_629.txt
+(k2 / kind-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / this)
+      :ARG2 (i / i))
+
+# ::id lpp_1943.630 ::date 2012-11-26T20:30:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt Admire me just the same . "
+# ::zh 请你还是来钦佩我吧！”
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_630.txt
+(a / admire-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (i / i)
+      :manner (s / same-01
+            :degree (j / just)))
+
+# ::id lpp_1943.631 ::date 2012-11-26T20:35:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I admire you , " said the little prince , shrugging his shoulders slightly , " but what is there in that to interest you so much ? "
+# ::zh 小王子轻轻地耸了耸肩膀，说道：“我钦佩你，可是，这有什么能使你这样感兴趣的？”
+# ::save-date Thu Aug 7, 2014 ::file lpp_1943_631.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (s2 / shrug-01
+                  :ARG1 (s3 / shoulder
+                        :part-of p)
+                  :degree (s4 / slight)))
+      :ARG1 (c2 / contrast-01
+            :ARG1 (a / admire-01
+                  :ARG0 (i / i)
+                  :ARG1 (y / you))
+            :ARG2 (i2 / interest-01
+                  :ARG0 a
+                  :ARG1 y
+                  :degree (m / much
+                        :degree (s6 / so))
+                  :ARG1-of (c / cause-01
+                        :ARG0 (a2 / amr-unknown)))))
+
+# ::id lpp_1943.632 ::date 2012-11-26T20:55:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt And the little prince went away .
+# ::zh 于是小王子就走开了。
+# ::save-date Wed May 15, 2013 ::file lpp_1943_632.txt
+(a / and
+      :op2 (g / go-02
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :direction (a2 / away)))
+
+# ::id lpp_1943.633 ::date 2012-11-27T10:31:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The grown - ups are certainly very odd , " he said to himself , as he continued on his journey .
+# ::zh 小王子在路上自言自语地说了一句：“这些大人，肯定是十分古怪的。”
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_633.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (o / odd
+            :degree (v / very)
+            :mod (c2 / certain)
+            :domain (g / grown-up))
+      :ARG2 h
+      :time (c / continue-01
+            :ARG0 h
+            :ARG1 (j / journey-01
+                  :ARG0 h)))

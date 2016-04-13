@@ -1,0 +1,158 @@
+# ::id lpp_1943.1206 ::date 2012-11-27T12:51:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 23 .
+# ::zh XXIII。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_1206.txt
+(c / chapter :mod 23)
+
+# ::id lpp_1943.1207 ::date 2012-11-27T12:51:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the little prince .
+# ::zh “你好。” 小王子说。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1207.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m / morning
+            :mod (g / good)))
+
+# ::id lpp_1943.1208 ::date 2012-11-27T12:53:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the merchant .
+# ::zh “你好。” 商人说道。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1208.txt
+(s / say-01
+      :ARG0 (p / person
+            :ARG0-of (m / merchandise-01))
+      :ARG1 (m2 / morning
+            :mod (g / good)))
+
+# ::id lpp_1943.1209 ::date 2012-11-27T12:54:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt This was a merchant who sold pills that had been invented to quench thirst .
+# ::zh 这是一位贩卖能够止渴的精制药丸的商人。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_1209.txt
+(s / sell-01
+      :ARG0 (p / person
+            :ARG0-of (m / merchandise-01)
+            :domain (t2 / this))
+      :ARG1 (p2 / pill
+            :ARG1-of (i / invent-01)
+            :purpose (q / quench-01
+                  :ARG0 p2
+                  :ARG1 (t / thirst-01))))
+
+# ::id lpp_1943.1210 ::date 2012-11-27T13:00:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt You need only swallow one pill a week , and you would feel no need of anything to drink .
+# ::zh 每周吞服一丸就不会感觉口渴。
+# ::save-date Wed Sep 18, 2013 ::file lpp_1943_1210.txt
+(c / cause-01
+      :ARG0 (n / need-01
+            :ARG0 (y / you)
+            :ARG1 (s / swallow-01
+                  :ARG1 (r / rate-entity-91
+                        :ARG1 (p / pill :quant 1)
+                        :ARG3 (t / temporal-quantity :quant 1
+                              :unit (w / week))))
+            :mod (o / only))
+      :ARG1 (f / feel-01 :polarity -
+            :ARG0 y
+            :ARG1 (n2 / need-01
+                  :ARG0 y
+                  :ARG1 (d / drink-01
+                        :ARG0 y
+                        :ARG1 (a2 / anything)))))
+
+# ::id lpp_1943.1211 ::date 2012-11-27T13:04:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Why are you selling those ? " asked the little prince .
+# ::zh “你为什么卖这玩艺儿？” 小王子说。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_1211.txt
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s / sell-01
+            :ARG0 (y / you)
+            :ARG1 (t / that)
+            :ARG1-of (c / cause-01
+                  :ARG0 (a2 / amr-unknown))))
+
+# ::id lpp_1943.1212 ::date 2012-11-27T13:06:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Because they save a tremendous amount of time , " said the merchant .
+# ::zh “这就大大地节约了时间。” 商人说，
+# ::save-date Sat May 11, 2013 ::file lpp_1943_1212.txt
+(s / say-01
+  :ARG0 (p / person
+          :ARG0-of (m / merchandise-01))
+  :ARG1 (c / cause-01
+          :ARG0 (t / they)
+          :ARG1 (s2 / save-01
+                  :ARG0 t
+                  :ARG1 (t2 / time
+                          :ARG1-of (a / amount-01
+                                     :ARG2 (t3 / tremendous))))))
+
+# ::id lpp_1943.1213 ::date 2012-11-27T13:14:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Computations have been made by experts .
+# ::zh “专家们计算过，
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1213.txt
+(m / make-01
+      :ARG0 (p / person
+            :ARG1-of (e / expert-01))
+      :ARG1 (t / thing
+            :ARG1-of (c / compute-01)))
+
+# ::id lpp_1943.1214 ::date 2012-11-27T13:16:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt With these pills , you save fifty - three minutes in every week . "
+# ::zh 这样，每周可以节约五十三分钟。”
+# ::save-date Mon Sep 9, 2013 ::file lpp_1943_1214.txt
+(s / save-03
+      :ARG0 (y / you)
+      :ARG1 (r / rate-entity-91
+            :ARG1 (t / temporal-quantity :quant 53
+                  :unit (m / minute))
+            :ARG2 (t3 / temporal-quantity :quant 1
+                  :unit (w / week)))
+      :instrument (p / pill
+            :mod (t2 / this)))
+
+# ::id lpp_1943.1215 ::date 2012-11-27T13:19:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And what do I do with those fifty - three minutes ? "
+# ::zh “那么，用这五十三分钟做什么用？”
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1215.txt
+(a / and
+      :op1 (d / do-02
+            :ARG0 (i / i)
+            :ARG1 (a2 / amr-unknown)
+            :ARG2 (t / temporal-quantity :quant 53
+                  :unit (m / minute)
+                  :mod (t2 / that))))
+
+# ::id lpp_1943.1216 ::date 2012-11-27T13:21:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Anything you like ... "
+# ::zh “随便怎么用都行。
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1216.txt
+(d / do-02
+      :ARG0 (y2 / you)
+      :ARG1 (a2 / anything
+            :ARG1-of (l / like-02
+                  :ARG0 y2)))
+
+# ::id lpp_1943.1217 ::date 2012-11-27T13:23:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " As for me , " said the little prince to himself , " if I had fifty - three minutes to spend as I liked , I should walk at my leisure toward a spring of fresh water . "
+# ::zh …”小王子自言自语地说：“我如果有五十三分钟可支配，我就悠哉游哉地向水泉走去…”
+# ::save-date Mon Jul 6, 2015 ::file lpp_1943_1217.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (w / walk-01
+            :ARG0 (i / i)
+            :direction (t / toward
+                  :destination (s2 / spring
+                        :source-of (w2 / water
+                              :ARG1-of (f / fresh-04))))
+            :manner (l2 / leisure
+                  :poss p)
+            :condition (h / have-03
+                  :ARG0 p
+                  :ARG1 (t2 / temporal-quantity :quant 53
+                        :unit (m / minute)
+                        :ARG1-of (s3 / spend-02
+                              :ARG2 (l3 / like-02
+                                    :ARG0 p)))))
+      :ARG2 p)

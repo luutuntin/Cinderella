@@ -1,0 +1,726 @@
+# ::id lpp_1943.931 ::date 2012-11-17T18:58:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 17 .
+# ::zh XVII。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_931.txt
+(c / chapter
+      :mod 17)
+
+# ::id lpp_1943.932 ::date 2012-11-17T18:59:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt When one wishes to play the wit , he sometimes wanders a little from the truth .
+# ::zh 当人们想要说得俏皮些的时候，说话就可能会不大实在。
+# ::save-date Thu Aug 7, 2014 ::file lpp_1943_932.txt
+(w / wander-01
+      :ARG0 o
+      :ARG1 (f / from
+            :op1 (t / truth))
+      :time (w2 / wish-01
+            :ARG0 (o / one)
+            :ARG1 (p / play-02
+                  :ARG0 o
+                  :ARG1 (w3 / wit)))
+      :degree (l / little)
+      :frequency (s / sometimes))
+
+# ::id lpp_1943.933 ::date 2012-11-17T19:03:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have not been altogether honest in what I have told you about the lamplighters .
+# ::zh 在给你们讲点灯人的时候，我就不那么忠实，
+# ::save-date Tue May 14, 2013 ::file lpp_1943_933.txt
+(h / honest
+      :domain (i / i)
+      :degree (a / altogether :polarity -)
+      :topic (t2 / thing
+            :ARG1-of (t / tell-01
+                  :ARG0 i
+                  :ARG2 (y / you)
+                  :topic (p2 / person
+                        :ARG0-of (l / light-04
+                              :ARG1 (l2 / lamp))))))
+
+# ::id lpp_1943.934 ::date 2012-11-17T19:10:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt And I realize that I run the risk of giving a false idea of our planet to those who do not know it .
+# ::zh 很可能给不了解我们这个星球的人们造成一个错误的概念。
+# ::save-date Wed May 20, 2015 ::file lpp_1943_934.txt
+(a / and
+      :op2 (r / realize-01
+            :ARG0 (i / i)
+            :ARG1 (r2 / risk-01
+                  :ARG0 i
+                  :ARG2 (g / give-01
+                        :ARG0 i
+                        :ARG1 (i2 / idea
+                              :mod (f / false)
+                              :topic (p2 / planet
+                                    :source (w / we)))
+                        :ARG2 (p / person
+                              :ARG0-of (k / know-02 :polarity -
+                                    :ARG1 p2))))))
+
+# ::id lpp_1943.935 ::date 2012-11-17T19:13:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Men occupy a very small place upon the Earth .
+# ::zh 在地球上，人们所占的位置非常小。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_935.txt
+(o / occupy-01
+      :ARG0 (m / man)
+      :ARG1 (p2 / place
+            :mod (s / small
+                  :degree (v / very))
+            :location (p / planet :wiki "Earth"
+                  :name (n / name :op1 "Earth"))))
+
+# ::id lpp_1943.936 ::date 2012-11-17T19:15:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt If the two billion inhabitants who people its surface were all to stand upright and somewhat crowded together , as they do for some big public assembly , they could easily be put into one public square twenty miles long and twenty miles wide .
+# ::zh 如果住在地球上的二十亿居民全站着，并且象开大会一样靠得紧些，那么就可以从容地站在一个二十海里见方的广场上。
+# ::save-date Mon Jul 27, 2015 ::file lpp_1943_936.txt
+(p / possible-01
+      :ARG1 (p2 / put-01
+            :ARG1 p3
+            :ARG2 (s5 / square
+                  :ARG1-of (p6 / public-02)
+                  :ARG1-of (l / long-03
+                        :ARG2 (d2 / distance-quantity :quant 20
+                              :unit (m / mile)))
+                  :ARG1-of (w / wide-02
+                        :mod (d3 / distance-quantity :quant 20
+                              :unit (m2 / mile))))
+            :ARG1-of (e / easy-05))
+      :condition (s / stand-01
+            :ARG0 (p3 / person :quant 2000000000
+                  :ARG0-of (i / inhabit-01)
+                  :ARG2-of (p4 / people-01
+                        :ARG1 (s2 / surface
+                              :poss (i2 / it)))
+                  :mod (a / all))
+            :ARG1-of (r / resemble-01
+                  :ARG2 (d / do-02
+                        :ARG0 p3
+                        :purpose (a3 / assemble-02
+                              :mod (p5 / public)
+                              :mod (b / big)
+                              :mod (s4 / some))))
+            :manner (a2 / and
+                  :op1 (u / upright)
+                  :op2 (c / crowd-02
+                        :manner (t / together)
+                        :degree (s3 / somewhat)))))
+
+# ::id lpp_1943.937 ::date 2012-11-17T19:32:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt All humanity could be piled up on a small Pacific islet .
+# ::zh 也就是说可以把整个人类集中在太平洋中一个最小的岛屿上。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_937.txt
+(p / possible-01
+      :ARG1 (p2 / pile-01
+            :ARG1 (h / humanity
+                  :mod (a / all))
+            :ARG2 (i / islet
+                  :mod (s / small)
+                  :location (o2 / ocean :wiki "Pacific_Ocean"
+                        :name (n / name :op1 "Pacific")))))
+
+# ::id lpp_1943.938 ::date 2012-11-17T19:34:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt The grown - ups , to be sure , will not believe you when you tell them that .
+# ::zh 当然，大人们是不会相信你们的。
+# ::save-date Thu Jul 9, 2015 ::file lpp_1943_938.txt
+(b / believe-01 :polarity -
+      :ARG0 (g2 / grown-up)
+      :ARG1 (y / you)
+      :time (t / tell-01
+            :ARG0 y
+            :ARG1 (t2 / that)
+            :ARG2 g2)
+      :ARG1-of (s / sure-02))
+
+# ::id lpp_1943.939 ::date 2012-11-17T19:38:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt They imagine that they fill a great deal of space .
+# ::zh 他们自以为要占很大地方，
+# ::save-date Sat Nov 17, 2012 ::file lpp_1943_939.txt
+(i / imagine-01
+  :ARG0 (t / they)
+  :ARG1 (f / fill-01
+          :ARG1 (s / space
+                  :quant (d / deal
+                           :mod (g / great)))
+          :ARG2 t))
+
+# ::id lpp_1943.940 ::date 2012-11-17T19:39:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt They fancy themselves as important as the baobabs .
+# ::zh 他们把自己看得象猴面包树那样大得了不起。
+# ::save-date Mon Nov 10, 2014 ::file lpp_1943_940.txt
+(f / fancy-01
+      :ARG0 (t / they)
+      :ARG1 (i / important
+            :domain t
+            :degree (e / equal)
+            :compared-to (b / baobab)))
+
+# ::id lpp_1943.941 ::date 2012-11-17T19:42:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt You should advise them , then , to make their own calculations .
+# ::zh 你们可以建议他们计算一下。
+# ::save-date Tue May 21, 2013 ::file lpp_1943_941.txt
+(r / recommend-01
+      :ARG1 (a / advise-01
+            :ARG0 (y / you)
+            :ARG1 (t / they)
+            :ARG2 (c / calculate-01
+                  :ARG0 t))
+      :ARG2 y)
+
+# ::id lpp_1943.942 ::date 2012-11-17T19:46:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt They adore figures , and that will please them .
+# ::zh 这样会使他们很高兴，因为他们非常喜欢数目字。
+# ::save-date Sat Nov 17, 2012 ::file lpp_1943_942.txt
+(a / and
+  :op1 (a2 / adore-01
+         :ARG0 (t / they)
+         :ARG1 (f / figure))
+  :op2 (p / please-01
+         :ARG1 t
+         :ARG2 (t2 / that)))
+
+# ::id lpp_1943.943 ::date 2012-11-17T19:48:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt But do not waste your time on this extra task .
+# ::zh 可是你们无须浪费时间去做这种乏味的连篇累牍的演算。
+# ::save-date Mon Aug 5, 2013 ::file lpp_1943_943.txt
+(c / contrast-01
+      :ARG2 (w / waste-01 :mode imperative :polarity -
+            :ARG0 (y / you)
+            :ARG1 (t / time
+                  :poss y)
+            :ARG2 (t2 / task-01
+                  :mod (e / extra)
+                  :mod (t3 / this))))
+
+# ::id lpp_1943.944 ::date 2012-11-17T19:51:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is unnecessary .
+# ::zh 这没有必要。
+# ::save-date Sat Nov 17, 2012 ::file lpp_1943_944.txt
+(n / need-01
+  :ARG1 (i / it)
+  :polarity -)
+
+# ::id lpp_1943.945 ::date 2012-11-17T19:51:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt You have , I know , confidence in me .
+# ::zh 你们可以完全相信我。
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_945.txt
+(t / trust-01
+      :ARG0 (y / you)
+      :ARG2 (i / i)
+      :ARG1-of (k / know-01
+            :ARG0 i))
+
+# ::id lpp_1943.946 ::date 2012-11-17T19:52:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt When the little prince arrived on the Earth , he was very much surprised not to see any people .
+# ::zh 小王子到了地球上感到非常奇怪，他一个人也没有看到，
+# ::save-date Mon May 13, 2013 ::file lpp_1943_946.txt
+(s / surprise-01
+      :ARG0 (s2 / see-01 :polarity -
+            :ARG0 p
+            :ARG1 (p2 / person
+                  :quant (a / any)))
+      :ARG1 (p / prince
+            :mod (l / little))
+      :degree (m / much
+            :degree (v / very))
+      :time (a2 / arrive-01
+            :ARG1 p
+            :ARG4 (p3 / planet :wiki "Earth"
+                  :name (n / name :op1 "Earth"))))
+
+# ::id lpp_1943.947 ::date 2012-11-17T19:55:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt He was beginning to be afraid he had come to the wrong planet , when a coil of gold , the color of the moonlight , flashed across the sand .
+# ::zh 他正担心自己跑错了星球。 这时，在沙地上有一个月光色的圆环在蠕动。
+# ::save-date Mon Oct 6, 2014 ::file lpp_1943_947.txt
+(b / begin-01
+      :ARG0 (h / he)
+      :ARG1 (f / fear-01
+            :ARG0 h
+            :ARG1 (c / come-01
+                  :ARG1 h
+                  :ARG4 (p / planet
+                        :mod (w / wrong))))
+      :time (f2 / flash-02
+            :ARG1 (c2 / coil
+                  :mod (g / gold
+                        :mod (c3 / color
+                              :poss (m / moonlight))))
+            :path (a / across
+                  :op1 (s / sand))))
+
+# ::id lpp_1943.948 ::date 2012-11-17T20:02:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good evening , " said the little prince courteously .
+# ::zh 小王子毫无把握地随便说了声：“晚安。”
+# ::save-date Sat Dec 15, 2012 ::file lpp_1943_948.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (e2 / evening
+            :mod (g / good))
+      :manner (c / courteous))
+
+# ::id lpp_1943.949 ::date 2012-11-17T20:04:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good evening , " said the snake .
+# ::zh “晚安。” 蛇说道。
+# ::save-date Sat Nov 17, 2012 ::file lpp_1943_949.txt
+(s / say-01
+  :ARG0 (s2 / snake)
+  :ARG1 (d / date-entity
+          :dayperiod (e / evening)
+          :mod (g / good)))
+
+# ::id lpp_1943.950 ::date 2012-11-17T20:07:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What planet is this on which I have come down ? " asked the little prince .
+# ::zh “我落在什么行星上？” 小王子问道。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_950.txt
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / planet
+            :ARG4-of (c / come-01
+                  :ARG1 p
+                  :direction (d / down))
+            :domain (a2 / amr-unknown)))
+
+# ::id lpp_1943.951 ::date 2012-11-17T20:12:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt " This is the Earth ; this is Africa , " the snake answered .
+# ::zh “在地球上，在非洲。” 蛇回答道。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_951.txt
+(a / answer-01
+      :ARG0 (s / snake)
+      :ARG2 (a2 / and
+            :op1 (p / planet :wiki "Earth"
+                  :name (n / name :op1 "Earth")
+                  :domain (t / this))
+            :op2 (c / continent :wiki "Africa"
+                  :name (n2 / name :op1 "Africa")
+                  :domain (t2 / this))))
+
+# ::id lpp_1943.952 ::date 2012-11-17T20:14:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah !
+# ::zh “啊！
+# ::save-date Wed May 15, 2013 ::file lpp_1943_952.txt
+(a / ah :mode expressive)
+
+# ::id lpp_1943.953 ::date 2012-11-17T20:14:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then there are no people on the Earth ? "
+# ::zh …怎么，难道说地球上没有人吗？”
+# ::save-date Mon May 11, 2015 ::file lpp_1943_953.txt
+(p / person :mode interrogative :polarity -
+      :location (p2 / planet :wiki "Earth" :name (n2 / name :op1 "Earth")))
+
+# ::id lpp_1943.954 ::date 2012-11-17T20:21:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " This is the desert .
+# ::zh “这里是沙漠，
+# ::save-date Fri May 10, 2013 ::file lpp_1943_954.txt
+(d2 / desert
+      :domain (t / this))
+
+# ::id lpp_1943.955 ::date 2012-11-17T20:21:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt There are no people in the desert .
+# ::zh 沙漠中没有人。
+# ::save-date Mon May 11, 2015 ::file lpp_1943_955.txt
+(p / person :polarity -
+      :location (d / desert))
+
+# ::id lpp_1943.956 ::date 2012-11-17T20:22:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt The Earth is large , " said the snake .
+# ::zh 地球是很大的。” 蛇说。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_956.txt
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (l / large
+            :domain (p / planet :wiki "Earth"
+                  :name (n / name :op1 "Earth"))))
+
+# ::id lpp_1943.957 ::date 2012-11-17T20:23:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince sat down on a stone , and raised his eyes toward the sky .
+# ::zh 小王子坐在一块石头上，抬眼望着天空，
+# ::save-date Mon May 13, 2013 ::file lpp_1943_957.txt
+(a / and
+      :op1 (s / sit-down-02
+            :ARG1 (p / prince
+                  :mod (l / little))
+            :ARG2 (s2 / stone)
+            :direction (d / down))
+      :op2 (r / raise-01
+            :ARG0 p
+            :ARG1 (e / eye
+                  :part-of p)
+            :direction (s3 / sky)))
+
+# ::id lpp_1943.958 ::date 2012-11-17T20:27:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I wonder , " he said , " whether the stars are set alight in heaven so that one day each one of us may find his own again ...
+# ::zh 说道：“我捉摸这些星星闪闪发亮是否为了让每个人将来有一天都能重新找到自己的星球。
+# ::save-date Mon Aug 5, 2013 ::file lpp_1943_958.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (w2 / wonder-01
+            :ARG0 h
+            :ARG1 (l / light-04 :mode interrogative
+                  :ARG1 (s2 / star)
+                  :location (h2 / heaven)
+                  :purpose (f / find-01
+                        :ARG0 (w / we
+                              :mod (e / each))
+                        :ARG1 (s3 / star
+                              :poss w)
+                        :time (d / day
+                              :mod (o / one))
+                        :mod (a / again)
+                        :ARG1-of (p / possible-01)))))
+
+# ::id lpp_1943.959 ::date 2012-11-17T20:33:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt Look at my planet .
+# ::zh 看，我那颗行星。
+# ::save-date Mon May 13, 2013 ::file lpp_1943_959.txt
+(l2 / look-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / planet
+            :source (i / i)))
+
+# ::id lpp_1943.960 ::date 2012-11-17T20:34:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is right there above us .
+# ::zh 它恰好在我们头顶上…
+# ::save-date Fri May 10, 2013 ::file lpp_1943_960.txt
+(b2 / be-located-at-91
+      :ARG1 (i / it)
+      :ARG2 (t / there
+            :mod (r / right)
+            :direction (a / above
+                  :op1 (w / we))))
+
+# ::id lpp_1943.961 ::date 2012-11-17T20:36:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt But how far away it is ! "
+# ::zh 可是，它离我们好远哟！”
+# ::save-date Mon Aug 5, 2013 ::file lpp_1943_961.txt
+(c2 / contrast-01 :mode expressive
+      :ARG2 (f / far
+            :direction (a / away)
+            :domain (i / it)
+            :degree (s / so)))
+
+# ::id lpp_1943.962 ::date 2012-11-17T20:37:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is beautiful , " the snake said .
+# ::zh “它很美。” 蛇说，
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_962.txt
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (b / beautiful-02
+            :ARG1 (i / it)))
+
+# ::id lpp_1943.963 ::date 2012-11-17T20:38:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What has brought you here ? "
+# ::zh “你到这里来干什么呢？”
+# ::save-date Fri May 10, 2013 ::file lpp_1943_963.txt
+(b2 / bring-01
+      :ARG0 (a / amr-unknown)
+      :ARG1 (y / you)
+      :ARG2 (h / here))
+
+# ::id lpp_1943.964 ::date 2012-11-17T20:39:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I have been having some trouble with a flower , " said the little prince .
+# ::zh “我和一朵花闹了别扭。” 小王子说。
+# ::save-date Tue May 14, 2013 ::file lpp_1943_964.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (h / have-03
+            :ARG0 p
+            :ARG1 (t / trouble-01
+                  :ARG0 (f2 / flower)
+                  :mod (s2 / some))))
+
+# ::id lpp_1943.965 ::date 2012-11-17T20:41:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah ! " said the snake .
+# ::zh “啊！” 蛇说道。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_965.txt
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (a / ah-01))
+
+# ::id lpp_1943.966 ::date 2012-11-17T20:42:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt And they were both silent .
+# ::zh 于是他们都沉默下来。
+# ::save-date Sat Nov 17, 2012 ::file lpp_1943_966.txt
+(a / and
+  :op2 (s / silent
+         :domain (t / they
+                   :mod (b / both))))
+
+# ::id lpp_1943.967 ::date 2012-11-17T20:42:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Where are the men ? " the little prince at last took up the conversation again .
+# ::zh “人在什么地方？” 小王子终于又开了腔。
+# ::save-date Tue May 26, 2015 ::file lpp_1943_967.txt
+(a3 / and
+      :op1 (t / take-up-31
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (c / converse-01)
+            :mod (a / again)
+            :time (a2 / at-last))
+      :op2 (b2 / be-located-at-91
+            :ARG1 (m / man)
+            :ARG2 (a4 / amr-unknown)))
+
+# ::id lpp_1943.968 ::date 2012-11-17T20:47:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is a little lonely in the desert ... "
+# ::zh “在沙漠上，真有点孤独…”
+# ::save-date Fri May 10, 2013 ::file lpp_1943_968.txt
+(l2 / lonely
+      :domain (b / be-located-at-91
+            :ARG2 (d / desert))
+      :degree (l / little))
+
+# ::id lpp_1943.969 ::date 2012-11-17T20:49:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is also lonely among men , " the snake said .
+# ::zh “到了有人的地方，也一样孤独。” 蛇说。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_969.txt
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (l / lonely
+            :domain (b / be-located-at-91
+                  :ARG2 (a3 / among
+                        :op1 (m / man)))
+            :mod (a2 / also)))
+
+# ::id lpp_1943.970 ::date 2012-11-17T20:50:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince gazed at him for a long time .
+# ::zh 小王子长时间地看着蛇。
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_970.txt
+(g / gaze-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (h / he)
+      :ARG1-of (l2 / long-03))
+
+# ::id lpp_1943.971 ::date 2012-11-18T16:28:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You are a funny animal , " he said at last .
+# ::zh “你是个奇怪的动物，小王子终于说道。
+# ::save-date Sun Nov 18, 2012 ::file lpp_1943_971.txt
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (a2 / animal
+          :mod (f / funny)
+          :domain (y / you))
+  :time (a / at-last))
+
+# ::id lpp_1943.972 ::date 2012-11-18T16:29:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You are no thicker than a finger ... "
+# ::zh 细得象个手指头…。”
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_972.txt
+(t / thick-03
+      :ARG1 (y / you)
+      :degree (m / more :polarity -)
+      :compared-to (f / finger))
+
+# ::id lpp_1943.973 ::date 2012-11-18T16:33:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But I am more powerful than the finger of a king , " said the snake .
+# ::zh “但我比一个国王的手指更有威力。” 蛇说道。
+# ::save-date Fri Jul 17, 2015 ::file lpp_1943_973.txt
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (c2 / contrast-01
+            :ARG2 (p / powerful-02
+                  :ARG1 (i / i)
+                  :degree (m / more)
+                  :compared-to (f / finger
+                        :part-of (k / king)))))
+
+# ::id lpp_1943.974 ::date 2012-11-18T16:39:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince smiled .
+# ::zh 小王子微笑着说：
+# ::save-date Sun Nov 18, 2012 ::file lpp_1943_974.txt
+(s / smile-01
+  :ARG0 (p / prince
+          :mod (l / little)))
+
+# ::id lpp_1943.975 ::date 2012-11-18T16:40:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You are not very powerful .
+# ::zh “你并不那么有威力……
+# ::save-date Fri Jul 17, 2015 ::file lpp_1943_975.txt
+(p / powerful-02
+      :ARG1 (y / you)
+      :degree (v / very :polarity -))
+
+# ::id lpp_1943.976 ::date 2012-11-18T16:42:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt You have n't even any feet .
+# ::zh 你连脚都没有……
+# ::save-date Thu May 2, 2013 ::file lpp_1943_976.txt
+(h / have-03 :polarity -
+      :ARG0 (y / you)
+      :ARG1 (f / foot
+            :quant (a / any))
+      :mod (e / even))
+
+# ::id lpp_1943.977 ::date 2012-11-18T16:48:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt You can not even travel ... "
+# ::zh 你甚至都不能旅行…”
+# ::save-date Thu May 2, 2013 ::file lpp_1943_977.txt
+(p / possible-01 :polarity -
+      :ARG1 (t / travel-01
+            :ARG0 (y / you))
+      :mod (e / even))
+
+# ::id lpp_1943.978 ::date 2012-11-18T16:50:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I can carry you farther than any ship could take you , " said the snake .
+# ::zh “我可以把你带到很远的地方去，比一只船能去的地方还要远。” 蛇说道。
+# ::save-date Sun Nov 18, 2012 ::file lpp_1943_978.txt
+(s / say-01
+  :ARG0 (s2 / snake)
+  :ARG1 (p / possible-01
+          :ARG1 (c / carry-01
+                    :ARG0 s2
+                    :ARG1 (y / you)
+                    :extent (f / far
+                              :degree (m / more)
+                              :compared-to (t / take-01
+                                             :ARG0 (s3 / ship
+                                                     :mod (a / any))
+                                             :ARG1 y)))))
+
+# ::id lpp_1943.979 ::date 2012-11-18T17:01:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt He twined himself around the little prince 's ankle , like a golden bracelet .
+# ::zh 蛇就盘结在小王子的脚腕子上，象一只金镯子。
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_979.txt
+(t / twine-01
+      :ARG0 (h / he)
+      :ARG1 h
+      :ARG2 (a / ankle
+            :part-of (p / prince
+                  :mod (l / little)))
+      :manner (r / resemble-01
+            :ARG2 (b / bracelet
+                  :consist-of (g / gold))))
+
+# ::id lpp_1943.980 ::date 2012-11-18T17:03:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Whomever I touch , I send back to the earth from whence he came , " the snake spoke again .
+# ::zh “被我碰触的人，我就把他送回老家去。”
+# ::save-date Fri May 10, 2013 ::file lpp_1943_980.txt
+(s / speak-01
+      :ARG0 (s2 / snake)
+      :ARG1 (s3 / send-01
+            :ARG0 s2
+            :ARG1 (p / person
+                  :ARG1-of (t / touch-01
+                        :ARG0 s2)
+                  :mod (a2 / any))
+            :ARG2 (b / back
+                  :op1 (e / earth
+                        :ARG3-of (c / come-01
+                              :ARG1 p))))
+      :mod (a / again))
+
+# ::id lpp_1943.981 ::date 2012-11-18T17:08:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But you are innocent and true , and you come from a star ... "
+# ::zh 蛇还说，“可是你是纯洁的，而且是从另一个星球上来的…”
+# ::save-date Thu May 2, 2013 ::file lpp_1943_981.txt
+(c / contrast
+      :op2 (a / and
+            :op1 (a2 / and
+                  :op1 (i / innocence)
+                  :op2 (t / truth)
+                  :domain (y / you))
+            :op2 (c2 / come-01
+                  :ARG1 y
+                  :ARG3 (s2 / star))))
+
+# ::id lpp_1943.982 ::date 2012-11-18T17:10:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince made no reply .
+# ::zh 小王子什么也没有回答。
+# ::save-date Sun Nov 18, 2012 ::file lpp_1943_982.txt
+(r / reply-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :polarity -)
+
+# ::id lpp_1943.983 ::date 2012-11-18T17:11:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You move me to pity - - you are so weak on this Earth made of granite , " the snake said .
+# ::zh “在这个花岗石的地球上，你这么弱小，我很可怜你。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_983.txt
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (p3 / pity-01
+            :ARG0 s2
+            :ARG1 (y / you)
+            :ARG1-of (c / cause-01
+                  :ARG0 (w / weak
+                        :domain y
+                        :degree (s3 / so)
+                        :location (p2 / planet :wiki "Earth"
+                              :name (n / name :op1 "Earth")
+                              :consist-of (g / granite)
+                              :mod (t / this))))))
+
+# ::id lpp_1943.984 ::date 2012-11-18T17:11:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I can help you , some day , if you grow too homesick for your own planet .
+# ::zh 如果你非常怀念你的星球，那时我可以帮助你。
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_984.txt
+(p / possible-01
+      :ARG1 (h / help-01
+            :ARG0 (i / i)
+            :ARG1 (y / you)
+            :time (d / day
+                  :mod (s / some)))
+      :condition (g / grow-02
+            :ARG1 y
+            :ARG2 (h2 / homesick
+                  :topic (p2 / planet
+                        :source-of y)
+                  :degree (t / too)
+                  :domain y)))
+
+# ::id lpp_1943.985 ::date 2012-11-18T17:27:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt I can - - "
+# ::zh 我可以…”
+# ::save-date Thu May 2, 2013 ::file lpp_1943_985.txt
+(p / possible-01
+      :ARG1 (d / do-02
+            :ARG0 (i / i)))
+
+# ::id lpp_1943.986 ::date 2012-11-18T17:29:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Oh !
+# ::zh “啊！
+# ::save-date Thu May 2, 2013 ::file lpp_1943_986.txt
+(o / oh :mode expressive)
+
+# ::id lpp_1943.987 ::date 2012-11-18T17:30:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt I understand you very well , " said the little prince .
+# ::zh 我很明白你的意思。” 小王子说，
+# ::save-date Sun Nov 18, 2012 ::file lpp_1943_987.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (u / understand-01
+          :ARG0 p
+          :ARG1 (y / you)
+          :mod (w / well
+                 :degree (v / very))))
+
+# ::id lpp_1943.988 ::date 2012-11-18T17:40:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But why do you always speak in riddles ? "
+# ::zh “但是你为什么说话总是象让人猜谜语似的？”
+# ::save-date Fri May 10, 2013 ::file lpp_1943_988.txt
+(c / contrast-01
+      :ARG2 (s2 / speak-01
+            :ARG0 (y / you)
+            :ARG1 (r / riddle)
+            :time (a / always)
+            :purpose (a2 / amr-unknown)))
+
+# ::id lpp_1943.989 ::date 2012-11-18T17:42:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I solve them all , " said the snake .
+# ::zh “这些谜语我都能解开的。” 蛇说。
+# ::save-date Sun Nov 18, 2012 ::file lpp_1943_989.txt
+(s / say-01
+  :ARG0 (s2 / snake)
+  :ARG1 (s3 / solve-01
+          :ARG0 s2
+          :ARG1 (t / they
+                  :quant (a / all))))
+
+# ::id lpp_1943.990 ::date 2012-11-18T17:43:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt And they were both silent .
+# ::zh 于是他们又都沉默起来。
+# ::save-date Sun Nov 18, 2012 ::file lpp_1943_990.txt
+(a / and
+  :op2 (s / silent
+         :domain (t / they
+                   :mod (b / both))))

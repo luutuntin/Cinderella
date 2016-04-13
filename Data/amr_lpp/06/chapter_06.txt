@@ -1,0 +1,304 @@
+# ::id lpp_1943.263 ::date 2012-11-13T08:13:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 6 .
+# ::zh VI。
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_263.txt
+(c / chapter :mod 6)
+
+# ::id lpp_1943.264 ::date 2012-11-13T08:13:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt Oh , little prince !
+# ::zh 啊，小王子！
+# ::save-date Thu May 2, 2013 ::file lpp_1943_264.txt
+(p / prince
+      :mod (l / little))
+
+# ::id lpp_1943.265 ::date 2012-11-13T08:14:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt Bit by bit I came to understand the secrets of your sad little life ...
+# ::zh 就这样，我逐渐懂得了你那忧郁的生活。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_265.txt
+(u / understand-01
+      :ARG0 (i / i)
+      :ARG1 (s / secret
+            :poss (l / life
+                  :poss (y / you)
+                  :mod (l2 / little)
+                  :ARG1-of (s2 / sad-02)))
+      :manner (b / bit-by-bit))
+
+# ::id lpp_1943.266 ::date 2012-11-13T08:20:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt For a long time you had found your only entertainment in the quiet pleasure of looking at the sunset .
+# ::zh 过去相当长的时间里你唯一的乐趣就是观赏那夕阳西下的温柔晚景。
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_266.txt
+(f / find-01
+      :ARG0 (y / you)
+      :ARG1 (e / entertain-01
+            :ARG0 (l2 / look-01
+                  :ARG0 y
+                  :ARG1 (s / sunset)
+                  :mod (p / pleasure
+                        :mod (q / quiet)))
+            :ARG1 y
+            :mod (o / only))
+      :ARG1-of (l / long-03))
+
+# ::id lpp_1943.267 ::date 2012-11-13T08:22:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt I learned that new detail on the morning of the fourth day , when you said to me : " I am very fond of sunsets .
+# ::zh 这个新的细节，是我在第四天早晨知道的。 你当时对我说道：“我喜欢看日落。
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_267.txt
+(l / learn-01
+      :ARG0 (i / i)
+      :ARG1 (d / detail
+            :mod (n / new)
+            :mod (t / that))
+      :time (m / morning
+            :time (d2 / day
+                  :ord (o / ordinal-entity :value 4)))
+      :time (s / say-01
+            :ARG0 (y / you)
+            :ARG1 (l2 / like-01
+                  :ARG0 y
+                  :ARG1 (s2 / sunset)
+                  :degree (v / very))
+            :ARG2 i))
+
+# ::id lpp_1943.268 ::date 2012-11-14T10:39:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt Come , let us go look at a sunset now . "
+# ::zh 我们去看一回日落吧！”
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_268.txt
+(a / and
+      :op1 (c / come-01 :mode imperative
+            :ARG1 (y / you))
+      :op2 (g / go-05 :mode imperative
+            :ARG0 w
+            :ARG1 (l / look-01
+                  :ARG0 (w / we)
+                  :ARG1 (s / sunset)
+                  :time (n / now))))
+
+# ::id lpp_1943.269 ::date 2012-11-14T10:40:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But we must wait , "
+# ::zh “可是得等着…”
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_269.txt
+(c / contrast-01
+      :ARG2 (o / obligate-01
+            :ARG2 (w2 / wait-01
+                  :ARG1 (w / we))))
+
+# ::id lpp_1943.270 ::date 2012-11-14T10:41:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt I said .
+# ::zh 我说。
+# ::save-date Wed Nov 14, 2012 ::file lpp_1943_270.txt
+(s / say-01
+  :ARG0 (i / i))
+
+# ::id lpp_1943.271 ::date 2012-11-14T10:41:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Wait ?
+# ::zh “等什么？”
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_271.txt
+(w / wait-01 :mode interrogative)
+
+# ::id lpp_1943.272 ::date 2012-11-14T10:43:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt For what ? "
+# ::zh “等什么？”
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_272.txt
+(w / wait-01
+      :ARG2 (a / amr-unknown))
+
+# ::id lpp_1943.273 ::date 2012-11-14T10:58:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt " For the sunset .
+# ::zh “等太阳落山。”
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_273.txt
+(w / wait-01
+      :ARG2 (s / sunset))
+
+# ::id lpp_1943.274 ::date 2012-11-14T10:59:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt We must wait until it is time . "
+# ::zh 我们必须等到那个时候。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_274.txt
+(o / obligate-01
+      :ARG2 (w2 / wait-01
+            :ARG1 (w / we)
+            :duration (u / until
+                  :op1 (t / time))))
+
+# ::id lpp_1943.275 ::date 2012-11-14T11:00:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt At first you seemed to be very much surprised .
+# ::zh 开始，你显得很惊奇的样子，
+# ::save-date Wed Aug 7, 2013 ::file lpp_1943_275.txt
+(s / seem-01
+      :ARG1 (s2 / surprise-01
+            :ARG1 (y / you)
+            :degree (m / much
+                  :degree (v / very)))
+      :time (a / at-first))
+
+# ::id lpp_1943.276 ::date 2012-11-14T11:01:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt And then you laughed to yourself .
+# ::zh 随后你笑自己的糊涂。
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_276.txt
+(a / and
+      :op1 (l / laugh-01
+            :ARG0 (y / you)
+            :ARG2 y
+            :time (t / then)))
+
+# ::id lpp_1943.277 ::date 2012-11-14T11:02:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt You said to me : " I am always thinking that I am at home ! "
+# ::zh 你对我说：“我总以为是在我的家乡呢！”
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_277.txt
+(s / say-01
+      :ARG0 (y / you)
+      :ARG1 (t / think-01
+            :ARG0 y
+            :ARG1 (b / be-located-at-91
+                  :ARG1 y
+                  :ARG2 (h / home))
+            :time (a / always))
+      :ARG2 (i / i))
+
+# ::id lpp_1943.278 ::date 2012-11-15T08:05:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt Just so .
+# ::zh 确实，
+# ::save-date Thu Nov 15, 2012 ::file lpp_1943_278.txt
+(s / so
+  :mod (j / just))
+
+# ::id lpp_1943.279 ::date 2012-11-15T08:06:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt Everybody knows that when it is noon in the United States the sun is setting over France .
+# ::zh 大家都知道，在美国是正午时分，
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_279.txt
+(k / know-01
+      :ARG0 (e / everybody)
+      :ARG1 (s / set-11
+            :ARG1 (s2 / sun)
+            :location (c2 / country :wiki "France"
+                  :name (n3 / name :op1 "France"))
+            :time (d / date-entity :time "12:00"
+                  :location (c / country :wiki "United_States"
+                        :name (n2 / name :op1 "United" :op2 "States")))))
+
+# ::id lpp_1943.280 ::date 2012-11-15T08:10:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt If you could fly to France in one minute , you could go straight into the sunset , right from noon .
+# ::zh 在法国，正夕阳西下，只要在一分钟内赶到法国就可看到日落。
+# ::save-date Mon Jul 20, 2015 ::file lpp_1943_280.txt
+(p / possible-01
+      :ARG1 (g / go-02
+            :ARG0 y
+            :ARG3 (d / date-entity :time "12:00")
+            :ARG4 (s / sunset)
+            :ARG1-of (s2 / straight-04))
+      :condition (p2 / possible-01
+            :ARG1 (f / fly-01
+                  :ARG1 (y / you)
+                  :duration (t / temporal-quantity :quant 1
+                        :unit (m / minute))
+                  :destination (c / country :wiki "France" :name (n / name :op1 "France")))))
+
+# ::id lpp_1943.281 ::date 2012-11-15T08:12:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt Unfortunately , France is too far away for that .
+# ::zh 可惜法国是那么的遥远。
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_281.txt
+(f / fortunate-01 :polarity -
+      :ARG2 (b / be-located-at-91
+            :ARG1 (c / country :wiki "France"
+                  :name (n / name :op1 "France"))
+            :ARG2 (a / away
+                  :extent (f2 / far
+                        :degree (t / too)))
+            :purpose (t2 / that)))
+
+# ::id lpp_1943.282 ::date 2012-11-15T08:15:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt But on your tiny planet , my little prince , all you need do is move your chair a few steps .
+# ::zh 而在你那样的小行星上，你只要把你的椅子挪动几步就行了。
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_282.txt
+(s2 / say-01
+      :ARG1 (c2 / contrast-01
+            :ARG2 (o / obligate-01
+                  :ARG2 (m / move-01
+                        :ARG0 p2
+                        :ARG1 (c / chair
+                              :poss p2)
+                        :extent (s / step
+                              :quant (f / few))
+                        :mod (o2 / only))
+                  :location (p / planet
+                        :mod (t / tiny)
+                        :poss (p2 / prince
+                              :mod (l / little)
+                              :poss (i / i)))))
+      :ARG2 p2)
+
+# ::id lpp_1943.283 ::date 2012-11-15T08:23:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt You can see the day end and the twilight falling whenever you like ...
+# ::zh 这样，你便可随时看到你想看的夕阳余辉…“
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_283.txt
+(p / possible-01
+      :ARG1 (s / see-01
+            :ARG0 (y / you)
+            :ARG1 (a / and
+                  :op1 (e / end-01
+                        :ARG1 (d / day))
+                  :op2 (f / fall-04
+                        :ARG1 (t / twilight)))
+            :time (l / like-02
+                  :ARG0 y
+                  :ARG1 s
+                  :time (e2 / ever))))
+
+# ::id lpp_1943.284 ::date 2012-11-15T08:25:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt " One day , " you said to me , " I saw the sunset forty - four times ! "
+# ::zh 一天，我看见过四十三次日落。” 你对我说。
+# ::save-date Mon Sep 16, 2013 ::file lpp_1943_284.txt
+(s / say-01
+      :ARG0 (y / you)
+      :ARG1 (s2 / see-01 :frequency 44
+            :ARG0 y
+            :ARG1 (s3 / sunset)
+            :time (d / day
+                  :mod (o / one)))
+      :ARG2 (i / i))
+
+# ::id lpp_1943.285 ::date 2012-11-15T08:26:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt And a little later you added : " You know -- one loves the sunset , when one is so sad ... "
+# ::zh 过一会儿，你又说：“你知道，当人们感到非常苦闷时，总是喜欢日落的。”
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_285.txt
+(a / and
+      :op1 (a2 / add-01
+            :ARG0 (y / you)
+            :ARG1 (l3 / love-01
+                  :ARG0 (o / one)
+                  :ARG1 (s / sunset)
+                  :time (s2 / sad-02
+                        :ARG1 o
+                        :mod (s3 / so)))
+            :time (l / late
+                  :degree (m / more
+                        :quant (l2 / little)))))
+
+# ::id lpp_1943.286 ::date 2012-11-18T16:24:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Were you so sad , then ? "
+# ::zh 你怎么会这么苦闷？”
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_286.txt
+(s / sad-02 :mode interrogative
+      :ARG1 (y / you)
+      :time (t / then)
+      :degree (s2 / so))
+
+# ::id lpp_1943.287 ::date 2012-11-18T16:24:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt I asked , " on the day of the forty - four sunsets ? "
+# ::zh 我问：“一天四十三次，
+# ::save-date Sun Nov 18, 2012 ::file lpp_1943_287.txt
+(a / ask-01
+  :ARG0 (i / i)
+  :ARG1 (t / time
+          :time (d / day
+                  :poss (s / sunset
+                          :quant 44))))
+
+# ::id lpp_1943.288 ::date 2012-11-18T16:25:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt But the little prince made no reply .
+# ::zh 但是小王子没有回答。
+# ::save-date Sun Dec 9, 2012 ::file lpp_1943_288.txt
+(c / contrast-01
+      :ARG2 (r / reply-01 :polarity -
+            :ARG0 (p / prince
+                  :mod (l / little))))

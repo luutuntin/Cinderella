@@ -1,0 +1,539 @@
+# ::id lpp_1943.103 ::date 2012-07-31T07:37:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 3 .
+# ::zh III。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_103.txt
+(c2 / chapter
+  :mod 3)
+
+# ::id lpp_1943.104 ::date 2012-07-31T07:38:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt It took me a long time to learn where he came from .
+# ::zh 我费了好长时间才弄清楚他是从哪里来的。
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_104.txt
+(t2 / take-10
+      :ARG1 (t / temporal-quantity
+            :ARG2-of (l / long-03
+                  :ARG1 (l2 / learn-01
+                        :ARG0 (i / i)
+                        :ARG1 (p / place
+                              :location-of (c / come-01
+                                    :ARG1 (h / he)))))))
+
+# ::id lpp_1943.105 ::date 2012-07-31T07:42:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince , who asked me so many questions , never seemed to hear the ones I asked him .
+# ::zh 小王子向我提出了很多问题，可是，对我提出的问题，他好象压根没有听见似的。
+# ::save-date Wed Apr 8, 2015 ::file lpp_1943_105.txt
+(s / seem-01
+      :ARG1 (h / hear-01 :polarity -
+            :ARG0 (p / prince
+                  :mod (l / little)
+                  :ARG0-of (q / question-01
+                        :ARG2 (i / i)
+                        :quant (m / many
+                              :degree (s2 / so))))
+            :ARG1 (o / one
+                  :ARG1-of (a2 / ask-01
+                        :ARG0 i
+                        :ARG2 p))
+            :time (e2 / ever)))
+
+# ::id lpp_1943.106 ::date 2012-07-31T08:02:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt It was from words dropped by chance that , little by little , everything was revealed to me .
+# ::zh 他无意中吐露的一些话逐渐使我搞清了他的来历。
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_106.txt
+(r / reveal-01
+      :ARG0 (w / word
+            :ARG1-of (d / drop-06
+                  :ARG1-of (c / chance-02)))
+      :ARG1 (e / everything)
+      :ARG2 (i / i)
+      :manner (l / little-by-little))
+
+# ::id lpp_1943.107 ::date 2012-07-31T08:05:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt The first time he saw my airplane , for instance ( I shall not draw my airplane ; that would be much too complicated for me ) , he asked me : " What is that object ? "
+# ::zh 例如，当他第一次瞅见我的飞机时（我就不画出我的飞机了，因为这种图画对我来说太复杂），他问我道：“这是个啥玩艺？”
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_107.txt
+(a / ask-01
+      :ARG0 (h / he)
+      :ARG1 (o / object
+            :mod (t / that)
+            :domain (a2 / amr-unknown))
+      :ARG2 (i / i)
+      :time (s / see-01
+            :ARG0 h
+            :ARG1 (a3 / airplane
+                  :poss i
+                  :ARG1-of (d / draw-01 :polarity -
+                        :ARG0 i
+                        :ARG1-of (c / cause-01
+                              :ARG0 (c2 / complicate-01
+                                    :ARG2 i
+                                    :degree (t3 / too
+                                          :degree (m / much))))))
+            :ord (o2 / ordinal-entity :value 1)))
+
+# ::id lpp_1943.108 ::date 2012-07-31T08:12:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That is not an object .
+# ::zh “这不是‘玩艺儿’。
+# ::save-date Sat Dec 29, 2012 ::file lpp_1943_108.txt
+(o / object
+  :domain (t / that)
+  :polarity -)
+
+# ::id lpp_1943.109 ::date 2012-07-31T08:14:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt It flies .
+# ::zh 它能飞。
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_109.txt
+(f / fly-01
+      :ARG1 (i / it))
+
+# ::id lpp_1943.110 ::date 2012-07-31T08:14:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is an airplane .
+# ::zh 这是飞机。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_110.txt
+(a / airplane
+  :domain (i / it))
+
+# ::id lpp_1943.111 ::date 2012-07-31T08:14:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is my airplane . "
+# ::zh 是我的飞机。”
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_111.txt
+(a2 / airplane
+  :poss (i2 / i)
+  :domain (i / it))
+
+# ::id lpp_1943.112 ::date 2012-07-31T08:15:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt And I was proud to have him learn that I could fly .
+# ::zh 我当时很骄傲地告诉他我能飞。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_112.txt
+(a / and
+  :op2 (p / pride-01
+         :ARG0 (i / i)
+         :ARG2 (l / learn-01
+                 :ARG0 (h2 / he)
+                 :ARG1 (p2 / possible-01
+                         :ARG1 (f / fly-01
+                                   :ARG1 i)))))
+
+# ::id lpp_1943.113 ::date 2012-07-31T08:19:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt He cried out , then : " What !
+# ::zh 于是他惊奇地说道：“怎么？
+# ::save-date Tue Jul 2, 2013 ::file lpp_1943_113.txt
+(c / cry-out-03
+      :ARG0 (h / he)
+      :ARG1 (w / what)
+      :time (t / then))
+
+# ::id lpp_1943.114 ::date 2012-07-31T08:22:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt You dropped down from the sky ? "
+# ::zh 你是从天上掉下来的？”
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_114.txt
+(d / drop-01
+      :ARG1 (y / you)
+      :ARG3 (s / sky)
+      :direction (d2 / down)
+      :mode interrogative)
+
+# ::id lpp_1943.115 ::date 2012-07-31T08:24:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , "
+# ::zh “是的”。
+# ::save-date Wed May 1, 2013 ::file lpp_1943_115.txt
+(y2 / yes)
+
+# ::id lpp_1943.116 ::date 2012-07-31T08:35:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt I answered , modestly .
+# ::zh 我谦逊地答道。
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_116.txt
+(a / answer-01
+      :ARG0 (i / i)
+      :manner (m / modest))
+
+# ::id lpp_1943.117 ::date 2012-07-31T08:38:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Oh !
+# ::zh “啊？
+# ::save-date Wed May 15, 2013 ::file lpp_1943_117.txt
+(o / oh :mode expressive)
+
+# ::id lpp_1943.118 ::date 2012-07-31T08:38:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt That is funny ! "
+# ::zh 这真滑稽。”
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_118.txt
+(f2 / funny
+  :domain (t2 / that))
+
+# ::id lpp_1943.119 ::date 2012-07-31T08:39:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt And the little prince broke into a lovely peal of laughter , which irritated me very much .
+# ::zh 此时小王子发出一阵清脆的笑声。 这使我很不高兴。
+# ::save-date Mon May 13, 2013 ::file lpp_1943_119.txt
+(a / and
+      :op2 (b / break-in-17
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (l2 / laugh-01
+                  :quant (p2 / peal
+                        :mod (l3 / lovely)))
+            :ARG0-of (i / irritate-01
+                  :ARG1 (i2 / i)
+                  :degree (m / much
+                        :degree (v / very)))))
+
+# ::id lpp_1943.120 ::date 2012-07-31T08:41:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt I like my misfortunes to be taken seriously .
+# ::zh 我要求别人严肃地对待我的不幸。
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_120.txt
+(l / like-02
+      :ARG0 (i / i)
+      :ARG1 (t / take-04
+            :ARG1 (m / misfortune
+                  :poss i)
+            :manner (s / serious)))
+
+# ::id lpp_1943.121 ::date 2012-07-31T08:45:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then he added : " So you , too , come from the sky !
+# ::zh 然后，他又说道：“那么，你也是从天上来的了！
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_121.txt
+(a / add-01
+  :ARG0 (h / he)
+  :ARG1 (c2 / cause-01
+          :ARG1 (c / come-01
+                  :ARG1 (y / you)
+                  :ARG3 (s2 / sky)
+                  :mod (t2 / too)))
+  :time (t / then))
+
+# ::id lpp_1943.122 ::date 2012-07-31T08:48:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt Which is your planet ? "
+# ::zh 你是哪个星球上的？”
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_122.txt
+(p / planet
+      :poss (y / you)
+      :domain (a / amr-unknown))
+
+# ::id lpp_1943.123 ::date 2012-07-31T08:49:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt At that moment I caught a gleam of light in the impenetrable mystery of his presence ; and I demanded , abruptly : " Do you come from another planet ? "
+# ::zh 即刻，对于他是从哪里来的这个秘密我隐约发现到了一点线索；于是，我就突然问道：“你是从另一个星球上来的吗？”
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_123.txt
+(a / and
+  :op1 (c / catch-03
+         :ARG0 (i / i)
+         :ARG1 (g / gleam
+                 :consist-of (l / light)
+                 :location (m / mystery
+                             :poss (p / presence
+                                     :poss (h / he))
+                             :ARG1-of (p3 / penetrate-01
+                                        :ARG1-of (p2 / possible-01
+                                               :polarity -))))
+         :time (m2 / moment
+                 :mod (t / that)))
+  :op2 (d / demand-01
+         :ARG0 i
+         :ARG1 (c2 / come-01
+                 :ARG1 (y / you)
+                 :ARG3 (p4 / planet
+                         :mod (a3 / another))
+                 :mode interrogative)
+         :manner (a2 / abrupt)))
+
+# ::id lpp_1943.124 ::date 2012-07-31T08:57:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt But he did not reply .
+# ::zh 可是他不回答我的问题。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_124.txt
+(c / contrast-01
+  :ARG2 (r / reply-01
+          :ARG0 (h / he)
+          :polarity -))
+
+# ::id lpp_1943.125 ::date 2012-07-31T08:57:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt He tossed his head gently , without taking his eyes from my plane : " It is true that on that you can n't have come from very far away ... "
+# ::zh 他一面看着我的飞机，一面微微地点点头，接着说道：“可不是么，乘坐这玩艺儿，你不可能是从很远的地方来的…”
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_125.txt
+(a / and
+      :op1 (t / toss-01
+            :ARG0 (h / he)
+            :ARG1 (h2 / head
+                  :part-of h)
+            :manner (g / gentle)
+            :manner (t2 / take-away-05 :polarity -
+                  :ARG0 h
+                  :ARG1 (e / eye
+                        :part-of h)
+                  :direction (p2 / plane
+                        :poss (i / i))))
+      :op2 (s / say-01
+            :ARG0 h
+            :ARG1 (p / possible-01 :polarity -
+                  :ARG1 (c / come-01
+                        :ARG1 (y / you)
+                        :ARG3 (a2 / away
+                              :extent (f / far
+                                    :degree (v / very)))
+                        :manner p2))))
+
+# ::id lpp_1943.126 ::date 2012-07-31T10:09:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he sank into a reverie , which lasted a long time .
+# ::zh 说到这里，他就长时间地陷入沉思之中。
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_126.txt
+(a / and
+      :op2 (s / sink-01
+            :ARG0 (h / he)
+            :ARG4 (r / reverie
+                  :ARG1-of (l / long-03))))
+
+# ::id lpp_1943.127 ::date 2012-07-31T10:12:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then , taking my sheep out of his pocket , he buried himself in the contemplation of his treasure .
+# ::zh 然后，从口袋里掏出了我画的小羊，看着他的宝贝入了神。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_127.txt
+(b / bury-01
+  :ARG0 (h / he)
+  :ARG1 h
+  :ARG2 (c / contemplate-01
+          :ARG0 h
+          :ARG1 (t / treasure
+                  :poss h))
+  :time (t2 / take-out-11
+          :ARG0 h
+          :ARG1 (s / sheep
+                  :source (p / pocket
+                            :poss h)
+                  :poss (i / i)))
+  :time (t3 / then))
+
+# ::id lpp_1943.128 ::date 2012-07-31T10:17:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt You can imagine how my curiosity was aroused by this half - confidence about the " other planets . "
+# ::zh 你们可以想见这种关于“别的星球”的若明若暗的话语使我心里多么好奇。
+# ::save-date Mon May 4, 2015 ::file lpp_1943_128.txt
+(p / possible-01
+      :ARG1 (i2 / imagine-01
+            :ARG0 (y / you)
+            :ARG1 (a / arouse-01
+                  :ARG0 (c4 / confidence
+                        :degree (h2 / half)
+                        :topic (p3 / planet
+                              :mod (o2 / other))
+                        :poss (h / he))
+                  :ARG1 (c / curious-01
+                        :ARG1 (i / i)))))
+
+# ::id lpp_1943.129 ::date 2012-07-31T10:28:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt I made a great effort , therefore , to find out more on this subject .
+# ::zh 因此我竭力地想知道其中更多的奥秘。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_129.txt
+(c / cause-01
+  :ARG1 (t4 / try-01
+          :ARG0 (i / i)
+          :ARG1 (f / find-out-03
+                  :ARG0 i
+                  :ARG1 (i2 / information
+                          :quant (m2 / more)
+                          :topic (s / subject
+                                   :mod (t2 / this))))))
+
+# ::id lpp_1943.130 ::date 2012-07-31T10:45:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt " My little man , where do you come from ?
+# ::zh “你是从哪里来的，我的小家伙？
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_130.txt
+(s / say-01
+      :ARG1 (c / come-01
+            :ARG1 (y / you)
+            :ARG3 (a / amr-unknown))
+      :ARG2 (m / man
+            :mod (l / little)
+            :poss (i / i)))
+
+# ::id lpp_1943.131 ::date 2012-07-31T10:46:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt What is this ' where I live , ' of which you speak ?
+# ::zh 你的家在什么地方？
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_131.txt
+(l / live-01
+      :ARG0 (y / you)
+      :location (p / place
+            :ARG1-of (s / speak-01
+                  :ARG0 y)
+            :domain (a / amr-unknown)))
+
+# ::id lpp_1943.132 ::date 2012-07-31T10:49:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt Where do you want to take your sheep ? "
+# ::zh 你要把你的小羊带到哪里去？”
+# ::save-date Mon May 25, 2015 ::file lpp_1943_132.txt
+(w / want-01
+      :ARG0 (y / you)
+      :ARG1 (t / take-01
+            :ARG0 y
+            :ARG1 (s / sheep
+                  :poss y)
+            :ARG3 (a / amr-unknown)))
+
+# ::id lpp_1943.133 ::date 2012-07-31T10:49:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt After a reflective silence he answered : " The thing that is so good about the box you have given me is that at night he can use it as his house . "
+# ::zh 他沉思了一会，然后回答我说：“好在有你给我的那只箱子，夜晚可以给小羊当房子用。”
+# ::save-date Mon May 13, 2013 ::file lpp_1943_133.txt
+(a / answer-01
+      :ARG0 (h / he)
+      :ARG1 (t / thing
+            :mod (g / good
+                  :degree (s2 / so))
+            :topic (b / box
+                  :ARG1-of (g2 / give-01
+                        :ARG0 (y / you)
+                        :ARG2 h))
+            :domain (p / possible-01
+                  :ARG1 (u / use-01
+                        :ARG0 (h2 / he)
+                        :ARG1 b
+                        :ARG2 (h3 / house
+                              :poss h2)
+                        :time (n / night))))
+      :time (a2 / after
+            :op1 (s / silence
+                  :mod (r / reflect-02))))
+
+# ::id lpp_1943.134 ::date 2012-07-31T10:54:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That is so .
+# ::zh “那当然。
+# ::save-date Sat Dec 29, 2012 ::file lpp_1943_134.txt
+(s / so
+  :domain (t / that))
+
+# ::id lpp_1943.135 ::date 2012-07-31T10:55:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt And if you are good I will give you a string , too , so that you can tie him during the day , and a post to tie him to . "
+# ::zh 如果你听话的话，我再给你画一根绳子，白天可以栓住它。
+# ::save-date Sat May 9, 2015 ::file lpp_1943_135.txt
+(a / and
+      :op2 (g / give-01
+            :ARG0 (i / i)
+            :ARG1 (a2 / and
+                  :op1 (s / string
+                        :ARG3-of (t / tie-01
+                              :ARG0 y
+                              :ARG1 (h / he)
+                              :time (d / during
+                                    :op1 (d2 / day))))
+                  :op2 (p2 / post
+                        :purpose (t3 / tie-01
+                              :ARG0 y
+                              :ARG1 h)))
+            :ARG2 (y / you)
+            :condition (g2 / good
+                  :domain y)))
+
+# ::id lpp_1943.136 ::date 2012-07-31T10:59:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt But the little prince seemed shocked by this offer : " Tie him !
+# ::zh 我的建议看来有点使小王子反感。 “栓住它，
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_136.txt
+(c / contrast-01
+      :ARG2 (s / seem-01
+            :ARG1 (s2 / shock-01
+                  :ARG0 (o / offer
+                        :mod (t / this))
+                  :ARG1 (p / prince
+                        :mod (l / little)
+                        :ARG0-of (s3 / say-01
+                              :ARG1 (t2 / tie-01 :mode imperative
+                                    :ARG0 p
+                                    :ARG1 (h / he)))))))
+
+# ::id lpp_1943.137 ::date 2012-07-31T11:04:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt What a queer idea ! "
+# ::zh 多么奇怪的主意。”
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_137.txt
+(q / queer
+      :domain (i / idea))
+
+# ::id lpp_1943.138 ::date 2012-07-31T11:04:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But if you do n't tie him , "
+# ::zh “如果你不栓住它，
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_138.txt
+(c / contrast-01
+      :ARG2 (t / tie-01 :polarity -
+            :ARG0 (y / you)
+            :ARG1 (h / he)
+            :condition-of (t2 / thing)))
+
+# ::id lpp_1943.139 ::date 2012-07-31T11:06:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt I said , " he will wander off somewhere , and get lost . "
+# ::zh 它就到处跑，那么它会跑丢的。”
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_139.txt
+(s / say-01
+  :ARG0 (i / i)
+  :ARG1 (a / and
+          :op1 (w / wander-01
+                 :ARG0 (h / he)
+                 :ARG1 (s2 / somewhere))
+          :op2 (g / get-03
+                 :ARG1 h
+                 :ARG2 (l / lost))))
+
+# ::id lpp_1943.140 ::date 2012-07-31T11:08:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt My friend broke into another peal of laughter : " But where do you think he would go ? "
+# ::zh 我的这位朋友又笑出了声：“你想要它跑到哪里去呀？”
+# ::save-date Tue Nov 4, 2014 ::file lpp_1943_140.txt
+(b / break-in-17
+      :ARG0 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (i / i)
+                  :ARG2 (f / friend))
+            :ARG0-of (s / say-01
+                  :ARG1 (c / contrast-01
+                        :ARG2 (t / think-01
+                              :ARG0 (y / you)
+                              :ARG1 (g / go-02
+                                    :ARG0 (h / he)
+                                    :ARG4 (a2 / amr-unknown))))))
+      :ARG1 (l / laugh-01
+            :quant (p / peal
+                  :mod (a / another))))
+
+# ::id lpp_1943.141 ::date 2012-07-31T11:14:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Anywhere .
+# ::zh “不管什么地方。
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_141.txt
+(a / anywhere)
+
+# ::id lpp_1943.142 ::date 2012-07-31T11:14:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt Straight ahead of him . "
+# ::zh 它一直往前跑…”
+# ::save-date Mon Jul 20, 2015 ::file lpp_1943_142.txt
+(a / ahead
+      :ARG1-of (s / straight-04)
+      :compared-to (h / he))
+
+# ::id lpp_1943.143 ::date 2012-07-31T11:15:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then the little prince said , earnestly : " That does n't matter .
+# ::zh 这时，小王子郑重其事地说：“这没有什么关系，
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_143.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m / matter-01
+            :ARG1 (t2 / that)
+            :polarity -)
+      :manner (e / earnest)
+      :time (t / then))
+
+# ::id lpp_1943.144 ::date 2012-07-31T11:16:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt Where I live , everything is so small ! "
+# ::zh 我那里很小很小。”
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_144.txt
+(s / small
+      :degree (s2 / so)
+      :domain (e / everything
+            :location (l / live-01
+                  :ARG0 (i / i))))
+
+# ::id lpp_1943.145 ::date 2012-07-31T11:17:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , with perhaps a hint of sadness , he added : " Straight ahead of him , nobody can go very far ... "
+# ::zh 接着，他略带伤感地又补充了一句：“一直朝前走，也不会走出多远…”
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_145.txt
+(a / and
+      :op2 (a2 / add-01
+            :ARG0 (h / he)
+            :ARG1 (g / go-02
+                  :ARG0 (s2 / somebody :polarity -)
+                  :ARG4 (f / far
+                        :degree (v / very))
+                  :direction (a3 / ahead
+                        :ARG1-of (s3 / straight-04)
+                        :compared-to s2))
+            :manner (s / sad-02
+                  :quant (h2 / hint)
+                  :ARG1-of (p / possible-01))))

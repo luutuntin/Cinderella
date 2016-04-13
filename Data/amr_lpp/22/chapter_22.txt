@@ -1,0 +1,302 @@
+# ::id lpp_1943.1182 ::date 2012-11-27T10:12:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 22 .
+# ::zh XXII
+# ::save-date Fri May 10, 2013 ::file lpp_1943_1182.txt
+(c / chapter :mod 22)
+
+# ::id lpp_1943.1183 ::date 2012-11-27T10:13:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the little prince .
+# ::zh “你好。” 小王子说道。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1183.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m / morning
+            :mod (g / good)))
+
+# ::id lpp_1943.1184 ::date 2012-11-27T10:15:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the railway switchman .
+# ::zh “你好。” 扳道工说道。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1184.txt
+(s / say-01
+      :ARG0 (s2 / switchman
+            :mod (r / railway))
+      :ARG1 (m / morning
+            :mod (g / good)))
+
+# ::id lpp_1943.1185 ::date 2012-11-27T10:18:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What do you do here ? " the little prince asked .
+# ::zh “你在这里做什么？” 小王子问。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1185.txt
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (d / do-02
+            :ARG0 (y / you)
+            :ARG1 (a2 / amr-unknown)
+            :location (h / here)))
+
+# ::id lpp_1943.1186 ::date 2012-11-27T10:19:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I sort out travelers , in bundles of a thousand , " said the switchman .
+# ::zh “我一包包地分选旅客，按每千人一包。” 扳道工说，
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1186.txt
+(s / say-01
+  :ARG0 (s2 / switchman)
+  :ARG1 (s3 / sort-01
+          :ARG0 s2
+          :ARG1 (p / person
+                  :ARG0-of (t / travel-01))
+          :ARG2 (b / bundle-01
+                  :ARG0 s2
+                  :ARG1 p
+                  :ARG2 (p2 / person
+                          :quant 1000))))
+
+# ::id lpp_1943.1187 ::date 2012-11-27T10:27:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I send off the trains that carry them ; now to the right , now to the left . "
+# ::zh “我打发这些运载旅客的列车，一会儿发往右方，一会儿发往左方。”
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1187.txt
+(s / send-03
+      :ARG0 (i / i)
+      :ARG1 (t / train
+            :ARG0-of (c / carry-01
+                  :ARG1 (t2 / they)))
+      :ARG5 (a / and
+            :op1 (r / right
+                  :time (n / now))
+            :op2 (l / left
+                  :time (n2 / now))))
+
+# ::id lpp_1943.1188 ::date 2012-11-27T10:33:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt And a brilliantly lighted express train shook the switchman 's cabin as it rushed by with a roar like thunder .
+# ::zh 这时，一列灯火明亮的快车，雷鸣般地响着，把扳道房震得颤颤悠悠。
+# ::save-date Fri Jun 5, 2015 ::file lpp_1943_1188.txt
+(a / and
+      :op2 (s / shake-01
+            :ARG0 (t / train
+                  :mod (e / express-02)
+                  :ARG1-of (l / light-04
+                        :manner (b / brilliant-02)))
+            :ARG1 (c / cabin
+                  :poss (s2 / switchman))
+            :time (r / rush-01
+                  :ARG1 t
+                  :direction (b2 / by)
+                  :ARG0-of (r2 / roar-01
+                        :ARG1-of (r3 / resemble-01
+                              :ARG2 (t2 / thunder))))))
+
+# ::id lpp_1943.1189 ::date 2012-11-27T10:44:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They are in a great hurry , " said the little prince .
+# ::zh “他们真匆忙呀，”小王子说，
+# ::save-date Tue May 7, 2013 ::file lpp_1943_1189.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (h / hurry-01
+            :ARG1 (t / they)
+            :degree (g / great)))
+
+# ::id lpp_1943.1190 ::date 2012-11-27T10:48:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What are they looking for ? "
+# ::zh “他们要寻找什么？”
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1190.txt
+(l / look-01
+      :ARG0 (t / they)
+      :ARG1 (a / amr-unknown))
+
+# ::id lpp_1943.1191 ::date 2012-11-27T10:49:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Not even the locomotive engineer knows that , " said the switchman .
+# ::zh “开机车的人自己也不知道。” 扳道工说道。
+# ::save-date Sun May 10, 2015 ::file lpp_1943_1191.txt
+(s / say-01
+      :ARG0 (s2 / switchman)
+      :ARG1 (k / know-01 :polarity -
+            :ARG0 (p / person
+                  :ARG0-of (e / engineer-01
+                        :ARG1 (l / locomotive))
+                  :mod (e2 / even))
+            :ARG1 (t / that)))
+
+# ::id lpp_1943.1192 ::date 2012-11-27T10:53:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt And a second brilliantly lighted express thundered by , in the opposite direction .
+# ::zh 于是，第二列灯火通明的快车又朝着相反的方向轰隆轰隆地开过去。
+# ::save-date Fri Jun 5, 2015 ::file lpp_1943_1192.txt
+(a / and
+      :op2 (t / thunder-01
+            :ARG0 (t2 / train
+                  :mod (e / express-02)
+                  :ARG1-of (l / light-04
+                        :manner (b2 / brilliant-02))
+                  :ord (o2 / ordinal-entity :value 2))
+            :direction (b / by)
+            :direction (o / opposite-01
+                  :ARG2 (d / direction))))
+
+# ::id lpp_1943.1193 ::date 2012-11-27T10:59:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Are they coming back already ? " demanded the little prince .
+# ::zh “他们怎么又回来了呢？” 小王子问道。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1193.txt
+(d / demand-01 :mode interrogative
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (c / come-01
+            :ARG1 (t / they)
+            :direction (b / back)
+            :time (a / already)))
+
+# ::id lpp_1943.1194 ::date 2012-11-27T11:03:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt " These are not the same ones , " said the switchman .
+# ::zh “他们不是原来那些人了。” 扳道工说，
+# ::save-date Fri Dec 14, 2012 ::file lpp_1943_1194.txt
+(s / say-01
+  :ARG0 (s2 / switchman)
+  :ARG1 (o / one
+          :ARG1-of (s3 / same-01
+                     :polarity -)
+          :domain (t / this)))
+
+# ::id lpp_1943.1195 ::date 2012-11-27T11:06:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is an exchange . "
+# ::zh “这是一次对开列车。”
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1195.txt
+(e / exchange-01
+      :domain (i / it))
+
+# ::id lpp_1943.1196 ::date 2012-11-27T11:07:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Were they not satisfied where they were ? " asked the little prince .
+# ::zh “他们不满意他们原来所住的地方吗？”
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1196.txt
+(a / ask-01 :mode interrogative
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s / satisfy-01 :polarity -
+            :ARG1 (t / they)
+            :location-of (t2 / they)))
+
+# ::id lpp_1943.1197 ::date 2012-11-27T11:11:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt " No one is ever satisfied where he is , " said the switchman .
+# ::zh “人们是从来也不会满意自己所在的地方的。” 扳道工说。
+# ::save-date Tue Jul 2, 2013 ::file lpp_1943_1197.txt
+(s / say-01
+      :ARG0 (s2 / switchman)
+      :ARG1 (s3 / satisfy-01
+            :ARG1 (n / no-one)
+            :time (e / ever)
+            :location n))
+
+# ::id lpp_1943.1198 ::date 2012-11-27T12:21:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt And they heard the roaring thunder of a third brilliantly lighted express .
+# ::zh 此时，第三趟灯火明亮的快车又隆隆而过。
+# ::save-date Fri Jun 5, 2015 ::file lpp_1943_1198.txt
+(a / and
+      :op2 (h / hear-01
+            :ARG0 (t / they)
+            :ARG1 (t2 / thunder-01
+                  :ARG1-of (r / roar-01))
+            :ARG2 (t3 / train
+                  :mod (e / express-02)
+                  :ARG1-of (l / light-04
+                        :manner (b / brilliant-02))
+                  :ord (o / ordinal-entity :value 3))))
+
+# ::id lpp_1943.1199 ::date 2012-11-27T12:26:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Are they pursuing the first travelers ? " demanded the little prince .
+# ::zh “他们是在追随第一批旅客吗？” 小王子问道。
+# ::save-date Tue Aug 6, 2013 ::file lpp_1943_1199.txt
+(d / demand-01 :mode interrogative
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / pursue-01
+            :ARG0 (t / they)
+            :ARG1 (p3 / person
+                  :ARG0-of (t2 / travel-01
+                        :ord (o / ordinal-entity :value 1)))))
+
+# ::id lpp_1943.1200 ::date 2012-11-27T12:28:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They are pursuing nothing at all , " said the switchman .
+# ::zh “他们什么也不追随。” 扳道工说，
+# ::save-date Fri Dec 14, 2012 ::file lpp_1943_1200.txt
+(s / say-01
+  :ARG0 (s2 / switchman)
+  :ARG1 (p / pursue-01
+          :ARG0 (t / they)
+          :ARG1 (n / nothing
+                  :extent (a / at-all))))
+
+# ::id lpp_1943.1201 ::date 2012-11-27T12:30:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They are asleep in there , or if they are not asleep they are yawning .
+# ::zh “他们在里面睡觉，或是在打哈欠。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1201.txt
+(o / or
+      :op1 (s / sleep-01
+            :ARG0 (t / they)
+            :location (t2 / there))
+      :op2 (y / yawn-01
+            :ARG0 t
+            :condition (s2 / sleep-01 :polarity -
+                  :ARG0 t)))
+
+# ::id lpp_1943.1202 ::date 2012-11-27T12:34:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt Only the children are flattening their noses against the windowpanes . "
+# ::zh 只有孩子们把鼻子贴在玻璃窗上往外看。”
+# ::save-date Thu Nov 6, 2014 ::file lpp_1943_1202.txt
+(f / flatten-01
+      :ARG0 (c / child
+            :mod (o / only))
+      :ARG1 (n / nose
+            :part-of c)
+      :ARG1-of (c2 / cause-01
+            :ARG0 (p / push-01
+                  :ARG0 c
+                  :ARG1 n
+                  :ARG2 (w / windowpane))))
+
+# ::id lpp_1943.1203 ::date 2012-11-27T12:39:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Only the children know what they are looking for , " said the little prince .
+# ::zh “只有孩子知道他们自己在寻找什么。” 小王子说，
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1203.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (k / know-01
+            :ARG0 (c / child
+                  :mod (o / only))
+            :ARG1 (t / thing
+                  :ARG1-of (l2 / look-01
+                        :ARG0 c))))
+
+# ::id lpp_1943.1204 ::date 2012-11-27T12:42:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They waste their time over a rag doll and it becomes very important to them ; and if anybody takes it away from them , they cry ... "
+# ::zh “他们为一个布娃娃花费不少时间，这个布娃娃就成了很重要的东西，如果有人夺走的他们的布娃娃，他们就哭泣…”
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1204.txt
+(a / and
+      :op1 (c3 / cause-01
+            :ARG0 (w / waste-01
+                  :ARG0 (t / they)
+                  :ARG1 (t2 / time
+                        :poss t)
+                  :ARG1-of (c / cause-01
+                        :ARG0 (d / doll
+                              :mod (r / rag))))
+            :ARG1 (b / become-01
+                  :ARG1 d
+                  :ARG2 (i / important
+                        :ARG1-of (o / opine-01
+                              :ARG0 t)
+                        :degree (v / very))))
+      :op2 (c2 / cry-02
+            :ARG0 t
+            :condition (t3 / take-away-05
+                  :ARG0 (a3 / anybody)
+                  :ARG1 d
+                  :source t)))
+
+# ::id lpp_1943.1205 ::date 2012-11-27T12:50:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They are lucky , " the switchman said .
+# ::zh “他们真幸运。” 扳道工说。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1205.txt
+(s / say-01
+      :ARG0 (s2 / switchman)
+      :ARG1 (l / lucky
+            :domain (t / they)))

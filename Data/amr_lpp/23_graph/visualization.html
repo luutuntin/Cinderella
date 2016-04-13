@@ -1,0 +1,111 @@
+<meta charset="utf-8">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Button show hide -->
+	<script type="text/javascript">
+	  function toggle_visibility(id) {
+	  var e = document.getElementById(id);
+	  if(e.style.display == 'block')
+          e.style.display = 'none';
+	  else
+          e.style.display = 'block';
+	  }
+	</script>
+</head>
+<body>
+<h2>1206</h2>
+<p><b>Chapter 23 .</b></p>
+<p><code>(c&nbsp;/&nbsp;chapter&nbsp;:mod&nbsp;23)</code></p>
+<button type="button" onclick="toggle_visibility('1206');"><b>Named Entities</b></button> &#9660;<br><div id="1206" style="display: none;">
+</div>
+<img src="./graphs/1206.png">
+</body>
+<body>
+<h2>1207</h2>
+<p><b>" Good morning , " said the little prince .</b></p>
+<p><code>(s&nbsp;/&nbsp;say-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;prince<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(l&nbsp;/&nbsp;little))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(m&nbsp;/&nbsp;morning<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(g&nbsp;/&nbsp;good)))</code></p>
+<button type="button" onclick="toggle_visibility('1207');"><b>Named Entities</b></button> &#9660;<br><div id="1207" style="display: none;">
+</div>
+<img src="./graphs/1207.png">
+</body>
+<body>
+<h2>1208</h2>
+<p><b>" Good morning , " said the merchant .</b></p>
+<p><code>(s&nbsp;/&nbsp;say-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;person<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0-of&nbsp;(m&nbsp;/&nbsp;merchandise-01))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(m2&nbsp;/&nbsp;morning<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(g&nbsp;/&nbsp;good)))</code></p>
+<button type="button" onclick="toggle_visibility('1208');"><b>Named Entities</b></button> &#9660;<br><div id="1208" style="display: none;">
+</div>
+<img src="./graphs/1208.png">
+</body>
+<body>
+<h2>1209</h2>
+<p><b>This was a merchant who sold pills that had been invented to quench thirst .</b></p>
+<p><code>(s&nbsp;/&nbsp;sell-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;person<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0-of&nbsp;(m&nbsp;/&nbsp;merchandise-01)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:domain&nbsp;(t2&nbsp;/&nbsp;this))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(p2&nbsp;/&nbsp;pill<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(i&nbsp;/&nbsp;invent-01)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:purpose&nbsp;(q&nbsp;/&nbsp;quench-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;p2<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t&nbsp;/&nbsp;thirst-01))))</code></p>
+<button type="button" onclick="toggle_visibility('1209');"><b>Named Entities</b></button> &#9660;<br><div id="1209" style="display: none;">
+</div>
+<img src="./graphs/1209.png">
+</body>
+<body>
+<h2>1210</h2>
+<p><b>You need only swallow one pill a week , and you would feel no need of anything to drink .</b></p>
+<p><code>(c&nbsp;/&nbsp;cause-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(n&nbsp;/&nbsp;need-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(y&nbsp;/&nbsp;you)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(s&nbsp;/&nbsp;swallow-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(r&nbsp;/&nbsp;rate-entity-91<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(p&nbsp;/&nbsp;pill&nbsp;:quant&nbsp;1)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(t&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(w&nbsp;/&nbsp;week))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(o&nbsp;/&nbsp;only))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(f&nbsp;/&nbsp;feel-01&nbsp;:polarity&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;y<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(n2&nbsp;/&nbsp;need-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;y<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(d&nbsp;/&nbsp;drink-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;y<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(a2&nbsp;/&nbsp;anything)))))</code></p>
+<button type="button" onclick="toggle_visibility('1210');"><b>Named Entities</b></button> &#9660;<br><div id="1210" style="display: none;">
+</div>
+<img src="./graphs/1210.png">
+</body>
+<body>
+<h2>1211</h2>
+<p><b>" Why are you selling those ? " asked the little prince .</b></p>
+<p><code>(a&nbsp;/&nbsp;ask-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;prince<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(l&nbsp;/&nbsp;little))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(s&nbsp;/&nbsp;sell-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(y&nbsp;/&nbsp;you)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t&nbsp;/&nbsp;that)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(c&nbsp;/&nbsp;cause-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(a2&nbsp;/&nbsp;amr-unknown))))</code></p>
+<button type="button" onclick="toggle_visibility('1211');"><b>Named Entities</b></button> &#9660;<br><div id="1211" style="display: none;">
+</div>
+<img src="./graphs/1211.png">
+</body>
+<body>
+<h2>1212</h2>
+<p><b>" Because they save a tremendous amount of time , " said the merchant .</b></p>
+<p><code>(s&nbsp;/&nbsp;say-01<br>&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;person<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0-of&nbsp;(m&nbsp;/&nbsp;merchandise-01))<br>&nbsp;&nbsp;:ARG1&nbsp;(c&nbsp;/&nbsp;cause-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(t&nbsp;/&nbsp;they)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(s2&nbsp;/&nbsp;save-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;t<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t2&nbsp;/&nbsp;time<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(a&nbsp;/&nbsp;amount-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(t3&nbsp;/&nbsp;tremendous))))))</code></p>
+<button type="button" onclick="toggle_visibility('1212');"><b>Named Entities</b></button> &#9660;<br><div id="1212" style="display: none;">
+</div>
+<img src="./graphs/1212.png">
+</body>
+<body>
+<h2>1213</h2>
+<p><b>" Computations have been made by experts .</b></p>
+<p><code>(m&nbsp;/&nbsp;make-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;person<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(e&nbsp;/&nbsp;expert-01))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t&nbsp;/&nbsp;thing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(c&nbsp;/&nbsp;compute-01)))</code></p>
+<button type="button" onclick="toggle_visibility('1213');"><b>Named Entities</b></button> &#9660;<br><div id="1213" style="display: none;">
+</div>
+<img src="./graphs/1213.png">
+</body>
+<body>
+<h2>1214</h2>
+<p><b>With these pills , you save fifty - three minutes in every week . "</b></p>
+<p><code>(s&nbsp;/&nbsp;save-03<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(y&nbsp;/&nbsp;you)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(r&nbsp;/&nbsp;rate-entity-91<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;53<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(m&nbsp;/&nbsp;minute))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(t3&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(w&nbsp;/&nbsp;week)))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:instrument&nbsp;(p&nbsp;/&nbsp;pill<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(t2&nbsp;/&nbsp;this)))</code></p>
+<button type="button" onclick="toggle_visibility('1214');"><b>Named Entities</b></button> &#9660;<br><div id="1214" style="display: none;">
+</div>
+<img src="./graphs/1214.png">
+</body>
+<body>
+<h2>1215</h2>
+<p><b>" And what do I do with those fifty - three minutes ? "</b></p>
+<p><code>(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(d&nbsp;/&nbsp;do-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(a2&nbsp;/&nbsp;amr-unknown)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(t&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;53<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(m&nbsp;/&nbsp;minute)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(t2&nbsp;/&nbsp;that))))</code></p>
+<button type="button" onclick="toggle_visibility('1215');"><b>Named Entities</b></button> &#9660;<br><div id="1215" style="display: none;">
+</div>
+<img src="./graphs/1215.png">
+</body>
+<body>
+<h2>1216</h2>
+<p><b>" Anything you like ... "</b></p>
+<p><code>(d&nbsp;/&nbsp;do-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(y2&nbsp;/&nbsp;you)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(a2&nbsp;/&nbsp;anything<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(l&nbsp;/&nbsp;like-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;y2)))</code></p>
+<button type="button" onclick="toggle_visibility('1216');"><b>Named Entities</b></button> &#9660;<br><div id="1216" style="display: none;">
+</div>
+<img src="./graphs/1216.png">
+</body>
+<body>
+<h2>1217</h2>
+<p><b>" As for me , " said the little prince to himself , " if I had fifty - three minutes to spend as I liked , I should walk at my leisure toward a spring of fresh water . "</b></p>
+<p><code>(s&nbsp;/&nbsp;say-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;prince<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(l&nbsp;/&nbsp;little))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(w&nbsp;/&nbsp;walk-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:direction&nbsp;(t&nbsp;/&nbsp;toward<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:destination&nbsp;(s2&nbsp;/&nbsp;spring<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:source-of&nbsp;(w2&nbsp;/&nbsp;water<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(f&nbsp;/&nbsp;fresh-04))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:manner&nbsp;(l2&nbsp;/&nbsp;leisure<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:poss&nbsp;p)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:condition&nbsp;(h&nbsp;/&nbsp;have-03<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;p<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t2&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;53<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(m&nbsp;/&nbsp;minute)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(s3&nbsp;/&nbsp;spend-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(l3&nbsp;/&nbsp;like-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;p)))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;p)</code></p>
+<button type="button" onclick="toggle_visibility('1217');"><b>Named Entities</b></button> &#9660;<br><div id="1217" style="display: none;">
+</div>
+<img src="./graphs/1217.png">
+</body>

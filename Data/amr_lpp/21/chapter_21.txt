@@ -1,0 +1,1696 @@
+# ::id lpp_1943.1042 ::date 2012-11-11T14:08:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 21 .
+# ::zh XXI。
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1042.txt
+(c / chapter :mod 21)
+
+# ::id lpp_1943.1043 ::date 2012-11-11T14:10:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt It was then that the fox appeared .
+# ::zh 就在这当儿，跑来了一只狐狸。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1043.txt
+(a / appear-01
+      :ARG1 (f / fox)
+      :time (t / then))
+
+# ::id lpp_1943.1044 ::date 2012-11-11T14:11:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " said the fox .
+# ::zh “你好。” 狐狸说。
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1044.txt
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (m / morning
+            :mod (g / good)))
+
+# ::id lpp_1943.1045 ::date 2012-11-11T14:13:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Good morning , " the little prince responded politely , although when he turned around he saw nothing .
+# ::zh “你好。” 小王子很有礼貌地回答道。 他转过身来，但什么也没有看到。
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1045.txt
+(r / respond-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG2 (m / morning
+          :mod (g / good))
+  :manner (p2 / polite-01)
+  :concession (s / see-01
+                :ARG0 p
+                :ARG1 (n / nothing)
+                :time (t / turn-01
+                        :ARG1 p
+                        :direction (a / around))))
+
+# ::id lpp_1943.1046 ::date 2012-11-11T14:20:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am right here , " the voice said , " under the apple tree . "
+# ::zh “我在这儿，在苹果树下。” 那声音说。
+# ::save-date Tue May 7, 2013 ::file lpp_1943_1046.txt
+(s / say-01
+      :ARG0 (v / voice)
+      :ARG1 (i / i
+            :location (h / here
+                  :location (u / under
+                        :op1 (t / tree
+                              :mod (a / apple)))
+                  :mod (r / right))))
+
+# ::id lpp_1943.1047 ::date 2012-11-11T14:26:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Who are you ? " asked the little prince , and added , " You are very pretty to look at . "
+# ::zh “你是谁？” 小王子说，“你很漂亮。”
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1047.txt
+(a / and
+  :op1 (a2 / ask-01
+         :ARG0 (p / prince
+                 :mod (l / little))
+         :ARG1 (y2 / you
+                 :mod (a3 / amr-unknown)))
+  :op2 (a4 / add-01
+         :ARG0 p
+         :ARG1 (l2 / look-01
+                 :ARG0 p
+                 :ARG1 y2
+                 :ARG2 (p2 / pretty
+                         :degree (v / very)))))
+
+# ::id lpp_1943.1048 ::date 2012-11-11T14:32:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am a fox , " said the fox .
+# ::zh “我是一只狐狸。” 狐狸说。
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1048.txt
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (f2 / fox
+          :domain f))
+
+# ::id lpp_1943.1049 ::date 2012-11-11T14:33:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Come and play with me , " proposed the little prince .
+# ::zh “来和我一起玩吧，”小王子建议道，
+# ::save-date Fri May 1, 2015 ::file lpp_1943_1049.txt
+(p / propose-01
+      :ARG0 (p2 / prince
+            :mod (l / little))
+      :ARG1 (a / and
+            :op1 (c / come-01)
+            :op2 (p3 / play-01
+                  :ARG3 p2)))
+
+# ::id lpp_1943.1050 ::date 2012-11-11T14:36:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am so unhappy . "
+# ::zh “我很苦恼…”
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_1050.txt
+(h / happy
+  :domain (i / i)
+  :polarity -
+  :mod (s / so))
+
+# ::id lpp_1943.1051 ::date 2012-11-11T14:43:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I can not play with you , " the fox said .
+# ::zh “我不能和你一起玩，”狐狸说，
+# ::save-date Fri May 1, 2015 ::file lpp_1943_1051.txt
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (p / possible-01 :polarity -
+            :ARG1 (p2 / play-01
+                  :ARG0 f
+                  :ARG3 (y / you))))
+
+# ::id lpp_1943.1052 ::date 2012-11-11T14:47:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am not tamed . "
+# ::zh “我还没有被驯服呢。”
+# ::save-date Sun Nov 11, 2012 ::file lpp_1943_1052.txt
+(t / tame-01
+  :ARG1 (i / i)
+  :polarity -)
+
+# ::id lpp_1943.1053 ::date 2012-11-11T14:47:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah !
+# ::zh “啊！
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1053.txt
+(a / ah :mode expressive)
+
+# ::id lpp_1943.1054 ::date 2012-11-11T14:49:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Please excuse me , " said the little prince .
+# ::zh 真对不起。” 小王子说。
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1054.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (e / excuse-01
+          :ARG0 (y / you)
+          :ARG1 (i / i)
+          :mode imperative))
+
+# ::id lpp_1943.1055 ::date 2012-11-11T14:57:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt But , after some thought , he added : " What does that mean - - ' tame ' ? "
+# ::zh 思索了一会儿，他又说道：“什么叫‘驯服’呀？”
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_1055.txt
+(c / contrast-01
+      :ARG2 (a / add-01
+            :ARG0 (h / he)
+            :ARG1 (m / mean-01
+                  :ARG1 (t2 / tame-01)
+                  :ARG2 (a3 / amr-unknown))
+            :time (a2 / after
+                  :op1 (t / think-01
+                        :mod (s / some)))))
+
+# ::id lpp_1943.1056 ::date 2012-11-11T15:02:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You do not live here , " said the fox .
+# ::zh “你不是此地人。” 狐狸说，
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1056.txt
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (l / live-01
+          :ARG0 (y / you)
+          :location (h / here
+                      :polarity -)))
+
+# ::id lpp_1943.1057 ::date 2012-11-11T15:03:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What is it that you are looking for ? "
+# ::zh “你来寻找什么？”
+# ::save-date Sun Nov 11, 2012 ::file lpp_1943_1057.txt
+(l / look-01
+  :ARG0 (y / you)
+  :ARG1 (a / amr-unknown))
+
+# ::id lpp_1943.1058 ::date 2012-11-11T15:05:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am looking for men , " said the little prince .
+# ::zh “我来找人。” 小王子说，
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1058.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (l2 / look-01
+          :ARG0 p
+          :ARG1 (m / man)))
+
+# ::id lpp_1943.1059 ::date 2012-11-11T15:07:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What does that mean - - ' tame ' ? "
+# ::zh “什么叫‘驯服’呢？”
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_1059.txt
+(m / mean-01
+      :ARG1 (t / tame-01)
+      :ARG2 (a / amr-unknown))
+
+# ::id lpp_1943.1060 ::date 2012-11-11T15:09:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Men , " said the fox .
+# ::zh “人，”狐狸说，
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_1060.txt
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (m / man))
+
+# ::id lpp_1943.1061 ::date 2012-11-11T15:10:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They have guns , and they hunt .
+# ::zh “他们有枪，他们还打猎，
+# ::save-date Sun Nov 11, 2012 ::file lpp_1943_1061.txt
+(a / and
+  :op1 (h / have-03
+         :ARG0 (t / they)
+         :ARG1 (g / gun))
+  :op2 (h2 / hunt-01
+         :ARG0 t))
+
+# ::id lpp_1943.1062 ::date 2012-11-11T15:12:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is very disturbing .
+# ::zh 这真碍事！
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1062.txt
+(d / disturb-01
+      :ARG0 (i / it)
+      :degree (v / very))
+
+# ::id lpp_1943.1063 ::date 2012-11-11T15:16:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt They also raise chickens .
+# ::zh 他们也养鸡，
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1063.txt
+(r / raise-03
+  :ARG0 (t / they)
+  :ARG1 (c / chicken)
+  :mod (a / also))
+
+# ::id lpp_1943.1064 ::date 2012-11-13T07:25:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt These are their only interests .
+# ::zh 这些是他们唯一的可取之处
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1064.txt
+(i / interest-01
+  :ARG0 (t / this)
+  :ARG1 (t2 / they)
+  :degree (o / only))
+
+# ::id lpp_1943.1065 ::date 2012-11-13T07:30:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt Are you looking for chickens ? "
+# ::zh 你是来寻找鸡的吗？”
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_1065.txt
+(l / look-01
+  :ARG0 (y / you)
+  :ARG1 (c / chicken)
+  :mode interrogative)
+
+# ::id lpp_1943.1066 ::date 2012-11-13T07:32:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " No , " said the little prince .
+# ::zh “不，”小王子说，
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1066.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (n / no))
+
+# ::id lpp_1943.1067 ::date 2012-11-13T07:33:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am looking for friends .
+# ::zh “我是来找朋友的。
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_1067.txt
+(l / look-01
+      :ARG0 (i / i)
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 i
+                  :ARG2 (f / friend))))
+
+# ::id lpp_1943.1068 ::date 2012-11-13T07:34:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt What does that mean - - ' tame ' ? "
+# ::zh 什么叫‘驯服’呢？”
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_1068.txt
+(m / mean-01
+      :ARG1 (t / tame-01)
+      :ARG2 (a / amr-unknown))
+
+# ::id lpp_1943.1069 ::date 2012-11-13T07:36:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is an act too often neglected , " said the fox .
+# ::zh “这是已经早就被人遗忘了的事情，”狐狸说，
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1069.txt
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (n / neglect-01
+          :ARG1 (a / act-02)
+          :frequency (o / often
+                       :degree (t / too))))
+
+# ::id lpp_1943.1070 ::date 2012-11-13T07:38:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt It means to establish ties . "
+# ::zh “它的意思就是‘建立联系’。”
+# ::save-date Sat Mar 14, 2015 ::file lpp_1943_1070.txt
+(m / mean-01
+      :ARG1 (i / it)
+      :ARG2 (e / establish-01
+            :ARG1 (t / tie-01)))
+
+# ::id lpp_1943.1071 ::date 2012-11-13T07:39:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " ' To establish ties ' ? "
+# ::zh “建立联系？”
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_1071.txt
+(e / establish-01
+  :ARG1 (t / tie-01)
+  :mode interrogative)
+
+# ::id lpp_1943.1072 ::date 2012-11-13T07:40:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Just that , " said the fox .
+# ::zh “一点不错，”狐狸说。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1072.txt
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (t / that
+          :mod (j / just)))
+
+# ::id lpp_1943.1073 ::date 2012-11-13T07:43:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt " To me , you are still nothing more than a little boy who is just like a hundred thousand other little boys .
+# ::zh “对我来说，你还只是一个小男孩，就像其他千万个小男孩一样。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_1073.txt
+(o2 / opine-01
+      :ARG0 (i / i)
+      :ARG1 (b / boy
+            :mod (l / little)
+            :ARG1-of (r / resemble-01
+                  :ARG2 (b2 / boy :quant 100000
+                        :mod (l2 / little)
+                        :mod (o / other))
+                  :mod (j / just))
+            :domain (y2 / you
+                  :mod (m2 / more :polarity -))
+            :mod (s2 / still)))
+
+# ::id lpp_1943.1074 ::date 2012-11-13T07:54:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt And I have no need of you .
+# ::zh 我不需要你。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1074.txt
+(a / and
+  :op2 (n / need-01
+         :ARG0 (i / i)
+         :ARG1 (y / you)
+         :polarity -))
+
+# ::id lpp_1943.1075 ::date 2012-11-13T07:57:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt And you , on your part , have no need of me .
+# ::zh 你也同样用不着我。
+# ::save-date Mon Sep 8, 2014 ::file lpp_1943_1075.txt
+(a / and
+      :op2 (n / need-01 :polarity -
+            :ARG0 (y / you)
+            :ARG1 (i / i)))
+
+# ::id lpp_1943.1076 ::date 2012-11-13T07:59:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt To you , I am nothing more than a fox like a hundred thousand other foxes .
+# ::zh 对你来说，我也不过是一只狐狸，和其他千万只狐狸一样。
+# ::save-date Wed May 8, 2013 ::file lpp_1943_1076.txt
+(o / opine-01
+      :ARG0 (y2 / you)
+      :ARG1 (f / fox
+            :ARG1-of (r3 / resemble-01
+                  :ARG2 (f2 / fox :quant 100000
+                        :mod (o3 / other)))
+            :domain (i / i
+                  :mod (m2 / more :polarity -))))
+
+# ::id lpp_1943.1077 ::date 2012-11-13T08:04:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt But if you tame me , then we shall need each other .
+# ::zh 但是，如果你驯服了我，我们就互相不可缺少了。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1077.txt
+(c / contrast-01
+  :ARG2 (n / need-01
+          :ARG0 (w / we)
+          :ARG1 (o / other
+                  :mod (e / each))
+          :condition (t / tame-01
+                       :ARG0 (y / you)
+                       :ARG1 (i / i))))
+
+# ::id lpp_1943.1078 ::date 2012-11-13T08:09:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt To me , you will be unique in all the world .
+# ::zh 对我来说，你就是世界上唯一的了；
+# ::save-date Wed May 8, 2013 ::file lpp_1943_1078.txt
+(o / opine-01
+      :ARG0 (i / i)
+      :ARG1 (u / unique
+            :domain (y / you)
+            :location (w / world
+                  :mod (a / all))))
+
+# ::id lpp_1943.1079 ::date 2012-11-13T08:10:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt To you , I shall be unique in all the world ... "
+# ::zh 我对你来说，也是世界上唯一的了。”
+# ::save-date Wed May 8, 2013 ::file lpp_1943_1079.txt
+(o / opine-01
+      :ARG0 (y / you)
+      :ARG1 (u / unique
+            :domain (i / i)
+            :location (w / world
+                  :mod (a / all))))
+
+# ::id lpp_1943.1080 ::date 2012-11-13T08:11:05 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am beginning to understand , " said the little prince .
+# ::zh “我有点明白了。” 小王子说，
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1080.txt
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (b / begin-01
+          :ARG0 (i / i)
+          :ARG1 (u / understand-01
+                  :ARG0 i)))
+
+# ::id lpp_1943.1081 ::date 2012-11-13T08:13:05 ::annotator ISI-AMR-05 ::preferred
+# ::snt " There is a flower ...
+# ::zh “有一朵花…，
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1081.txt
+(f / flower)
+
+# ::id lpp_1943.1082 ::date 2012-11-13T08:13:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt I think that she has tamed me ... "
+# ::zh 我想，她把我驯服了…”
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1082.txt
+(t / think-01
+  :ARG0 (i / i)
+  :ARG1 (t2 / tame-01
+          :ARG0 (s / she)
+          :ARG1 i))
+
+# ::id lpp_1943.1083 ::date 2012-11-13T08:14:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is possible , " said the fox .
+# ::zh “这是可能的。” 狐狸说，
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1083.txt
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (p / possible-01
+          :ARG1 (i / it)))
+
+# ::id lpp_1943.1084 ::date 2012-11-13T08:16:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt " On the Earth one sees all sorts of things . "
+# ::zh “世界上什么样的事都可能看到…”
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1084.txt
+(s / see-01
+      :ARG0 (o / one)
+      :ARG1 (t / thing
+            :mod (s2 / sort
+                  :mod (a / all)))
+      :location (p / planet :wiki "Earth"
+            :name (n / name :op1 "Earth")))
+
+# ::id lpp_1943.1085 ::date 2012-11-13T08:20:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Oh , but this is not on the Earth ! " said the little prince .
+# ::zh “啊，这不是在地球上的事。” 小王子说。
+# ::save-date Fri May 9, 2014 ::file lpp_1943_1085.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (a / and
+            :op1 (o / oh :mode expressive)
+            :op2 (c / contrast-01
+                  :ARG2 (b / be-located-at-91 :polarity -
+                        :ARG1 (t / this)
+                        :ARG2 (p2 / planet :wiki "Earth" :name (n / name :op1 "Earth"))))))
+
+# ::id lpp_1943.1086 ::date 2012-11-13T08:23:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt The fox seemed perplexed , and very curious .
+# ::zh 狐狸感到十分蹊跷。
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_1086.txt
+(s / seem-01
+  :ARG1 (a / and
+          :op1 (p / perplex-01
+                 :ARG1 (f / fox))
+          :op2 (c / curious-01
+                 :ARG1 f
+                 :degree (v / very))))
+
+# ::id lpp_1943.1087 ::date 2012-11-13T08:26:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " On another planet ? "
+# ::zh “在另一个星球上？”
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1087.txt
+(b / be-located-at-91
+  :ARG2 (p / planet
+          :mod (a2 / another))
+  :mode interrogative)
+
+# ::id lpp_1943.1088 ::date 2012-11-13T09:57:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes . "
+# ::zh “是的。”
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1088.txt
+(y / yes)
+
+# ::id lpp_1943.1089 ::date 2012-11-13T09:58:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Are there hunters on this planet ? "
+# ::zh “在那个星球上，有猎人吗？”
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1089.txt
+(p / person
+  :ARG0-of (h / hunt-01)
+  :location (p2 / planet
+              :mod (t / this))
+  :mode interrogative)
+
+# ::id lpp_1943.1090 ::date 2012-11-13T10:01:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt " No . "
+# ::zh “没有。”
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1090.txt
+(n / no)
+
+# ::id lpp_1943.1091 ::date 2012-11-13T10:01:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Ah , that is interesting !
+# ::zh “这很有意思。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1091.txt
+(a / ah-01
+  :ARG1 (i2 / interest-01
+          :ARG0 (t / that)))
+
+# ::id lpp_1943.1092 ::date 2012-11-13T10:03:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt Are there chickens ? "
+# ::zh 那么，有鸡吗？”
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1092.txt
+(c / chicken
+  :mode interrogative)
+
+# ::id lpp_1943.1093 ::date 2012-11-13T10:03:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt " No . "
+# ::zh “没有。”
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1093.txt
+(n / no)
+
+# ::id lpp_1943.1094 ::date 2012-11-13T10:03:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Nothing is perfect , " sighed the fox .
+# ::zh “没有十全十美的。” 狐狸叹息地说道。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1094.txt
+(s / sigh-01
+      :ARG0 (f / fox)
+      :ARG1 (p / perfect-02
+            :ARG1 (n / nothing)))
+
+# ::id lpp_1943.1095 ::date 2012-11-13T10:05:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt But he came back to his idea .
+# ::zh 可是，狐狸又把话题拉回来：
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_1095.txt
+(c2 / contrast-01
+  :ARG2 (c / come-01
+          :ARG1 (h / he)
+          :ARG4 (i / idea
+                  :poss h)
+          :direction (b2 / back)))
+
+# ::id lpp_1943.1096 ::date 2012-11-13T10:09:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " My life is very monotonous , " the fox said .
+# ::zh “我的生活很单调。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1096.txt
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (m / monotonous
+          :domain (l / life
+                    :poss (i / i))
+          :degree (v / very)))
+
+# ::id lpp_1943.1097 ::date 2012-11-13T10:11:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I hunt chickens ; men hunt me .
+# ::zh 我捕捉鸡，而人又捕捉我。
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_1097.txt
+(a / and
+  :op1 (h / hunt-01
+         :ARG0 (i / i)
+         :ARG1 (c / chicken))
+  :op2 (h2 / hunt-01
+         :ARG0 (m / man)
+         :ARG1 i))
+
+# ::id lpp_1943.1098 ::date 2012-11-13T10:14:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt All the chickens are just alike , and all the men are just alike .
+# ::zh 所有的鸡全都一样，所有的人也全都一样。
+# ::save-date Thu Jun 25, 2015 ::file lpp_1943_1098.txt
+(a / and
+      :op1 (a2 / alike-05
+            :ARG1 (c / chicken
+                  :quant (a5 / all))
+            :mod (j / just))
+      :op2 (a3 / alike-05
+            :ARG1 (m / man
+                  :quant (a7 / all))
+            :mod (j2 / just)))
+
+# ::id lpp_1943.1099 ::date 2012-11-13T10:19:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , in consequence , I am a little bored .
+# ::zh 因此，我感到有些厌烦了。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1099.txt
+(a / and
+  :op2 (c2 / cause-01
+         :ARG1 (b / bore-02
+                 :ARG1 (i / i)
+                 :degree (l / little))))
+
+# ::id lpp_1943.1100 ::date 2012-11-13T10:26:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt But if you tame me , it will be as if the sun came to shine on my life .
+# ::zh 但是，如果你要是驯服了我，我的生活就一定会是欢快的。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1100.txt
+(c / contrast-01
+  :ARG2 (s / shine-01
+          :ARG1 (s2 / sun)
+          :ARG2 (l / life
+                  :poss (i / i))
+          :condition (t / tame-01
+                       :ARG0 (y / you)
+                       :ARG1 i)))
+
+# ::id lpp_1943.1101 ::date 2012-11-13T10:31:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt I shall know the sound of a step that will be different from all the others .
+# ::zh 我会辨认出一种与众不同的脚步声。
+# ::save-date Wed May 13, 2015 ::file lpp_1943_1101.txt
+(k / know-04
+      :ARG0 (i / i)
+      :ARG1 (s / sound-02
+            :ARG1 (s2 / step-01
+                  :ARG1-of (d / differ-02
+                        :ARG2 (s3 / step-01
+                              :mod (o / other
+                                    :mod (a / all)))))))
+
+# ::id lpp_1943.1102 ::date 2012-11-13T10:35:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt Other steps send me hurrying back underneath the ground .
+# ::zh 其他的脚步声会使我躲到地下去，
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1102.txt
+(s / send-03
+  :ARG0 (s2 / step-01
+          :mod (o / other))
+  :ARG1 (i / i)
+  :ARG4 (u / underneath
+          :op1 (g / ground))
+  :ARG5 (b / back)
+  :manner (h / hurry-01
+            :ARG1 i))
+
+# ::id lpp_1943.1103 ::date 2012-11-13T10:42:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt Yours will call me , like music , out of my burrow .
+# ::zh 而你的脚步声就会象音乐一样让我从洞里走出来。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1103.txt
+(c / call-03
+      :ARG0 (s / step-01
+            :ARG1 (y / you))
+      :ARG1 (o / out-06
+            :ARG1 i
+            :ARG2 (b / burrow
+                  :poss i))
+      :ARG2 (i / i)
+      :ARG1-of (r / resemble-01
+            :ARG2 (m / music)))
+
+# ::id lpp_1943.1104 ::date 2012-11-13T10:53:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt And then look : you see the grain - fields down yonder ?
+# ::zh 再说，你看！ 你看到那边的麦田没有？
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1104.txt
+(a / and
+  :op2 (l / look-01
+         :ARG0 y
+         :time (t / then)
+         :mode imperative)
+  :op3 (s / see-01
+         :ARG0 (y / you)
+         :ARG1 (f / field
+                 :mod (g / grain)
+                 :location (y2 / yonder
+                             :mod (d / down)))
+         :mode interrogative))
+
+# ::id lpp_1943.1105 ::date 2012-11-13T10:56:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt I do not eat bread .
+# ::zh 我不吃面包，
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1105.txt
+(e / eat-01
+  :ARG0 (i / i)
+  :ARG1 (b / bread)
+  :polarity -)
+
+# ::id lpp_1943.1106 ::date 2012-11-13T10:57:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt Wheat is of no use to me .
+# ::zh 麦子对我来说，一点用也没有。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1106.txt
+(u / use-01
+  :ARG0 (i / i)
+  :ARG1 (w / wheat)
+  :polarity -)
+
+# ::id lpp_1943.1107 ::date 2012-11-13T11:02:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt The wheat fields have nothing to say to me .
+# ::zh 我对麦田无动于衷。
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_1107.txt
+(s / say-01
+  :ARG0 (f / field
+          :mod (w / wheat))
+  :ARG1 (n / nothing)
+  :ARG2 (i / i))
+
+# ::id lpp_1943.1108 ::date 2012-11-13T11:04:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt And that is sad .
+# ::zh 而这，真使人扫兴。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1108.txt
+(a / and
+      :op2 (s / sad-02
+            :ARG0 (t2 / that)))
+
+# ::id lpp_1943.1109 ::date 2012-11-13T11:06:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt But you have hair that is the colour of gold .
+# ::zh 但是，你有着金黄色的头发。
+# ::save-date Thu Jun 11, 2015 ::file lpp_1943_1109.txt
+(c2 / contrast-01
+      :ARG2 (h / have-03
+            :ARG0 (y / you)
+            :ARG1 (h2 / hair
+                  :mod (c / colour
+                        :mod (g / gold)))))
+
+# ::id lpp_1943.1110 ::date 2012-11-13T11:13:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt Think how wonderful that will be when you have tamed me !
+# ::zh 那么，一旦你驯服了我，这就会十分美妙。
+# ::save-date Sat Jul 18, 2015 ::file lpp_1943_1110.txt
+(t / think-01 :mode imperative
+      :ARG0 y
+      :ARG1 (w / wonderful-03
+            :ARG1 (t2 / tame-01
+                  :ARG0 (y / you)
+                  :ARG1 (i / i))
+            :degree (a / amr-unknown)))
+
+# ::id lpp_1943.1111 ::date 2012-11-13T11:16:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt The grain , which is also golden , will bring me back the thought of you .
+# ::zh 麦子，是金黄色的，它就会使我想起你。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1111.txt
+(b / bring-01
+  :ARG0 (g / grain
+          :mod (g2 / golden
+                 :mod (a / also)))
+  :ARG1 (t / think-01
+          :ARG1 (y / you))
+  :ARG2 (i / i)
+  :direction (b2 / back))
+
+# ::id lpp_1943.1112 ::date 2012-11-13T11:18:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt And I shall love to listen to the wind in the wheat ... "
+# ::zh 而且，我甚至会喜欢那风吹麦浪的声音…”
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1112.txt
+(a / and
+  :op2 (l / love-02
+         :ARG0 (i / i)
+         :ARG1 (l2 / listen-01
+                 :ARG0 i
+                 :ARG1 (w / wind
+                         :location (w2 / wheat)))))
+
+# ::id lpp_1943.1113 ::date 2012-11-18T12:53:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt The fox gazed at the little prince , for a long time .
+# ::zh 狐狸沉默不语，久久地看着小王子。
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_1113.txt
+(g / gaze-01
+      :ARG0 (f / fox)
+      :ARG1 (p / prince
+            :mod (l / little))
+      :ARG1-of (l2 / long-03))
+
+# ::id lpp_1943.1114 ::date 2012-11-18T13:03:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Please - - tame me ! " he said .
+# ::zh “请你驯服我吧！” 他说。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1114.txt
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (t / tame-01
+          :ARG0 (y / you)
+          :ARG1 h
+          :mod (p / please
+                 :mode expressive)))
+
+# ::id lpp_1943.1115 ::date 2012-11-18T13:10:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I want to , very much , " the little prince replied .
+# ::zh “我是很愿意的。” 小王子回答道，
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1115.txt
+(r / reply-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG2 (w / want-01
+          :ARG0 p
+          :ARG1 (t / tame-01
+                  :ARG0 p
+                  :ARG1 (y / you))
+          :degree (m / much
+                    :degree (v / very))))
+
+# ::id lpp_1943.1116 ::date 2012-11-18T13:13:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But I have not much time .
+# ::zh “可我的时间不多了。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1116.txt
+(c / contrast-01
+  :ARG2 (h / have-03
+          :ARG0 (i / i)
+          :ARG1 (t / time
+                  :quant (m / much
+                           :polarity -))))
+
+# ::id lpp_1943.1117 ::date 2012-11-18T13:15:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have friends to discover , and a great many things to understand . "
+# ::zh 我还要去寻找朋友，还有许多事物要了解。”
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_1117.txt
+(o / obligate-01
+      :ARG2 (a / and
+            :op1 (d / discover-01
+                  :ARG0 (i / i)
+                  :ARG1 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 i
+                              :ARG2 (f / friend))))
+            :op2 (u / understand-01
+                  :ARG0 i
+                  :ARG1 (t / thing
+                        :quant (m / many
+                              :mod (g / great))))))
+
+# ::id lpp_1943.1118 ::date 2012-11-18T13:18:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt " One only understands the things that one tames , " said the fox .
+# ::zh “只有被驯服了的事物，才会被了解。” 狐狸说，
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1118.txt
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (u / understand-01
+          :ARG0 (o / one)
+          :ARG1 (t / thing
+                  :ARG1-of (t2 / tame-01
+                             :ARG0 o))
+          :mod (o2 / only)))
+
+# ::id lpp_1943.1119 ::date 2012-11-18T17:25:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Men have no more time to understand anything .
+# ::zh “人不会再有时间去了解任何东西的。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1119.txt
+(h / have-03
+  :ARG0 (m / man)
+  :ARG1 (t / time
+          :duration-of (u / understand-01
+                         :ARG0 m
+                         :ARG1 (a / anything)))
+  :polarity -)
+
+# ::id lpp_1943.1120 ::date 2012-11-18T17:31:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt They buy things all ready made at the shops .
+# ::zh 他们总是到商人那里去购买现成的东西。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1120.txt
+(b / buy-01
+  :ARG0 (t / they)
+  :ARG1 (t2 / thing
+          :ARG1-of (m / make-01
+                     :time (a / already)))
+  :location (s / shop))
+
+# ::id lpp_1943.1121 ::date 2012-11-18T17:36:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt But there is no shop anywhere where one can buy friendship , and so men have no friends any more .
+# ::zh 因为世界上还没有购买朋友的商店，所以人也就没有朋友。
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_1121.txt
+(c / contrast-01
+      :ARG2 (p / possible-01 :polarity -
+            :ARG1 (b / buy-01
+                  :ARG0 (o / one)
+                  :ARG1 (f / friendship)
+                  :location (s / shop
+                        :location (a2 / anywhere))
+                  :ARG0-of (c2 / cause-01
+                        :ARG1 (h / have-rel-role-91 :polarity -
+                              :ARG0 (p2 / person)
+                              :ARG1 (m / man)
+                              :ARG2 (f2 / friend)
+                              :mod (a / anymore))))))
+
+# ::id lpp_1943.1122 ::date 2012-11-18T17:45:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt If you want a friend , tame me ... "
+# ::zh 如果你想要一个朋友，那就驯服我吧！”
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_1122.txt
+(t / tame-01
+      :ARG0 (y / you)
+      :ARG1 (i / i)
+      :condition (w / want-01
+            :ARG0 y
+            :ARG1 (h / have-rel-role-91
+                  :ARG0 (p / person)
+                  :ARG1 y
+                  :ARG2 (f / friend))))
+
+# ::id lpp_1943.1123 ::date 2012-11-18T17:46:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What must I do , to tame you ? " asked the little prince .
+# ::zh “那么应当做些什么呢？” 小王子说。
+# ::save-date Sun Apr 28, 2013 ::file lpp_1943_1123.txt
+(a / ask-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (o / obligate-01
+          :ARG2 (d / do-02
+                  :ARG0 p
+                  :ARG1 (a2 / amr-unknown)
+                  :purpose (t / tame-01
+                             :ARG0 p
+                             :ARG1 (y / you)))))
+
+# ::id lpp_1943.1124 ::date 2012-11-18T17:51:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You must be very patient , " replied the fox .
+# ::zh “应当非常耐心。” 狐狸回答道，
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1124.txt
+(r / reply-01
+      :ARG0 (f / fox)
+      :ARG2 (o / obligate-01
+            :ARG2 (p / patient-01
+                  :ARG1 (y / you)
+                  :degree (v / very))))
+
+# ::id lpp_1943.1125 ::date 2012-11-18T17:56:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " First you will sit down at a little distance from me - - like that - - in the grass .
+# ::zh “开始你就这样坐在草丛中，坐得离我稍微远些。
+# ::save-date Fri May 10, 2013 ::file lpp_1943_1125.txt
+(s / sit-down-02
+      :ARG1 (y / you)
+      :time (f / first)
+      :location (r / relative-position
+            :op1 (i / i)
+            :quant (l / little)
+            :unit (d / distance))
+      :direction (d2 / down
+            :location (g / grass))
+      :example (t / that))
+
+# ::id lpp_1943.1126 ::date 2012-11-18T17:58:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt I shall look at you out of the corner of my eye , and you will say nothing .
+# ::zh 我用眼角瞅着你，你什么也不要说。
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1126.txt
+(a / and
+      :op1 (l / look-01
+            :ARG0 (i / i)
+            :ARG1 (y / you)
+            :source (c / corner
+                  :part-of (e / eye
+                        :part-of i)))
+      :op2 (s / say-01
+            :ARG0 y
+            :ARG1 (n / nothing)))
+
+# ::id lpp_1943.1127 ::date 2012-11-20T09:56:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt Words are the source of misunderstandings .
+# ::zh 话语是误会的根源。
+# ::save-date Wed May 13, 2015 ::file lpp_1943_1127.txt
+(s / source-01
+      :ARG1 (m / misunderstand-01)
+      :ARG2 (w / word))
+
+# ::id lpp_1943.1128 ::date 2012-11-20T10:00:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt But you will sit a little closer to me , every day ... "
+# ::zh 但是，每天，你坐得靠我更近些…”
+# ::save-date Sun Jun 28, 2015 ::file lpp_1943_1128.txt
+(c2 / contrast-01
+      :ARG2 (s / sit-01
+            :ARG1 (y / you)
+            :ARG2 (r / relative-position
+                  :op1 (i / i)
+                  :frequency (r2 / rate-entity-91
+                        :ARG3 (t / temporal-quantity :quant 1
+                              :unit (d / day)))
+                  :quant (c / close
+                        :degree (m / more
+                              :mod (l / little))))))
+
+# ::id lpp_1943.1129 ::date 2012-11-20T10:12:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt The next day the little prince came back .
+# ::zh 第二天，小王子又来了。
+# ::save-date Tue Nov 20, 2012 ::file lpp_1943_1129.txt
+(c / come-01
+      :ARG1 (p / prince
+            :mod (l / little))
+      :direction (b / back)
+      :time (d / day
+            :mod (n / next)))
+
+# ::id lpp_1943.1130 ::date 2012-11-20T10:14:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It would have been better to come back at the same hour , " said the fox .
+# ::zh “最好还是在原来的那个时间来。” 狐狸说道，
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1130.txt
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (g / good
+            :domain (c / come-01
+                  :direction (b2 / back)
+                  :time (h / hour
+                        :ARG1-of (s2 / same-01)))
+            :degree (m / more)))
+
+# ::id lpp_1943.1131 ::date 2012-11-20T12:38:33 ::annotator ISI-AMR-05 ::preferred
+# ::snt " If , for example , you come at four o'clock in the afternoon , then at three o'clock I shall begin to be happy .
+# ::zh “比如说，你下午四点钟来，那么从三点钟起，我就开始感到幸福。
+# ::save-date Thu Jun 11, 2015 ::file lpp_1943_1131.txt
+(b / begin-01
+      :ARG0 (i / i)
+      :ARG1 (h / happy
+            :domain i)
+      :condition (c / come-01
+            :ARG1 (y / you)
+            :time (d2 / date-entity :time "4:00"
+                  :dayperiod (a / afternoon))
+            :ARG0-of (e / exemplify-01))
+      :time (d / date-entity :time "3:00"))
+
+# ::id lpp_1943.1132 ::date 2012-11-20T12:44:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt I shall feel happier and happier as the hour advances .
+# ::zh 时间越临近，我就越感到幸福。
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1132.txt
+(f / feel-01
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (h / happy
+                  :degree (m / more))
+            :op2 (h2 / happy
+                  :degree (m2 / more)))
+      :time (a2 / advance-01
+            :ARG1 (h3 / hour)))
+
+# ::id lpp_1943.1133 ::date 2012-11-20T12:48:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt At four o'clock , I shall already be worrying and jumping about .
+# ::zh 到了四点钟的时候，我就会坐立不安；
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1133.txt
+(a / and
+      :op1 (w / worry-01
+            :ARG1 (i / i))
+      :op2 (j / jump-03
+            :ARG0 i
+            :direction (a2 / about))
+      :time (d / date-entity :time "4:00")
+      :time (a3 / already))
+
+# ::id lpp_1943.1134 ::date 2012-11-20T12:51:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt I shall show you how happy I am !
+# ::zh 我就会发现幸福的代价。
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1134.txt
+(s / show-01
+      :ARG0 (i / i)
+      :ARG1 (h / happy
+            :degree (s2 / so)
+            :domain i)
+      :ARG2 (y / you))
+
+# ::id lpp_1943.1135 ::date 2012-11-20T12:55:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt But if you come at just any time , I shall never know at what hour my heart is to be ready to greet you ...
+# ::zh 但是，如果你随便什么时候来，我就不知道在什么时候该准备好我的心情…
+# ::save-date Wed Jul 22, 2015 ::file lpp_1943_1135.txt
+(c / contrast-01
+      :ARG2 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (h3 / hour
+                  :time (r / ready-02
+                        :ARG1 (h2 / heart
+                              :part-of i)
+                        :ARG2 (g / greet-01
+                              :ARG0 h2
+                              :ARG1 (y / you))))
+            :time (e / ever)
+            :condition (c2 / come-01
+                  :ARG1 (y2 / you)
+                  :time (t / time
+                        :mod (a2 / any
+                              :mod (j2 / just))))))
+
+# ::id lpp_1943.1136 ::date 2012-11-21T11:29:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt One must observe the proper rites ... "
+# ::zh 应当有一定的仪式。”
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1136.txt
+(o / obligate-01
+      :ARG1 (o3 / one)
+      :ARG2 (o2 / observe-01
+            :ARG0 o3
+            :ARG1 (r / rite
+                  :mod (p2 / proper))))
+
+# ::id lpp_1943.1137 ::date 2012-11-21T11:31:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What is a rite ? " asked the little prince .
+# ::zh “仪式是什么？” 小王子问道。
+# ::save-date Wed Nov 21, 2012 ::file lpp_1943_1137.txt
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (r / rite
+            :domain (a2 / amr-unknown)))
+
+# ::id lpp_1943.1138 ::date 2012-11-21T11:33:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Those also are actions too often neglected , " said the fox .
+# ::zh “这也是一种早已被人忘却了的事。” 狐狸说，
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1138.txt
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (a / act-02
+          :domain (t2 / that)
+          :ARG1-of (n2 / neglect-01
+                     :frequency (o / often
+                                  :degree (t3 / too)))
+          :mod (a3 / also)))
+
+# ::id lpp_1943.1139 ::date 2012-11-21T11:40:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They are what make one day different from other days , one hour from other hours .
+# ::zh “它就是使某一天与其他日子不同，使某一时刻与其他时刻不同。
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_1139.txt
+(t2 / thing
+      :domain (t / they)
+      :ARG0-of (m / make-02
+            :ARG1 (a / and
+                  :op1 (d / differ-02
+                        :ARG1 (d2 / day
+                              :mod (o4 / one))
+                        :ARG2 (d3 / day
+                              :mod (o / other)))
+                  :op2 (d4 / differ-02
+                        :ARG1 (h / hour
+                              :mod (o3 / one))
+                        :ARG2 (h2 / hour
+                              :mod (o2 / other))))))
+
+# ::id lpp_1943.1140 ::date 2012-11-21T11:45:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt There is a rite , for example , among my hunters .
+# ::zh 比如说，我的那些猎人就有一种仪式。
+# ::save-date Tue Nov 4, 2014 ::file lpp_1943_1140.txt
+(r / rite
+      :ARG1-of (h / have-03
+            :ARG0 (p / person
+                  :ARG0-of (h2 / hunt-01
+                        :ARG1 (i / i))))
+      :ARG0-of (e / exemplify-01))
+
+# ::id lpp_1943.1141 ::date 2012-11-21T11:50:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt Every Thursday they dance with the village girls .
+# ::zh 他们每星期四都和村子里的姑娘们跳舞。
+# ::save-date Mon Sep 9, 2013 ::file lpp_1943_1141.txt
+(d / dance-01
+      :ARG0 (t / they)
+      :ARG2 (g / girl
+            :source (v / village))
+      :frequency (r / rate-entity-91
+            :ARG4 (d2 / date-entity
+                  :weekday (t2 / thursday))))
+
+# ::id lpp_1943.1142 ::date 2012-11-21T11:53:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt So Thursday is a wonderful day for me !
+# ::zh 于是，星期四就是一个美好的日子！
+# ::save-date Sat Jul 18, 2015 ::file lpp_1943_1142.txt
+(c / cause-01
+      :ARG1 (d2 / day :mode expressive
+            :domain (d / date-entity
+                  :weekday (t / thursday))
+            :ARG1-of (w / wonderful-03)
+            :beneficiary (i / i)))
+
+# ::id lpp_1943.1143 ::date 2012-11-21T11:54:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt I can take a walk as far as the vineyards .
+# ::zh 我可以一直散步到葡萄园去。
+# ::save-date Tue Nov 4, 2014 ::file lpp_1943_1143.txt
+(p / possible-01
+      :ARG1 (w / walk-01
+            :ARG0 (i / i)
+            :extent (f / far
+                  :degree (e / equal)
+                  :compared-to (v / vineyard))))
+
+# ::id lpp_1943.1144 ::date 2012-11-21T11:59:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt But if the hunters danced at just any time , every day would be like every other day , and I should never have any vacation at all . "
+# ::zh 如果猎人们什么时候都跳舞，天天又全都一样，那么我也就没有假日了。”
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1144.txt
+(c2 / contrast-01
+      :ARG2 (v2 / vacation-01 :polarity -
+            :ARG0 (i / i)
+            :condition (d / dance-01
+                  :ARG0 (p / person
+                        :ARG0-of (h2 / hunt-01))
+                  :time (a2 / any
+                        :mod (j / just))
+                  :ARG1-of (c / cause-01
+                        :ARG0 (r / resemble-01
+                              :ARG1 (d2 / day
+                                    :mod (e / every))
+                              :ARG2 (d3 / day
+                                    :mod (o / other
+                                          :mod (e2 / every))))))
+            :quant (a4 / any)
+            :mod (a3 / at-all)))
+
+# ::id lpp_1943.1145 ::date 2012-11-21T12:02:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt So the little prince tamed the fox .
+# ::zh 就这样，小王子驯服了狐狸。
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1145.txt
+(c / cause-01
+      :ARG1 (t / tame-01
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (f / fox)))
+
+# ::id lpp_1943.1146 ::date 2012-11-21T12:03:29 ::annotator ISI-AMR-05 ::preferred
+# ::snt And when the hour of his departure drew near - - " Ah , " said the fox , " I shall cry . "
+# ::zh 当出发的时刻就快要来到时：“啊！” 狐狸说，“我一定会哭的。”
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1146.txt
+(a / and
+      :op1 (s / say-01
+            :ARG0 (f / fox)
+            :ARG1 (a2 / and
+                  :op1 (a3 / ah)
+                  :op2 (c / cry-02
+                        :ARG0 f))
+            :time (h2 / hour
+                  :time-of (d / depart-01
+                        :ARG0 f)
+                  :ARG1-of (n2 / near-01))))
+
+# ::id lpp_1943.1147 ::date 2012-11-24T08:36:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is your own fault , " said the little prince .
+# ::zh “这是你的过错，”小王子说，
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_1147.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (f / fault-01
+            :ARG1 (y / you)
+            :ARG2 (i / it)))
+
+# ::id lpp_1943.1148 ::date 2012-11-24T08:38:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I never wished you any sort of harm ; but you wanted me to tame you ... "
+# ::zh “我本来并不想给你任何痛苦，可你却要我驯服你…”
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1148.txt
+(c / contrast-01
+      :ARG1 (w / wish-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (h / harm-01
+                  :ARG1 (y / you)
+                  :mod (s / sort
+                        :mod (a / any)))
+            :ARG2 y
+            :time (e / ever))
+      :ARG2 (w2 / want-01
+            :ARG0 (y2 / you)
+            :ARG1 (t / tame-01
+                  :ARG0 i
+                  :ARG1 y)))
+
+# ::id lpp_1943.1149 ::date 2012-11-24T14:40:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , that is so , " said the fox .
+# ::zh “是这样的。” 狐狸说。
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1149.txt
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (s2 / so
+            :domain (t / that)))
+
+# ::id lpp_1943.1150 ::date 2012-11-24T14:41:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But now you are going to cry ! " said the little prince .
+# ::zh “你可就要哭了！” 小王子说。
+# ::save-date Sat Nov 24, 2012 ::file lpp_1943_1150.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (c / contrast-01
+            :ARG2 (c2 / cry-02
+                  :ARG0 (y / you)
+                  :time (n / now))))
+
+# ::id lpp_1943.1151 ::date 2012-11-24T14:45:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Yes , that is so , " said the fox .
+# ::zh “当然罗。” 狐狸说。
+# ::save-date Thu May 2, 2013 ::file lpp_1943_1151.txt
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (s2 / so
+            :domain (t / that)))
+
+# ::id lpp_1943.1152 ::date 2012-11-24T14:46:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Then it has done you no good at all ! "
+# ::zh “那么你什么好处也没得到。”
+# ::save-date Thu Apr 16, 2015 ::file lpp_1943_1152.txt
+(d / do-02
+      :ARG0 (i / it)
+      :ARG1 (g / good-04 :polarity -)
+      :ARG2 (y / you)
+      :mod (a / at-all))
+
+# ::id lpp_1943.1153 ::date 2012-11-24T14:52:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It has done me good , " said the fox , " because of the color of the wheat fields . "
+# ::zh “由于麦子颜色的缘故，我还是得到了好处。” 狐狸说。
+# ::save-date Thu Apr 16, 2015 ::file lpp_1943_1153.txt
+(s / say-01
+      :ARG0 (f2 / fox)
+      :ARG1 (d / do-02
+            :ARG0 (i / it)
+            :ARG1 (g / good-04
+                  :ARG1 i
+                  :ARG2 f2)
+            :ARG2 f2
+            :ARG1-of (c / cause-01
+                  :ARG0 (c2 / color-01
+                        :ARG1 (f / field
+                              :mod (w / wheat))))))
+
+# ::id lpp_1943.1154 ::date 2012-11-24T14:58:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt And then he added : " Go and look again at the roses .
+# ::zh 然后，他又接着说。 “再去看看那些玫瑰花吧。
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1154.txt
+(a / and
+  :op1 (a2 / add-01
+         :ARG0 (h / he)
+         :ARG1 (a3 / and
+                 :op1 (g / go-02
+                        :ARG0 (y / you)
+                        :mode imperative)
+                 :op2 (l / look-01
+                        :ARG0 y
+                        :ARG1 (r / rose)
+                        :mod (a4 / again)
+                        :mode imperative))
+         :time (t / then)))
+
+# ::id lpp_1943.1155 ::date 2012-11-24T15:04:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt You will understand now that yours is unique in all the world .
+# ::zh 你一定会明白，你的那朵是世界上独一无二的玫瑰。
+# ::save-date Sat Nov 24, 2012 ::file lpp_1943_1155.txt
+(u / understand-01
+      :ARG0 (y / you)
+      :ARG1 (u2 / unique
+            :domain (r / rose
+                  :poss y)
+            :location (w / world
+                  :extent (a / all)))
+      :time (n / now))
+
+# ::id lpp_1943.1156 ::date 2012-11-24T15:06:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then come back to say goodbye to me , and I will make you a present of a secret . "
+# ::zh 你回来和我告别时，我再赠送给你一个秘密。”
+# ::save-date Tue Nov 4, 2014 ::file lpp_1943_1156.txt
+(a / and
+      :op1 (c / come-01 :mode imperative
+            :ARG1 (y / you)
+            :direction (b / back)
+            :time (t / then)
+            :purpose (s / say-01
+                  :ARG0 y
+                  :ARG1 (g / goodbye)
+                  :ARG2 (i / i)))
+      :op2 (g2 / give-01
+            :ARG0 i
+            :ARG1 (p / present)
+            :ARG2 y
+            :manner (r / reveal-01
+                  :ARG0 i
+                  :ARG1 (s2 / secret)
+                  :ARG2 y)))
+
+# ::id lpp_1943.1157 ::date 2012-11-24T15:12:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince went away , to look again at the roses .
+# ::zh 于是小王子又去看那些玫瑰。
+# ::save-date Fri Dec 14, 2012 ::file lpp_1943_1157.txt
+(g / go-02
+  :ARG0 (p / prince
+          :mod (l / little))
+  :direction (a / away)
+  :purpose (l2 / look-01
+             :ARG0 p
+             :ARG1 (r / rose)
+             :mod (a2 / again)))
+
+# ::id lpp_1943.1158 ::date 2012-11-24T15:14:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You are not at all like my rose , " he said .
+# ::zh “你们一点也不象我的那朵玫瑰，
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1158.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (r / resemble-01 :polarity -
+            :ARG1 (y / you)
+            :ARG2 (r2 / rose
+                  :poss (i / i))
+            :degree (a / at-all)))
+
+# ::id lpp_1943.1159 ::date 2012-11-24T15:17:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt " As yet you are nothing .
+# ::zh 你们还什么都不是呢！” 小王子对她们说。
+# ::save-date Thu May 2, 2013 ::file lpp_1943_1159.txt
+(n / nothing
+      :domain (y / you)
+      :time (a / as-yet))
+
+# ::id lpp_1943.1160 ::date 2012-11-24T15:18:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt No one has tamed you , and you have tamed no one .
+# ::zh “没有人驯服过你们，你们也没有驯服过任何人。
+# ::save-date Tue May 21, 2013 ::file lpp_1943_1160.txt
+(a / and
+      :op1 (t / tame-01
+            :ARG0 (n / no-one)
+            :ARG1 (y / you))
+      :op2 (t2 / tame-01
+            :ARG0 y
+            :ARG1 n))
+
+# ::id lpp_1943.1161 ::date 2012-11-24T15:23:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt You are like my fox when I first knew him .
+# ::zh 你们就象我的狐狸过去那样，
+# ::save-date Wed Mar 18, 2015 ::file lpp_1943_1161.txt
+(r / resemble-01
+      :ARG1 (y / you)
+      :ARG2 (f / fox
+            :poss (i / i))
+      :time (k / know-02
+            :ARG0 i
+            :ARG1 f
+            :time (f2 / first)))
+
+# ::id lpp_1943.1162 ::date 2012-11-24T15:26:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt He was only a fox like a hundred thousand other foxes .
+# ::zh 它那时只是和千万只别的狐狸一样的一只狐狸。
+# ::save-date Thu May 2, 2013 ::file lpp_1943_1162.txt
+(f2 / fox
+      :domain (h / he)
+      :ARG1-of (r / resemble-01
+            :ARG2 (f3 / fox :quant 100000
+                  :mod (o / other)))
+      :mod (o2 / only))
+
+# ::id lpp_1943.1163 ::date 2012-11-24T15:34:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt But I have made him my friend , and now he is unique in all the world . "
+# ::zh 但是，我现在已经把它当成了我的朋友，于是它现在就是世界上独一无二的了。”
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_1163.txt
+(c / contrast-01
+      :ARG2 (m / make-01
+            :ARG0 (i / i)
+            :ARG1 (h / have-rel-role-91
+                  :ARG0 (h2 / he)
+                  :ARG1 i
+                  :ARG2 (f / friend))
+            :ARG0-of (c2 / cause-01
+                  :ARG1 (u / unique
+                        :domain h2
+                        :time (n / now)
+                        :location (w / world
+                              :extent (a2 / all))))))
+
+# ::id lpp_1943.1164 ::date 2012-11-25T13:30:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt And the roses were very much embarassed .
+# ::zh 这时，那些玫瑰花显得十分难堪。
+# ::save-date Sun May 12, 2013 ::file lpp_1943_1164.txt
+(a / and
+      :op1 (e / embarrass-01
+            :ARG1 (r / rose)
+            :degree (m / much
+                  :degree (v / very))))
+
+# ::id lpp_1943.1165 ::date 2012-11-25T13:32:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You are beautiful , but you are empty , " he went on .
+# ::zh “你们很美，但你们是空虚的。” 小王子继续说，
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1165.txt
+(g / go-on-25
+      :ARG0 (h / he)
+      :ARG1 (c / contrast-01
+            :ARG1 (b / beautiful-02
+                  :ARG1 (y / you))
+            :ARG2 (e / empty-02
+                  :ARG1 y)))
+
+# ::id lpp_1943.1166 ::date 2012-11-25T13:33:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt " One could not die for you .
+# ::zh “没有人能为你们去死。
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1166.txt
+(p / possible-01 :polarity -
+      :ARG1 (d / die-01
+            :ARG1 (o / one)
+            :beneficiary (y / you)))
+
+# ::id lpp_1943.1167 ::date 2012-11-25T13:37:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt To be sure , an ordinary passerby would think that my rose looked just like you - - the rose that belongs to me .
+# ::zh 当然，我的那朵玫瑰花，一个普通的过路人以为她和你们一样。
+# ::save-date Thu Jul 9, 2015 ::file lpp_1943_1167.txt
+(t / think-01
+      :ARG0 (p2 / person
+            :ARG0-of (p3 / pass-by-17)
+            :mod (o / ordinary))
+      :ARG1 (l / look-02
+            :ARG0 (r / rose
+                  :poss (i / i)
+                  :ARG0-of (b / belong-01
+                        :ARG1 i))
+            :ARG1 (y / you)
+            :degree (j / just))
+      :ARG1-of (s / sure-02))
+
+# ::id lpp_1943.1168 ::date 2012-11-25T13:43:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt But in herself alone she is more important than all the hundreds of you other roses : because it is she that I have watered ; because it is she that I have put under the glass globe ; because it is she that I have sheltered behind the screen ; because it is for her that I have killed the caterpillars ( except the two or three that we saved to become butterflies ) ; because it is she that I have listened to , when she grumbled , or boasted , or ever sometimes when she said nothing .
+# ::zh 可是，她单独一朵就比你们全体更重要，因为她是我浇灌的。 因为她是我放在花罩中的。 因为她是我用屏风保护起来的。 因为她身上的毛虫（除了留下两三只为了变蝴蝶而外）是我除灭的。 因为我倾听过她的怨艾和自诩，甚至有时我聆听着她的沉默。
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_1168.txt
+(c4 / contrast-01
+      :ARG2 (i / important
+            :degree (m / more)
+            :domain (s / she
+                  :mod (a / alone))
+            :compared-to (r / rose
+                  :quant (a3 / all :op1 100)
+                  :mod (o / other))
+            :ARG1-of (c / cause-01
+                  :ARG0 (a2 / and
+                        :op1 (w / water-01
+                              :ARG0 (i2 / i)
+                              :ARG1 s)
+                        :op2 (p / put-01
+                              :ARG0 i2
+                              :ARG1 s
+                              :ARG2 (u / under
+                                    :op1 (g / globe
+                                          :consist-of (g2 / glass))))
+                        :op3 (s3 / shelter-01
+                              :ARG0 i2
+                              :ARG1 s
+                              :ARG2 (b2 / behind
+                                    :op1 (s4 / screen)))
+                        :op4 (k / kill-01
+                              :ARG0 i2
+                              :ARG1 (c2 / caterpillar
+                                    :ARG2-of (e2 / except-01
+                                          :ARG1 (c3 / caterpillar
+                                                :quant (o2 / or :op1 2 :op2 3)
+                                                :ARG1-of (s2 / save-02
+                                                      :ARG0 (w2 / we)
+                                                      :purpose (b3 / become-01
+                                                            :ARG1 c3
+                                                            :ARG2 (b4 / butterfly))))))
+                              :beneficiary s)
+                        :op4 (l / listen-01
+                              :ARG0 i2
+                              :ARG1 s
+                              :time (o3 / or
+                                    :op1 (g3 / grumble-01
+                                          :ARG0 s)
+                                    :op2 (b5 / boast-01
+                                          :ARG0 s)
+                                    :op3 (s6 / say-01
+                                          :ARG0 s
+                                          :ARG1 (n / nothing)
+                                          :frequency (s7 / sometimes
+                                                :time (e / ever)))))))))
+
+# ::id lpp_1943.1169 ::date 2012-11-25T14:10:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt Because she is my rose .
+# ::zh 因为她是我的玫瑰。”
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1169.txt
+(c / cause-01
+      :ARG0 (r / rose
+            :domain (s / she)
+            :poss (i / i)))
+
+# ::id lpp_1943.1170 ::date 2012-11-25T14:20:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he went back to meet the fox .
+# ::zh 他又回到了狐狸身边。
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1170.txt
+(a / and
+      :op1 (g / go-02
+            :ARG0 (h / he)
+            :direction (b / back)
+            :purpose (m / meet-03
+                  :ARG0 h
+                  :ARG1 (f / fox))))
+
+# ::id lpp_1943.1171 ::date 2012-11-25T14:22:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Goodbye , " he said .
+# ::zh “再见了。” 小王子说道。
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_1171.txt
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (g / goodbye))
+
+# ::id lpp_1943.1172 ::date 2012-11-25T14:23:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Goodbye , " said the fox .
+# ::zh “再见。” 狐狸说。
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1172.txt
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (g / goodbye))
+
+# ::id lpp_1943.1173 ::date 2012-11-25T14:24:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And now here is my secret , a very simple secret : It is only with the heart that one can see rightly ; what is essential is invisible to the eye . "
+# ::zh “喏，这就是我的秘密。 很简单：只有用心才能看得清。 实质性的东西，用眼睛是看不见的。”
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1173.txt
+(a / and
+      :op1 (s / secret
+            :poss (i / i)
+            :ARG1-of (s2 / simple-02
+                  :degree (v / very))
+            :domain (a2 / and
+                  :op1 (p / possible-01
+                        :ARG1 (s3 / see-01
+                              :ARG0 (o2 / one)
+                              :manner (r / right-06)
+                              :instrument (h2 / heart))
+                        :mod (o / only))
+                  :op2 (p2 / possible-01 :polarity -
+                        :ARG1 (s4 / see-01
+                              :ARG0 o2
+                              :ARG1 (t / thing
+                                    :mod (e / essential))
+                              :instrument (e2 / eye))))
+            :time (n / now)))
+
+# ::id lpp_1943.1174 ::date 2012-11-26T17:32:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt " What is essential is invisible to the eye , " the little prince repeated , so that he would be sure to remember .
+# ::zh “实质性的东西，用眼睛是看不见的。” 小王子重复着这句话，以便能把它记在心间。
+# ::save-date Thu Jul 9, 2015 ::file lpp_1943_1174.txt
+(r / repeat-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / possible-01 :polarity -
+            :ARG1 (s2 / see-01
+                  :ARG1 (t / thing
+                        :mod (e / essential))
+                  :instrument (e2 / eye)))
+      :purpose (r2 / remember-01
+            :ARG0 p
+            :ARG1 p2
+            :ARG1-of (s / sure-02)))
+
+# ::id lpp_1943.1175 ::date 2012-11-26T17:36:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is the time you have wasted for your rose that makes your rose so important . "
+# ::zh “正因为你为你的玫瑰花费了时间，这才使你的玫瑰变得如此重要。”
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1175.txt
+(t / time
+      :ARG1-of (w / waste-01
+            :ARG0 (y / you)
+            :beneficiary (r / rose
+                  :poss y))
+      :ARG0-of (m / make-02
+            :ARG1 (i / important
+                  :domain r
+                  :degree (s / so))))
+
+# ::id lpp_1943.1176 ::date 2012-11-27T09:57:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is the time I have wasted for my rose - - " said the little prince , so that he would be sure to remember .
+# ::zh “正因为你为你的玫瑰花费了时间…”小王子又重复着，要使自己记住这些。
+# ::save-date Thu Jul 9, 2015 ::file lpp_1943_1176.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (t / time
+            :ARG1-of (w / waste-01
+                  :ARG0 p)
+            :beneficiary (r / rose
+                  :poss p))
+      :purpose (r2 / remember-01
+            :ARG0 p
+            :ARG1-of (s2 / sure-02)))
+
+# ::id lpp_1943.1177 ::date 2012-11-27T09:59:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Men have forgotten this truth , " said the fox .
+# ::zh “人们已经忘记了这个道理，”狐狸说，
+# ::save-date Tue Apr 30, 2013 ::file lpp_1943_1177.txt
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (f2 / forget-01
+            :ARG0 (m / man)
+            :ARG1 (t / truth
+                  :mod (t2 / this))))
+
+# ::id lpp_1943.1178 ::date 2012-11-27T10:01:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But you must not forget it .
+# ::zh “可是，你不应该忘记它。
+# ::save-date Tue May 7, 2013 ::file lpp_1943_1178.txt
+(c / contrast-01
+      :ARG2 (o / obligate-01
+            :ARG1 (y / you)
+            :ARG2 (f / forget-01 :polarity -
+                  :ARG0 y
+                  :ARG1 (i / it))))
+
+# ::id lpp_1943.1179 ::date 2012-11-27T10:03:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt You become responsible , forever , for what you have tamed .
+# ::zh 你现在要对你驯服过的一切负责到底。
+# ::save-date Thu May 14, 2015 ::file lpp_1943_1179.txt
+(b / become-01
+      :ARG1 (y / you)
+      :ARG2 (r / responsible-03
+            :ARG0 y
+            :ARG1 (t2 / thing
+                  :ARG1-of (t / tame-01
+                        :ARG0 y))
+            :extent (f / forever)))
+
+# ::id lpp_1943.1180 ::date 2012-11-27T10:09:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt You are responsible for your rose ... "
+# ::zh 你要对你的玫瑰负责…”
+# ::save-date Thu May 14, 2015 ::file lpp_1943_1180.txt
+(r / responsible-03
+      :ARG0 (y / you)
+      :ARG1 (r2 / rose
+            :poss y))
+
+# ::id lpp_1943.1181 ::date 2012-11-27T10:10:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am responsible for my rose , " the little prince repeated , so that he would be sure to remember .
+# ::zh “我要对我的玫瑰负责…”小王子又重复着，这样他能够记住……
+# ::save-date Thu Jul 9, 2015 ::file lpp_1943_1181.txt
+(r / repeat-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (r2 / responsible-03
+            :ARG0 p
+            :ARG1 (r3 / rose
+                  :poss p))
+      :purpose (r4 / remember-01
+            :ARG0 p
+            :ARG1-of (s / sure-02)))

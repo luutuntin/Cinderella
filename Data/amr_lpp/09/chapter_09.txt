@@ -1,0 +1,558 @@
+# ::id lpp_1943.432 ::date 2012-11-11T12:19:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 9 .
+# ::zh IX。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_432.txt
+(c / chapter :mod 9)
+
+# ::id lpp_1943.433 ::date 2012-11-11T12:19:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt I believe that for his escape he took advantage of the migration of a flock of wild birds .
+# ::zh 我想小王子大概是利用一群候鸟迁徙的机会跑出来的。
+# ::save-date Sun Nov 11, 2012 ::file lpp_1943_433.txt
+(b / believe-01
+  :ARG0 (i / i)
+  :ARG1 (t / take-01
+          :ARG0 (h / he)
+          :ARG1 (a / advantage)
+          :ARG2 (m / migrate-01
+                  :ARG0 (f / flock-02
+                          :ARG0 (b2 / bird
+                                  :mod (w / wild))))
+          :purpose (e / escape-01
+                     :ARG0 h)))
+
+# ::id lpp_1943.434 ::date 2012-11-11T12:27:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt On the morning of his departure he put his planet in perfect order .
+# ::zh 在他出发的那天早上，他把他的星球收拾得整整齐齐，
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_434.txt
+(o / order-03
+      :ARG0 (h / he)
+      :ARG1 (p2 / planet
+            :poss h)
+      :ARG1-of (p / perfect-02)
+      :time (m / morning
+            :domain (d / depart-01
+                  :ARG0 h)))
+
+# ::id lpp_1943.435 ::date 2012-11-11T12:41:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt He carefully cleaned out his active volcanoes .
+# ::zh 把它上头的活火山打扫得干干净净。
+# ::save-date Mon Jul 20, 2015 ::file lpp_1943_435.txt
+(c / clean-out-03
+      :ARG0 (h / he)
+      :ARG1 (v / volcano
+            :poss h
+            :ARG0-of (a / activity-06))
+      :manner (c2 / careful))
+
+# ::id lpp_1943.436 ::date 2012-11-11T12:45:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt He possessed two active volcanoes ; and they were very convenient for heating his breakfast in the morning .
+# ::zh 他有两个活火山，早上热早点很方便。
+# ::save-date Mon Jul 20, 2015 ::file lpp_1943_436.txt
+(a / and
+      :op1 (p / possess-01
+            :ARG0 (h / he)
+            :ARG1 (v / volcano :quant 2
+                  :ARG0-of (a2 / activity-06)))
+      :op2 (c / convenient
+            :degree (v2 / very)
+            :purpose (h2 / heat-01
+                  :ARG1 (f / food
+                        :ARG1-of (b2 / breakfast-01
+                              :ARG0 h))
+                  :ARG2 v
+                  :time (m / morning))
+            :domain v))
+
+# ::id lpp_1943.437 ::date 2012-11-11T13:01:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt He also had one volcano that was extinct .
+# ::zh 他还有一座死火山，他也把它打扫干净。
+# ::save-date Sun Nov 11, 2012 ::file lpp_1943_437.txt
+(h / have-03
+  :ARG0 (h2 / he)
+  :ARG1 (v / volcano
+          :mod (e / extinct)
+          :quant 1)
+  :mod (a / also))
+
+# ::id lpp_1943.438 ::date 2012-11-11T13:02:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt But , as he said , " One never knows ! "
+# ::zh 他想，说不定它还会活动呢！
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_438.txt
+(c / contrast-01
+      :ARG2 (s / say-01
+            :ARG0 (h / he)
+            :ARG1 (k / know-01 :polarity -
+                  :ARG0 (o / one))))
+
+# ::id lpp_1943.439 ::date 2012-11-11T13:06:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt So he cleaned out the extinct volcano , too .
+# ::zh 他也把它打扫干净。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_439.txt
+(c / clean-out-03
+      :ARG0 (h / he)
+      :ARG1 (v / volcano
+            :mod (e / extinct))
+      :mod (t / too))
+
+# ::id lpp_1943.440 ::date 2012-11-11T13:11:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt If they are well cleaned out , volcanoes burn slowly and steadily , without any eruptions .
+# ::zh 打扫干净了，它们就可以慢慢地有规律地燃烧，而不会突然爆发。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_440.txt
+(b / burn-01
+      :ARG1 (v / volcano
+            :ARG1-of (e2 / erupt-01 :polarity -))
+      :manner (a / and
+            :op1 (s / slow)
+            :op2 (s2 / steady))
+      :condition (c / clean-out-03
+            :ARG1 v
+            :degree (w / well)))
+
+# ::id lpp_1943.441 ::date 2012-11-11T13:19:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt Volcanic eruptions are like fires in a chimney .
+# ::zh 火山爆发就象烟囱里的火焰一样。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_441.txt
+(e / erupt-01
+      :ARG1 (v / volcano)
+      :ARG1-of (r / resemble-01
+            :ARG2 (f / fire
+                  :location (c / chimney))))
+
+# ::id lpp_1943.442 ::date 2012-11-11T13:29:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt On our earth we are obviously much too small to clean out our volcanoes .
+# ::zh 当然，在我们地球上我们人太小，不能打扫火山，
+# ::save-date Tue Oct 21, 2014 ::file lpp_1943_442.txt
+(s / small
+      :degree (t2 / too
+            :degree (m / much))
+      :compared-to (c / clean-out-03
+            :ARG0 w
+            :ARG1 (v / volcano
+                  :poss w))
+      :domain (w / we)
+      :location (e / earth
+            :poss w)
+      :mod (o / obvious))
+
+# ::id lpp_1943.443 ::date 2012-11-11T13:38:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt That is why they bring no end of trouble upon us .
+# ::zh 所以火山给我们带来很多很多麻烦。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_443.txt
+(c / cause-01
+      :ARG0 (t3 / that)
+      :ARG1 (t2 / trouble-01
+            :ARG0 (t4 / they)
+            :ARG1 (w / we)
+            :quant (e / end :polarity -)))
+
+# ::id lpp_1943.444 ::date 2012-11-11T13:44:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince also pulled up , with a certain sense of dejection , the last little shoots of the baobabs .
+# ::zh 小王子还把剩下的最后几颗猴面包树苗全拔了。 他有点忧伤。
+# ::save-date Tue May 5, 2015 ::file lpp_1943_444.txt
+(p / pull-01
+      :ARG0 (p2 / prince
+            :mod (l / little)
+            :ARG0-of (s2 / sense-01
+                  :ARG1 (d2 / deject-01)
+                  :mod (c / certain)))
+      :ARG1 (s / shoot
+            :part-of (b / baobab)
+            :mod (l2 / little)
+            :mod (l3 / last))
+      :mod (a / also)
+      :direction (u / up))
+
+# ::id lpp_1943.445 ::date 2012-11-11T13:55:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt He believed that he would never want to return .
+# ::zh 他以为他再也不会回来了。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_445.txt
+(b / believe-01
+      :ARG0 (h / he)
+      :ARG1 (w / want-01 :polarity -
+            :ARG0 h
+            :ARG1 (r / return-01
+                  :ARG1 h)
+            :time (e / ever)))
+
+# ::id lpp_1943.446 ::date 2012-11-11T14:09:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt But on this last morning all these familiar tasks seemed very precious to him .
+# ::zh 这天，这些家常活使他感到特别亲切。
+# ::save-date Tue Oct 21, 2014 ::file lpp_1943_446.txt
+(c / contrast-01
+      :ARG2 (s / seem-01
+            :ARG1 (p / precious
+                  :degree (v / very)
+                  :domain (t2 / task
+                        :quant (a2 / all)
+                        :mod (f / familiar)))
+            :ARG2 (h / he)
+            :time (m / morning
+                  :mod (l / last)
+                  :mod (t / this))))
+
+# ::id lpp_1943.447 ::date 2012-11-11T14:20:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt And when he watered the flower for the last time , and prepared to place her under the shelter of her glass globe , he realised that he was very close to tears .
+# ::zh 当他最后一次浇花时，准备把她放在玻璃罩子下面。 他发觉自己要哭出来。
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_447.txt
+(r / realize-01
+      :ARG0 (h / he)
+      :ARG1 (c / close-10
+            :ARG1 h
+            :ARG2 (t / tear-03
+                  :ARG1 h)
+            :degree (v / very))
+      :time (a / and
+            :op1 (w / water-01
+                  :ARG0 h
+                  :ARG1 (f / flower-01)
+                  :ord (o / ordinal-entity :value "-1"))
+            :op2 (p / prepare-02
+                  :ARG0 h
+                  :ARG1 h
+                  :ARG2 (p2 / place-01
+                        :ARG0 h
+                        :ARG1 f
+                        :ARG2 (u2 / under
+                              :op1 (g / globe
+                                    :consist-of (g2 / glass)
+                                    :poss f
+                                    :ARG2-of (s2 / shelter-01
+                                          :ARG0 h
+                                          :ARG1 f)))))))
+
+# ::id lpp_1943.448 ::date 2012-11-11T14:44:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Goodbye , " he said to the flower .
+# ::zh “再见了。” 他对花儿说道。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_448.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (g / goodbye)
+      :ARG2 (f / flower))
+
+# ::id lpp_1943.449 ::date 2012-11-11T14:45:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt But she made no answer .
+# ::zh 可是花儿没有回答他。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_449.txt
+(c / contrast-01
+      :ARG2 (a2 / answer-01 :polarity -
+            :ARG0 (s / she)))
+
+# ::id lpp_1943.450 ::date 2012-11-11T14:49:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Goodbye , " he said again .
+# ::zh “再见了。” 他又说了一遍。
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_450.txt
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (g / goodbye)
+  :mod (a / again))
+
+# ::id lpp_1943.451 ::date 2012-11-11T14:50:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt The flower coughed .
+# ::zh 花儿咳嗽了一阵。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_451.txt
+(c / cough-01
+      :ARG0 (f / flower))
+
+# ::id lpp_1943.452 ::date 2012-11-11T14:51:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt But it was not because she had a cold .
+# ::zh 但并不是由于感冒。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_452.txt
+(c2 / contrast-01
+      :ARG2 (c3 / cause-01 :polarity -
+            :ARG0 (h / have-03
+                  :ARG0 (s / she)
+                  :ARG1 (c / cold))
+            :ARG1 (i / it)))
+
+# ::id lpp_1943.453 ::date 2012-11-11T14:52:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I have been silly , " she said to him , at last .
+# ::zh 她终于对他说道：“我方才真蠢。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_453.txt
+(s / say-01
+      :ARG0 (s2 / she)
+      :ARG1 (s4 / silly
+            :domain s2)
+      :ARG2 (h / he)
+      :time (a / at-last))
+
+# ::id lpp_1943.454 ::date 2012-11-11T14:58:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I ask your forgiveness .
+# ::zh 请你原谅我。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_454.txt
+(a / ask-02
+      :ARG0 (i / i)
+      :ARG1 (f / forgive-01
+            :ARG0 y
+            :ARG1 i)
+      :ARG2 (y / you))
+
+# ::id lpp_1943.455 ::date 2012-11-11T15:00:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt Try to be happy ... "
+# ::zh 希望你能幸福。”
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_455.txt
+(t / try-01
+  :ARG0 (y / you)
+  :ARG1 (h2 / happy
+          :domain y)
+  :mode imperative)
+
+# ::id lpp_1943.456 ::date 2012-11-11T15:01:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt He was surprised by this absence of reproaches .
+# ::zh 花儿对他毫不抱怨，他感到很惊讶。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_456.txt
+(s / surprise-01
+      :ARG0 (a / absent-01
+            :ARG1 (r / reproach-01))
+      :ARG1 (h / he))
+
+# ::id lpp_1943.457 ::date 2012-11-11T15:05:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt He stood there all bewildered , the glass globe held arrested in mid - air .
+# ::zh 他举着罩子，不知所措地伫立在那里。
+# ::save-date Mon Oct 6, 2014 ::file lpp_1943_457.txt
+(s / stand-01
+      :ARG1 (h / he
+            :ARG1-of (b / bewilder-01
+                  :degree (a / all))
+            :ARG0-of (h2 / hold-01
+                  :ARG1 (g / globe
+                        :consist-of (g2 / glass)
+                        :ARG1-of (a2 / arrest-02
+                              :location (m / mid-air)))))
+      :ARG2 (t / there))
+
+# ::id lpp_1943.458 ::date 2012-11-11T15:21:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt He did not understand this quiet sweetness .
+# ::zh 他不明白她为什么会这样温柔恬静。
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_458.txt
+(u / understand-01
+  :ARG0 (h / he)
+  :ARG1 (s / sweetness
+          :mod (q / quiet-04)
+          :mod (t / this))
+  :polarity -)
+
+# ::id lpp_1943.459 ::date 2012-11-11T15:27:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Of course I love you , " the flower said to him .
+# ::zh “的确，我爱你。” 花儿对他说道
+# ::save-date Sun Nov 11, 2012 ::file lpp_1943_459.txt
+(s / say-01
+  :ARG0 (f / flower-01)
+  :ARG1 (l / love-01
+          :ARG0 f
+          :ARG1 h
+          :mod (o / of-course))
+  :ARG2 (h / he))
+
+# ::id lpp_1943.460 ::date 2012-11-11T15:47:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is my fault that you have not known it all the while .
+# ::zh “但由于我的过错，你一点也没有理会。
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_460.txt
+(f / fault-01
+      :ARG1 (i3 / i)
+      :ARG2 (k / know-01 :polarity -
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :time (w / while-away-01
+                  :duration (a / all))))
+
+# ::id lpp_1943.461 ::date 2012-11-11T16:35:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt That is of no importance .
+# ::zh 这丝毫不重要。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_461.txt
+(i / important :polarity -
+      :domain (t / that))
+
+# ::id lpp_1943.462 ::date 2012-11-11T16:38:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt But you - - you have been just as foolish as I .
+# ::zh 不过，你也和我一样的蠢。
+# ::save-date Mon Nov 10, 2014 ::file lpp_1943_462.txt
+(c / contrast-01
+      :ARG2 (f / foolish
+            :domain (y / you)
+            :degree (e / equal)
+            :compared-to (i / i)))
+
+# ::id lpp_1943.463 ::date 2012-11-11T16:43:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Try to be happy ... let the glass globe be .
+# ::zh 希望你今后能幸福。 把罩子放在一边吧，
+# ::save-date Mon Oct 6, 2014 ::file lpp_1943_463.txt
+(a / and
+      :op1 (t / try-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (h / happy
+                  :domain y))
+      :op2 (l / let-01 :mode imperative
+            :ARG0 y
+            :ARG1 (b2 / be-02
+                  :ARG1 (g / globe
+                        :consist-of (g2 / glass)))))
+
+# ::id lpp_1943.464 ::date 2012-11-11T16:46:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt I do n't want it any more . "
+# ::zh 我用不着它了。”
+# ::save-date Sun Nov 11, 2012 ::file lpp_1943_464.txt
+(w / want-01
+  :ARG0 (i / i)
+  :ARG1 (i2 / it)
+  :polarity -
+  :time (a / anymore))
+
+# ::id lpp_1943.465 ::date 2012-11-11T16:48:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But the wind - - "
+# ::zh “要是风来了怎么办？”
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_465.txt
+(c / contrast-01
+  :ARG2 (w / wind))
+
+# ::id lpp_1943.466 ::date 2012-11-11T16:49:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt " My cold is not so bad as all that ... the cool night air will do me good .
+# ::zh “我的感冒并不那么重…夜晚的凉风对我倒有好处。
+# ::save-date Mon Jun 29, 2015 ::file lpp_1943_466.txt
+(a / and
+      :op1 (b / bad-05 :polarity -
+            :ARG1 (c3 / cold
+                  :poss (i / i))
+            :compared-to (t / that
+                  :quant (a2 / all)))
+      :op2 (g / good-04
+            :ARG1 (a3 / air
+                  :ARG1-of (c / cool-06)
+                  :mod (n / night))
+            :ARG2 i))
+
+# ::id lpp_1943.467 ::date 2012-11-11T16:56:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt I am a flower . "
+# ::zh 我是一朵花。”
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_467.txt
+(f / flower
+      :domain (i / i))
+
+# ::id lpp_1943.468 ::date 2012-11-11T16:58:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But the animals - - "
+# ::zh “要是有虫子野兽呢？ …”
+# ::save-date Sat Dec 8, 2012 ::file lpp_1943_468.txt
+(c / contrast-01
+  :ARG2 (a / animal))
+
+# ::id lpp_1943.469 ::date 2012-11-11T16:58:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Well , I must endure the presence of two or three caterpillars if I wish to become acquainted with the butterflies .
+# ::zh “我要是想认识蝴蝶，经不起两三只尺蠖是不行的。
+# ::save-date Tue Jul 14, 2015 ::file lpp_1943_469.txt
+(h / have-concession-91
+      :ARG2 (o / obligate-01
+            :ARG1 i
+            :ARG2 (e / endure-01
+                  :ARG1 (i / i)
+                  :ARG2 (p / present-02
+                        :ARG1 (c / caterpillar
+                              :quant (o2 / or :op1 2 :op2 3)))
+                  :condition (w / wish-01
+                        :ARG0 i
+                        :ARG1 (a / acquaint-01
+                              :ARG1 i
+                              :ARG2 (b2 / butterfly))))))
+
+# ::id lpp_1943.470 ::date 2012-11-11T17:09:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt It seems that they are very beautiful .
+# ::zh 据说这是很美的。
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_470.txt
+(s / seem-01
+      :ARG1 (b / beautiful-02
+            :ARG1 (t2 / they)
+            :degree (v2 / very)))
+
+# ::id lpp_1943.471 ::date 2012-11-11T17:11:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt And if not the butterflies - - and the caterpillars - - who will call upon me ?
+# ::zh 不然还有谁来看我呢？
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_471.txt
+(c / call-on-05
+      :ARG0 (a / amr-unknown)
+      :ARG1 (i / i)
+      :condition (c3 / call-on-05 :polarity -
+            :ARG0 (a2 / and
+                  :op1 (b / butterfly)
+                  :op2 (c2 / caterpillar))
+            :ARG1 i))
+
+# ::id lpp_1943.472 ::date 2012-11-11T17:32:44 ::annotator ISI-AMR-05 ::preferred
+# ::snt You will be far away ... as for the large animals - - I am not at all afraid of any of them .
+# ::zh 你就要到远处去了。 至于说大动物，我并不怕，
+# ::save-date Mon Mar 17, 2014 ::file lpp_1943_472.txt
+(a / and
+      :op1 (a2 / away
+            :extent (f / far)
+            :location-of (y / you))
+      :op2 (f2 / fear-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (a3 / animal
+                  :mod (l / large)
+                  :quant (a4 / any))
+            :degree (a5 / at-all)))
+
+# ::id lpp_1943.473 ::date 2012-11-11T17:46:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have my claws . "
+# ::zh 我有爪子。”
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_473.txt
+(h / have-03
+      :ARG0 (i / i)
+      :ARG1 (c / claw
+            :part-of i))
+
+# ::id lpp_1943.474 ::date 2012-11-11T17:47:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , naïvely , she showed her four thorns .
+# ::zh 于是，她天真地显露出她那四根刺，
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_474.txt
+(s / show-01
+      :ARG0 (s2 / she)
+      :ARG1 (t / thorn :quant 4
+            :part-of s2)
+      :manner (n / naive))
+
+# ::id lpp_1943.475 ::date 2012-11-11T17:50:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then she added : " Do n't linger like this .
+# ::zh 随后又说道：“别这么磨蹭了。
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_475.txt
+(a / add-01
+      :ARG0 (s / she)
+      :ARG1 (l / linger-01 :polarity - :mode imperative
+            :ARG1 (y / you)
+            :compared-to (t3 / this))
+      :time (t / then))
+
+# ::id lpp_1943.476 ::date 2012-11-11T17:56:26 ::annotator ISI-AMR-05 ::preferred
+# ::snt You have decided to go away .
+# ::zh 真烦人！ 你既然决定离开这儿，
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_476.txt
+(d / decide-01
+      :ARG0 (y / you)
+      :ARG1 (g / go-02
+            :ARG0 y
+            :direction (a / away)))
+
+# ::id lpp_1943.477 ::date 2012-11-11T17:59:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt Now go ! "
+# ::zh 那么，快走吧！”
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_477.txt
+(g / go-02 :mode imperative
+      :ARG0 (y / you)
+      :time (n / now))
+
+# ::id lpp_1943.478 ::date 2012-11-11T18:01:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt For she did not want him to see her crying .
+# ::zh 她是怕小王子看见她在哭。
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_478.txt
+(w / want-01 :polarity -
+      :ARG0 (s / she)
+      :ARG1 (s2 / see-01
+            :ARG0 (h / he)
+            :ARG1 (c / cry-02
+                  :ARG0 s)))
+
+# ::id lpp_1943.479 ::date 2012-11-11T18:08:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt She was such a proud flower ...
+# ::zh 她是一朵非常骄傲的花…
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_479.txt
+(p / pride-01
+      :ARG0 (f2 / flower
+            :domain (s / she))
+      :degree (s2 / such))

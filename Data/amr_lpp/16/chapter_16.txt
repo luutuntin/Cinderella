@@ -1,0 +1,255 @@
+# ::id lpp_1943.917 ::date 2012-11-15T20:46:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 16 .
+# ::zh XVI。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_917.txt
+(c / chapter
+      :mod 16)
+
+# ::id lpp_1943.918 ::date 2012-11-15T20:47:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt So then the seventh planet was the Earth .
+# ::zh 第七个行星，于是就是地球了。
+# ::save-date Wed Aug 7, 2013 ::file lpp_1943_918.txt
+(p2 / planet
+      :ord (o / ordinal-entity :value 7)
+      :domain (p / planet :wiki "Earth"
+            :name (n / name :op1 "Earth"))
+      :ARG1-of (c / cause-01))
+
+# ::id lpp_1943.919 ::date 2012-11-15T20:50:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt The Earth is not just an ordinary planet !
+# ::zh 地球可不是一颗普通的行星！
+# ::save-date Thu May 9, 2013 ::file lpp_1943_919.txt
+(p / planet
+      :mod (o / ordinary
+            :mod (j / just :polarity -))
+      :domain (p2 / planet :wiki "Earth"
+            :name (n / name :op1 "Earth")))
+
+# ::id lpp_1943.920 ::date 2012-11-15T20:50:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt One can count , there 111 kings ( not forgetting , to be sure , the Negro kings among them ) , 7000 geographers , 900,000 businessmen , 7,500,000 tipplers , 311,000,000 conceited men - - that is to say , about 2,000,000,000 grown - ups .
+# ::zh 它上面有一百一十一个国王（当然，没有漏掉黑人国王），七千个地理学家，九十万个实业家，七百五十万个酒鬼，三亿一千一百万个爱虚荣的人，也就是说，大约有二十亿的大人。
+# ::save-date Thu Jul 9, 2015 ::file lpp_1943_920.txt
+(p / possible-01
+      :ARG1 (a3 / and
+            :op1 (c / count-01
+                  :ARG0 (o / one)
+                  :ARG1 (a / and
+                        :op1 (p5 / person :quant 111
+                              :ARG0-of (h2 / have-org-role-91
+                                    :ARG2 (k / king)))
+                        :op2 (g2 / geographer :quant 7000)
+                        :op3 (b / businessman :quant 900000)
+                        :op4 (p4 / person :quant 7500000
+                              :ARG0-of (t2 / tipple-01))
+                        :op5 (m / man :quant 311000000
+                              :mod (c2 / conceited))
+                        :mod (g3 / grown-up
+                              :quant (a2 / about :op1 2000000000)))
+                  :location (t / there))
+            :op2 (f / forget-01 :polarity -
+                  :ARG0 o
+                  :ARG1 (n / negro
+                        :ARG1-of (i2 / include-91
+                              :ARG2 p5)
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (k2 / king)))
+                  :ARG1-of (s / sure-02))))
+
+# ::id lpp_1943.921 ::date 2012-11-15T20:57:22 ::annotator ISI-AMR-05 ::preferred
+# ::snt To give you an idea of the size of the Earth , I will tell you that before the invention of electricity it was necessary to maintain , over the whole of the six continents , a veritable army of 462,511 lamplighters for the street lamps .
+# ::zh 为了使你们对地球的大小有一个概念，我想要告诉你们：在发明电之前，在六的大洲上，为了点路灯，需要维持一支为数四十六万二千五百一十一人的真正大军。
+# ::save-date Mon May 13, 2013 ::file lpp_1943_921.txt
+(t / tell-01
+      :ARG0 (i3 / i)
+      :ARG1 (o / obligate-01
+            :ARG2 (m / maintain-01
+                  :ARG1 (a / army
+                        :consist-of (p2 / person :quant 462511
+                              :ARG0-of (l2 / light-04
+                                    :ARG1 (l3 / lamp)))
+                        :mod (v / veritable))
+                  :location (o2 / over
+                        :op1 (c / continent
+                              :quant (w / whole :op1 6)))
+                  :purpose (l / lamp
+                        :location (s2 / street)))
+            :time (b / before
+                  :op1 (i2 / invent-01
+                        :ARG1 (e / electricity))))
+      :ARG2 y
+      :purpose (g / give-01
+            :ARG1 (i / idea
+                  :topic (s / size-01
+                        :ARG1 (p3 / planet :wiki "Earth"
+                              :name (n / name :op1 "Earth"))))
+            :ARG2 (y / you)))
+
+# ::id lpp_1943.922 ::date 2012-11-17T17:36:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt Seen from a slight distance , that would make a splendid spectacle .
+# ::zh 从稍远的地方看过去，它给人以一种壮丽辉煌的印象。
+# ::save-date Thu May 9, 2013 ::file lpp_1943_922.txt
+(m / make-01
+      :ARG0 (t / that)
+      :ARG1 (s / spectacle
+            :mod (s2 / splendid))
+      :condition (s3 / see-01
+            :ARG1 t
+            :manner (d / distance-01
+                  :ARG2 t
+                  :degree (s4 / slight))))
+
+# ::id lpp_1943.923 ::date 2012-11-17T17:56:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt The movements of this army would be regulated like those of the ballet in the opera .
+# ::zh 这支军队的行动就象歌剧院的芭蕾舞动作一样，那么有条不紊。
+# ::save-date Mon May 13, 2013 ::file lpp_1943_923.txt
+(r / regulate-01
+      :ARG1 (m / move-01
+            :ARG0 (a / army
+                  :mod (t / this))
+            :ARG1-of (r3 / resemble-01
+                  :ARG2 (m2 / move-01
+                        :ARG0 (b / ballet
+                              :subevent-of (o / opera))))))
+
+# ::id lpp_1943.924 ::date 2012-11-17T17:59:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt First would come the turn of the lamplighters of New Zealand and Australia .
+# ::zh 首先出现的是新西兰和澳大利亚的点灯人。
+# ::save-date Tue May 14, 2013 ::file lpp_1943_924.txt
+(c / come-03
+      :ARG1 (t / turn-01
+            :ARG1 (p / person
+                  :source (a / and
+                        :op1 (c2 / country :wiki "New_Zealand"
+                              :name (n / name :op1 "New" :op2 "Zealand"))
+                        :op2 (c3 / country :wiki "Australia"
+                              :name (n2 / name :op1 "Australia")))
+                  :ARG0-of (l / light-04
+                        :ARG1 (l2 / lamp))))
+      :time (f / first))
+
+# ::id lpp_1943.925 ::date 2012-11-17T18:03:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt Having set their lamps alight , these would go off to sleep .
+# ::zh 点着了灯，随后他们就去睡觉了。
+# ::save-date Thu Oct 16, 2014 ::file lpp_1943_925.txt
+(g / go-02
+      :ARG0 (t / they)
+      :purpose (s / sleep-01
+            :ARG0 t)
+      :time (a / after
+            :op1 (l2 / light-04
+                  :ARG0 t
+                  :ARG1 (l / lamp
+                        :poss t))))
+
+# ::id lpp_1943.926 ::date 2012-11-17T18:08:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt Next , the lamplighters of China and Siberia would enter for their steps in the dance , and then they too would be waved back into the wings .
+# ::zh 于是就轮到中国和西伯利亚的点灯人走上舞台。 随后，他们也藏到幕布后面去了。
+# ::save-date Tue Aug 6, 2013 ::file lpp_1943_926.txt
+(a / and
+      :op1 (e / enter-01
+            :ARG0 (p / person
+                  :ARG0-of (l / light-04
+                        :ARG1 (l2 / lamp))
+                  :source (a2 / and
+                        :op1 (c / country :wiki "China"
+                              :name (n2 / name :op1 "China"))
+                        :op2 (c2 / country-region :wiki "Siberia"
+                              :name (n3 / name :op1 "Siberia"))))
+            :time (n / next)
+            :purpose (s / step
+                  :poss p
+                  :part-of (d2 / dance-01)))
+      :op2 (w / wave-02
+            :ARG1 p
+            :ARG2 (b / back
+                  :direction (i / into
+                        :op1 (w2 / wing)))
+            :time (t / then)
+            :degree (t2 / too)))
+
+# ::id lpp_1943.927 ::date 2012-11-17T18:22:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt After that would come the turn of the lamplighters of Russia and the Indies ; then those of Africa and Europe , then those of South America ; then those of South America ; then those of North America .
+# ::zh 于是就又轮到俄罗斯和印度的点灯人了。 然后就是非洲和欧洲的。 接着是南美的，再就是北美的。
+# ::save-date Mon Aug 5, 2013 ::file lpp_1943_927.txt
+(c8 / come-03
+      :ARG1 (t2 / turn-01
+            :ARG1 (p / person
+                  :ARG0-of (l / light-04
+                        :ARG1 (l2 / lamp))
+                  :source (c3 / continent :wiki "North_America"
+                        :name (n2 / name :op1 "North" :op2 "America"))))
+      :time (a3 / after
+            :op3 (p3 / person
+                  :ARG0-of l
+                  :source (c2 / continent :wiki "South_America"
+                        :name (n / name :op1 "South" :op2 "America")))
+            :time (a5 / after
+                  :op1 (p2 / person
+                        :source (a4 / and
+                              :op1 (c4 / continent :wiki "Africa"
+                                    :name (n5 / name :op1 "Africa"))
+                              :op2 (c5 / continent :wiki "Europe"
+                                    :name (n6 / name :op1 "Europe"))))
+                  :time (a / after
+                        :op1 (p4 / person
+                              :source (a2 / and
+                                    :op1 (c / country :wiki "Russia"
+                                          :name (n3 / name :op1 "Russia"))
+                                    :op2 (w / world-region :wiki "Indies"
+                                          :name (n4 / name :op1 "Indies")))
+                              :time (a6 / after
+                                    :op1 (t / that)))))))
+
+# ::id lpp_1943.928 ::date 2012-11-17T18:35:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt And never would they make a mistake in the order of their entry upon the stage .
+# ::zh 他们从来也不会搞错他们上场的次序。
+# ::save-date Fri Jul 24, 2015 ::file lpp_1943_928.txt
+(a / and
+      :op2 (m2 / mistake-02 :polarity -
+            :ARG0 (t / they)
+            :ARG1 (o / order-03
+                  :ARG1 (e / enter-01
+                        :ARG0 t
+                        :ARG1 (s / stage)))
+            :time (e2 / ever)))
+
+# ::id lpp_1943.929 ::date 2012-11-17T18:40:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt It would be magnificent .
+# ::zh 真了不起。
+# ::save-date Sat Nov 17, 2012 ::file lpp_1943_929.txt
+(m / magnificent
+  :domain (i / it))
+
+# ::id lpp_1943.930 ::date 2012-11-17T18:40:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt Only the man who was in charge of the single lamp at the North Pole , and his colleague who was responsible for the single lamp at the South Pole - - only these two would live free from toil and care : they would be busy twice a year .
+# ::zh 北极仅有一盏路灯，南极也只有一盏；唯独北极的点灯人和他南极的同行，过着闲逸、懒散的生活：他们每年只工作两次。
+# ::save-date Sun Jun 28, 2015 ::file lpp_1943_930.txt
+(l / live-01
+      :ARG0 (a2 / and
+            :op1 (m / man
+                  :ARG1-of (c4 / charge-05
+                        :ARG2 (l2 / lamp
+                              :ARG1-of (s / single-02)
+                              :location (w / world-region :wiki "North_Pole" :name (n3 / name :op1 "North" :op2 "Pole"))))
+                  :mod (o / only))
+            :op2 (c3 / colleague
+                  :poss m
+                  :ARG0-of (r / responsible-03
+                        :ARG1 (l4 / lamp
+                              :ARG1-of (s2 / single-02))
+                        :location (w2 / world-region :wiki "South_Pole" :name (n / name :op1 "South" :op2 "Pole"))))
+            :mod (p / person :quant 2
+                  :mod (t4 / this)
+                  :mod (o2 / only)))
+      :ARG3-of (f / free-04
+            :ARG1 a2
+            :ARG2 (a / and
+                  :op1 (t / toil-01)
+                  :op2 (c / care-01)))
+      :ARG1-of (c2 / cause-01
+            :ARG0 (b / busy
+                  :frequency (r2 / rate-entity-91
+                        :ARG1 2
+                        :ARG2 (t3 / temporal-quantity :quant 1
+                              :unit (y / year)))
+                  :domain a2)))

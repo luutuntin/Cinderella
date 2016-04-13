@@ -1,0 +1,327 @@
+<meta charset="utf-8">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Button show hide -->
+	<script type="text/javascript">
+	  function toggle_visibility(id) {
+	  var e = document.getElementById(id);
+	  if(e.style.display == 'block')
+          e.style.display = 'none';
+	  else
+          e.style.display = 'block';
+	  }
+	</script>
+</head>
+<body>
+<h2>1</h2>
+<p><b>Chapter 1 .</b></p>
+<p><code>(c&nbsp;/&nbsp;chapter<br>&nbsp;&nbsp;:mod&nbsp;1)</code></p>
+<button type="button" onclick="toggle_visibility('1');"><b>Named Entities</b></button> &#9660;<br><div id="1" style="display: none;">
+</div>
+<img src="./graphs/1.png">
+</body>
+<body>
+<h2>2</h2>
+<p><b>Once when I was six years old I saw a magnificent picture in a book , called True Stories from Nature , about the primeval forest .</b></p>
+<p><code>(s&nbsp;/&nbsp;see-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(p&nbsp;/&nbsp;picture<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(m&nbsp;/&nbsp;magnificent)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location&nbsp;(b2&nbsp;/&nbsp;book&nbsp;:wiki&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name&nbsp;(n&nbsp;/&nbsp;name&nbsp;:op1&nbsp;"True"&nbsp;:op2&nbsp;"Stories"&nbsp;:op3&nbsp;"from"&nbsp;:op4&nbsp;"Nature")<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:topic&nbsp;(f&nbsp;/&nbsp;forest<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(p2&nbsp;/&nbsp;primeval))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(o&nbsp;/&nbsp;once)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(a&nbsp;/&nbsp;age-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(t&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;6<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(y&nbsp;/&nbsp;year))))</code></p>
+<button type="button" onclick="toggle_visibility('2');"><b>Named Entities</b></button> &#9660;<br><div id="2" style="display: none;">
+<b>True Stories from Nature</b> ---> <code>-</code> <br>
+&nbsp;<i>Coref. name: </i><code></code><br>
+&nbsp;<i>Neighbors:&nbsp;&nbsp;&nbsp; </i> <code>(':mod', 'magnificent') </code><br>
+&nbsp;<i>Coheret set:&nbsp </i> <code></code><br>
+<br></div>
+<img src="./graphs/2.png">
+</body>
+<body>
+<h2>3</h2>
+<p><b>It was a picture of a boa constrictor in the act of swallowing an animal .</b></p>
+<p><code>(p&nbsp;/&nbsp;picture<br>&nbsp;&nbsp;:domain&nbsp;(i&nbsp;/&nbsp;it)<br>&nbsp;&nbsp;:topic&nbsp;(b2&nbsp;/&nbsp;boa<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(c2&nbsp;/&nbsp;constrictor)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0-of&nbsp;(s&nbsp;/&nbsp;swallow-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(a&nbsp;/&nbsp;animal))))</code></p>
+<button type="button" onclick="toggle_visibility('3');"><b>Named Entities</b></button> &#9660;<br><div id="3" style="display: none;">
+</div>
+<img src="./graphs/3.png">
+</body>
+<body>
+<h2>4</h2>
+<p><b>Here is a copy of the drawing .</b></p>
+<p><code>(b&nbsp;/&nbsp;be-located-at-91<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t2&nbsp;/&nbsp;thing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2-of&nbsp;(c&nbsp;/&nbsp;copy-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t&nbsp;/&nbsp;thing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(d&nbsp;/&nbsp;draw-01))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(h&nbsp;/&nbsp;here))</code></p>
+<button type="button" onclick="toggle_visibility('4');"><b>Named Entities</b></button> &#9660;<br><div id="4" style="display: none;">
+</div>
+<img src="./graphs/4.png">
+</body>
+<body>
+<h2>5</h2>
+<p><b>In the book it said : " Boa constrictors swallow their prey whole , without chewing it .</b></p>
+<p><code>(s2&nbsp;/&nbsp;say-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(b2&nbsp;/&nbsp;book)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(s&nbsp;/&nbsp;swallow-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(b&nbsp;/&nbsp;boa<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(c&nbsp;/&nbsp;constrictor))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(p&nbsp;/&nbsp;prey<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(w&nbsp;/&nbsp;whole)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:poss&nbsp;b)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:manner&nbsp;(c2&nbsp;/&nbsp;chew-01&nbsp;:polarity&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;b<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;p)))</code></p>
+<button type="button" onclick="toggle_visibility('5');"><b>Named Entities</b></button> &#9660;<br><div id="5" style="display: none;">
+</div>
+<img src="./graphs/5.png">
+</body>
+<body>
+<h2>6</h2>
+<p><b>After that they are not able to move , and they sleep through the six months that they need for digestion . "</b></p>
+<p><code>(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(p&nbsp;/&nbsp;possible-01&nbsp;:polarity&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(m&nbsp;/&nbsp;move-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(t&nbsp;/&nbsp;they)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(a2&nbsp;/&nbsp;after<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(t3&nbsp;/&nbsp;that))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(s&nbsp;/&nbsp;sleep-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;t<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:duration&nbsp;(t2&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;6<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(m2&nbsp;/&nbsp;month)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(n&nbsp;/&nbsp;need-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;t<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:purpose&nbsp;(d&nbsp;/&nbsp;digest-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;t)))))</code></p>
+<button type="button" onclick="toggle_visibility('6');"><b>Named Entities</b></button> &#9660;<br><div id="6" style="display: none;">
+</div>
+<img src="./graphs/6.png">
+</body>
+<body>
+<h2>7</h2>
+<p><b>I pondered deeply , then , over the adventures of the jungle .</b></p>
+<p><code>(p&nbsp;/&nbsp;ponder-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(a&nbsp;/&nbsp;adventure<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location&nbsp;(j&nbsp;/&nbsp;jungle))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(d&nbsp;/&nbsp;deep-02)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(t&nbsp;/&nbsp;then))</code></p>
+<button type="button" onclick="toggle_visibility('7');"><b>Named Entities</b></button> &#9660;<br><div id="7" style="display: none;">
+</div>
+<img src="./graphs/7.png">
+</body>
+<body>
+<h2>8</h2>
+<p><b>And after some work with a colored pencil I succeeded in making my first drawing .</b></p>
+<p><code>(a2&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(s&nbsp;/&nbsp;succeed-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(m&nbsp;/&nbsp;make-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t&nbsp;/&nbsp;thing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(d&nbsp;/&nbsp;draw-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ord&nbsp;(o&nbsp;/&nbsp;ordinal-entity&nbsp;:value&nbsp;1))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(a&nbsp;/&nbsp;after<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(w&nbsp;/&nbsp;work-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:instrument&nbsp;(p&nbsp;/&nbsp;pencil<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(c&nbsp;/&nbsp;color))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(s2&nbsp;/&nbsp;some)))))</code></p>
+<button type="button" onclick="toggle_visibility('8');"><b>Named Entities</b></button> &#9660;<br><div id="8" style="display: none;">
+</div>
+<img src="./graphs/8.png">
+</body>
+<body>
+<h2>9</h2>
+<p><b>My Drawing Number One .</b></p>
+<p><code>(p&nbsp;/&nbsp;picture&nbsp;:wiki&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name&nbsp;(n2&nbsp;/&nbsp;name&nbsp;:op1&nbsp;"Drawing"&nbsp;:op2&nbsp;"Number"&nbsp;:op3&nbsp;"One")<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:poss&nbsp;(i&nbsp;/&nbsp;i))</code></p>
+<button type="button" onclick="toggle_visibility('9');"><b>Named Entities</b></button> &#9660;<br><div id="9" style="display: none;">
+<b>Drawing Number One</b> ---> <code>-</code> <br>
+&nbsp;<i>Coref. name: </i><code></code><br>
+&nbsp;<i>Neighbors:&nbsp;&nbsp;&nbsp; </i> <code></code><br>
+&nbsp;<i>Coheret set:&nbsp </i> <code></code><br>
+<br></div>
+<img src="./graphs/9.png">
+</body>
+<body>
+<h2>10</h2>
+<p><b>It looked like this : I showed my masterpiece to the grown - ups , and asked them whether the drawing frightened them .</b></p>
+<p><code>(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;:op1&nbsp;(l&nbsp;/&nbsp;look-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;it)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t&nbsp;/&nbsp;this))<br>&nbsp;&nbsp;:op2&nbsp;(s&nbsp;/&nbsp;show-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i2&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(m&nbsp;/&nbsp;masterpiece<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:poss&nbsp;i2)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(g&nbsp;/&nbsp;grown-up))<br>&nbsp;&nbsp;:op3&nbsp;(a2&nbsp;/&nbsp;ask-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i2<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(f&nbsp;/&nbsp;frighten-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(t2&nbsp;/&nbsp;thing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(d&nbsp;/&nbsp;draw-01))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;g<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mode&nbsp;interrogative)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;g))</code></p>
+<button type="button" onclick="toggle_visibility('10');"><b>Named Entities</b></button> &#9660;<br><div id="10" style="display: none;">
+</div>
+<img src="./graphs/10.png">
+</body>
+<body>
+<h2>11</h2>
+<p><b>But they answered : " Frighten ?</b></p>
+<p><code>(c&nbsp;/&nbsp;contrast-01<br>&nbsp;&nbsp;:ARG2&nbsp;(a&nbsp;/&nbsp;answer-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(t&nbsp;/&nbsp;they)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(f&nbsp;/&nbsp;frighten-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mode&nbsp;interrogative)))</code></p>
+<button type="button" onclick="toggle_visibility('11');"><b>Named Entities</b></button> &#9660;<br><div id="11" style="display: none;">
+</div>
+<img src="./graphs/11.png">
+</body>
+<body>
+<h2>12</h2>
+<p><b>Why should any one be frightened by a hat ? "</b></p>
+<p><code>(f&nbsp;/&nbsp;frighten-01<br>&nbsp;&nbsp;:ARG0&nbsp;(h&nbsp;/&nbsp;hat)<br>&nbsp;&nbsp;:ARG1&nbsp;(o&nbsp;/&nbsp;one<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(a&nbsp;/&nbsp;any))<br>&nbsp;&nbsp;:ARG1-of&nbsp;(c&nbsp;/&nbsp;cause-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(a2&nbsp;/&nbsp;amr-unknown)))</code></p>
+<button type="button" onclick="toggle_visibility('12');"><b>Named Entities</b></button> &#9660;<br><div id="12" style="display: none;">
+</div>
+<img src="./graphs/12.png">
+</body>
+<body>
+<h2>13</h2>
+<p><b>My drawing was not a picture of a hat .</b></p>
+<p><code>(p&nbsp;/&nbsp;picture-01<br>&nbsp;&nbsp;:ARG0&nbsp;(t&nbsp;/&nbsp;thing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(d&nbsp;/&nbsp;draw-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)))<br>&nbsp;&nbsp;:ARG1&nbsp;(h&nbsp;/&nbsp;hat)<br>&nbsp;&nbsp;:polarity&nbsp;-)</code></p>
+<button type="button" onclick="toggle_visibility('13');"><b>Named Entities</b></button> &#9660;<br><div id="13" style="display: none;">
+</div>
+<img src="./graphs/13.png">
+</body>
+<body>
+<h2>14</h2>
+<p><b>It was a picture of a boa constrictor digesting an elephant .</b></p>
+<p><code>(p&nbsp;/&nbsp;picture-01<br>&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;it)<br>&nbsp;&nbsp;:ARG1&nbsp;(b2&nbsp;/&nbsp;boa<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(c&nbsp;/&nbsp;constrictor)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0-of&nbsp;(d&nbsp;/&nbsp;digest-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(e&nbsp;/&nbsp;elephant))))</code></p>
+<button type="button" onclick="toggle_visibility('14');"><b>Named Entities</b></button> &#9660;<br><div id="14" style="display: none;">
+</div>
+<img src="./graphs/14.png">
+</body>
+<body>
+<h2>15</h2>
+<p><b>But since the grown - ups were not able to understand it , I made another drawing : I drew the inside of the boa constrictor , so that the grown - ups could see it clearly .</b></p>
+<p><code>(c&nbsp;/&nbsp;contrast-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(a2&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(d3&nbsp;/&nbsp;draw-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(p2&nbsp;/&nbsp;picture<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(a&nbsp;/&nbsp;another))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(c3&nbsp;/&nbsp;cause-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p3&nbsp;/&nbsp;possible-01&nbsp;:polarity&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(u&nbsp;/&nbsp;understand-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(g&nbsp;/&nbsp;grown-up)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(i2&nbsp;/&nbsp;it)))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(d&nbsp;/&nbsp;draw-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(i3&nbsp;/&nbsp;inside<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:part-of&nbsp;(b2&nbsp;/&nbsp;boa<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(c4&nbsp;/&nbsp;constrictor)))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:purpose&nbsp;(p&nbsp;/&nbsp;possible-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(s&nbsp;/&nbsp;see-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;g<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(i4&nbsp;/&nbsp;it)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(c2&nbsp;/&nbsp;clear-06))))))</code></p>
+<button type="button" onclick="toggle_visibility('15');"><b>Named Entities</b></button> &#9660;<br><div id="15" style="display: none;">
+</div>
+<img src="./graphs/15.png">
+</body>
+<body>
+<h2>16</h2>
+<p><b>They always need to have things explained .</b></p>
+<p><code>(n&nbsp;/&nbsp;need-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(t&nbsp;/&nbsp;they)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(e&nbsp;/&nbsp;explain-01)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(a&nbsp;/&nbsp;always))</code></p>
+<button type="button" onclick="toggle_visibility('16');"><b>Named Entities</b></button> &#9660;<br><div id="16" style="display: none;">
+</div>
+<img src="./graphs/16.png">
+</body>
+<body>
+<h2>17</h2>
+<p><b>My Drawing Number Two looked like this : The grown - ups ' response , this time , was to advise me to lay aside my drawings of boa constrictors , whether from the inside or the outside , and devote myself instead to geography , history , arithmetic and grammar .</b></p>
+<p><code>(a6&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(l&nbsp;/&nbsp;look-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;picture&nbsp;:wiki&nbsp;-&nbsp;:name&nbsp;(n&nbsp;/&nbsp;name&nbsp;:op1&nbsp;"Drawing"&nbsp;:op2&nbsp;"Number"&nbsp;:op3&nbsp;"Two")<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:poss&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t2&nbsp;/&nbsp;this))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(r&nbsp;/&nbsp;respond-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(g&nbsp;/&nbsp;grown-up)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(a&nbsp;/&nbsp;advise-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;g<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(a3&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(l2&nbsp;/&nbsp;lay-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t3&nbsp;/&nbsp;thing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(d2&nbsp;/&nbsp;draw-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:topic&nbsp;(b2&nbsp;/&nbsp;boa<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(c2&nbsp;/&nbsp;constrictor)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(o&nbsp;/&nbsp;or<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(i2&nbsp;/&nbsp;inside)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(o2&nbsp;/&nbsp;outside))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(a2&nbsp;/&nbsp;aside))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(d3&nbsp;/&nbsp;devote-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(a4&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(g2&nbsp;/&nbsp;geography)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(h&nbsp;/&nbsp;history)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op3&nbsp;(a5&nbsp;/&nbsp;arithmetic)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op4&nbsp;(g3&nbsp;/&nbsp;grammar))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(i4&nbsp;/&nbsp;instead-of-91<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;d2))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(t4&nbsp;/&nbsp;time<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(t5&nbsp;/&nbsp;this))))</code></p>
+<button type="button" onclick="toggle_visibility('17');"><b>Named Entities</b></button> &#9660;<br><div id="17" style="display: none;">
+<b>Drawing Number Two</b> ---> <code>-</code> <br>
+&nbsp;<i>Coref. name: </i><code></code><br>
+&nbsp;<i>Neighbors:&nbsp;&nbsp;&nbsp; </i> <code>(':ARG1', 'this') </code><br>
+&nbsp;<i>Coheret set:&nbsp </i> <code></code><br>
+<br></div>
+<img src="./graphs/17.png">
+</body>
+<body>
+<h2>18</h2>
+<p><b>That is why , at the age of six , I gave up what might have been a magnificent career as a painter .</b></p>
+<p><code>(c2&nbsp;/&nbsp;cause-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(t2&nbsp;/&nbsp;that)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(g&nbsp;/&nbsp;give-up-07<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(c&nbsp;/&nbsp;career<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(m&nbsp;/&nbsp;magnificent)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:topic&nbsp;(p&nbsp;/&nbsp;person<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0-of&nbsp;(p2&nbsp;/&nbsp;paint-02)))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(a&nbsp;/&nbsp;age-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(t&nbsp;/&nbsp;temporal-quantity&nbsp;:quant&nbsp;6<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:unit&nbsp;(y&nbsp;/&nbsp;year)))))</code></p>
+<button type="button" onclick="toggle_visibility('18');"><b>Named Entities</b></button> &#9660;<br><div id="18" style="display: none;">
+</div>
+<img src="./graphs/18.png">
+</body>
+<body>
+<h2>19</h2>
+<p><b>I had been disheartened by the failure of my Drawing Number One and my Drawing Number Two .</b></p>
+<p><code>(d&nbsp;/&nbsp;dishearten-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(f&nbsp;/&nbsp;fail-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(p&nbsp;/&nbsp;picture&nbsp;:wiki&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name&nbsp;(n&nbsp;/&nbsp;name&nbsp;:op1&nbsp;"Drawing"&nbsp;:op2&nbsp;"Number"&nbsp;:op3&nbsp;"One"))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(p2&nbsp;/&nbsp;picture&nbsp;:wiki&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name&nbsp;(n2&nbsp;/&nbsp;name&nbsp;:op1&nbsp;"Drawing"&nbsp;:op2&nbsp;"Number"&nbsp;:op3&nbsp;"Two"))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:poss&nbsp;i))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(i&nbsp;/&nbsp;i))</code></p>
+<button type="button" onclick="toggle_visibility('19');"><b>Named Entities</b></button> &#9660;<br><div id="19" style="display: none;">
+<b>Drawing Number Two</b> ---> <code>-</code> <br>
+&nbsp;<i>Coref. name: </i><code></code><br>
+&nbsp;<i>Neighbors:&nbsp;&nbsp;&nbsp; </i> <code>(':poss', 'i') </code><br>
+&nbsp;<i>Coheret set:&nbsp </i> <code>(and, :op1, Drawing Number One) </code><br>
+<br><b>Drawing Number One</b> ---> <code>-</code> <br>
+&nbsp;<i>Coref. name: </i><code></code><br>
+&nbsp;<i>Neighbors:&nbsp;&nbsp;&nbsp; </i> <code>(':poss', 'i') </code><br>
+&nbsp;<i>Coheret set:&nbsp </i> <code>(and, :op2, Drawing Number Two) </code><br>
+<br></div>
+<img src="./graphs/19.png">
+</body>
+<body>
+<h2>20</h2>
+<p><b>Grown - ups never understand anything by themselves , and it is tiresome for children to be always and forever explaining things to them .</b></p>
+<p><code>(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(u&nbsp;/&nbsp;understand-01&nbsp;:polarity&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(g&nbsp;/&nbsp;grown-up)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(a3&nbsp;/&nbsp;anything)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(e2&nbsp;/&nbsp;ever)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(b&nbsp;/&nbsp;by-oneself))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(t&nbsp;/&nbsp;tiresome<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:domain&nbsp;(e&nbsp;/&nbsp;explain-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(c&nbsp;/&nbsp;child)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t2&nbsp;/&nbsp;thing)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;g<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(a4&nbsp;/&nbsp;always)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(f&nbsp;/&nbsp;forever))))</code></p>
+<button type="button" onclick="toggle_visibility('20');"><b>Named Entities</b></button> &#9660;<br><div id="20" style="display: none;">
+</div>
+<img src="./graphs/20.png">
+</body>
+<body>
+<h2>21</h2>
+<p><b>So then I chose another profession , and learned to pilot airplanes .</b></p>
+<p><code>(c2&nbsp;/&nbsp;cause-01<br>&nbsp;&nbsp;:ARG1&nbsp;(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(c&nbsp;/&nbsp;choose-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(p&nbsp;/&nbsp;profession<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(a2&nbsp;/&nbsp;another)))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(l&nbsp;/&nbsp;learn-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(p2&nbsp;/&nbsp;pilot-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(a3&nbsp;/&nbsp;airplane)))))</code></p>
+<button type="button" onclick="toggle_visibility('21');"><b>Named Entities</b></button> &#9660;<br><div id="21" style="display: none;">
+</div>
+<img src="./graphs/21.png">
+</body>
+<body>
+<h2>22</h2>
+<p><b>I have flown a little over all parts of the world ; and it is true that geography has been very useful to me .</b></p>
+<p><code>(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(f&nbsp;/&nbsp;fly-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location&nbsp;(o&nbsp;/&nbsp;over<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(p2&nbsp;/&nbsp;part<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:part-of&nbsp;(w&nbsp;/&nbsp;world))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(u&nbsp;/&nbsp;useful-05<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(g&nbsp;/&nbsp;geography)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:degree&nbsp;(v&nbsp;/&nbsp;very)))</code></p>
+<button type="button" onclick="toggle_visibility('22');"><b>Named Entities</b></button> &#9660;<br><div id="22" style="display: none;">
+</div>
+<img src="./graphs/22.png">
+</body>
+<body>
+<h2>23</h2>
+<p><b>At a glance I can distinguish China from Arizona .</b></p>
+<p><code>(p&nbsp;/&nbsp;possible-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(d&nbsp;/&nbsp;distinguish-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(c&nbsp;/&nbsp;country&nbsp;:wiki&nbsp;"China"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name&nbsp;(n&nbsp;/&nbsp;name&nbsp;:op1&nbsp;"China"))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(s&nbsp;/&nbsp;state&nbsp;:wiki&nbsp;"Arizona"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:name&nbsp;(n2&nbsp;/&nbsp;name&nbsp;:op1&nbsp;"Arizona"))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:manner&nbsp;(g&nbsp;/&nbsp;glance-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i)))</code></p>
+<button type="button" onclick="toggle_visibility('23');"><b>Named Entities</b></button> &#9660;<br><div id="23" style="display: none;">
+<b>China</b> ---> <code>China</code> <br>
+&nbsp;<i>Coref. name: </i><code></code><br>
+&nbsp;<i>Neighbors:&nbsp;&nbsp;&nbsp; </i> <code>(':ARG0', 'i') (':manner', 'glance-01') </code><br>
+&nbsp;<i>Coheret set:&nbsp </i> <code>(distinguish-01, :ARG2, Arizona) </code><br>
+<br><b>Arizona</b> ---> <code>Arizona</code> <br>
+&nbsp;<i>Coref. name: </i><code></code><br>
+&nbsp;<i>Neighbors:&nbsp;&nbsp;&nbsp; </i> <code>(':ARG0', 'i') (':manner', 'glance-01') </code><br>
+&nbsp;<i>Coheret set:&nbsp </i> <code>(distinguish-01, :ARG1, China) </code><br>
+<br></div>
+<img src="./graphs/23.png">
+</body>
+<body>
+<h2>24</h2>
+<p><b>If one gets lost in the night , such knowledge is valuable .</b></p>
+<p><code>(v&nbsp;/&nbsp;value-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(k&nbsp;/&nbsp;knowledge<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(s&nbsp;/&nbsp;such))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:condition&nbsp;(g&nbsp;/&nbsp;get-03<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(o&nbsp;/&nbsp;one)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(l&nbsp;/&nbsp;lost<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(n&nbsp;/&nbsp;night))))</code></p>
+<button type="button" onclick="toggle_visibility('24');"><b>Named Entities</b></button> &#9660;<br><div id="24" style="display: none;">
+</div>
+<img src="./graphs/24.png">
+</body>
+<body>
+<h2>25</h2>
+<p><b>In the course of this life I have had a great many encounters with a great many people who have been concerned with matters of consequence .</b></p>
+<p><code>(e&nbsp;/&nbsp;encounter-01<br>&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;:ARG1&nbsp;(p&nbsp;/&nbsp;person<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:quant&nbsp;(m2&nbsp;/&nbsp;many<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(g2&nbsp;/&nbsp;great))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(c&nbsp;/&nbsp;concern-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(m3&nbsp;/&nbsp;matter<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(c2&nbsp;/&nbsp;consequence))))<br>&nbsp;&nbsp;:quant&nbsp;(m&nbsp;/&nbsp;many<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(g&nbsp;/&nbsp;great))<br>&nbsp;&nbsp;:time&nbsp;(c3&nbsp;/&nbsp;course<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:poss&nbsp;(l&nbsp;/&nbsp;life<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(t&nbsp;/&nbsp;this))))</code></p>
+<button type="button" onclick="toggle_visibility('25');"><b>Named Entities</b></button> &#9660;<br><div id="25" style="display: none;">
+</div>
+<img src="./graphs/25.png">
+</body>
+<body>
+<h2>26</h2>
+<p><b>I have lived a great deal among grown - ups .</b></p>
+<p><code>(l&nbsp;/&nbsp;live-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(d&nbsp;/&nbsp;deal<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(g2&nbsp;/&nbsp;great))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:location&nbsp;(a&nbsp;/&nbsp;among<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(g&nbsp;/&nbsp;grown-up)))</code></p>
+<button type="button" onclick="toggle_visibility('26');"><b>Named Entities</b></button> &#9660;<br><div id="26" style="display: none;">
+</div>
+<img src="./graphs/26.png">
+</body>
+<body>
+<h2>27</h2>
+<p><b>I have seen them intimately , close at hand .</b></p>
+<p><code>(s&nbsp;/&nbsp;see-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t&nbsp;/&nbsp;they)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:manner&nbsp;(i2&nbsp;/&nbsp;intimate)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(c&nbsp;/&nbsp;close-10<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(a&nbsp;/&nbsp;at-hand)))</code></p>
+<button type="button" onclick="toggle_visibility('27');"><b>Named Entities</b></button> &#9660;<br><div id="27" style="display: none;">
+</div>
+<img src="./graphs/27.png">
+</body>
+<body>
+<h2>28</h2>
+<p><b>And that has n't much improved my opinion of them .</b></p>
+<p><code>(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(i&nbsp;/&nbsp;improve-01&nbsp;:polarity&nbsp;-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(t&nbsp;/&nbsp;that)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(t3&nbsp;/&nbsp;thing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(o2&nbsp;/&nbsp;opine-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i2&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:topic&nbsp;(t2&nbsp;/&nbsp;they)))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:degree&nbsp;(m2&nbsp;/&nbsp;much)))</code></p>
+<button type="button" onclick="toggle_visibility('28');"><b>Named Entities</b></button> &#9660;<br><div id="28" style="display: none;">
+</div>
+<img src="./graphs/28.png">
+</body>
+<body>
+<h2>29</h2>
+<p><b>Whenever I met one of them who seemed to me at all clear - sighted , I tried the experiment of showing him my Drawing Number One , which I have always kept .</b></p>
+<p><code>(t&nbsp;/&nbsp;try-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(e&nbsp;/&nbsp;experiment-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(s&nbsp;/&nbsp;show-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(p2&nbsp;/&nbsp;picture&nbsp;:wiki&nbsp;-&nbsp;:name&nbsp;(n&nbsp;/&nbsp;name&nbsp;:op1&nbsp;"Drawing"&nbsp;:op2&nbsp;"Number"&nbsp;:op3&nbsp;"One"))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;p<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(k&nbsp;/&nbsp;keep-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(a&nbsp;/&nbsp;always))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(m&nbsp;/&nbsp;meet-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(p&nbsp;/&nbsp;person<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(i2&nbsp;/&nbsp;include-91<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(t3&nbsp;/&nbsp;they))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0-of&nbsp;(s3&nbsp;/&nbsp;see-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(c&nbsp;/&nbsp;clear-08)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1-of&nbsp;(s4&nbsp;/&nbsp;seem-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;i)))))</code></p>
+<button type="button" onclick="toggle_visibility('29');"><b>Named Entities</b></button> &#9660;<br><div id="29" style="display: none;">
+<b>Drawing Number One</b> ---> <code>-</code> <br>
+&nbsp;<i>Coref. name: </i><code></code><br>
+&nbsp;<i>Neighbors:&nbsp;&nbsp;&nbsp; </i> <code>(':time', 'always') (':ARG0', 'i') (':ARG1-of', 'keep-01') (':ARG2', 'person') </code><br>
+&nbsp;<i>Coheret set:&nbsp </i> <code></code><br>
+<br></div>
+<img src="./graphs/29.png">
+</body>
+<body>
+<h2>30</h2>
+<p><b>I would try to find out , so , if this was a person of true understanding .</b></p>
+<p><code>(t&nbsp;/&nbsp;try-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(f&nbsp;/&nbsp;find-out-03<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(u2&nbsp;/&nbsp;understand-01&nbsp;:mode&nbsp;interrogative<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(p&nbsp;/&nbsp;person<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(t2&nbsp;/&nbsp;this))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(t4&nbsp;/&nbsp;true))))</code></p>
+<button type="button" onclick="toggle_visibility('30');"><b>Named Entities</b></button> &#9660;<br><div id="30" style="display: none;">
+</div>
+<img src="./graphs/30.png">
+</body>
+<body>
+<h2>31</h2>
+<p><b>But , whoever it was , he , or she , would always say : " That is a hat . "</b></p>
+<p><code>(c&nbsp;/&nbsp;contrast-01<br>&nbsp;&nbsp;:ARG2&nbsp;(s&nbsp;/&nbsp;say-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(o&nbsp;/&nbsp;or<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(h&nbsp;/&nbsp;he)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(s2&nbsp;/&nbsp;she))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(h2&nbsp;/&nbsp;hat<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:domain&nbsp;(t&nbsp;/&nbsp;that))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:time&nbsp;(a&nbsp;/&nbsp;always)))</code></p>
+<button type="button" onclick="toggle_visibility('31');"><b>Named Entities</b></button> &#9660;<br><div id="31" style="display: none;">
+</div>
+<img src="./graphs/31.png">
+</body>
+<body>
+<h2>32</h2>
+<p><b>Then I would never talk to that person about boa constrictors , or primeval forests , or stars .</b></p>
+<p><code>(t&nbsp;/&nbsp;talk-01<br>&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;:ARG1&nbsp;(o&nbsp;/&nbsp;or<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(b&nbsp;/&nbsp;boa<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(c2&nbsp;/&nbsp;constrictor))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(f&nbsp;/&nbsp;forest<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(p2&nbsp;/&nbsp;primeval))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op3&nbsp;(s&nbsp;/&nbsp;star))<br>&nbsp;&nbsp;:ARG2&nbsp;(p&nbsp;/&nbsp;person<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:mod&nbsp;(t2&nbsp;/&nbsp;that))<br>&nbsp;&nbsp;:time&nbsp;(e&nbsp;/&nbsp;ever)<br>&nbsp;&nbsp;:polarity&nbsp;-)</code></p>
+<button type="button" onclick="toggle_visibility('32');"><b>Named Entities</b></button> &#9660;<br><div id="32" style="display: none;">
+</div>
+<img src="./graphs/32.png">
+</body>
+<body>
+<h2>33</h2>
+<p><b>I would bring myself down to his level .</b></p>
+<p><code>(b&nbsp;/&nbsp;bring-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;i<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2&nbsp;(l&nbsp;/&nbsp;level<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:poss&nbsp;(h&nbsp;/&nbsp;he))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG3&nbsp;(d&nbsp;/&nbsp;down))</code></p>
+<button type="button" onclick="toggle_visibility('33');"><b>Named Entities</b></button> &#9660;<br><div id="33" style="display: none;">
+</div>
+<img src="./graphs/33.png">
+</body>
+<body>
+<h2>34</h2>
+<p><b>I would talk to him about bridge , and golf , and politics , and neckties .</b></p>
+<p><code>(t&nbsp;/&nbsp;talk-01<br>&nbsp;&nbsp;:ARG0&nbsp;(i&nbsp;/&nbsp;i)<br>&nbsp;&nbsp;:ARG1&nbsp;(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op1&nbsp;(b&nbsp;/&nbsp;bridge)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(g&nbsp;/&nbsp;golf)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op3&nbsp;(p&nbsp;/&nbsp;politics)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op4&nbsp;(n2&nbsp;/&nbsp;necktie))<br>&nbsp;&nbsp;:ARG2&nbsp;(h&nbsp;/&nbsp;he))</code></p>
+<button type="button" onclick="toggle_visibility('34');"><b>Named Entities</b></button> &#9660;<br><div id="34" style="display: none;">
+</div>
+<img src="./graphs/34.png">
+</body>
+<body>
+<h2>35</h2>
+<p><b>And the grown - up would be greatly pleased to have met such a sensible man .</b></p>
+<p><code>(a&nbsp;/&nbsp;and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:op2&nbsp;(p&nbsp;/&nbsp;please-01<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;(m&nbsp;/&nbsp;meet-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG0&nbsp;g<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(m2&nbsp;/&nbsp;man<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG2-of&nbsp;(s&nbsp;/&nbsp;sense-02<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:degree&nbsp;(s2&nbsp;/&nbsp;such))))<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:ARG1&nbsp;(g&nbsp;/&nbsp;grown-up)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:degree&nbsp;(g2&nbsp;/&nbsp;great)))</code></p>
+<button type="button" onclick="toggle_visibility('35');"><b>Named Entities</b></button> &#9660;<br><div id="35" style="display: none;">
+</div>
+<img src="./graphs/35.png">
+</body>

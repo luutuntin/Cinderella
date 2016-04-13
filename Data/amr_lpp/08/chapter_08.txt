@@ -1,0 +1,884 @@
+# ::id lpp_1943.367 ::date 2012-11-24T08:33:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 8 .
+# ::zh VIII。
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_367.txt
+(c / chapter :mod 8)
+
+# ::id lpp_1943.368 ::date 2012-11-24T08:34:16 ::annotator ISI-AMR-05 ::preferred
+# ::snt I soon learned to know this flower better .
+# ::zh 很快我就进一步了解了这朵花儿。
+# ::save-date Wed Mar 18, 2015 ::file lpp_1943_368.txt
+(l / learn-01
+      :ARG0 (i / i)
+      :ARG1 (k / know-02
+            :ARG0 i
+            :ARG1 (f / flower
+                  :mod (t / this))
+            :manner (g / good
+                  :degree (m / more)))
+      :time (s / soon))
+
+# ::id lpp_1943.369 ::date 2012-11-24T08:35:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt On the little prince 's planet the flowers had always been very simple .
+# ::zh 在小王子的星球上，过去一直都生长着一些只有一层花瓣的很简单的花。
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_369.txt
+(s / simple-02
+      :ARG1 (f / flower)
+      :degree (v / very)
+      :time (a / always)
+      :location (p / planet
+            :poss (p2 / prince
+                  :mod (l / little))))
+
+# ::id lpp_1943.370 ::date 2012-11-24T08:36:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt They had only one ring of petals ; they took up no room at all ; they were a trouble to nobody .
+# ::zh 这些花非常小，一点也不占地方，从来也不会去打搅任何人。
+# ::save-date Thu Apr 25, 2013 ::file lpp_1943_370.txt
+(m / multi-sentence
+      :snt1 (h / have-03
+            :ARG0 (t / they)
+            :ARG1 (r / ring :quant 1
+                  :mod (o / only)
+                  :consist-of (p / petal)))
+      :snt2 (t2 / take-up-13 :polarity -
+            :ARG0 t
+            :ARG1 (r2 / room)
+            :degree (a / at-all))
+      :snt3 (t3 / trouble-01 :polarity -
+            :ARG0 t
+            :ARG1 (a2 / anybody)))
+
+# ::id lpp_1943.371 ::date 2012-11-24T08:41:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt One morning they would appear in the grass , and by night they would have faded peacefully away .
+# ::zh 她们早晨在草丛中开放，晚上就凋谢了。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_371.txt
+(a / and
+      :op1 (a2 / appear-01
+            :ARG1 (t / they)
+            :time (m / morning
+                  :mod (o / one))
+            :location (g / grass))
+      :op2 (f / fade-01
+            :ARG1 t
+            :manner (p / peaceful)
+            :time (b / by
+                  :op1 (n / night))))
+
+# ::id lpp_1943.372 ::date 2012-11-24T16:32:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt But one day , from a seed blown from no one knew where , a new flower had come up ; and the little prince had watched very closely over this small sprout which was not like any other small sprouts on his planet .
+# ::zh 不知从哪里来了一颗种子，忽然一天这种子发了芽。 小王子特别仔细地监视着这棵与众不同的小苗：
+# ::save-date Thu Apr 25, 2013 ::file lpp_1943_372.txt
+(a / and
+      :op1 (c / contrast-01
+            :ARG2 (c2 / come-up-13
+                  :ARG1 (f / flower
+                        :mod (n / new)
+                        :source (s / seed
+                              :ARG1-of (b / blow-01
+                                    :source (a2 / amr-unknown))))
+                  :time (d / day
+                        :mod (o / one))))
+      :op2 (w / watch-over-03
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (s2 / sprout
+                  :mod (s3 / small)
+                  :mod (t / this)
+                  :ARG1-of (r / resemble-01 :polarity -
+                        :ARG2 (s4 / sprout
+                              :mod (s5 / small)
+                              :mod (o2 / other
+                                    :mod (a3 / any))
+                              :location (p2 / planet
+                                    :poss p))))
+            :manner (c3 / close
+                  :degree (v / very))))
+
+# ::id lpp_1943.373 ::date 2012-11-24T16:35:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt It might , you see , have been a new kind of baobab .
+# ::zh 这玩艺说不定是一种新的猴面包树。
+# ::save-date Thu Apr 25, 2013 ::file lpp_1943_373.txt
+(p / possible-01
+      :ARG1 (b2 / baobab
+            :mod (k / kind
+                  :mod (n / new))
+            :domain (i / it)))
+
+# ::id lpp_1943.374 ::date 2012-11-24T16:37:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt The shrub soon stopped growing , and began to get ready to produce a flower .
+# ::zh 但是，这小苗不久就不再长了，而且开始孕育着一个花朵。
+# ::save-date Thu Apr 25, 2013 ::file lpp_1943_374.txt
+(a / and
+      :op1 (s / stop-01
+            :ARG0 (s2 / shrub)
+            :ARG1 (g / grow-01
+                  :ARG1 s2)
+            :time (s3 / soon))
+      :op2 (b / begin-01
+            :ARG0 s2
+            :ARG1 (r / ready-01
+                  :ARG0 s2
+                  :ARG1 s2
+                  :ARG2 (p / produce-01
+                        :ARG0 s2
+                        :ARG1 (f / flower)))))
+
+# ::id lpp_1943.375 ::date 2012-11-24T16:41:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince , who was present at the first appearance of a huge bud , felt at once that some sort of miraculous apparition must emerge from it .
+# ::zh 看到在这棵苗上长出了一个很大很大的花蕾，小王子感觉到从这个花苞中一定会出现一个奇迹。
+# ::save-date Tue Jul 14, 2015 ::file lpp_1943_375.txt
+(f / feel-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG1-of (p2 / present-02
+                  :ARG2 (a / appear-01
+                        :ARG1 (b / bud
+                              :mod (h / huge))
+                        :ord (o2 / ordinal-entity :value 1))))
+      :ARG1 (o / obligate-01
+            :ARG2 (e / emerge-01
+                  :ARG0 (t / thing
+                        :ARG1-of (a4 / appear-01
+                              :manner (m / miraculous))
+                        :mod (s / sort))
+                  :ARG1 b))
+      :time (a2 / at-once))
+
+# ::id lpp_1943.376 ::date 2012-11-24T16:44:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt But the flower was not satisfied to complete the preparations for her beauty in the shelter of her green chamber .
+# ::zh 然而这朵花藏在它那绿茵茵的房间中用了很长的时间来打扮自己。
+# ::save-date Sat Jun 13, 2015 ::file lpp_1943_376.txt
+(c / contrast-01
+      :ARG1 (s / satisfy-01 :polarity -
+            :ARG0 (c2 / complete-01
+                  :ARG0 f
+                  :ARG1 (p / prepare-02
+                        :ARG0 f
+                        :ARG1 (b / beauty
+                              :poss f))
+                  :location (c3 / chamber
+                        :ARG1-of (g / green-02)
+                        :poss f
+                        :ARG2-of (s2 / shelter-01)))
+            :ARG1 (f / flower)))
+
+# ::id lpp_1943.377 ::date 2012-11-24T16:46:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt She chose her colours with the greatest care .
+# ::zh 她精心选择着她将来的颜色，
+# ::save-date Tue Apr 14, 2015 ::file lpp_1943_377.txt
+(c / choose-01
+      :ARG0 (s / she)
+      :ARG1 (c2 / color
+            :poss s)
+      :manner (c3 / care-04
+            :degree (g / great
+                  :degree (m / most))))
+
+# ::id lpp_1943.378 ::date 2012-11-24T16:47:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt She adjusted her petals one by one .
+# ::zh 慢慢腾腾地妆饰着，一片片地搭配着她的花瓣，
+# ::save-date Sat Nov 24, 2012 ::file lpp_1943_378.txt
+(a / adjust-01
+  :ARG0 (s / she)
+  :ARG1 (p / petal
+          :poss s)
+  :manner (o / one-by-one))
+
+# ::id lpp_1943.379 ::date 2012-11-24T16:48:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt She did not wish to go out into the world all rumpled , like the field poppies .
+# ::zh 她不愿象虞美人那样一出世就满脸皱纹。
+# ::save-date Mon May 6, 2013 ::file lpp_1943_379.txt
+(w / wish-01 :polarity -
+      :ARG0 (s / she
+            :ARG1-of (r / rumple-02
+                  :mod (a / all))
+            :ARG1-of (r2 / resemble-01
+                  :ARG2 (p / poppy
+                        :mod (f / field))))
+      :ARG1 (g / go-out-17
+            :ARG0 s
+            :destination (w2 / world)))
+
+# ::id lpp_1943.380 ::date 2012-11-24T16:57:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt It was only in the full radiance of her beauty that she wished to appear .
+# ::zh 她要让自己带着光艳夺目的丽姿来到世间。
+# ::save-date Thu May 2, 2013 ::file lpp_1943_380.txt
+(w / wish-01
+      :ARG0 (s / she)
+      :ARG1 (a / appear-01
+            :ARG1 s
+            :manner (r / radiate-01
+                  :ARG0 s
+                  :ARG1 (b2 / beauty
+                        :poss s)
+                  :degree (f2 / full)
+                  :mod (o / only))))
+
+# ::id lpp_1943.381 ::date 2012-11-24T18:45:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt Oh , yes !
+# ::zh 是的，
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_381.txt
+(y / yes)
+
+# ::id lpp_1943.382 ::date 2012-11-24T18:48:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt She was a coquettish creature !
+# ::zh 她是非常爱俏的。
+# ::save-date Thu Apr 25, 2013 ::file lpp_1943_382.txt
+(r / resemble-01
+      :ARG1 (s / she)
+      :ARG2 (c / creature
+            :mod (c2 / coquet)))
+
+# ::id lpp_1943.383 ::date 2012-11-24T18:48:36 ::annotator ISI-AMR-05 ::preferred
+# ::snt And her mysterious adornment lasted for days and days .
+# ::zh 她用好些好些日子天仙般地梳妆打扮。
+# ::save-date Wed Sep 18, 2013 ::file lpp_1943_383.txt
+(a / and
+      :op1 (l / last-01
+            :ARG1 (t / thing
+                  :ARG2-of (a2 / adorn-01
+                        :ARG1 (s / she)
+                        :mod (m / mysterious)))
+            :ARG2 (m2 / multiple
+                  :op1 (t2 / temporal-quantity :quant 1
+                        :unit (d / day)))))
+
+# ::id lpp_1943.384 ::date 2012-11-24T19:12:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then one morning , exactly at sunrise , she suddenly showed herself .
+# ::zh 然后，在一天的早晨，恰好在太阳升起的时候，她开放了。
+# ::save-date Thu May 2, 2013 ::file lpp_1943_384.txt
+(s / show-01
+      :ARG0 (s2 / she)
+      :ARG1 s2
+      :manner (s3 / sudden)
+      :time (m / morning
+            :mod (o / one))
+      :time (s4 / sunrise
+            :mod (e / exact))
+      :time (t / then))
+
+# ::id lpp_1943.385 ::date 2012-11-24T19:30:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt And , after working with all this painstaking precision , she yawned and said : " Ah !
+# ::zh 她已经精细地做了那么长的准备工作，却打着哈欠说道：“
+# ::save-date Tue Jun 9, 2015 ::file lpp_1943_385.txt
+(a / and
+      :op1 (y / yawn-01
+            :ARG0 (s2 / she))
+      :op2 (s / say-01
+            :ARG0 s2
+            :ARG1 (a2 / ah :mode expressive))
+      :time (a3 / after
+            :op1 (w / work-01
+                  :ARG0 s2
+                  :manner (p / precise
+                        :degree (p2 / painstaking)
+                        :mod (t / this)
+                        :mod (a4 / all)))))
+
+# ::id lpp_1943.386 ::date 2012-11-24T19:55:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt I am scarcely awake .
+# ::zh 我刚刚睡醒，
+# ::save-date Fri May 8, 2015 ::file lpp_1943_386.txt
+(a / awake-03
+      :ARG1 (i / i)
+      :degree (s / scarce))
+
+# ::id lpp_1943.387 ::date 2012-11-24T19:55:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt I beg that you will excuse me .
+# ::zh 真对不起，
+# ::save-date Thu May 2, 2013 ::file lpp_1943_387.txt
+(b2 / beg-01
+      :ARG0 (i / i)
+      :ARG1 (y2 / you)
+      :ARG2 (e2 / excuse-01
+            :ARG0 y2
+            :ARG1 i))
+
+# ::id lpp_1943.388 ::date 2012-11-24T20:00:25 ::annotator ISI-AMR-05 ::preferred
+# ::snt My petals are still all disarranged ... "
+# ::zh 瞧我的头发还是乱蓬蓬的…”
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_388.txt
+(a3 / arrange-01 :polarity -
+      :ARG1 (p2 / petal
+            :part-of (i / i)
+            :quant (a4 / all))
+      :mod (s4 / still))
+
+# ::id lpp_1943.389 ::date 2012-11-24T20:01:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt But the little prince could not restrain his admiration : " Oh !
+# ::zh 小王子这时再也控制不住自己的爱慕心情：“
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_389.txt
+(c / contrast-01
+      :ARG2 (p2 / possible-01 :polarity -
+            :ARG1 (r / restrain-01
+                  :ARG0 (p / prince
+                        :mod (l / little)
+                        :ARG0-of (s / say-01
+                              :ARG1 (o / oh :mode "expressive")))
+                  :ARG1 (a / admire-01
+                        :ARG0 p))))
+
+# ::id lpp_1943.390 ::date 2012-11-24T20:57:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt How beautiful you are ! "
+# ::zh 你是多么美丽啊！”
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_390.txt
+(b / beautiful-02
+      :ARG1 (y / you)
+      :degree (s / so))
+
+# ::id lpp_1943.391 ::date 2012-11-24T20:59:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Am I not ? " the flower responded , sweetly .
+# ::zh 花儿悠然自得地说：“是吧，
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_391.txt
+(r / respond-01
+      :ARG0 (f / flower)
+      :ARG1 (b / beautiful-02 :polarity - :mode interrogative
+            :ARG1 f)
+      :manner (s / sweet-03))
+
+# ::id lpp_1943.392 ::date 2012-11-24T21:00:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And I was born at the same moment as the sun ... "
+# ::zh 我是与太阳同时出生的…”
+# ::save-date Thu May 2, 2013 ::file lpp_1943_392.txt
+(a / and
+      :op2 (b / bear-02
+            :ARG1 (i / i)
+            :time (m / moment
+                  :ARG1-of (s / same-01
+                        :ARG2 (s2 / sun)))))
+
+# ::id lpp_1943.393 ::date 2012-11-25T08:29:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince could guess easily enough that she was not any too modest - - but how moving - - and exciting - - she was !
+# ::zh 小王子看出了这花儿不太谦虚，可是她确实丽姿动人。
+# ::save-date Fri Jul 3, 2015 ::file lpp_1943_393.txt
+(p / possible-01
+      :ARG1 (g / guess-01
+            :ARG0 (p2 / prince
+                  :mod (l / little))
+            :ARG1 (c / contrast-01
+                  :ARG1 (m / modest :polarity -
+                        :domain (s / she)
+                        :degree (t / too))
+                  :ARG2 (a2 / and
+                        :op1 (m2 / move-05
+                              :ARG0 s
+                              :degree (s2 / so))
+                        :op2 (e3 / excite-01
+                              :ARG0 s
+                              :degree (s3 / so))))
+            :ARG1-of (e / easy-05
+                  :mod (e2 / enough))))
+
+# ::id lpp_1943.394 ::date 2012-11-25T08:31:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I think it is time for breakfast , " she added an instant later .
+# ::zh 她随后又说道：“现在该是吃早点的时候了吧，
+# ::save-date Wed May 8, 2013 ::file lpp_1943_394.txt
+(a / add-01
+      :ARG0 (s / she)
+      :ARG1 (t / think-01
+            :ARG0 s
+            :ARG1 (t2 / time
+                  :purpose (b / breakfast-01)))
+      :time (l / late
+            :degree (m / more
+                  :quant (i / instant))))
+
+# ::id lpp_1943.395 ::date 2012-11-25T08:32:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " If you would have the kindness to think of my needs - - "
+# ::zh 请你也想着给我准备一点…”
+# ::save-date Mon May 4, 2015 ::file lpp_1943_395.txt
+(t / think-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t2 / thing
+            :ARG1-of (n / need-01
+                  :ARG0 (i / i)))
+      :ARG1-of (k2 / kind-01
+            :ARG0 y
+            :ARG2 i))
+
+# ::id lpp_1943.396 ::date 2012-11-25T08:34:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt And the little prince , completely abashed , went to look for a sprinkling - can of fresh water .
+# ::zh 小王子很有些不好意思，于是就拿着喷壶，打来了一壶清清的凉水，
+# ::save-date Tue Jul 28, 2015 ::file lpp_1943_396.txt
+(a / and
+      :op1 (g / go-05
+            :ARG0 (p / prince
+                  :mod (l2 / little)
+                  :ARG1-of (a2 / abash-01
+                        :ARG1-of (c3 / complete-02)))
+            :ARG1 (l / look-01
+                  :ARG0 p
+                  :ARG1 (c / can
+                        :ARG0-of (s / sprinkle-01)
+                        :ARG0-of (c2 / contain-01
+                              :ARG1 (w / water
+                                    :ARG1-of (f / fresh-04)))))))
+
+# ::id lpp_1943.397 ::date 2012-11-25T08:36:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt So , he tended the flower .
+# ::zh 他浇灌着花儿。
+# ::save-date Thu May 2, 2013 ::file lpp_1943_397.txt
+(t / tend-01
+      :ARG0 (h / he)
+      :ARG1 (f / flower)
+      :ARG1-of (c / cause-01))
+
+# ::id lpp_1943.398 ::date 2012-11-25T08:36:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt So , too , she began very quickly to torment him with her vanity - - which was , if the truth be known , a little difficult to deal with .
+# ::zh 于是，就这样，这朵花儿就以她那有点敏感多疑的虚荣心折磨着小王子。
+# ::save-date Fri Jul 31, 2015 ::file lpp_1943_398.txt
+(b / begin-01
+      :ARG0 (s / she)
+      :ARG1 (t2 / torment-01
+            :ARG0 s
+            :ARG1 (h / he)
+            :ARG2 (v2 / vanity
+                  :poss s
+                  :ARG2-of (d3 / deal-01
+                        :ARG0 h
+                        :mod (d / difficult
+                              :degree (l / little))
+                        :condition (k / know-01
+                              :ARG1 (t3 / truth)))))
+      :mod (t / too)
+      :ARG1-of (q / quick-02
+            :degree (v / very)))
+
+# ::id lpp_1943.399 ::date 2012-11-25T08:39:04 ::annotator ISI-AMR-05 ::preferred
+# ::snt One day , for instance , when she was speaking of her four thorns , she said to the little prince : " Let the tigers come with their claws ! "
+# ::zh 例如，有一天，她向小王子讲起她身上长的四根刺：“老虎，让它张着爪子来吧！”
+# ::save-date Fri May 10, 2013 ::file lpp_1943_399.txt
+(s / say-01
+      :ARG0 (s2 / she)
+      :ARG1 (c / come-01 :mode imperative
+            :ARG1 (t / tiger)
+            :accompanier (c2 / claw
+                  :part-of t))
+      :ARG2 (p / prince
+            :mod (l / little))
+      :time (d / day
+            :mod (o / one))
+      :ARG0-of (e / exemplify-01)
+      :time (s3 / speak-01
+            :ARG0 s2
+            :ARG1 (t2 / thorn :quant 4
+                  :part-of s2)))
+
+# ::id lpp_1943.400 ::date 2012-11-25T08:41:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt " There are no tigers on my planet , " the little prince objected .
+# ::zh 小王子顶了她一句：“在我这个星球上没有老虎，
+# ::save-date Sat May 11, 2013 ::file lpp_1943_400.txt
+(o / object-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (t / tiger :polarity -
+            :location (p2 / planet
+                  :poss p)))
+
+# ::id lpp_1943.401 ::date 2012-11-25T08:41:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt " And , anyway , tigers do not eat weeds . "
+# ::zh 而且，老虎是不会吃草的”。
+# ::save-date Tue May 21, 2013 ::file lpp_1943_401.txt
+(a / and
+      :op2 (e / eat-01 :polarity -
+            :ARG0 (t / tiger)
+            :ARG1 (w / weed)
+            :mod (a2 / anyway)))
+
+# ::id lpp_1943.402 ::date 2012-11-25T08:42:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am not a weed , " the flower replied , sweetly .
+# ::zh 花儿轻声说道：“我并不是草。”
+# ::save-date Wed Jul 29, 2015 ::file lpp_1943_402.txt
+(r / reply-01
+      :ARG0 (f / flower)
+      :ARG2 (w / weed :polarity -
+            :domain f)
+      :manner (s / sweet-03))
+
+# ::id lpp_1943.403 ::date 2012-11-25T08:43:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Please excuse me ... "
+# ::zh “真对不起。”
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_403.txt
+(e / excuse-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (i / i)
+      :mod (p / please))
+
+# ::id lpp_1943.404 ::date 2012-11-25T08:43:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am not at all afraid of tigers , " she went on , " but I have a horror of drafts .
+# ::zh “我并不怕什么老虎，可我讨厌穿堂风。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_404.txt
+(g / go-on-25
+      :ARG0 (s / she)
+      :ARG1 (c / contrast-01
+            :ARG1 (f / fear-01 :polarity -
+                  :ARG0 s
+                  :ARG1 (t / tiger)
+                  :degree (a / at-all))
+            :ARG2 (a2 / abhor-01
+                  :ARG0 s
+                  :ARG1 (d / draft))))
+
+# ::id lpp_1943.405 ::date 2012-11-25T08:45:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt I suppose you would n't have a screen for me ? "
+# ::zh 我猜想你没有为我准备个屏风吗？”
+# ::save-date Sat May 11, 2013 ::file lpp_1943_405.txt
+(s / suppose-01
+      :ARG0 (i / i)
+      :ARG1 (h / have-03 :polarity - :mode interrogative
+            :ARG0 (y / you)
+            :ARG1 (s2 / screen)
+            :beneficiary i))
+
+# ::id lpp_1943.406 ::date 2012-11-25T08:46:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt " A horror of drafts - - that is bad luck , for a plant , " remarked the little prince , and added to himself , " This flower is a very complex creature ... "
+# ::zh 小王子思忖着：“讨厌穿堂风…这对一株植物来说，真不走运，这朵花儿真不大好伺候…”
+# ::save-date Wed Apr 29, 2015 ::file lpp_1943_406.txt
+(a / and
+      :op1 (r / remark-01
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (l2 / luck
+                  :ARG1-of (b / bad-07)
+                  :beneficiary (p2 / plant)
+                  :domain (a3 / abhor-01
+                        :ARG1 (d / draft))))
+      :op2 (a2 / add-01
+            :ARG0 p
+            :ARG1 (c3 / creature
+                  :mod (c2 / complex
+                        :degree (v / very))
+                  :domain (f / flower
+                        :mod (t / this)))
+            :beneficiary p))
+
+# ::id lpp_1943.407 ::date 2012-11-25T08:49:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt " At night I want you to put me under a glass globe .
+# ::zh “晚上您得把我放到一个玻璃罩子中。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_407.txt
+(w / want-01
+      :ARG0 (i / i)
+      :ARG1 (p / put-01
+            :ARG0 (y / you)
+            :ARG1 i
+            :ARG2 (u / under
+                  :op1 (g / globe
+                        :consist-of (g2 / glass)))
+            :time (n / night)))
+
+# ::id lpp_1943.408 ::date 2012-11-25T08:50:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is very cold where you live .
+# ::zh 你这地方太冷。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_408.txt
+(c / cold
+      :degree (v / very)
+      :location (l / live-01
+            :ARG0 (y / you)))
+
+# ::id lpp_1943.409 ::date 2012-11-25T08:50:49 ::annotator ISI-AMR-05 ::preferred
+# ::snt In the place I came from - - "
+# ::zh 我原来住的那个地方…”
+# ::save-date Sat May 11, 2013 ::file lpp_1943_409.txt
+(l / location
+      :ARG3-of (c / come-01
+            :ARG1 (i / i)))
+
+# ::id lpp_1943.410 ::date 2012-11-25T08:51:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt But she interrupted herself at that point .
+# ::zh 但她没有说下去。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_410.txt
+(c / contrast-01
+      :ARG2 (i / interrupt-01
+            :ARG0 (s / she)
+            :ARG1 s
+            :time (p / point
+                  :mod (t / that))))
+
+# ::id lpp_1943.411 ::date 2012-11-25T08:51:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt She had come in the form of a seed .
+# ::zh 她来的时候是粒种子。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_411.txt
+(c / come-01
+      :ARG1 (s / she)
+      :time-of (s2 / seed
+            :domain s))
+
+# ::id lpp_1943.412 ::date 2012-11-25T08:52:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt She could not have known anything of any other worlds .
+# ::zh 她哪里见过什么别的世界。
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_412.txt
+(p / possible-01
+  :polarity -
+  :ARG1 (k / know-01
+            :ARG0 (s / she)
+            :ARG1 (a / anything
+                    :topic (w / world
+                             :mod (o / other
+                                    :mod (a2 / any))))))
+
+# ::id lpp_1943.413 ::date 2012-11-25T08:53:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt Embarassed over having let herself be caught on the verge of such a naïve untruth , she coughed two or three times , in order to put the little prince in the wrong .
+# ::zh 她叫人发现她是在凑一个如此不太高明的谎话，她有点羞怒，咳嗽了两三声。 她的这一招是要小王子处于有过失的地位，她说道：
+# ::save-date Mon Sep 16, 2013 ::file lpp_1943_413.txt
+(c / cough-01
+      :ARG0 (s / she
+            :ARG1-of (e / embarrass-01
+                  :ARG0 (l2 / let-01
+                        :ARG0 s
+                        :ARG1 (c2 / catch-03
+                              :ARG1 s
+                              :ARG2 (v / verge-01
+                                    :ARG1 (t / truth :polarity -
+                                          :mod (n / naive
+                                                :degree (s2 / such))))))))
+      :purpose (p / put-03
+            :ARG0 s
+            :ARG1 (p2 / prince
+                  :mod (l / little))
+            :ARG2 (w / wrong-04
+                  :ARG1 p2))
+      :frequency (o / or :op1 2 :op2 3))
+
+# ::id lpp_1943.414 ::date 2012-11-25T08:56:40 ::annotator ISI-AMR-05 ::preferred
+# ::snt " The screen ? "
+# ::zh “屏风呢？”
+# ::save-date Sat May 11, 2013 ::file lpp_1943_414.txt
+(s / screen :mode interrogative)
+
+# ::id lpp_1943.415 ::date 2012-11-25T08:56:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I was just going to look for it when you spoke to me ... "
+# ::zh “我正准备去拿。 可你刚才说的是…”
+# ::save-date Sun May 24, 2015 ::file lpp_1943_415.txt
+(l3 / look-01
+      :ARG0 (i / i)
+      :ARG1 (i2 / it)
+      :time (s3 / speak-01
+            :ARG0 (y2 / you)
+            :ARG2 i))
+
+# ::id lpp_1943.416 ::date 2012-11-25T08:57:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt Then she forced her cough a little more so that he should suffer from remorse just the same .
+# ::zh 于是花儿放开嗓门咳嗽了几声，依然要使小王子后悔自己的过失。
+# ::save-date Thu Jul 23, 2015 ::file lpp_1943_416.txt
+(f / force-02
+      :ARG0 (s / she)
+      :ARG1 (c / cough-01
+            :ARG0 s)
+      :time (t / then)
+      :degree (m / more
+            :degree (l / little))
+      :purpose (s2 / suffer-01
+            :ARG0 (h / he)
+            :ARG1 (r / remorse)
+            :ARG1-of (h2 / have-concession-91)))
+
+# ::id lpp_1943.417 ::date 2012-11-25T08:58:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt So the little prince , in spite of all the good will that was inseparable from his love , had soon come to doubt her .
+# ::zh 尽管小王子本来诚心诚意地喜欢这朵花，可是，这一来，却使他马上对她产生了怀疑。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_417.txt
+(c / come-04
+      :ARG1 (p / prince
+            :mod (l / little))
+      :ARG2 (d / doubt-01
+            :ARG0 p
+            :ARG1 (s3 / she))
+      :time (s / soon)
+      :ARG1-of (c2 / cause-01)
+      :concession (w / will
+            :mod (g / good)
+            :mod (a / all)
+            :ARG1-of (s2 / separate-01
+                  :ARG2 (l2 / love-01
+                        :ARG0 p)
+                  :ARG1-of (p2 / possible-01 :polarity -))))
+
+# ::id lpp_1943.418 ::date 2012-11-25T09:02:03 ::annotator ISI-AMR-05 ::preferred
+# ::snt He had taken seriously words which were without importance , and it made him very unhappy .
+# ::zh 小王子对一些无关紧要的话看得太认真，结果使自己很苦恼。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_418.txt
+(s / serious-01
+      :ARG1 (h / he)
+      :ARG2 (w / word-01
+            :mod (i / important :polarity -))
+      :ARG0-of (m / make-02
+            :ARG1 (h3 / happy :polarity -
+                  :degree (v / very)
+                  :domain h)))
+
+# ::id lpp_1943.419 ::date 2012-11-25T09:03:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I ought not to have listened to her , " he confided to me one day . "
+# ::zh 有一天他告诉我说：“我不该听信她的话，
+# ::save-date Sun Nov 25, 2012 ::file lpp_1943_419.txt
+(c / confide-01
+  :ARG0 (h / he)
+  :ARG1 (r / recommend-01
+          :ARG1 (l / listen-01
+                  :ARG0 h
+                  :ARG1 (s / she)
+                  :polarity -)
+          :ARG2 h)
+  :ARG2 (i / i)
+  :time (d / day
+          :mod (o / one)))
+
+# ::id lpp_1943.420 ::date 2012-11-25T09:05:10 ::annotator ISI-AMR-05 ::preferred
+# ::snt One never ought to listen to the flowers .
+# ::zh 绝不该听信那些花儿的话，
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_420.txt
+(r / recommend-01
+      :ARG1 (l / listen-01 :polarity -
+            :ARG0 (o2 / one)
+            :ARG1 (f / flower)
+            :time (e / ever)))
+
+# ::id lpp_1943.421 ::date 2012-11-25T09:05:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt One should simply look at them and breathe their fragrance .
+# ::zh 看看花，闻闻它就得了。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_421.txt
+(r / recommend-01
+      :ARG1 (a / and
+            :op1 (l / look-01
+                  :ARG0 (o2 / one)
+                  :ARG1 (t / they)
+                  :manner (s / simple))
+            :op2 (b / breathe-01
+                  :ARG0 o2
+                  :ARG1 (f / fragrance
+                        :poss t))))
+
+# ::id lpp_1943.422 ::date 2012-11-25T09:06:37 ::annotator ISI-AMR-05 ::preferred
+# ::snt Mine perfumed all my planet .
+# ::zh 我的那朵花使我的星球芳香四溢，
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_422.txt
+(p / perfume-01
+      :ARG0 (t / thing
+            :poss (i / i))
+      :ARG1 (p2 / planet
+            :mod (a / all)
+            :poss i))
+
+# ::id lpp_1943.423 ::date 2012-11-25T09:07:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt But I did not know how to take pleasure in all her grace .
+# ::zh 可我不会享受它。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_423.txt
+(c / contrast-01
+      :ARG2 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :manner (p2 / please-01
+                  :ARG0 (g / grace
+                        :poss (s / she)
+                        :mod (a / all))
+                  :ARG1 i)))
+
+# ::id lpp_1943.424 ::date 2012-11-25T09:08:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt This tale of claws , which disturbed me so much , should only have filled my heart with tenderness and pity . "
+# ::zh 关于老虎爪子的事，本应该使我产生同情，却反而使我恼火…”
+# ::save-date Sat May 11, 2013 ::file lpp_1943_424.txt
+(r2 / recommend-01
+      :ARG1 (f / fill-01
+            :ARG0 (t2 / tale
+                  :topic (c / claws)
+                  :ARG0-of (d / disturb-01
+                        :ARG1 (i / i)
+                        :degree (m / much
+                              :degree (s / so)))
+                  :mod (t3 / this))
+            :ARG1 (h / heart
+                  :part-of i)
+            :ARG2 (a / and
+                  :op1 (t / tender)
+                  :op2 (p / pity-01))
+            :mod (o / only)))
+
+# ::id lpp_1943.425 ::date 2012-11-25T09:09:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he continued his confidences : " The fact is that I did not know how to understand anything !
+# ::zh 他还告诉我说：“我那时什么也不懂！
+# ::save-date Sat May 11, 2013 ::file lpp_1943_425.txt
+(a / and
+      :op1 (c / continue-02
+            :ARG0 (h / he)
+            :ARG1 (c2 / confide-01
+                  :ARG0 h
+                  :ARG1 (k / know-01 :polarity -
+                        :ARG0 h
+                        :ARG1 (t / thing
+                              :manner-of (u / understand-01
+                                    :ARG0 h
+                                    :ARG1 (a2 / anything)))))))
+
+# ::id lpp_1943.426 ::date 2012-11-25T09:11:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt I ought to have judged by deeds and not by words .
+# ::zh 我应该根据她的行为，而不是根据她的话来判断她。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_426.txt
+(r2 / recommend-01
+      :ARG1 (a2 / and
+            :op1 (j / judge-01
+                  :ARG0 (i / i)
+                  :ARG3 (d / do-02))
+            :op2 (j2 / judge-01 :polarity -
+                  :ARG0 i
+                  :ARG3 (w / word))))
+
+# ::id lpp_1943.427 ::date 2012-11-25T09:11:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt She cast her fragrance and her radiance over me .
+# ::zh 她使我的生活芬芳多彩，
+# ::save-date Fri May 3, 2013 ::file lpp_1943_427.txt
+(c / cast-01
+      :ARG0 (s / she)
+      :ARG1 (a / and
+            :op1 (f / fragrance
+                  :poss s)
+            :op2 (t / thing
+                  :ARG1-of (r / radiate-01
+                        :ARG0 s)))
+      :ARG2 (i / i))
+
+# ::id lpp_1943.428 ::date 2012-11-25T09:25:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt I ought never to have run away from her ...
+# ::zh 我真不该离开她跑出来。
+# ::save-date Thu May 2, 2013 ::file lpp_1943_428.txt
+(r / recommend-01
+      :ARG1 (r2 / run-02 :polarity -
+            :ARG0 (i / i)
+            :time (e / ever)
+            :direction (a2 / away
+                  :op1 (s / she))))
+
+# ::id lpp_1943.429 ::date 2012-11-25T09:26:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt I ought to have guessed all the affection that lay behind her poor little strategems .
+# ::zh 我本应该猜出在她那令人爱怜的花招后面所隐藏的温情。
+# ::save-date Sat May 11, 2013 ::file lpp_1943_429.txt
+(r / recommend-01
+      :ARG1 (g / guess-01
+            :ARG0 (i / i)
+            :ARG1 (a / affection
+                  :mod (a2 / all)
+                  :ARG1-of (l / lie-07
+                        :ARG2 (b / behind
+                              :op1 (s / strategem
+                                    :mod (l2 / little)
+                                    :mod (p / poor)
+                                    :poss (s2 / she)))))))
+
+# ::id lpp_1943.430 ::date 2012-11-25T09:27:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt Flowers are so inconsistent !
+# ::zh 花是多么自相矛盾！
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_430.txt
+(c / consistent :polarity -
+      :degree (s / so)
+      :domain (f / flower))
+
+# ::id lpp_1943.431 ::date 2012-11-25T09:28:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt But I was too young to know how to love her ... "
+# ::zh 我当时太年青，还不懂得爱她。”
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_431.txt
+(c / contrast-01
+      :ARG2 (y / young
+            :degree (t / too)
+            :domain (i / i)
+            :compared-to (k / know-01
+                  :ARG0 i
+                  :ARG1 (m / manner
+                        :manner-of (l / love-01
+                              :ARG0 i
+                              :ARG1 (s / she))))))
