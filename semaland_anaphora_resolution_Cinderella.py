@@ -61,6 +61,10 @@ Ariel
 42 	 {'x2': [(1.0, 40, 'x7')], 'x9': [(1.0, 37, 'x12')]}
 43 	 {'x10': [(1.0, 42, 'x9')], 'x4': [(1.0, 33, 'x17')], 'x17': [(1.0, 22, 'x9')]}
 44 	 {'x3': [(1.0, 43, 'x6')], 'x1': [(1.0, 43, 'x2')], 'x14': [(1.0, 41, 'x6')]}
+Number of nodes: 315
+Number of edges: 277
+Number of ancas: 140
+Number of coref links: 74
 
 
 Aurora
@@ -115,6 +119,10 @@ Aurora
 48 	 {'x3': [(1.0, 47, 'x8')], 'x8': [(1.0, 37, 'x14')]}
 49 	 {'x5': [(1.0, 40, 'x29')]}
 50 	 {'x3': [(1.0, 40, 'x12')], 'x6': [(1.0, 46, 'x14')], 'x5': [(1.0, 38, 'x5')]}
+Number of nodes: 416
+Number of edges: 369
+Number of ancas: 177
+Number of coref links: 113
 
 
 Belle
@@ -166,6 +174,10 @@ Belle
 45 	 {'x2': [(1.0, 40, 'x4')]}
 46 	 {'x5': [(1.0, 2, 'x3')]}
 47 	 {'x18': [(1.0, 46, 'x5')], 'x3': [(1.0, 22, 'x12')], 'x20': [(1.0, 40, 'x1')]}
+Number of nodes: 317
+Number of edges: 280
+Number of ancas: 129
+Number of coref links: 72
 
 
 Cinderella
@@ -221,6 +233,10 @@ Cinderella
 49 	 {'x1': [(1.0, 47, 'x16')], 'x7': [(1.0, 17, 'x4')], 'x4': [(1.0, 45, 'x2')]}
 50 	 {'x8': [(1.0, 46, 'x13')], 'x13': [(1.0, 33, 'x11')]}
 51 	 {'x8': [(1.0, 50, 'x5')], 'x5': [(1.0, 11, 'x8')]}
+Number of nodes: 347
+Number of edges: 301
+Number of ancas: 169
+Number of coref links: 95
 
 
 Snow_White
@@ -262,10 +278,13 @@ Snow_White
 35 	 {'x2': [(1.0, 33, 'x6')]}
 36 	 {'x2': [(1.0, 0, 'x4')]}
 37 	 {'x2': [(1.0, 31, 'x3')], 'x9': [(1.0, 19, 'x3')], 'x5': [(1.0, 21, 'x16')]}
+Number of nodes: 250
+Number of edges: 215
+Number of ancas: 95
+Number of coref links: 49
 
 
 >>> 
-
 """
 
 from constants import *
@@ -310,7 +329,9 @@ def is_given(g,n): # node having at least one antecedent <- simplest
 
 def classify_node(g,n): # g: AMR graph, n: AMR node
     """ -> '@', event, special concept, pronoun, conjunction, constant or other """
-    if n=='@':
+##    if n=='@':
+##        return n
+    if 'content' not in g.node[n]:
         return n
     node_concept = g.node[n]['content'].ful_name_
     if re.match(r'\S+-\d+',node_concept):
@@ -634,7 +655,7 @@ def resolve_pro(p_node,g,threshold): # p_node: node of 3rd pronoun
     return output
 
 def get_coref_nodes(text,i,n,link_dict):
-    """ """
+    """ recursive function to get all nodes co-referred with n of text[i] """
     output = list()
     if (i in link_dict) and \
        (n in link_dict[i]) and \
@@ -755,12 +776,18 @@ if __name__ == "__main__":
     amr_table = get_amr_table_path(DATA_AMR_EDITED)
     docids = ['Ariel','Aurora','Belle','Cinderella','Snow_White']
     text = dict()
+    output = dict()
     link_dict = dict()
     print('Cache size: 1')
     for docid in docids:
         text[docid] = [AMRGraph(sen=s) for _,s in sorted(amr_table[docid].items())]
-        _,link_dict[docid] = resolve_ancas_text(text[docid],1)
+        output[docid],link_dict[docid] = resolve_ancas_text(text[docid],1)
         print(docid)
         for i in link_dict[docid]:            
             print(i,'\t',link_dict[docid][i])
+        print('Number of nodes:', sum([(g.number_of_nodes()-1) for g in text[docid]]))
+        print('Number of edges:', sum([(g.number_of_edges()-1) for g in text[docid]]))
+        print('Number of ancas:', sum([len(output[docid][k]) for k in output[docid]]))
+        print('Number of coref links:', sum([len(link_dict[docid][k]) for k in link_dict[docid]]))
         print('\n')
+        

@@ -10,7 +10,7 @@ alexluu@brandeis.edu
 Demo: (Cache size: 2)
 >>> 
 END OF FILE: chapter_01.txt
-Cache size: 2
+Cache size: 1
 0 	 {}
 0 	 {}
 1 	 {'p': [(1.0, 0, 'p')]}
@@ -46,7 +46,7 @@ Cache size: 2
 16 	 {'i': [(1.0, 15, 'i')]}
 16 	 {'i': [(1.0, 15, 'i')]}
 17 	 {'i': [(1.0, 16, 'i')], 'p': [(1.0, 13, 'i2')], 'p2': [(1.0, 15, 'p')]}
-17 	 {'i': [(1.0, 16, 'i')], 'p2': [(1.0, 15, 'p')], 'p': [(1.0, 15, 't3')]}
+17 	 {'i': [(1.0, 16, 'i')], 'p2': [(1.0, 15, 'p')], 'p': [(1.0, 13, 'p2')]}
 18 	 {'g': [(1.0, 15, 'g')]}
 18 	 {'g': [(1.0, 15, 'g')]}
 19 	 {'i': [(1.0, 17, 'i')]}
@@ -62,11 +62,11 @@ Cache size: 2
 24 	 {'i': [(1.0, 23, 'i')]}
 24 	 {'i': [(1.0, 23, 'i')]}
 25 	 {'i': [(1.0, 24, 'i')], 't': [(1.0, 24, 'g')]}
-25 	 {'i': [(1.0, 24, 'i')], 't': [(1.0, 23, 'p')]}
+25 	 {'i': [(1.0, 24, 'i')]}
 26 	 {'i2': [(1.0, 25, 'i')]}
 26 	 {'i2': [(1.0, 25, 'i')]}
 27 	 {'i': [(1.0, 26, 'i2')], 'p2': [(1.0, 17, 'p')], 't3': [(1.0, 26, 't2')]}
-27 	 {'i': [(1.0, 26, 'i2')], 'p': [(1.0, 25, 't')], 'p2': [(1.0, 17, 'p')], 't3': [(1.0, 26, 't2')]}
+27 	 {'i': [(1.0, 26, 'i2')], 'p': [(1.0, 23, 'p')], 'p2': [(1.0, 17, 'p')], 't3': [(1.0, 26, 't2')]}
 28 	 {'i': [(1.0, 27, 'i')], 'p': [(1.0, 27, 'p')]}
 28 	 {'i': [(1.0, 27, 'i')], 'p': [(1.0, 27, 'p')]}
 29 	 {'h2': [(1.0, 11, 'h')], 'h': [(1.0, 28, 'p')], 's2': [(1.0, 28, 'p')]}
@@ -79,9 +79,17 @@ Cache size: 2
 32 	 {'i': [(1.0, 31, 'i')], 'h': [(1.0, 31, 'h')]}
 33 	 {'g': [(1.0, 32, 'h')], 'm2': [(1.0, 32, 'i')]}
 33 	 {'g': [(1.0, 24, 'g')]}
-R: 0.8966	P: 0.8667	F1: 0.8814
+58.0 59.0 52.0
+R: 0.8966	P: 0.8814	F1: 0.8889
 
 
+Number of nodes: 306
+Number of edges: 310
+Number of ancas: 100
+Number of coref links: 59
+>>> 
+
+>>>
 0 	 [(12.0, 'i'), (6.0, 'p')]
 1 	 [(8.0, 'p'), (5.0, 'b2'), (4.0, 'a')]
 2 	 [(6.333333333333333, 't2'), (4.5, 't')]
@@ -134,7 +142,7 @@ add 'one' -> pronouns (in constant.py and pronouns.txt) ||22.o
 remove deixis in ancas and antecas
 3rd pronouns handling
 update coref info
-||previous stable version: 102
+||previous stable version: 104
 coref nodes handling
 MUC
 correct rank_ancas for the case of conjunction
@@ -176,8 +184,8 @@ def is_pronominal_quote(g,n): # 1st and 2nd person pronouns
 
 def is_given(g,n): # node having at least one antecedent <- simplest
     """ 1/0 (True/False) """
-    if 'coref' in g.node[n]:
-        return 1 # True
+##    if 'coref' in g.node[n]:
+##        return 1 # True
     return 0 # False    
 
 def classify_node(g,n): # g: AMR graph, n: AMR node
@@ -506,7 +514,7 @@ def resolve_pro(p_node,g,threshold): # p_node: node of 3rd pronoun
     return output
 
 def get_coref_nodes(text,i,n,link_dict):
-    """ """
+    """ recursive function to get all nodes co-referred with n of text[i] """
     output = list()
     if (i in link_dict) and \
        (n in link_dict[i]) and \
@@ -635,14 +643,9 @@ if __name__ == "__main__":
     text[4].add_edge('c2','p',label=':ARG1')
     # http://www.nltk.org/book/ch04.html
     working_text = deepcopy(text[1:])
-    print('Cache size: 2')
-    output,link_dict = resolve_ancas_text(working_text,2)
-
-##    for  in output:
-##        print(i,'\t',output[i])
-
-##    print('\n')
-
+    print('Cache size: 1')
+    output,link_dict = resolve_ancas_text(working_text,1)
+    
     gold_dict = get_gold(DATA_AMR_ANNOTATED_LPP_01)
 
     for i in gold_dict:
@@ -650,9 +653,12 @@ if __name__ == "__main__":
         print(i,'\t',link_dict[i])
     r,p,f1 = muc(gold_dict,link_dict)
     print("R: {0:.4f}\tP: {1:.4f}\tF1: {2:.4f}".format(r,p,f1))
-
     print('\n')
-
+    print('Number of nodes:', sum([(g.number_of_nodes()-1) for g in working_text]))
+    print('Number of edges:', sum([(g.number_of_edges()-1) for g in working_text]))
+    print('Number of ancas:', sum([len(output[k]) for k in output]))
+    print('Number of coref links:', sum([len(link_dict[k]) for k in link_dict]))
+    
 ##    ranked_ancas = [rank_ancas(g) for g in working_text]
 ##    for i in range(len(ranked_ancas)):
 ##        temp = sorted([(v,k) for (k,v) in ranked_ancas[i].items()],
