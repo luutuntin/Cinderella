@@ -13,8 +13,10 @@ DATA_AMR = os.path.join(DATA, 'amr')
 DATA_AMR_EDITED = os.path.join(DATA, 'amr_edited')
 DATA_AMR_LPP = os.path.join(DATA, 'amr_lpp')
 DATA_AMR_LPP_01 = os.path.join(DATA_AMR_LPP, '01')
+DATA_AMR_LPP_02 = os.path.join(DATA_AMR_LPP, '02')
 DATA_AMR_ANNOTATED = os.path.join(DATA, 'amr_annotated')
 DATA_AMR_ANNOTATED_LPP_01 = os.path.join(DATA_AMR_ANNOTATED, 'amr_lpp_01.xml')
+DATA_AMR_ANNOTATED_LPP_02 = os.path.join(DATA_AMR_ANNOTATED, 'amr_lpp_02.xml')
 
 # maybe dict instead of set???
 AMR_SPECIAL_CONCEPTS = { # excluding named entity related concepts

@@ -1,0 +1,945 @@
+<!DOCTYPE amrset SYSTEM "amrset.dtd">
+<amrset name="le-petit-prince" version="1.5" date="2015-09-11" corpus="The Little Prince, a novel by Antoine Saint-Exupery">
+  <sntamr>
+    <sentence id="lpp_1943.36">Chapter 2 .</sentence>
+    <amr date="2012-07-24T10:10:29">
+(c / chapter
+  :mod 2)
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.37">So I lived my life alone , without anyone that I could really talk to , until I had an accident with my plane in the Desert of Sahara , six years ago .</sentence>
+    <amr date="2012-07-24T10:10:35">
+(c / cause-01
+      :ARG1 (l / live-01
+            :ARG0 (i / i
+                  :ARG0-of (t3 / talk-01 :polarity -
+                        :ARG2 (a5 / anyone)
+                        :mod (r / real)))
+            :ARG1 (l2 / life
+                  :poss i)
+            :manner (a / alone)
+            :duration (u / until
+                  :op1 (h / have-06
+                        :ARG0 i
+                        :ARG1 (a3 / accident
+                              :mod (p / plane))
+                        :location (d / desert :wiki "Sahara" :name (n / name :op1 "Desert" :op2 "of" :op3 "Sahara"))
+                        :time (b / before
+                              :op1 (n2 / now)
+                              :quant (t2 / temporal-quantity :quant 6
+                                    :unit (y / year)))))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.38">Something was broken in my engine .</sentence>
+    <amr date="2012-07-24T10:25:32">
+(b / break-01
+      :ARG1 (s / something
+            :location (e / engine
+                  :poss (i / i))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.39">And as I had with me neither a mechanic nor any passengers , I set myself to attempt the difficult repairs all alone .</sentence>
+    <amr date="2012-07-24T10:28:08" ana="i:38.i">
+(a / and
+  :op2 (c / cause-01
+         :ARG0 (h / have-03
+                 :ARG0 i
+                 :ARG1 (o / or
+                         :op1 (m / mechanic)
+                         :op2 (p / passenger))
+                 :accompanier (i / i)
+                 :polarity -)
+         :ARG1 (a2 / attempt-01
+                 :ARG0 i
+                 :ARG1 (r / repair-01
+                         :mod (d / difficult))
+                 :mod (a3 / alone
+                        :degree (a4 / all)))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.40">It was a question of life or death for me : I had scarcely enough drinking water to last a week .</sentence>
+    <amr date="2012-07-24T10:37:48" ana="i:39.i">
+(q / question-01
+      :ARG0 i
+      :ARG1 (o / or
+            :op1 (l / live-01)
+            :op2 (d / die-01))
+      :ARG1-of (c / cause-01
+            :ARG0 (h / have-03
+                  :ARG0 (i / i)
+                  :ARG1 (w / water
+                        :purpose (d2 / drink-01
+                              :ARG0 i)
+                        :quant (e / enough
+                              :mod (s / scarce))
+                        :ARG1-of (l2 / last-01
+                              :ARG2 (t / temporal-quantity :quant 1
+                                    :unit (w2 / week)))))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.41">The first night , then , I went to sleep on the sand , a thousand miles from any human habitation .</sentence>
+    <amr date="2012-07-24T10:52:42" ana="i:40.i">
+(s / sleep-01
+  :ARG0 (i / i)
+  :location (s2 / sand)
+  :time (n / night
+          :ord (o / ordinal-entity :value 1))
+  :location (r / relative-position
+              :op1 (p / place
+                     :ARG1-of (i2 / inhabit-01
+                                :ARG0 (h / human))
+                     :mod (a2 / any))
+              :quant (d / distance-quantity
+                       :unit (m / mile)
+                       :quant 1000)
+              :direction (a3 / away)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.42">I was more isolated than a shipwrecked sailor on a raft in the middle of the ocean .</sentence>
+    <amr date="2012-07-24T11:10:07" ana="i2:41.i">
+(i / isolate-01
+      :ARG1 (i2 / i)
+      :degree (m / more
+            :compared-to (p / person
+                  :ARG0-of (s / sail-01)
+                  :ARG1-of (s2 / shipwreck-01)
+                  :location (r / raft
+                        :location (o / ocean
+                              :part (m2 / middle))))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.43">Thus you can imagine my amazement , at sunrise , when I was awakened by an odd little voice .</sentence>
+    <amr date="2012-07-24T11:16:46" ana="i:42.i2">
+(c / cause-01
+      :ARG1 (p / possible-01
+            :ARG1 (i2 / imagine-01
+                  :ARG0 (y / you)
+                  :ARG1 (a / amaze-01
+                        :ARG1 (i / i)
+                        :time (s / sunrise
+                              :time-of (w / wake-01
+                                    :ARG0 (v / voice
+                                          :mod (o / odd)
+                                          :mod (l / little))
+                                    :ARG1 i))))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.44">It said : " If you please -- draw me a sheep ! "</sentence>
+    <amr date="2012-07-24T11:24:15" ana="i:43.v" quote="y2 i2 y">
+(s / say-01
+  :ARG0 (i / it)
+  :ARG1 (d / draw-01
+          :ARG0 (y2 / you)
+          :ARG1 (s2 / sheep)
+          :ARG2 (i2 / i)
+          :condition (p / please-01
+                       :ARG1 (y / you))
+          :mode imperative))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.45">" What ! "</sentence>
+    <amr date="2012-07-24T11:28:13" quote="x">
+(w2 / what)
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.46">" Draw me a sheep ! "</sentence>
+    <amr date="2012-07-24T11:30:39" ana="s:44.s2" quote="y i">
+(d / draw-01
+  :ARG0 (y / you)
+  :ARG1 (s / sheep)
+  :ARG2 (i / i)
+  :mode imperative)
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.47">I jumped to my feet , completely thunderstruck .</sentence>
+    <amr date="2012-07-24T11:31:14" ana="i:43.i">
+(j / jump-03
+      :ARG0 (i / i
+            :mod (t / thunderstruck
+                  :ARG1-of (c / complete-02)))
+      :destination (f / foot
+            :part-of i))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.48">I blinked my eyes hard .</sentence>
+    <amr date="2012-06-07T17:07:13" ana="i:47.i">
+(b / blink-01
+      :ARG0 (i / i)
+      :ARG1 (e / eye
+            :part-of i)
+      :ARG1-of (h / hard-04))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.49">I looked carefully all around me .</sentence>
+    <amr date="2012-07-24T11:34:11" ana="i:48.i">
+(l / look-01
+      :ARG0 (i / i)
+      :direction (a / around
+            :op1 i
+            :mod (a2 / all))
+      :manner (c / careful))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.50">And I saw a most extraordinary small person , who stood there examining me with great seriousness .</sentence>
+    <amr date="2012-07-24T11:36:56" ana="i:49.i">
+(a / and
+      :op2 (s / see-01
+            :ARG0 (i / i)
+            :ARG1 (p / person
+                  :mod (s2 / small)
+                  :mod (e / extraordinary
+                        :degree (m / most))
+                  :ARG1-of (s3 / stand-01
+                        :ARG2 (t / there))
+                  :ARG0-of (e2 / examine-01
+                        :ARG1 i
+                        :ARG2-of (s4 / serious-01
+                              :degree (g / great))))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.51">Here you may see the best portrait that , later , I was able to make of him .</sentence>
+    <amr date="2012-07-24T11:44:25" ana="y:43.y i:50.i">
+(p / possible-01
+      :ARG1 (s / see-01
+            :ARG0 (y / you)
+            :ARG1 (p2 / portrait
+                  :mod (g / good
+                        :degree (m / most))
+                  :ARG1-of (m2 / make-01
+                        :ARG0 (i / i)
+                        :mod (p3 / possible-01)
+                        :time (l / late
+                              :degree (m3 / more)))
+                  :topic (h / he))
+            :location (h2 / here)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.52">But my drawing is certainly very much less charming than its model .</sentence>
+    <amr date="2012-07-24T11:50:34" ana="t:51.p2 i:51.i">
+(c3 / contrast-01
+      :ARG2 (c / charm-01
+            :ARG0 (t / thing
+                  :ARG1-of (d / draw-01
+                        :ARG0 (i / i)))
+            :quant (l / less
+                  :degree (m / much
+                        :degree (v / very)))
+            :mod (c2 / certain)
+            :compared-to (m2 / model
+                  :poss t)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.53">That , however , is not my fault .</sentence>
+    <amr date="2012-07-24T11:54:57" ana="i:52.i">
+(c / contrast-01
+  :ARG2 (f / fault-01
+          :ARG1 (i / i)
+          :ARG2 (t / that)
+          :polarity -))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.54">The grown - ups discouraged me in my painter 's career when I was six years old , and I never learned to draw anything , except boas from the outside and boas from the inside .</sentence>
+    <amr date="2012-07-24T11:56:15" ana="i:53.i">
+(d / discourage-01
+      :ARG0 (g / grown-up)
+      :ARG1 (i / i)
+      :ARG2 (c / career
+            :topic (p / person
+                  :ARG0-of (p2 / paint-02))
+            :poss i)
+      :ARG0-of (c2 / cause-01
+            :ARG1 (l / learn-01 :polarity -
+                  :ARG0 i
+                  :ARG1 (d2 / draw-01
+                        :ARG0 i
+                        :ARG1 (a2 / anything))
+                  :time (e / ever)
+                  :ARG2-of (e2 / except-01
+                        :ARG1 (a3 / and
+                              :op1 (b / boa
+                                    :direction (f / from
+                                          :op1 (o / outside)))
+                              :op2 (b2 / boa
+                                    :direction (f2 / from
+                                          :op1 (i2 / inside)))))))
+      :time (a / age-01
+            :ARG1 i
+            :ARG2 (t2 / temporal-quantity :quant 6
+                  :unit (y / year))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.55">Now I stared at this sudden apparition with my eyes fairly starting out of my head in astonishment .</sentence>
+    <amr date="2012-07-24T12:05:07" ana="i:54.i t:52.m2 e:48.e">
+(s / stare-01
+      :ARG0 (i / i)
+      :ARG1 (t / thing
+            :ARG1-of (a / appear-01
+                  :manner (s2 / sudden))
+            :mod (t2 / this))
+      :time (n / now)
+      :manner (s3 / start-03
+            :ARG0 (e / eye
+                  :part-of i)
+            :ARG1-of (c / cause-01
+                  :ARG0 (a2 / astonish-01
+                        :ARG1 i))
+            :degree (f / fair)
+            :manner (o / out-06
+                  :ARG1 e
+                  :ARG2 (h / head
+                        :part-of i))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.56">Remember , I had crashed in the desert a thousand miles from any inhabited region .</sentence>
+    <amr date="2012-07-24T12:11:56" ana="y:51.y i:55.i r2:41.p">
+(r / remember-01
+  :ARG0 (y / you)
+  :ARG1 (c / crash-01
+          :ARG1 (i / i)
+          :location (d / desert)
+          :location (r3 / relative-position
+                      :op1 (r2 / region
+                             :ARG1-of (i2 / inhabit-01)
+                             :mod (a2 / any))
+                      :quant (d2 / distance-quantity
+                               :unit (m / mile)
+                               :quant 1000)
+                      :direction (a / away)))
+  :mode imperative)
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.57">And yet my little man seemed neither to be straying uncertainly among the sands , nor to be fainting from fatigue or hunger or thirst or fear .</sentence>
+    <amr date="2012-07-24T12:14:55" ana="m:55.t">
+(c3 / contrast-01
+  :ARG2 (s / seem-01
+          :ARG1 (a / and
+                  :op1 (s2 / stray-01
+                         :ARG0 (m / man
+                                 :mod (l / little)
+                                 :poss (i / i))
+                         :ARG1 (a3 / among
+                                 :op1 (s3 / sand))
+                         :manner (c / certain
+                                   :polarity -)
+                         :polarity -)
+                  :op2 (f / faint-01
+                         :ARG0 m
+                         :ARG1-of (c2 / cause-01
+                                    :ARG0 (o / or
+                                            :op1 (f2 / fatigue-01)
+                                            :op2 (h / hunger-01)
+                                            :op3 (t / thirst-01)
+                                            :op4 (f3 / fear-01)))
+                         :polarity -))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.58">Nothing about him gave any suggestion of a child lost in the middle of the desert , a thousand miles from any human habitation .</sentence>
+    <amr date="2012-07-24T12:23:24" ana="h2:41.h">
+(s / suggest-01
+  :ARG0 (n / nothing
+          :topic (h / he))
+  :ARG1 (c / child
+          :ARG1-of (l / lose-02
+                     :location (d / desert
+                                 :part (m / middle))
+                     :location (r / relative-position
+                                 :op1 (t / thing
+                                        :ARG1-of (i / inhabit-01
+                                                   :ARG0 (h2 / human))
+                                        :mod (a3 / any))
+                                 :quant (d2 / distance-quantity
+                                          :unit (m2 / mile)
+                                          :quant 1000)
+                                 :direction (a2 / away)))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.59">When at last I was able to speak , I said to him : " But -- what are you doing here ? "</sentence>
+    <amr date="2012-07-24T12:28:59" ana="i:57.i h:58.h" quote="y2">
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (c / contrast-01
+            :ARG2 (b2 / be-located-at-91
+                  :ARG1 (y2 / you)
+                  :ARG2 (h2 / here)
+                  :ARG1-of (c2 / cause-01
+                        :ARG0 (a / amr-unknown))))
+      :ARG2 (h / he)
+      :time (p / possible-01
+            :ARG1 (s2 / speak-01
+                  :ARG0 i
+                  :mod (a2 / at-last))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.60">And in answer he repeated , very slowly , as if he were speaking of a matter of great consequence : " If you please -- draw me a sheep ... "</sentence>
+    <amr date="2012-07-24T12:32:10" ana="h:59.h s3:46.s" quote="y2 i y">
+(a / and
+      :op2 (r / repeat-01
+            :ARG0 (h / he)
+            :ARG1 (d / draw-01 :mode imperative
+                  :ARG0 (y2 / you)
+                  :ARG1 (s3 / sheep)
+                  :ARG2 (i / i)
+                  :condition (p / please-01
+                        :ARG1 (y / you)))
+            :purpose (a2 / answer-01
+                  :ARG0 h)
+            :manner (s / slow
+                  :degree (v / very))
+            :conj-as-if (s2 / speak-01
+                  :ARG0 h
+                  :ARG1 (m / matter
+                        :mod (c / consequence
+                              :mod (g / great))))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.61">When a mystery is too overpowering , one dare not disobey .</sentence>
+    <amr date="2012-07-24T12:43:23">
+(d / dare-01
+  :ARG0 (o / one)
+  :ARG2 (d2 / disobey-01
+          :ARG0 o)
+  :polarity -
+  :time (o2 / overpower-01
+          :ARG0 (m / mystery)
+          :degree (t2 / too)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.62">Absurd as it might seem to me , a thousand miles from any human habitation and in danger of death , I took out of my pocket a sheet of paper and my fountain - pen .</sentence>
+    <amr date="2012-07-24T12:49:28" ana="i:59.i h:58.h2">
+(t / take-01
+      :ARG0 (i / i
+            :location (r / relative-position
+                  :op1 (p5 / place
+                        :mod (a3 / any)
+                        :ARG1-of (i2 / inhabit-01
+                              :ARG0 (h / human)))
+                  :quant (d / distance-quantity :quant 1000
+                        :unit (m / mile))
+                  :direction (a2 / away))
+            :ARG1-of (e / endanger-01
+                  :ARG0 (d2 / die-01
+                        :ARG1 i)))
+      :ARG1 (a / and
+            :op1 (p / paper
+                  :quant (s / sheet :quant 1))
+            :op2 (p2 / pen
+                  :mod (f / fountain)
+                  :poss i))
+      :ARG2 (p3 / pocket
+            :poss i)
+      :concession (p4 / possible-01
+            :ARG1 (s2 / seem-01
+                  :ARG1 (a4 / absurd)
+                  :ARG2 i)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.63">But then I remembered how my studies had been concentrated on geography , history , arithmetic , and grammar , and I told the little chap ( a little crossly , too ) that I did not know how to draw .</sentence>
+    <amr date="2012-07-24T12:58:21" ana="i:62.i c2:60.h">
+(c4 / contrast-01
+      :ARG2 (a / and
+            :op1 (r / remember-01
+                  :ARG0 (i / i)
+                  :ARG1 (c / concentrate-01
+                        :ARG1 (a2 / and
+                              :op1 (g / geography)
+                              :op2 (h / history)
+                              :op3 (a3 / arithmetic)
+                              :op4 (g2 / grammar))
+                        :ARG2 (s / study-01
+                              :ARG0 i))
+                  :time (t / then))
+            :op2 (t2 / tell-01
+                  :ARG0 i
+                  :ARG1 (k / know-03 :polarity -
+                        :ARG0 i
+                        :ARG1 (d / draw-01
+                              :ARG0 i))
+                  :ARG2 (c2 / chap
+                        :mod (l / little))
+                  :manner (c3 / cross
+                        :mod (l2 / little)
+                        :mod (a4 / also)))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.64">He answered me : " That does n't matter .</sentence>
+    <amr date="2012-07-24T13:07:59" ana="h:63.c2 i:63.i">
+(a / answer-01
+  :ARG0 (h / he)
+  :ARG1 (i / i)
+  :ARG2 (m2 / matter-01
+          :ARG1 (t / that)
+          :polarity -))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.65">Draw me a sheep ... "</sentence>
+    <amr date="2012-07-24T13:09:35" ana="s:60.s3" quote="y i">
+(d / draw-01
+  :ARG0 (y / you)
+  :ARG1 (s / sheep)
+  :ARG2 (i / i)
+  :mode imperative)
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.66">But I had never drawn a sheep .</sentence>
+    <amr date="2012-07-24T13:09:59"  ana="i:64.i s:65.s">
+(c / contrast-01
+  :ARG2 (d / draw-01
+          :ARG0 (i / i)
+          :ARG1 (s / sheep)
+          :time (e / ever)
+          :polarity -))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.67">So I drew for him one of the two pictures I had drawn so often .</sentence>
+    <amr date="2012-07-24T13:11:14"  ana="i:66.i h:64.h">
+(c / cause-01
+  :ARG1 (d / draw-01
+          :ARG0 (i / i)
+          :ARG1 (p / picture
+                  :quant 1
+                  :ARG1-of (i2 / include-91
+                             :ARG2 (p2 / picture
+                                     :quant 2
+                                     :ARG1-of (d2 / draw-01
+                                                :ARG0 i
+                                                :time (o / often
+                                                        :degree (s / so))))))
+          :ARG2 (h / he)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.68">It was that of the boa constrictor from the outside .</sentence>
+    <amr date="2012-07-24T13:13:12"  ana="b:54.b">
+(b / boa
+      :mod (c2 / constrictor)
+      :direction (f / from
+            :op1 (o / outside)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.69">And I was astounded to hear the little fellow greet it with , " No , no , no !</sentence>
+    <amr date="2012-07-24T13:14:15"  ana="i:67.i f:67.h i2:68.b">
+(a / and
+  :op2 (a2 / astound-01
+         :ARG0 (h / hear-01
+                 :ARG0 i
+                 :ARG1 (g / greet-01
+                         :ARG0 f
+                         :ARG1 (i2 / it)
+                         :ARG3 (a3 / and
+                                 :op1 (n / no)
+                                 :op2 (n2 / no)
+                                 :op3 (n3 / no)))
+                 :ARG2 (f / fellow
+                         :mod (l / little)))
+         :ARG1 (i / i)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.70">I do not want an elephant inside a boa constrictor .</sentence>
+    <amr date="2012-07-24T13:17:24" quote="i">
+(w / want-01
+  :ARG0 (i / i)
+  :ARG1 (e / elephant
+          :location (i2 / inside
+                      :op1 (b2 / boa
+                             :mod (c2 / constrictor))))
+  :polarity -)
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.71">A boa constrictor is a very dangerous creature , and an elephant is very cumbersome .</sentence>
+    <amr date="2012-07-24T13:18:15">
+(a / and
+  :op1 (c2 / creature
+         :mod (d2 / dangerous)
+         :domain (b / boa
+                   :mod (c / constrictor)))
+  :op2 (c3 / cumbersome
+         :degree (v2 / very)
+         :domain (e / elephant)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.72">Where I live , everything is very small .</sentence>
+    <amr date="2012-07-24T13:22:24" quote="i">
+(s / small
+  :degree (v / very)
+  :domain (e / everything)
+  :location (l2 / live-01
+              :ARG0 (i / i)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.73">What I need is a sheep .</sentence>
+    <amr date="2012-07-24T13:23:37" ana="s:66.s" quote="i">
+(n / need-01
+  :ARG0 (i / i)
+  :ARG1 (s / sheep))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.74">Draw me a sheep . "</sentence>
+    <amr date="2012-07-24T13:24:55" ana="s:73.s" quote="y i">
+(d / draw-01
+  :ARG0 (y / you)
+  :ARG1 (s / sheep)
+  :ARG2 (i / i)
+  :mode imperative)
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.75">So then I made a drawing .</sentence>
+    <amr date="2012-07-24T13:25:43" ana="i:69.i">
+(c / cause-01
+  :ARG1 (d / draw-01
+          :ARG0 (i / i)
+          :time (t2 / then)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.76">He looked at it carefully , then he said : " No .</sentence>
+    <amr date="2012-07-24T13:26:32" ana="h:69.f">
+(a / and
+  :op1 (l / look-01
+         :ARG0 (h / he)
+         :ARG1 (i / it)
+         :manner (c / careful))
+  :op2 (s / say-01
+         :ARG0 h
+         :ARG1 (n / no)
+         :time (t / then)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.77">This sheep is already very sickly .</sentence>
+    <amr date="2012-07-24T13:27:50"  ana="s:76.i">
+(s2 / sick-05
+      :ARG1 (s / sheep
+            :mod (t / this))
+      :degree (v / very)
+      :time (a / already))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.78">Make me another . "</sentence>
+    <amr date="2012-07-24T13:28:28" quote="y i">
+(m / make-01
+  :ARG0 (y / you)
+  :ARG1 (a / another)
+  :ARG3 (i / i)
+  :mode imperative)
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.79">So I made another drawing .</sentence>
+    <amr date="2012-07-24T13:29:08" ana="i:75.i">
+(c / cause-01
+  :ARG1 (m / make-01
+          :ARG0 (i / i)
+          :ARG1 (t / thing
+                  :ARG1-of (d / draw-01
+                             :ARG0 i)
+                  :mod (a / another))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.80">My friend smiled gently and indulgently .</sentence>
+    <amr date="2012-07-24T13:29:47" ana="p:76.h i:79.i">
+(s / smile-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (i / i)
+                  :ARG2 (f / friend)))
+      :manner (g / gentle)
+      :manner (i2 / indulgent))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.81">" You see yourself , " he said , " that this is not a sheep .</sentence>
+    <amr date="2012-07-24T13:31:13" ana="h:80.p" quote="y">
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (s2 / see-01
+          :ARG0 (y / you)
+          :ARG1 (s4 / sheep
+                  :domain (t2 / this)
+                  :polarity -)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.82">This is a ram .</sentence>
+    <amr date="2012-07-24T13:32:34">
+(r2 / ram
+  :domain (t2 / this))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.83">It has horns . "</sentence>
+    <amr date="2012-07-24T13:32:57" ana="i:82.r2">
+(h / have-03
+      :ARG0 (i / it)
+      :ARG1 (h2 / horn))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.84">So then I did my drawing over once more .</sentence>
+    <amr date="2012-07-24T13:33:16" ana="i:80.i">
+(c / cause-01
+  :ARG1 (d / do-02
+          :ARG0 (i / i)
+          :ARG1 (t / thing
+                  :ARG1-of (d2 / draw-01
+                             :ARG0 i))
+          :mod (o / over)
+          :mod (m / more
+                 :mod (o2 / once))
+          :time (t2 / then)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.85">But it was rejected too , just like the others .</sentence>
+    <amr date="2012-07-24T13:34:56" ana="i:84.t">
+(c / contrast-01
+      :ARG1 (r / reject-01
+            :ARG1 (i / it)
+            :ARG1-of (r2 / resemble-01
+                  :ARG2 (o / other))
+            :mod (t / too)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.86">" This one is too old .</sentence>
+    <amr date="2012-07-24T13:40:27">
+(o2 / old
+  :degree (t2 / too)
+  :domain (o / one
+            :mod (t / this)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.87">I want a sheep that will live a long time . "</sentence>
+    <amr date="2012-07-31T06:15:17" quote="i">
+(w / want-01
+      :ARG0 (i / i)
+      :ARG1 (s / sheep
+            :ARG0-of (l / live-01
+                  :ARG1-of (l2 / long-03))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.88">By this time my patience was exhausted , because I was in a hurry to start taking my engine apart .</sentence>
+    <amr date="2012-07-31T06:16:57" ana="i:84.i e2:38.e">
+(e / exhaust-01
+      :ARG1 (p / patience
+            :poss (i / i))
+      :ARG1-of (c / cause-01
+            :ARG0 (h / hurry-01
+                  :ARG1 i
+                  :ARG2 (s / start-01
+                        :ARG0 i
+                        :ARG1 (d / disassemble-01
+                              :ARG0 i
+                              :ARG1 (e2 / engine
+                                    :poss i)))))
+      :time (b / by
+            :op1 (t / time
+                  :mod (t2 / this))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.89">So I tossed off this drawing .</sentence>
+    <amr date="2012-07-31T06:21:47" ana="i:88.i">
+(c / cause-01
+  :ARG1 (t / toss-out-02
+          :ARG0 (i / i)
+          :ARG1 (t2 / thing
+                  :ARG1-of (d / draw-01
+                             :ARG0 i)
+                  :mod (t3 / this))
+          :direction (o / off)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.90">And I threw out an explanation with it .</sentence>
+    <amr date="2012-07-31T06:25:11" ana="i:89.i i3:89.t2">
+(a / and
+  :op2 (e / explain-01
+         :ARG0 (i / i)
+         :ARG1 (i3 / it)))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.91">" This is only his box .</sentence>
+    <amr date="2012-07-31T06:32:06">
+(b / box
+  :poss (h / he)
+  :domain (t / this)
+  :mod (o / only))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.92">The sheep you asked for is inside . "</sentence>
+    <amr date="2012-07-31T06:48:52" ana="s2:87.s" quote="y">
+(b / be-located-at-91
+      :ARG1 (s2 / sheep
+            :ARG1-of (a / ask-01
+                  :ARG0 (y / you)))
+      :ARG2 (i2 / inside))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.93">I was very surprised to see a light break over the face of my young judge : " That is exactly the way I wanted it !</sentence>
+    <amr date="2012-07-31T06:50:29" ana="i:90.i p:81.h i2:92.s2">
+(a / and
+      :op1 (s / surprise-01
+            :ARG0 (s2 / see-01
+                  :ARG0 i
+                  :ARG1 (b / break-13
+                        :ARG1 (l / light)
+                        :location (o / over
+                              :op1 (f / face
+                                    :part-of (p / person
+                                          :ARG0-of (j / judge-01)
+                                          :poss i
+                                          :mod (y / young))))))
+            :ARG1 (i / i)
+            :degree (v / very))
+      :op2 (s3 / say-01
+            :ARG1 (w / way
+                  :mod (e / exact)
+                  :domain (w2 / want-01
+                        :ARG0 p
+                        :ARG1 (i2 / it)))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.94">Do you think that this sheep will have to have a great deal of grass ? "</sentence>
+    <amr date="2012-07-31T06:59:45" ana="s:93.i2" quote="y">
+(t / think-01
+  :ARG0 (y / you)
+  :ARG1 (o / obligate-01
+          :ARG2 (h / have-03
+                  :ARG0 (s / sheep
+                          :mod (t2 / this))
+                  :ARG1 (g / grass
+                          :quant (d / deal
+                                   :mod (g2 / great)))))
+  :mode interrogative)
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.95">" Why ? "</sentence>
+    <amr date="2012-07-31T07:04:48">
+(c / cause-01
+      :ARG0 (a / amr-unknown))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.96">" Because where I live everything is very small ... "</sentence>
+    <amr date="2012-07-31T07:06:33" quote="i">
+(c / cause-01
+  :ARG0 (s / small
+          :degree (v / very)
+          :domain (e / everything
+                    :location (l / live-01
+                                :ARG0 (i / i)))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.97">" There will surely be enough grass for him , "</sentence>
+    <amr date="2012-07-31T07:08:22" ana="g3:94.g h2:94.s">
+(b / benefit-01
+      :ARG0 (g3 / grass
+            :mod (e3 / enough
+                  :ARG1-of (s / sure-02)))
+      :ARG1 (h2 / he))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.98">I said .</sentence>
+    <amr date="2012-07-31T07:10:29" ana="i:93.i">
+(s / say-01
+      :ARG0 (i / i))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.99">" It is a very small sheep that I have given you . "</sentence>
+    <amr date="2012-07-31T07:10:44" ana="s:97.h2" quote="i y">
+(g / give-01
+      :ARG0 (i / i)
+      :ARG1 (s / sheep
+            :mod (s2 / small
+                  :degree (v / very)))
+      :ARG2 (y / you))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.100">He bent his head over the drawing : " Not so small that -- Look !</sentence>
+    <amr date="2012-07-31T07:11:47" ana="t:90.i3 h3:93.p" quote="y">
+(a / and
+      :op2 (b / bend-01
+            :ARG1 (h2 / head
+                  :location (o / over
+                        :op1 (t / thing
+                              :ARG1-of (d / draw-01)))
+                  :part-of h3))
+      :op2 (s / say-01
+            :ARG0 (h3 / he)
+            :ARG1 (l / look-01 :mode imperative
+                  :ARG0 (y / you)
+                  :ARG1 (s2 / small :polarity -
+                        :degree (s3 / so)
+                        :domain (t2 / that)))))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.101">He has gone to sleep ... "</sentence>
+    <amr date="2012-07-31T07:21:41" ana="h:99.s">
+(s / sleep-01
+      :ARG0 (h / he))
+    </amr>
+  </sntamr>
+  <sntamr>
+    <sentence id="lpp_1943.102">And that is how I made the acquaintance of the little prince .</sentence>
+    <amr date="2012-07-31T07:25:20" ana="i:98.i p:100.h3">
+(a / and
+  :op2 (a2 / acquaint-01
+         :ARG1 (i / i)
+         :ARG2 (p / prince
+                 :mod (l / little))
+         :manner (t / that)))
+    </amr>
+  </sntamr>
+</amrset>

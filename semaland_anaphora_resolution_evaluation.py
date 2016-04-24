@@ -7,150 +7,157 @@ from __future__ import print_function, with_statement, division
 cosi299a- Cinderella
 alexluu@brandeis.edu
 
-Demo: (Cache size: 2)
+Demo:
 >>> 
-END OF FILE: chapter_01.txt
+END OF FILE: chapter_02.txt
 Cache size: 1
 0 	 {}
 0 	 {}
-1 	 {'p': [(1.0, 0, 'p')]}
-1 	 {'p': [(1.0, 0, 'p')]}
-2 	 {'t': [(1.0, 1, 'p')]}
-2 	 {'t': [(1.0, 1, 'p')]}
-3 	 {'p': [(1.0, 1, 'a')], 'b': [(1.0, 1, 'b2')], 'b2': [(1.0, 0, 'b2')]}
-3 	 {'p': [(1.0, 1, 'a')], 'b': [(1.0, 1, 'b2')], 'b2': [(1.0, 0, 'b2')]}
-4 	 {'t': [(1.0, 3, 'b')]}
-4 	 {'t': [(1.0, 3, 'b')]}
-5 	 {'i': [(1.0, 0, 'i')]}
-5 	 {'i': [(1.0, 0, 'i')]}
-6 	 {'i': [(1.0, 5, 'i')]}
-6 	 {'i': [(1.0, 5, 'i')], 't': [(1.0, 2, 't')]}
-7 	 {'p': [(1.0, 6, 't')]}
-7 	 {'p': [(1.0, 6, 't')]}
-8 	 {'i': [(1.0, 7, 'p')], 't2': [(1.0, 7, 'p')], 'i2': [(1.0, 7, 'i')], 'm': [(1.0, 7, 'p')]}
-8 	 {'i': [(1.0, 7, 'p')], 'm': [(1.0, 7, 'p')], 'i2': [(1.0, 7, 'i')], 't2': [(1.0, 7, 'p')]}
-9 	 {'t': [(1.0, 8, 'g')]}
-9 	 {'t': [(1.0, 8, 'g')]}
-10 	 {}
-10 	 {}
-11 	 {'i': [(1.0, 8, 'i2')], 'h': [(1.0, 10, 'h')], 't': [(1.0, 8, 't2')]}
-11 	 {'i': [(1.0, 8, 'i2')], 'h': [(1.0, 10, 'h')], 't': [(1.0, 8, 't2')]}
-12 	 {'i': [(1.0, 11, 't')], 'b2': [(1.0, 4, 't')]}
-12 	 {'i': [(1.0, 11, 't')], 'b2': [(1.0, 4, 't')]}
-13 	 {'i': [(1.0, 11, 'i')], 'i2': [(1.0, 12, 'i')], 'g': [(1.0, 9, 't')]}
-13 	 {'i': [(1.0, 11, 'i')], 'i2': [(1.0, 12, 'i')], 'i4': [(1.0, 12, 'i')], 'g': [(1.0, 9, 't')]}
-14 	 {'t': [(1.0, 13, 'g')]}
-14 	 {'t': [(1.0, 13, 'g')]}
-15 	 {'i': [(1.0, 13, 'i')], 'p': [(1.0, 13, 'p2')], 't3': [(1.0, 13, 'p2')], 'g': [(1.0, 14, 't')]}
-15 	 {'i': [(1.0, 13, 'i')], 'p': [(1.0, 13, 'p2')], 't3': [(1.0, 13, 'i4')], 'g': [(1.0, 14, 't')]}
+1 	 {}
+1 	 {}
+2 	 {'i': [(1.0, 1, 'i')]}
+2 	 {'i': [(1.0, 1, 'i')]}
+3 	 {'i': [(1.0, 2, 'i')]}
+3 	 {'i': [(1.0, 2, 'i')]}
+4 	 {'i': [(1.0, 3, 'i')]}
+4 	 {'i': [(1.0, 3, 'i')]}
+5 	 {'i2': [(1.0, 4, 'i')]}
+5 	 {'i2': [(1.0, 4, 'i')]}
+6 	 {'i': [(1.0, 5, 'i2')]}
+6 	 {'i': [(1.0, 5, 'i2')]}
+7 	 {'i': [(1.0, 6, 'v')]}
+7 	 {}
+8 	 {}
+8 	 {}
+9 	 {'s': [(1.0, 7, 's2')]}
+9 	 {'s': [(1.0, 7, 's2')]}
+10 	 {'i': [(1.0, 6, 'i')]}
+10 	 {'i': [(1.0, 6, 'i')]}
+11 	 {'i': [(1.0, 10, 'i')]}
+11 	 {'i': [(1.0, 10, 'i')], 'e': [(1.0, 5, 'm2')]}
+12 	 {'i': [(1.0, 11, 'i')]}
+12 	 {'i': [(1.0, 11, 'i')]}
+13 	 {'i': [(1.0, 12, 'i')]}
+13 	 {'i': [(1.0, 12, 'i')], 'p': [(1.0, 5, 'p')]}
+14 	 {'y': [(1.0, 6, 'y')], 'i': [(1.0, 13, 'i')]}
+14 	 {'y': [(1.0, 6, 'y')], 'i': [(1.0, 13, 'i')]}
+15 	 {'i': [(1.0, 14, 'i')], 't': [(1.0, 14, 'p2')]}
+15 	 {'i': [(1.0, 14, 'i')]}
 16 	 {'i': [(1.0, 15, 'i')]}
 16 	 {'i': [(1.0, 15, 'i')]}
-17 	 {'i': [(1.0, 16, 'i')], 'p': [(1.0, 13, 'i2')], 'p2': [(1.0, 15, 'p')]}
-17 	 {'i': [(1.0, 16, 'i')], 'p2': [(1.0, 15, 'p')], 'p': [(1.0, 13, 'p2')]}
-18 	 {'g': [(1.0, 15, 'g')]}
-18 	 {'g': [(1.0, 15, 'g')]}
-19 	 {'i': [(1.0, 17, 'i')]}
-19 	 {'i': [(1.0, 17, 'i')]}
-20 	 {'i': [(1.0, 19, 'i')], 'g': [(1.0, 15, 'g2')]}
-20 	 {'i': [(1.0, 19, 'i')], 'g': [(1.0, 15, 'g2')]}
-21 	 {'i': [(1.0, 20, 'i')]}
-21 	 {'i': [(1.0, 20, 'i')]}
-22 	 {}
-22 	 {}
-23 	 {'i': [(1.0, 21, 'i')]}
-23 	 {'i': [(1.0, 21, 'i')]}
-24 	 {'i': [(1.0, 23, 'i')]}
-24 	 {'i': [(1.0, 23, 'i')]}
-25 	 {'i': [(1.0, 24, 'i')], 't': [(1.0, 24, 'g')]}
-25 	 {'i': [(1.0, 24, 'i')]}
-26 	 {'i2': [(1.0, 25, 'i')]}
-26 	 {'i2': [(1.0, 25, 'i')]}
-27 	 {'i': [(1.0, 26, 'i2')], 'p2': [(1.0, 17, 'p')], 't3': [(1.0, 26, 't2')]}
-27 	 {'i': [(1.0, 26, 'i2')], 'p': [(1.0, 23, 'p')], 'p2': [(1.0, 17, 'p')], 't3': [(1.0, 26, 't2')]}
-28 	 {'i': [(1.0, 27, 'i')], 'p': [(1.0, 27, 'p')]}
-28 	 {'i': [(1.0, 27, 'i')], 'p': [(1.0, 27, 'p')]}
-29 	 {'h2': [(1.0, 11, 'h')], 'h': [(1.0, 28, 'p')], 's2': [(1.0, 28, 'p')]}
-29 	 {'h2': [(1.0, 11, 'h')], 's2': [(1.0, 28, 'p')], 'h': [(1.0, 28, 'p')]}
-30 	 {'i': [(1.0, 28, 'i')], 'p': [(1.0, 28, 'p')], 'b': [(1.0, 15, 'b2')], 'f': [(1.0, 5, 'j')]}
-30 	 {'i': [(1.0, 28, 'i')], 'p': [(0.5, 29, 's2'), (0.5, 29, 'h')], 'b': [(1.0, 15, 'b2')], 'f': [(1.0, 5, 'j')]}
-31 	 {'i': [(1.0, 30, 'i')]}
-31 	 {'i': [(1.0, 30, 'i')]}
-32 	 {'i': [(1.0, 31, 'i')], 'h': [(1.0, 31, 'h')]}
-32 	 {'i': [(1.0, 31, 'i')], 'h': [(1.0, 31, 'h')]}
-33 	 {'g': [(1.0, 32, 'h')], 'm2': [(1.0, 32, 'i')]}
-33 	 {'g': [(1.0, 24, 'g')]}
-58.0 59.0 52.0
-R: 0.8966	P: 0.8814	F1: 0.8889
+17 	 {'i': [(1.0, 16, 'i')]}
+17 	 {'i': [(1.0, 16, 'i')], 'p': [(1.0, 13, 'p')]}
+18 	 {'i': [(1.0, 17, 'i')], 'e': [(1.0, 11, 'e')], 't': [(1.0, 15, 'm2')]}
+18 	 {'i': [(1.0, 17, 'i')], 'e': [(1.0, 11, 'e')]}
+19 	 {'y': [(1.0, 14, 'y')], 'i': [(1.0, 18, 'i')], 'r2': [(1.0, 4, 'p')]}
+19 	 {'y': [(1.0, 14, 'y')], 'i': [(1.0, 18, 'i')]}
+20 	 {'m': [(1.0, 18, 't')]}
+20 	 {}
+21 	 {'h2': [(1.0, 4, 'h')]}
+21 	 {'h2': [(1.0, 4, 'h')]}
+22 	 {'i': [(1.0, 20, 'i')], 'h': [(1.0, 21, 'h')]}
+22 	 {'i': [(1.0, 20, 'i')], 'h': [(1.0, 21, 'c')]}
+23 	 {'s3': [(1.0, 9, 's')], 'h': [(1.0, 22, 'h')]}
+23 	 {'s3': [(1.0, 9, 's')], 'h': [(1.0, 22, 'h')]}
+24 	 {}
+24 	 {}
+25 	 {'i': [(1.0, 22, 'i')], 'h': [(1.0, 21, 'h2')]}
+25 	 {'i': [(1.0, 22, 'i')], 'h': [(1.0, 21, 'h2')]}
+26 	 {'i': [(1.0, 25, 'i')], 'c2': [(1.0, 23, 'h')]}
+26 	 {'i': [(1.0, 25, 'i')], 'h': [(1.0, 0, 'l2')]}
+27 	 {'i': [(1.0, 26, 'i')], 'h': [(1.0, 26, 'c2')]}
+27 	 {'i': [(1.0, 26, 'i')]}
+28 	 {'s': [(1.0, 23, 's3')]}
+28 	 {'s': [(1.0, 23, 's3')]}
+29 	 {'i': [(1.0, 27, 'i')], 's': [(1.0, 28, 's')]}
+29 	 {'i': [(1.0, 27, 'i')], 's': [(1.0, 28, 's')]}
+30 	 {'i': [(1.0, 29, 'i')], 'h': [(1.0, 27, 'h')]}
+30 	 {'i': [(1.0, 29, 'i')], 'p': [(1.0, 14, 'p2')], 'p2': [(1.0, 14, 'p2')]}
+31 	 {'b': [(1.0, 17, 'b')]}
+31 	 {'b': [(0.5, 17, 'b'), (0.5, 17, 'b2')]}
+32 	 {'i': [(1.0, 30, 'i')], 'i2': [(1.0, 31, 'b')], 'f': [(1.0, 30, 'h')]}
+32 	 {'i': [(1.0, 30, 'i')], 'i2': [(1.0, 31, 'b')], 'f': [(1.0, 26, 'c2')]}
+33 	 {}
+33 	 {}
+34 	 {}
+34 	 {}
+35 	 {}
+35 	 {'s': [(1.0, 13, 's2')]}
+36 	 {'s': [(1.0, 29, 's')]}
+36 	 {'s': [(1.0, 29, 's')]}
+37 	 {'s': [(1.0, 36, 's')]}
+37 	 {'s': [(1.0, 36, 's')]}
+38 	 {'i': [(1.0, 32, 'i')]}
+38 	 {'i': [(1.0, 32, 'i')]}
+39 	 {'h': [(1.0, 32, 'f')]}
+39 	 {'n': [(0.3333333333333333, 32, 'n2'), (0.3333333333333333, 32, 'n3'), (0.3333333333333333, 32, 'n')]}
+40 	 {'s': [(1.0, 39, 'i')]}
+40 	 {'s': [(1.0, 37, 's')]}
+41 	 {}
+41 	 {}
+42 	 {'i': [(1.0, 38, 'i')]}
+42 	 {'i': [(1.0, 38, 'i')]}
+43 	 {'i': [(1.0, 42, 'i')], 'p': [(1.0, 39, 'h')]}
+43 	 {'i': [(1.0, 42, 'i')], 'p': [(1.0, 17, 'p')], 'f': [(1.0, 32, 'f')]}
+44 	 {'h': [(1.0, 43, 'p')]}
+44 	 {'h': [(1.0, 43, 'p')], 's4': [(1.0, 40, 's')]}
+45 	 {}
+45 	 {'r2': [(1.0, 44, 's4')]}
+46 	 {'i': [(1.0, 45, 'r2')]}
+46 	 {'i': [(1.0, 45, 'r2')]}
+47 	 {'i': [(1.0, 43, 'i')]}
+47 	 {'i': [(1.0, 43, 'i')], 't': [(1.0, 42, 't')]}
+48 	 {'i': [(1.0, 47, 't')]}
+48 	 {'i': [(1.0, 47, 't')]}
+49 	 {}
+49 	 {}
+50 	 {}
+50 	 {'s': [(1.0, 46, 'i')]}
+51 	 {'i': [(1.0, 47, 'i')], 'e2': [(1.0, 1, 'e')]}
+51 	 {'i': [(1.0, 47, 'i')], 'e2': [(1.0, 1, 'e')]}
+52 	 {'i': [(1.0, 51, 'i')]}
+52 	 {'i': [(1.0, 51, 'i')], 't2': [(1.0, 48, 'i')]}
+53 	 {'i': [(1.0, 52, 'i')], 'i3': [(1.0, 52, 't2')]}
+53 	 {'i': [(1.0, 52, 'i')], 'i3': [(1.0, 52, 't2')]}
+54 	 {}
+54 	 {}
+55 	 {'s2': [(1.0, 50, 's')]}
+55 	 {'s2': [(1.0, 50, 's')], 'i2': [(1.0, 33, 'i2')]}
+56 	 {'i': [(1.0, 53, 'i')], 'p': [(1.0, 44, 'h')], 'i2': [(1.0, 55, 's2')]}
+56 	 {'i': [(1.0, 53, 'i')], 'p': [(1.0, 44, 'h')], 'i2': [(1.0, 55, 's2')]}
+57 	 {'s': [(1.0, 56, 'i2')]}
+57 	 {'s': [(1.0, 56, 'i2')]}
+58 	 {}
+58 	 {}
+59 	 {}
+59 	 {'s': [(1.0, 35, 's')]}
+60 	 {'h2': [(1.0, 57, 's')], 'g3': [(1.0, 57, 'g')]}
+60 	 {'g3': [(1.0, 57, 'g')], 'e3': [(1.0, 3, 'e')]}
+61 	 {'i': [(1.0, 56, 'i')]}
+61 	 {'i': [(1.0, 56, 'i')]}
+62 	 {'s': [(1.0, 60, 'h2')]}
+62 	 {'s': [(1.0, 57, 's')]}
+63 	 {'h3': [(1.0, 56, 'p')], 't': [(1.0, 53, 'i3')]}
+63 	 {'h2': [(1.0, 18, 'h')], 'h3': [(1.0, 62, 's')], 't': [(1.0, 53, 'i3')], 's2': [(1.0, 62, 's2')]}
+64 	 {'h': [(1.0, 62, 's')]}
+64 	 {'h': [(1.0, 63, 'h3')]}
+65 	 {'i': [(1.0, 61, 'i')], 'p': [(1.0, 63, 'h3')]}
+65 	 {'i': [(1.0, 61, 'i')]}
+75.0 83.0 56.5
+R: 0.7533	P: 0.6807	F1: 0.7152
 
 
-Number of nodes: 306
-Number of edges: 310
-Number of ancas: 100
-Number of coref links: 59
+Number of nodes: 557
+Number of edges: 538
+Number of ancas: 145
+Number of gold coref links: 75
+Number of test coref links: 83
 >>> 
-
->>>
-0 	 [(12.0, 'i'), (6.0, 'p')]
-1 	 [(8.0, 'p'), (5.0, 'b2'), (4.0, 'a')]
-2 	 [(6.333333333333333, 't2'), (4.5, 't')]
-3 	 [(10.666666666666666, 'b'), (8.0, 'b2'), (6.666666666666666, 'p')]
-4 	 [(20.666666666666668, 't')]
-5 	 [(10.0, 'i'), (6.0, 'a')]
-6 	 [(20.666666666666668, 'i'), (4.5, 't')]
-7 	 [(8.0, 'p')]
-8 	 [(12.666666666666666, 'i2'), (8.666666666666666, 'i'), (7.333333333333332, 'g'), (6.5, 't2'), (4.666666666666666, 'm')]
-9 	 [(8.666666666666666, 't')]
-10 	 [(8.0, 'o'), (8.0, 'h')]
-11 	 [(8.5, 't'), (8.0, 'i'), (6.0, 'h')]
-12 	 [(10.0, 'i'), (7.0, 'b2'), (4.0, 'e')]
-13 	 [(12.0, 'i'), (9.333333333333334, 'g'), (5.333333333333333, 'i4'), (5.142857142857142, 'i2'), (4.0, 'p2'), (4.0, 'i3')]
-14 	 [(10.0, 't')]
-15 	 [(22.666666666666668, 'i'), (10.666666666666666, 'g'), (6.666666666666666, 'p'), (3.833333333333333, 't3'), (2.6666666666666665, 'a2'), (2.4761904761904763, 'h'), (2.4761904761904763, 'g3'), (2.4761904761904763, 'g2'), (2.4761904761904763, 'a5')]
-16 	 [(10.666666666666666, 'i'), (4.666666666666666, 'c'), (3.0, 'p')]
-17 	 [(8.0, 'i'), (4.0, 'p2'), (4.0, 'p')]
-18 	 [(8.0, 'g'), (6.0, 'c'), (4.666666666666666, 'a3'), (4.0, 't2'), (4.0, 't')]
-19 	 [(16.0, 'i'), (4.0, 'p'), (3.6, 'a3')]
-20 	 [(12.666666666666666, 'i'), (4.666666666666666, 'g')]
-21 	 [(12.666666666666666, 'i'), (4.666666666666666, 'c'), (4.0, 's')]
-22 	 [(6.666666666666666, 'o'), (6.0, 'k'), (4.0, 'l')]
-23 	 [(10.0, 'i'), (6.5, 'p'), (6.0, 'm3')]
-24 	 [(10.0, 'i')]
-25 	 [(10.0, 'i'), (8.0, 't'), (4.0, 'a')]
-26 	 [(7.6, 'i2'), (5.166666666666666, 't3')]
-27 	 [(19.333333333333336, 'i'), (7.5, 'p'), (4.933333333333334, 't3'), (4.0, 'p2')]
-28 	 [(14.0, 'i'), (6.0, 'p')]
-29 	 [(8.0, 's2'), (8.0, 'h'), (4.666666666666666, 'h2')]
-30 	 [(10.0, 'i'), (5.333333333333333, 'p'), (4.666666666666666, 's'), (4.666666666666666, 'f'), (4.666666666666666, 'b')]
-31 	 [(12.0, 'i'), (5.333333333333333, 'l'), (5.0, 'd')]
-32 	 [(10.0, 'i'), (7.333333333333333, 'h'), (4.666666666666666, 'p'), (4.666666666666666, 'n2'), (4.666666666666666, 'g'), (4.666666666666666, 'b')]
-33 	 [(8.666666666666666, 'g'), (4.333333333333333, 'm2')]
->>>
-|| no givenness in salience factors
-|||| cache size: 1 -> R: 0.8966	P: 0.8814	F1: 0.8889
-|||| cache size: 3 -> R: 0.8966	P: 0.8525	F1: 0.8739
-|||| cache size: 4 -> R: 0.8966	P: 0.8525	F1: 0.8739
-
-1st and 2nd pronoun handling
-antecas <-> 'conjunction'
-edit semantic_match()
-more for PREDICATE_NOUNS -> abandon
-3 	 {..., 'b2': (1, set(['p']))} ->(0, set(['b2']))
-vs
-8 	 {'..., 'm': (7, set(['p'])), ...}
-||and other semantic cases
-add 'one' -> pronouns (in constant.py and pronouns.txt) ||22.o
-remove deixis in ancas and antecas
-3rd pronouns handling
-update coref info
-||previous stable version: 104
-coref nodes handling
-MUC
-correct rank_ancas for the case of conjunction
 """
 
 from constants import *
 from semaland_utils import *
-from semaland_amr_graph import *
+from semaland_amr_graph_evaluation import *
 from semaland_semantic_features import *
 from semaland_string_features import *
 import networkx as nx
@@ -184,8 +191,8 @@ def is_pronominal_quote(g,n): # 1st and 2nd person pronouns
 
 def is_given(g,n): # node having at least one antecedent <- simplest
     """ 1/0 (True/False) """
-##    if 'coref' in g.node[n]:
-##        return 1 # True
+    if 'coref' in g.node[n]:
+        return 1 # True
     return 0 # False    
 
 def classify_node(g,n): # g: AMR graph, n: AMR node
@@ -209,8 +216,14 @@ def classify_node(g,n): # g: AMR graph, n: AMR node
 
 def get_antecas(g): #antecas: antecedent candidates
     """ remove '@', events, special concepts, and constants """
-    return set(n for n in g if classify_node(g,n) not in
-               {'@','event','special','constant','conjunction','deixis'})
+##    return set(n for n in g if classify_node(g,n) not in
+##               {'@','event','special','constant','conjunction','deixis'})
+    output = set(n for n in g if classify_node(g,n) not in
+             {'@','event','special','constant','conjunction','deixis'})
+    if g.quote:
+        output = output.difference(set(g.quote.split()))
+    return output
+        
 
 # assumption: the maximum number of arguments of a predicate < 10
 l_re_in = r'^:ARG\d$'       # label pattern of core role in-edge
@@ -221,6 +234,8 @@ def get_ancas(g): # g: AMR graph
     output = set()
     ns = set(n for n in g if classify_node(g,n) not in
              {'@','event','special','constant','deixis'})
+    if g.quote:
+        ns = ns.difference(set(g.quote.split()))
     #for n in get_antecas(g):
     for n in ns:
         # root node, :ARGX, or :ARGX-of
@@ -599,10 +614,11 @@ def get_gold(f): # f: xml file of anaphora resolution annotation
     for (i,amr) in enumerate(tree.findall('./sntamr/amr')[1:]):
         output[i] = dict()
         if 'ana' in amr.attrib:
+            #print(i,amr.attrib['ana'])
             for link in amr.attrib['ana'].split():
                 n,jm = link.split(':')
                 j,m = jm.split('.')
-                output[i][n] = [(1.0,int(j)-2,m)]
+                output[i][n] = [(1.0,int(j)-37,m)]
     return output
 
 def muc(gold_dict,test_dict):
@@ -631,33 +647,43 @@ def main():
 
 if __name__ == "__main__":
     #main()
-    amr_table = get_amr_table_path(DATA_AMR_LPP_01)
+    amr_table = get_amr_table_path(DATA_AMR_LPP_02)
     docid = 'lpp_1943'
     doc = amr_table[docid]
-    annotated_doc = ET.parse(DATA_AMR_ANNOTATED_LPP_01)
-    quote_info = [('quote' in amr.attrib)
-                  for amr in annotated_doc.findall('./sntamr/amr')]
-    text = [AMRGraph(sen=doc[k],quote=quote_info[k-1]) # doc index starting at 1
+    annotated_doc = ET.parse(DATA_AMR_ANNOTATED_LPP_02)
+##    quote_info = [('quote' in amr.attrib)
+##                  for amr in annotated_doc.findall('./sntamr/amr')]
+    quotes = list()
+    for amr in annotated_doc.findall('./sntamr/amr'):
+        if 'quote' in amr.attrib:
+            quotes.append(amr.attrib['quote'])
+        else:
+            quotes.append(None)
+    
+##    text = [AMRGraph(sen=doc[k],quote=quote_info[k-1]) # doc index starting at 1
+    text = [AMRGraph(sen=doc[k],quote=quotes[k-36]) # doc index starting at 1
             for k in sorted(doc.keys())]
-    text[4].add_edge('c2','b',label=':ARG0')
-    text[4].add_edge('c2','p',label=':ARG1')
+##    text[4].add_edge('c2','b',label=':ARG0')
+##    text[4].add_edge('c2','p',label=':ARG1')
     # http://www.nltk.org/book/ch04.html
     working_text = deepcopy(text[1:])
-##    print('Cache size: 1')
-##    output,link_dict = resolve_ancas_text(working_text,1)
-##    
+    print('Cache size: 1')
+    output,link_dict = resolve_ancas_text(working_text,1)
+
 ##    gold_dict = get_gold(DATA_AMR_ANNOTATED_LPP_01)
-##
-##    for i in gold_dict:
-##        print(i,'\t',gold_dict[i])
-##        print(i,'\t',link_dict[i])
-##    r,p,f1 = muc(gold_dict,link_dict)
-##    print("R: {0:.4f}\tP: {1:.4f}\tF1: {2:.4f}".format(r,p,f1))
-##    print('\n')
+    gold_dict = get_gold(DATA_AMR_ANNOTATED_LPP_02)
+
+    for i in gold_dict:
+        print(i,'\t',gold_dict[i])
+        print(i,'\t',link_dict[i])
+    r,p,f1 = muc(gold_dict,link_dict)
+    print("R: {0:.4f}\tP: {1:.4f}\tF1: {2:.4f}".format(r,p,f1))
+    print('\n')
     print('Number of nodes:', sum([(g.number_of_nodes()-1) for g in text]))
     print('Number of edges:', sum([(g.number_of_edges()-1) for g in text]))
-    #print('Number of ancas:', sum([len(output[k]) for k in output]))
-##    print('Number of coref links:', sum([len(link_dict[k]) for k in link_dict]))
+    print('Number of ancas:', sum([len(output[k]) for k in output]))
+    print('Number of gold coref links:', sum([len(gold_dict[k]) for k in gold_dict]))
+    print('Number of test coref links:', sum([len(link_dict[k]) for k in link_dict]))
     
 ##    ranked_ancas = [rank_ancas(g) for g in working_text]
 ##    for i in range(len(ranked_ancas)):
